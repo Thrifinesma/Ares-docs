@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/sight.rst:4
+msgid "Sight"
+msgstr ""
+
+#: ../new/sight.rst:6
+msgid ""
+":tag:`Sight` was using a lookup table almost like :tag:`CellSpread`, thus"
+" it was limited to a maximum value of 10. :game:`Ares` increases this and"
+" now larger values can be used."
+msgstr ""
+
+#: ../new/sight.rst:10
+msgid ""
+"For performance reasons, :tag:`Sight` values larger than 10 should be "
+"used judiciously. It is not designed for full map reveal."
+msgstr ""
+
+#: ../new/sight.rst:13
+msgid ""
+"Using larger :tag:`Sight` values will result in a distinct octagonal "
+"shaped field of view. That is how :tag:`CellSpread` logic works and thus "
+"no bug. The logic used for :tag:`Sight` values larger than 10 might "
+"change in the future."
+msgstr ""
+

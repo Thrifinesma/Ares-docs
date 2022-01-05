@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../ui-features/randommapgenerator.rst:9
+msgid "Random Map Generator"
+msgstr ""
+
+#: ../ui-features/randommapgenerator.rst:11
+msgid ""
+":game:`Ares` lets you create random maps using some new map styles -- "
+"Archipelago terrain and the Desert tileset."
+msgstr ""
+
+#: ../ui-features/randommapgenerator.rst:14
+msgid ""
+"The Random Map Generator will now place bridges at random on maps that "
+"include rivers."
+msgstr ""
+
+#: ../ui-features/randommapgenerator.rst:17
+msgid "Random Map Generator enhancements:"
+msgstr ""
+
+#: ../ui-features/randommapgenerator.rst:19
+msgid ""
+"A new checkbox -- `Create Urban Areas` -- allows the user to add an "
+"assortment of streets and urban combat buildings at random spots "
+"throughout the generated map. The objects placed by this feature can be "
+"modified by adding the heading :tag:`[Urban]` in the :file:`rmgmd.ini` "
+"file, and adding the following lists:"
+msgstr ""
+
+#: ../ui-features/randommapgenerator.rst:25
+msgid ":tagdef:`[Urban]Structures=list of BuildingTypes`"
+msgstr ""
+
+#: ../ui-features/randommapgenerator.rst:25
+msgid ""
+"Defaults to "
+":value:`CABUNK01,CABUNK02,CAARMY01,CAARMY02,CAARMY03,CAARMY04, "
+"CACHIG03,CANEWY01,CANEWY14,CANWY09,CANWY26,CANWY25,CATEXS07`."
+msgstr ""
+
+#: ../ui-features/randommapgenerator.rst:27
+msgid ":tagdef:`[Urban]Vehicles=list of VehicleTypes`"
+msgstr ""
+
+#: ../ui-features/randommapgenerator.rst:28
+msgid "Defaults to :value:`TRUCKA,TRUCKB,COP,EUROC,SUVW,SUVB,FTRK,AMBU`."
+msgstr ""
+
+#: ../ui-features/randommapgenerator.rst:30
+msgid ":tagdef:`[Urban]Infantry=list of InfantryTypes`"
+msgstr ""
+
+#: ../ui-features/randommapgenerator.rst:30
+msgid "Defaults to :value:`CIV1,CIV2,CIV3,CIVA,CIVB,CIVC`."
+msgstr ""
+
+#: ../ui-features/randommapgenerator.rst:32
+msgid ""
+"Urban areas generated in the minimap preview do not always correspond to "
+"content generated ingame, especially in Desert maps. In addition, there "
+"are reports of this feature not working at all with certain settings."
+msgstr ""
+

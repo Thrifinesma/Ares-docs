@@ -1,0 +1,152 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/projectiles/splits.rst:4
+msgid ":captiontag:`Splits` and :captiontag:`Airburst`"
+msgstr ""
+
+#: ../new/projectiles/splits.rst:6
+msgid ""
+"The :tag:`Splits` missile feature of :game:`Firestorm` fame has been "
+"ported over to :game:`Yuri's Revenge`, with several changes and "
+"additions. The related :tag:`Airburst` logic has been expanded."
+msgstr ""
+
+#: ../new/projectiles/splits.rst:18
+msgid ":captiontag:`Splits`"
+msgstr ""
+
+#: ../new/projectiles/splits.rst:20
+msgid ""
+"The split weapon of the Cyborg Reaper from :game:`Firestorm` fired two "
+"missiles. Each of them split in mid-air after gaining some altitude, "
+"releasing two new projectiles each, which would either travel on to the "
+"initial target, aim for a new target no more than two cells nearby, or "
+"impact on a random cell in a 7 by 7 area."
+msgstr ""
+
+#: ../new/projectiles/splits.rst:26
+msgid ""
+"The actual split happens when an :tag:`Airburst=yes` projectile is above "
+"its target, a :tag:`Ranged=yes` projectile exceeds its weapon's "
+":doc:`ProjectileRange </new/weapons/projectilerange>` or the projectile "
+"detonates otherwise."
+msgstr ""
+
+#: ../new/projectiles/splits.rst:31
+msgid ""
+"Refer to `Splits on ModEnc "
+"<https://www.modenc.renegadeprojects.com/Splits>`_ for a more detailed "
+"description of the logic."
+msgstr ""
+
+#: ../new/projectiles/splits.rst:34
+msgid ""
+"The Splits logic has been de-hardcoded compared to :game:`Tiberian Sun`. "
+"The :tag:`AirburstWeapon`'s :tag:`Damage` is no longer multiplied by \\ "
+":value:`10`. Its :tag:`Speed` is used instead of the hardcoded "
+":value:`19`, and its :tag:`Bright` setting is now also respected instead "
+"of just being disabled. In :game:`Ares`, :tag:`Splits` only targets air "
+"units if the :tag:`Airburst` projectile is :tag:`AA=yes`, and it only "
+"retargets objects the projectile's warhead can affect."
+msgstr ""
+
+#: ../new/projectiles/splits.rst:42
+msgid ""
+"Even though speed is not hardcoded any more, you cannot use \\ "
+":tag:`Speed` values lower than :value:`19` on the :tag:`AirburstWeapon` "
+"or the logic will start to fail and behave erratically."
+msgstr ""
+
+#: ../new/projectiles/splits.rst:49
+msgid ":tagdef:`[Projectile]Splits=boolean`"
+msgstr ""
+
+#: ../new/projectiles/splits.rst:47
+msgid ""
+"Whether the projectile will split into a number of other projectiles "
+"defined by :tag:`Cluster` and :tag:`AirburstWeapon`. Can be combined with"
+" :tag:`Airburst`. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/projectiles/splits.rst:55
+msgid ":tagdef:`[Projectile]RetargetAccuracy=float - percentage`"
+msgstr ""
+
+#: ../new/projectiles/splits.rst:52
+msgid ""
+"The probability that a split cluster will aim for the same target the "
+"original projectile was shot at. The higher the value, the less likely it"
+" is for the split projectile to choose another target. Valid range is "
+":value:`0.0` to :value:`1.0`. Defaults to :value:`0.0`."
+msgstr ""
+
+#: ../new/projectiles/splits.rst:62
+msgid ":tagdef:`[Projectile]RetargetSelf=boolean`"
+msgstr ""
+
+#: ../new/projectiles/splits.rst:58
+msgid ""
+"Whether the firing unit itself can become the target when retargeting. If"
+" :value:`no`, the firer will be exempt, though could still be hit by a "
+"retargeted projectile that hits the cell the firer is on. Defaults to "
+":value:`yes`."
+msgstr ""
+
+#: ../new/projectiles/splits.rst:67
+msgid ":captiontag:`Airburst`"
+msgstr ""
+
+#: ../new/projectiles/splits.rst:69
+msgid ""
+"The :tag:`Airburst` logic was used for the MultiMissile in "
+":game:`Tiberian Sun` to deal damage to randomly selected cells below the "
+"target area. In :game:`Red Alert 2` the logic has been changed and it "
+"always bursts into nine clusters covering an area of 3 by 3 cells."
+msgstr ""
+
+#: ../new/projectiles/splits.rst:78
+msgid ":tagdef:`[Projectile]AirburstSpread=float - cell range`"
+msgstr ""
+
+#: ../new/projectiles/splits.rst:75
+msgid ""
+"The range the airburst effect covers. Each cell in range will be targeted"
+" by the :tag:`AirburstWeapon`. Requires :tag:`Airburst=yes`. Cannot be "
+"combined with :tag:`Splits=yes`. Defaults to :value:`1.5`."
+msgstr ""
+
+#: ../new/projectiles/splits.rst:81
+msgid "Common Settings"
+msgstr ""
+
+#: ../new/projectiles/splits.rst:87
+msgid ":tagdef:`[Projectile]AroundTarget=boolean`"
+msgstr ""
+
+#: ../new/projectiles/splits.rst:84
+msgid ""
+"Whether a projectile with :tag:`Splits=yes` or :tag:`Airburst=yes` should"
+" use the area around the original target to look for new targets for each"
+" cluster. If enabled, the clusters will continue their way to the "
+"originally intended target. Otherwise, the clusters will search for new "
+"targets in the area where the projectile split up. Defaults to "
+":tag:`Splits`."
+msgstr ""
+

@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../bugfixes/type1/prismsupportbugs.rst:12
+msgid "Prism Support Bugs"
+msgstr ""
+
+#: ../bugfixes/type1/prismsupportbugs.rst:13
+msgid ""
+"Whenever a game mode or map declared the :tag:`[General]` section without"
+" re-stating the :tag:`PrismSupportModifier`, the "
+":tag:`PrismSupportModifier` from :file:`rulesmd.ini` would get multiplied"
+" by 100, thus causing supported Prism Towers to deal extremely high "
+"damage. This bug is now fixed. It should be noted that several official "
+"maps which used to exhibit this bug were already 'fixed' by the UMP by "
+"re-stating :tag:`PrismSupportModifier=150%` in each affected map. As a "
+"result of the UMP fixes, these maps are now set at the original 150%, "
+"regardless of what your mod may set it to. If you want to change this "
+"then you should manually override the global modifier via :game:`Ares`' "
+"new Prism Forwarding logic. This can be done simply by adding a single "
+"flag to the Prism Tower: "
+":tag:`[ATESLA]PrismForwarding.SupportModifier=whatever`"
+msgstr ""
+
+#: ../bugfixes/type1/prismsupportbugs.rst:25
+msgid ""
+"Once a Prism Tower had decided to support another, the firing tower "
+"gained that tower's benefit. If the supporting tower was destroyed or "
+"otherwise incapacitated, the firing tower would still get the full "
+"benefit of that tower, even though there are no visual effects drawn (and"
+" the supporting tower may even have started supporting another). "
+":game:`Ares` fixes this so that incapacitated supporting towers do not "
+"contribute to the firing tower."
+msgstr ""
+
+#: ../bugfixes/type1/prismsupportbugs.rst:31
+msgid ""
+"Prism Towers could be made to support another during their construction "
+"or selling phases. This caused graphical glitches with the tower. "
+":game:`Ares` prevents these towers from supporting others."
+msgstr ""
+

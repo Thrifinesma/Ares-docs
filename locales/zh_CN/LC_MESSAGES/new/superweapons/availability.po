@@ -1,0 +1,240 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/superweapons/availability.rst:4
+msgid "Availability"
+msgstr ""
+
+#: ../new/superweapons/availability.rst:6
+msgid ""
+"The availability of super weapons can be restricted by other factors than"
+" having a building providing the super weapon. The building almost "
+"behaves as if it does not have this super weapon. For example, if a super"
+" weapon is not accessible, EVA will not announce its detection once the "
+"building is placed."
+msgstr ""
+
+#: ../new/superweapons/availability.rst:11
+msgid ""
+"This does not affect the way :tag:`DisableableFromShell` works. Only the "
+"super weapon set as :tag:`SuperWeapon` is checked for this tag, and the "
+"building becomes unbuildable even if the super weapon is unavailable."
+msgstr ""
+
+#: ../new/superweapons/availability.rst:15
+msgid ""
+"Even if all super weapons a building provides are disabled by whatever "
+"restriction, it will still play the Super animation."
+msgstr ""
+
+#: ../new/superweapons/availability.rst:24
+msgid "Require a Country"
+msgstr ""
+
+#: ../new/superweapons/availability.rst:26
+msgid ""
+"Access to super weapons can be restricted by the owning player's country."
+" If the country is not one of the required houses or it is a forbidden "
+"house, the super weapon will not become available and the cameo will "
+"never appear."
+msgstr ""
+
+#: ../new/superweapons/availability.rst:32
+msgid ":tagdef:`[SuperWeapon]SW.RequiredHouses=list of HouseTypes`"
+msgstr ""
+
+#: ../new/superweapons/availability.rst:31
+msgid ""
+"Specifies the houses that have access to this super weapon. All other "
+"houses are forbidden from using it, and it will not become available for "
+"them. Defaults to all houses."
+msgstr ""
+
+#: ../new/superweapons/availability.rst:38
+msgid ":tagdef:`[SuperWeapon]SW.ForbiddenHouses=list of HouseTypes`"
+msgstr ""
+
+#: ../new/superweapons/availability.rst:35
+msgid ""
+"Specifies the houses that can never obtain this super weapon. All other "
+"houses are not denied access to it, but they also have to satisfy the "
+":tag:`SW.RequiredHouses` settings for it to become available. Defaults to"
+" :value:`none`."
+msgstr ""
+
+#: ../new/superweapons/availability.rst:46
+msgid "Auxiliary Buildings (:captiontag:`AuxBuilding`)"
+msgstr ""
+
+#: ../new/superweapons/availability.rst:48
+msgid ""
+"The :tag:`AuxBuilding` feature was used in :game:`Tiberian Sun` to make "
+"the Chemical Missile super weapon work. The Missile Silo provided both "
+"the Multi Missile and the Chemical Missile, but the latter also required "
+"the player to own a Tiberium Waste Facility to become available. "
+":game:`Ares` expands this logic."
+msgstr ""
+
+#: ../new/superweapons/availability.rst:53
+msgid ""
+"Multiple auxiliary building types are supported, and access to super "
+"weapons can be removed again. This allows for two buildings to provide a "
+"single super weapon and also to replace normal super weapons with "
+"alternative versions."
+msgstr ""
+
+#: ../new/superweapons/availability.rst:63
+msgid ":tagdef:`[SuperWeapon]SW.AuxBuildings=list of BuildingTypes`"
+msgstr ""
+
+#: ../new/superweapons/availability.rst:58
+msgid ""
+"Specifies the auxiliary buildings without which this super weapon cannot "
+"become available. The player has to own at least one building of any of "
+"these types to get access to this super weapon. Defaults to "
+":value:`none`."
+msgstr ""
+
+#: ../new/superweapons/availability.rst:62
+msgid ""
+"Use this instead of the original :tag:`AuxBuilding` tag if you want to "
+"have multiple auxiliary buildings."
+msgstr ""
+
+#: ../new/superweapons/availability.rst:69
+msgid ":tagdef:`[SuperWeapon]SW.NegBuildings=list of BuildingTypes`"
+msgstr ""
+
+#: ../new/superweapons/availability.rst:66
+msgid ""
+"Specifies the negative auxiliary buildings whose presence will cause the "
+"super weapon to become unavailable. This super weapon can become "
+"available only if the player does not own any building of any of these "
+"types. Defaults to :value:`none`."
+msgstr ""
+
+#: ../new/superweapons/availability.rst:71
+msgid ""
+"The original :tag:`AuxBuilding` tag now works well together with super "
+"weapons provided by building upgrades. A super weapon on a building "
+"upgrade will only become available if its :tag:`AuxBuilding` requirement "
+"is satisfied."
+msgstr ""
+
+#: ../new/superweapons/availability.rst:75
+msgid ""
+"Building upgrades do not constitute valid prerequisites for super weapons"
+" and thus do not suffice :tag:`AuxBuilding`, :tag:`SW.AuxBuildings` or \\"
+" :tag:`SW.NegBuildings`."
+msgstr ""
+
+#: ../new/superweapons/availability.rst:79
+msgid ""
+"Super weapons using auxiliary building logics to restrict their "
+"availability do not support building animations."
+msgstr ""
+
+#: ../new/superweapons/availability.rst:88
+msgid "Only for Human or AI Players"
+msgstr ""
+
+#: ../new/superweapons/availability.rst:90
+msgid ""
+"Super weapons can be restricted to be used by houses controlled by human "
+"or AI players only. This allows to hide special super weapons the AI "
+"might use to gain an advantage from human players."
+msgstr ""
+
+#: ../new/superweapons/availability.rst:96
+msgid ":tagdef:`[SuperWeapon]SW.AllowPlayer=boolean`"
+msgstr ""
+
+#: ../new/superweapons/availability.rst:95
+msgid ""
+"Whether this super weapon will be available to human players. Defaults to"
+" :value:`yes`."
+msgstr ""
+
+#: ../new/superweapons/availability.rst:100
+msgid ":tagdef:`[SuperWeapon]SW.AllowAI=boolean`"
+msgstr ""
+
+#: ../new/superweapons/availability.rst:99
+msgid ""
+"Whether this super weapon will be available to AI players. Defaults to "
+":value:`yes`."
+msgstr ""
+
+#: ../new/superweapons/availability.rst:108
+msgid "Limited Number of Shots"
+msgstr ""
+
+#: ../new/superweapons/availability.rst:110
+msgid ""
+"Super weapons can become unavailable after having been fired a certain "
+"number of times. The super weapon cameo will disappear after the super "
+"weapon became unavailable."
+msgstr ""
+
+#: ../new/superweapons/availability.rst:117
+msgid ":tagdef:`[SuperWeapon]SW.Shots=integer`"
+msgstr ""
+
+#: ../new/superweapons/availability.rst:115
+msgid ""
+"How often this super weapon is allowed to fire before becoming "
+"unavailable. Use :value:`-1` to allow unlimited firing. Is not supported "
+"for Charge Drain super weapons. Defaults to :value:`-1`."
+msgstr ""
+
+#: ../new/superweapons/availability.rst:119
+msgid ""
+"Super weapons granted by crates or map actions will also count against "
+"this limit. This might change in the future."
+msgstr ""
+
+#: ../new/superweapons/availability.rst:128
+msgid "Always Granted Without Building"
+msgstr ""
+
+#: ../new/superweapons/availability.rst:130
+msgid ""
+"With :game:`Ares` it is possible to use super weapons that are not tied "
+"to a building that provides them. Instead, the always granted super "
+"weapon will become immediately."
+msgstr ""
+
+#: ../new/superweapons/availability.rst:134
+msgid ""
+"This setting still respects :tag:`AuxBuilding`, :tag:`SW.AuxBuidings`, "
+":tag:`SW.NegBuildings`, :tag:`SW.ForbiddenHouses`, "
+":tag:`SW.RequiredHouses`, :tag:`SW.AllowPlayer` and :tag:`SW.AllowAI`."
+msgstr ""
+
+#: ../new/superweapons/availability.rst:141
+msgid ":tagdef:`[SuperWeapon]SW.AlwaysGranted=boolean`"
+msgstr ""
+
+#: ../new/superweapons/availability.rst:139
+msgid ""
+"Whether this super weapon is not provided by any particular building but "
+"is instead always available as long as the player has not been defeated. "
+"Defaults to :value:`no`."
+msgstr ""
+

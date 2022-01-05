@@ -1,0 +1,40 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../bugfixes/type1/visualeffectsdisabled.rst:9
+msgid "Visual Effects Switched Off Erratically"
+msgstr ""
+
+#: ../bugfixes/type1/visualeffectsdisabled.rst:11
+msgid ""
+"When the frame rate drops, the game tries to increase it again by turning"
+" off certain visual effects like lasers, waves, and electro bolts, and "
+"some animations with :tag:`DetailLevel=2`. Lasers will fall back to draw "
+"a simpler variant using a bold line, animations disappear, and so on. "
+"When the frame rate increases again, the effects are turned back on."
+msgstr ""
+
+#: ../bugfixes/type1/visualeffectsdisabled.rst:17
+msgid ""
+"This did not happen if the game speed is set to a slower frame rate, "
+"because then it would always be detected as too low. :game:`Ares` fixes "
+"this, and the visual effects will render with high quality even in slower"
+" game speeds."
+msgstr ""
+

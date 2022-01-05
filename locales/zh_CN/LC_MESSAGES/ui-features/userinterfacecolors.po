@@ -1,0 +1,147 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../ui-features/userinterfacecolors.rst:6
+msgid "User Interface Colors"
+msgstr ""
+
+#: ../ui-features/userinterfacecolors.rst:8
+msgid ""
+"To complement the graphical user interface elements :game:`Yuri's "
+"Revenge` relies on a set of hardcoded colors. Customize the colors used "
+"to draw texts and borders with these :game:`Ares` tags."
+msgstr ""
+
+#: ../ui-features/userinterfacecolors.rst:12
+msgid ""
+"All these :file:`uimd.ini` tags are RGB colors, that is three comma "
+"separated values from 0 to 255."
+msgstr ""
+
+#: ../ui-features/userinterfacecolors.rst:15
+msgid ""
+"Please note the special combobox (dropdown list) state for dropdown lists"
+" in Observer mode, that is it has its Observer entry selected. "
+":game:`Yuri's Revenge` uses grey colors and special graphical elements to"
+" denote this state. Changing the global values will not change the "
+"Observer colors, you'll have to define the specific "
+":tag:`Color.Observer.*` tags."
+msgstr ""
+
+#: ../ui-features/userinterfacecolors.rst:22
+msgid ":tagdef:`[UISettings]Color.Border1=R,G,B`"
+msgstr ""
+
+#: ../ui-features/userinterfacecolors.rst:22
+msgid ""
+"The first color control borders are drawn in. Defaults to "
+":value:`167,190,197`."
+msgstr ""
+
+#: ../ui-features/userinterfacecolors.rst:25
+msgid ":tagdef:`[UISettings]Color.Border2=R,G,B`"
+msgstr ""
+
+#: ../ui-features/userinterfacecolors.rst:25
+msgid ""
+"The second color control borders are drawn in. Defaults to "
+":value:`104,122,128`."
+msgstr ""
+
+#: ../ui-features/userinterfacecolors.rst:29
+msgid ":tagdef:`[UISettings]Color.Text=R,G,B`"
+msgstr ""
+
+#: ../ui-features/userinterfacecolors.rst:28
+msgid ""
+"The default color all texts are drawn in. This does not affect Observer "
+"dropdown lists, see :tag:`Color.Observer.Text`. Defaults to "
+":value:`255,255,0` (yellow)."
+msgstr ""
+
+#: ../ui-features/userinterfacecolors.rst:36
+msgid ":tagdef:`[UISettings]Color.X.Text=R,G,B`"
+msgstr ""
+
+#: ../ui-features/userinterfacecolors.rst:32
+msgid ""
+"The text color for certain types of controls. :value:`X` can be one of "
+":tag:`Button`, :tag:`Label` (descriptions), :tag:`List`, :tag:`Checkbox`,"
+" :tag:`Combobox` (dropdown lists), :tag:`Observer` (dropdown lists in "
+"with Observer selected), :tag:`Groupbox` (frames), :tag:`Slider`, or "
+":tag:`Edit` (text boxes). Defaults to :value:`238,238,238` (light grey) "
+"for :tag:`Observer`, to :tag:`[UISettings]Color.Text` otherwise."
+msgstr ""
+
+#: ../ui-features/userinterfacecolors.rst:40
+msgid ":tagdef:`[UISettings]Color.Selection=R,G,B`"
+msgstr ""
+
+#: ../ui-features/userinterfacecolors.rst:39
+msgid ""
+"The default background color for selected items. This does not affect "
+"Observer dropdown lists, see :tag:`Color.Observer.Selection`. Defaults to"
+" :value:`255,0,0` (red)."
+msgstr ""
+
+#: ../ui-features/userinterfacecolors.rst:46
+msgid ":tagdef:`[UISettings]Color.X.Selection=R,G,B`"
+msgstr ""
+
+#: ../ui-features/userinterfacecolors.rst:43
+msgid ""
+"The background color for selected items of certain types of controls. "
+":value:`X` can be one of :tag:`List`, :tag:`Combobox` (dropdown lists) or"
+" :tag:`Observer` (dropdown lists in with Observer selected). Defaults to "
+":value:`98,98,98` (dark grey) for :tag:`Observer`, to "
+":tag:`[UISettings]Color.Selection` otherwise."
+msgstr ""
+
+#: ../ui-features/userinterfacecolors.rst:50
+msgid ":tagdef:`[UISettings]Color.Disabled=R,G,B`"
+msgstr ""
+
+#: ../ui-features/userinterfacecolors.rst:49
+msgid ""
+"The default color texts of disabled controls are drawn in. This does not "
+"affect the color of disabled buttons and Observer dropdown lists, see "
+"below. Defaults to :value:`159,0,0` (dark red)."
+msgstr ""
+
+#: ../ui-features/userinterfacecolors.rst:58
+msgid ":tagdef:`[UISettings]Color.X.Disabled=R,G,B`"
+msgstr ""
+
+#: ../ui-features/userinterfacecolors.rst:53
+msgid ""
+"The text color of disabled controls of certain types. :value:`X` can be "
+"one of :tag:`Button`, :tag:`Label` (descriptions), :tag:`List`, "
+":tag:`Checkbox`, :tag:`Combobox` (dropdown lists), :tag:`Observer` "
+"(dropdown lists in with Observer selected), or :tag:`Slider`. Defaults to"
+" :value:`167,0,0` (dark red) for :tag:`Button`, to :value:`143,143,143` "
+"(grey) for :tag:`Observer`, to :tag:`[UISettings]Color.Disabled` "
+"otherwise."
+msgstr ""
+
+#: ../ui-features/userinterfacecolors.rst:60
+msgid ""
+"This feature does not support recoloring the dialog prompting for the \\ "
+":game:`Yuri's Revenge` disk when starting the game."
+msgstr ""
+

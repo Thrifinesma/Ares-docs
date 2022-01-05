@@ -1,0 +1,64 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/warheads/deathweapon.rst:6
+msgid "Suppress Death Weapons"
+msgstr ""
+
+#: ../new/warheads/deathweapon.rst:8
+msgid ""
+"With these tags certain warheads can be made to not trigger death weapons"
+" of units specified by a list of types, or to generally not trigger death"
+" weapons for infantry or vehicle units. All tags only apply if the "
+"warhead kills a unit, not when the unit is merely damaged and later "
+"killed by some other warhead."
+msgstr ""
+
+#: ../new/warheads/deathweapon.rst:15
+msgid ":tagdef:`[Warhead]DeathWeapon.Suppress=list of TechnoTypes`"
+msgstr ""
+
+#: ../new/warheads/deathweapon.rst:14
+msgid ""
+"When this warhead causes the death of a unit from this list, its death "
+"weapon will not fire."
+msgstr ""
+
+#: ../new/warheads/deathweapon.rst:20
+msgid ":tagdef:`[Warhead]DeathWeapon.SuppressVehicles=boolean`"
+msgstr ""
+
+#: ../new/warheads/deathweapon.rst:18
+msgid ""
+"Whether death weapons of all :type:`VehicleTypes` are suppressed when "
+"this warhead kills. If :value:`no`, :tag:`DeathWeapon.Suppress` is still "
+"checked. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/warheads/deathweapon.rst:25
+msgid ":tagdef:`[Warhead]DeathWeapon.SuppressInfantry=boolean`"
+msgstr ""
+
+#: ../new/warheads/deathweapon.rst:23
+msgid ""
+"Whether death weapons of all :type:`InfantryTypes` are suppressed when "
+"this warhead kills. If :value:`no`, :tag:`DeathWeapon.Suppress` is still "
+"checked. Defaults to :value:`no`."
+msgstr ""
+

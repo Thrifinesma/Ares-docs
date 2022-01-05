@@ -1,0 +1,171 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/tiberium/heal.rst:8
+msgid "Tiberium Heal"
+msgstr ""
+
+#: ../new/tiberium/heal.rst:10
+msgid ""
+"Tiberium Heal is the effect of units gaining hitpoints when standing or "
+"moving over cells containing tiberium. This feature from :game:`Tiberian "
+"Sun` has been restored and made more customizable."
+msgstr ""
+
+#: ../new/tiberium/heal.rst:18
+msgid "Enabling Tiberium Heal"
+msgstr ""
+
+#: ../new/tiberium/heal.rst:20
+msgid ""
+":game:`Ares` requires a new tag to be set to enable the Heal feature, and"
+" it does no longer heal units that are positioned above "
+":tag:`[General]HoverHeight`."
+msgstr ""
+
+#: ../new/tiberium/heal.rst:25
+msgid ":tagdef:`[General]TiberiumHealEnabled=boolean`"
+msgstr ""
+
+#: ../new/tiberium/heal.rst:24
+msgid ""
+"Whether tiberium is allowed to heal units. Required for the following "
+"tags to work. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/tiberium/heal.rst:30
+msgid ":tagdef:`[General]TiberiumHeal=float - minutes`"
+msgstr ""
+
+#: ../new/tiberium/heal.rst:28
+msgid ""
+"The interval between healing steps being applied in minutes. Defaults to "
+":value:`1.13333` (once each 68 seconds)."
+msgstr ""
+
+#: ../new/tiberium/heal.rst:33
+msgid "Who will heal"
+msgstr ""
+
+#: ../new/tiberium/heal.rst:35
+msgid ""
+"Enabling the Tiberium Heal feature depending on the unit type can be done"
+" by setting a tag or by granting the :value:`TIBERIUM_HEAL` veteran "
+"ability like in :game:`Tiberian Sun`."
+msgstr ""
+
+#: ../new/tiberium/heal.rst:46
+msgid ":tagdef:`[TechnoType]TiberiumHeal=boolean`"
+msgstr ""
+
+#: ../new/tiberium/heal.rst:40
+msgid ""
+"Whether this unit heals if standing on a cell containing Tiberium. "
+"Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/tiberium/heal.rst:43
+msgid ""
+"If :value:`yes`, units leave behind a random amount of tiberium when "
+"destroyed or killed by default. This can be customized. See "
+":ref:`Tiberium Remains <tiberium-remains>`."
+msgstr ""
+
+#: ../new/tiberium/heal.rst:49
+msgid "How much how often"
+msgstr ""
+
+#: ../new/tiberium/heal.rst:51
+msgid ""
+"The delay between the effect being applied and amount of hitpoints to be "
+"restored can be customized for each unit type and for each of the "
+":type:`Tiberiums`. The default tags are also used for other repair "
+"logics, so the following tags can be used to balance the Tiberium Heal "
+"independently from them."
+msgstr ""
+
+#: ../new/tiberium/heal.rst:63
+msgid ":tagdef:`[Tiberium]Heal.Delay=float - minutes`"
+msgstr ""
+
+#: ../new/tiberium/heal.rst:62
+msgid ""
+"The interval between healing steps being applied in minutes. Defaults to "
+":tag:`[General]TiberiumHeal`."
+msgstr ""
+
+#: ../new/tiberium/heal.rst:67
+msgid ":tagdef:`[Tiberium]Heal.Step=integer`"
+msgstr ""
+
+#: ../new/tiberium/heal.rst:66
+msgid ""
+"The health to restore for :type:`AircraftTypes` after each delay. "
+"Defaults to :tag:`[General]RepairStep`."
+msgstr ""
+
+#: ../new/tiberium/heal.rst:71
+msgid ":tagdef:`[Tiberium]Heal.IStep=integer`"
+msgstr ""
+
+#: ../new/tiberium/heal.rst:70
+msgid ""
+"The health to restore for :type:`InfantryTypes` after each delay. "
+"Defaults to :tag:`[General]IRepairStep`."
+msgstr ""
+
+#: ../new/tiberium/heal.rst:76
+msgid ":tagdef:`[Tiberium]Heal.UStep=integer`"
+msgstr ""
+
+#: ../new/tiberium/heal.rst:74
+msgid ""
+"The health to restore for :type:`VehicleTypes` after each delay. Defaults"
+" to :tag:`[General]URepairStep`."
+msgstr ""
+
+#: ../new/tiberium/heal.rst:83
+msgid "Tiberium Remains"
+msgstr ""
+
+#: ../new/tiberium/heal.rst:85
+msgid ""
+"In :tag:`Tiberian Sun` units that had :tag:`TiberiumHeal=yes` (not the "
+":value:`TIBERIUM_HEAL` veteran ability) left behind a random amount of "
+"tiberium when destroyed or killed. This hardcoded behavior is now "
+"customizable and working independently of Tiberium Heal."
+msgstr ""
+
+#: ../new/tiberium/heal.rst:90
+msgid ""
+"Up to five bails are left behind in the adjacent cells, depending on "
+"whether the tiberium can be added to them."
+msgstr ""
+
+#: ../new/tiberium/heal.rst:96
+msgid ":tagdef:`[TechnoType]TiberiumRemains=boolean`"
+msgstr ""
+
+#: ../new/tiberium/heal.rst:94
+msgid ""
+"Whether this unit leaves behind tiberium when destroyed. Defaults to "
+":tag:`TiberiumHeal` if :tag:`[General]TiberiumHealEnabled=yes`, to "
+":value:`no` otherwise."
+msgstr ""
+

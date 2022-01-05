@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../bugfixes/type2/toolongidnames.rst:7
+msgid "Warning When a Too Long ID is Used"
+msgstr ""
+
+#: ../bugfixes/type2/toolongidnames.rst:9
+msgid ""
+"If the game tries to instantiate a type with an ID longer than 24 "
+"characters, :game:`Ares` will show a dialog pointing out the ID used. "
+"This happens if a type list includes a too long ID directly, or for "
+"example, if the game automatically adds a too long type ID it encountered"
+" to the list while parsing an INI section. This always indicates a bug, "
+"and this always is a bug present in a modded INI or map file."
+msgstr ""
+
+#: ../bugfixes/type2/toolongidnames.rst:16
+msgid ""
+"This feature does not catch too long IDs present in INI sections that are"
+" not automatically added to the type list while parsing. Searching for "
+"the exact ID will just fail. Only if the tag is read by :game:`Ares`, a "
+"warning will be emitted in the debug log."
+msgstr ""
+

@@ -1,0 +1,35 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../bugfixes/type2/animationdamagewarheads.rst:7
+msgid "Animation Damage Warheads"
+msgstr ""
+
+#: ../bugfixes/type2/animationdamagewarheads.rst:9
+msgid ""
+"Animations may have appeared to deal damage randomly rather than based on"
+" the warhead specified. In fact, animations were hard-coded to deal "
+"damage using the warhead specified by :tag:`[CombatDamage]FlameDamage2`, "
+"unless the animation ID was :tag:`[INVISO]`, in which case the warhead "
+"used :tag:`[CombatDamage]C4Warhead`. With  :game:`Ares`, the "
+":tag:`[Animation]Warhead` flag will be adhered to, with the "
+"aforementioned warheads used as the default if :tag:`[Animation]Warhead` "
+"is not specified."
+msgstr ""
+

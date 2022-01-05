@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/selfheal.rst:9
+msgid "Self Heal"
+msgstr ""
+
+#: ../new/selfheal.rst:11
+msgid ""
+"A unit's ability to self heal was hardcoded in :game:`Yuri's Revenge` and"
+" aside from enabling it through veterancy and setting the interval after "
+"which the unit would regain a fixed amount of health."
+msgstr ""
+
+#: ../new/selfheal.rst:15
+msgid ""
+":game:`Ares` makes self healing much more customizable, which can be used"
+" to recreate the Mammoth Tank from :game:`Tiberian Dawn`, which only "
+"recovered half of its health."
+msgstr ""
+
+#: ../new/selfheal.rst:21
+msgid ":tagdef:`[TechnoType]SelfHealing.Rate=double - minutes`"
+msgstr ""
+
+#: ../new/selfheal.rst:20
+msgid ""
+"The minutes between applying the self heal. Defaults to "
+":tag:`[General]RepairRate`."
+msgstr ""
+
+#: ../new/selfheal.rst:26
+msgid ":tagdef:`[TechnoType]SelfHealing.Max=double - percentage`"
+msgstr ""
+
+#: ../new/selfheal.rst:24
+msgid ""
+"The health level this object is restored to by self healing. The health "
+"will be capped at this percentage of the object's :tag:`Strength`. If "
+"defined, overrides the veterancy specific tags below. Defaults to "
+":value:`100%`."
+msgstr ""
+
+#: ../new/selfheal.rst:28
+msgid ":tagdef:`[TechnoType]SelfHealing.RookieMax=double - percentage`"
+msgstr ""
+
+#: ../new/selfheal.rst:30
+msgid ":tagdef:`[TechnoType]SelfHealing.VeteranMax=double - percentage`"
+msgstr ""
+
+#: ../new/selfheal.rst:35
+msgid ":tagdef:`[TechnoType]SelfHealing.EliteMax=double - percentage`"
+msgstr ""
+
+#: ../new/selfheal.rst:33
+msgid ""
+"The health level this object is restored to by self healing, depending on"
+" its veterancy level. These settings are fully independent of each other."
+" Defaults to :tag:`SelfHealing.Max`."
+msgstr ""
+
+#: ../new/selfheal.rst:40
+msgid ":tagdef:`[TechnoType]SelfHealing.Amount=integer - hitpoints`"
+msgstr ""
+
+#: ../new/selfheal.rst:38
+msgid ""
+"The amount of hitpoints restored when self healing. Cannot be less than "
+":value:`0`. If defined, overrides the veterancy specific tags below. "
+"Defaults to :value:`1`."
+msgstr ""
+
+#: ../new/selfheal.rst:42
+msgid ":tagdef:`[TechnoType]SelfHealing.RookieAmount=integer - hitpoints`"
+msgstr ""
+
+#: ../new/selfheal.rst:44
+msgid ":tagdef:`[TechnoType]SelfHealing.VeteranAmount=integer - hitpoints`"
+msgstr ""
+
+#: ../new/selfheal.rst:49
+msgid ":tagdef:`[TechnoType]SelfHealing.EliteAmount=integer - hitpoints`"
+msgstr ""
+
+#: ../new/selfheal.rst:47
+msgid ""
+"The amount of hitpoints restored when self healing, depending on its "
+"veterancy level. These settings are fully independent of each other. "
+"Cannot be less than :value:`0`. Defaults to :tag:`SelfHealing.Amount`."
+msgstr ""
+
+#: ../new/selfheal.rst:51
+msgid ""
+"Self healing can be interrupted for an amount of time when a unit is "
+"damaged."
+msgstr ""
+
+#: ../new/selfheal.rst:56
+msgid ":tagdef:`[TechnoType]SelfHealing.CombatDelay=integer - frames`"
+msgstr ""
+
+#: ../new/selfheal.rst:54
+msgid ""
+"Defines how long after a damaging attack a unit will not be able to self "
+"heal. Healing weapons do not trigger this delay. Use :value:`0` to "
+"disable this. Defaults to :value:`0`."
+msgstr ""
+

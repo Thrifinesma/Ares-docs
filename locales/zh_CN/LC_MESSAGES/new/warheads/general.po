@@ -1,0 +1,148 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/warheads/general.rst:4
+msgid "General Settings"
+msgstr ""
+
+#: ../new/warheads/general.rst:9
+msgid ":captiontag:`AffectsEnemies`"
+msgstr ""
+
+#: ../new/warheads/general.rst:14
+msgid ":tagdef:`[Warhead]AffectsEnemies=boolean`"
+msgstr ""
+
+#: ../new/warheads/general.rst:12
+msgid ""
+"Specifies whether or not this warhead can damage enemy units. This has no"
+" effect on the warhead's ability to target enemy units. A counterpart to "
+"the existing :tag:`AffectsAllies` flag."
+msgstr ""
+
+#: ../new/warheads/general.rst:22
+msgid ":captiontag:`AffectsOwner`"
+msgstr ""
+
+#: ../new/warheads/general.rst:26
+msgid ":tagdef:`[Warhead]AffectsOwner=boolean`"
+msgstr ""
+
+#: ../new/warheads/general.rst:25
+msgid ""
+"Whether this warhead can affect the very player who fired it. Defaults to"
+" :tag:`AffectsAllies` flag."
+msgstr ""
+
+#: ../new/warheads/general.rst:38
+msgid "Warhead Effects"
+msgstr ""
+
+#: ../new/warheads/general.rst:40
+msgid ""
+"The effects KillDriver, Sonar, Disable Weapon and Flashing can be applied"
+" independently of conventional damage."
+msgstr ""
+
+#: ../new/warheads/general.rst:47
+msgid ":tagdef:`[Warhead]EffectsRequireDamage=boolean`"
+msgstr ""
+
+#: ../new/warheads/general.rst:44
+msgid ""
+"Whether warheads will only apply the effects if at least one hitpoint of "
+"damage has actually been dealt to a unit or structure. If :value:`no`, "
+"effects are also applied if the no damage is dealt. Requires positive "
+"damage; healing does not use this setting. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/warheads/general.rst:54
+msgid ":tagdef:`[Warhead]EffectsRequireVerses=boolean`"
+msgstr ""
+
+#: ../new/warheads/general.rst:50
+msgid ""
+"Whether :tag:`Verses` needs to be greater than :value:`0%` for the "
+"warhead to apply effects. Can be used to distinguish between :value:`0%` "
+"and greater verses that potentially nullify damage, between immunity and "
+"vulnerability. If :value:`no`, effects are applied to any unit or "
+"structure regardless of verses. Defaults to :value:`yes`."
+msgstr ""
+
+#: ../new/warheads/general.rst:62
+msgid "Non-Damaging Warheads"
+msgstr ""
+
+#: ../new/warheads/general.rst:64
+msgid ""
+"This can be used to punctually disable an optimization in the game to "
+"still apply warhead effects without doing damage. By default, "
+":game:`Yuri's Revenge` checks whether no damage is to be dealt before "
+"expensively determining which units and structures are in range."
+msgstr ""
+
+#: ../new/warheads/general.rst:72
+msgid ":tagdef:`[Warhead]AllowZeroDamage=boolean`"
+msgstr ""
+
+#: ../new/warheads/general.rst:70
+msgid ""
+"Whether damage of 0 hitpoints will still be passed on to all units and "
+"structures affected by the warhead. Otherwise, a damage of 0 will not be "
+"passed on. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/warheads/general.rst:82
+msgid "Non-Malicious Warheads"
+msgstr ""
+
+#: ../new/warheads/general.rst:89
+msgid ":tagdef:`[Warhead]Malicious=boolean`"
+msgstr ""
+
+#: ../new/warheads/general.rst:85
+msgid ""
+"Specifies whether or not EVA should notify an ore miner's owner of an "
+"attack (:value:`EVA_OreMinerUnderAttack`). No other EVA messages are "
+"suppressed. For example, if a warhead's purpose is to spread ore dealing "
+"damage as a side effect only you can use :tag:`Malicious=no` to disable "
+"unreasonable EVA attack warnings for ore miners. Defaults to "
+":value:`yes`."
+msgstr ""
+
+#: ../new/warheads/general.rst:95
+msgid "Prevent scattering"
+msgstr ""
+
+#: ../new/warheads/general.rst:97
+msgid ""
+"A unit hit by a warhead might scatter on impact. This tag on the "
+"attacking warhead prevents this."
+msgstr ""
+
+#: ../new/warheads/general.rst:102
+msgid ":tagdef:`[Warhead]PreventScatter=boolean`"
+msgstr ""
+
+#: ../new/warheads/general.rst:101
+msgid ""
+"Whether units should not scatter when attacked with this warhead even if "
+"they have the ability to. Defaults to :value:`no`."
+msgstr ""
+

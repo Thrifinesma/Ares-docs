@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/enemyuiname.rst:6
+msgid ":captiontag:`EnemyUIName`"
+msgstr ""
+
+#: ../new/enemyuiname.rst:8
+msgid ""
+"In :game:`Yuri's Revenge`, allies and enemies alike can see the name of "
+"any unit and structure. In the earlier games, the tooltip would for "
+"example show \"Enemy Structure\" instead. This setting is useful to hide "
+"the name of fake structures."
+msgstr ""
+
+#: ../new/enemyuiname.rst:18
+msgid ":tagdef:`[BuildingType]EnemyUIName=csf string`"
+msgstr ""
+
+#: ../new/enemyuiname.rst:13
+msgid ""
+"Optional name used for enemy buildings. Observers, allies, and players "
+"who infiltrated the building will see the real name defined by "
+":tag:`UIName`, all other players will see this name."
+msgstr ""
+
+#: ../new/enemyuiname.rst:17
+msgid ""
+"This tag is currently limited to :type:`BuildingTypes`. It might be "
+"expanded to other :type:`TechnoTypes` in the future."
+msgstr ""
+

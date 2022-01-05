@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/buildings/techstructures.rst:6
+msgid "Tech Structures Return to Neutral"
+msgstr ""
+
+#: ../new/buildings/techstructures.rst:8
+msgid ""
+"In multiplayer games the neutral tech structures and occupiable "
+"structures a player captured can be made to be returned to the neutral "
+"house in case the owning player is defeated or gives up, instead of "
+"destroying them."
+msgstr ""
+
+#: ../new/buildings/techstructures.rst:12
+msgid ""
+"Only buildings that initially belonged to a :tag:`MultiplayPassive=yes` "
+"house are eligible to be returned. In single player mode these settings "
+"are ignored."
+msgstr ""
+
+#: ../new/buildings/techstructures.rst:15
+msgid "The country the buildings are given back to is their initial owner."
+msgstr ""
+
+#: ../new/buildings/techstructures.rst:19
+msgid ":tagdef:`[General]ReturnStructures=boolean`"
+msgstr ""
+
+#: ../new/buildings/techstructures.rst:18
+msgid ""
+"Whether structures will by default return to the civilian side when a "
+"player is defeated or giving up. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/buildings/techstructures.rst:23
+msgid ":tagdef:`[BuildingType]Returnable=boolean`"
+msgstr ""
+
+#: ../new/buildings/techstructures.rst:22
+msgid ""
+"Whether this building type will return to the civilian side when the "
+"owning player is defeated or giving up. Defaults to "
+":tag:`[General]ReturnStructures`."
+msgstr ""
+
+#: ../new/buildings/techstructures.rst:33
+msgid "Tech Structure Notifications"
+msgstr ""
+
+#: ../new/buildings/techstructures.rst:35
+msgid ""
+":game:`Yuri's Revenge` has the :tag:`CaptureEvaEvent` setting that "
+"defines which EVA event will play if a building of a type with "
+":tag:`NeedsEngineer=yes` is captured. :game:`Ares` makes the "
+"corresponding lost event customizable and adds optional text messages for"
+" each of them."
+msgstr ""
+
+#: ../new/buildings/techstructures.rst:43
+msgid ":tagdef:`[BuildingType]LostEvaEvent=EVA event`"
+msgstr ""
+
+#: ../new/buildings/techstructures.rst:41
+msgid ""
+"The EVA message played when a building of this type is captured from the "
+"player. Requires :tag:`NeedsEngineer=yes`. Defaults to "
+":value:`EVA_TechBuildingLost`."
+msgstr ""
+
+#: ../new/buildings/techstructures.rst:47
+msgid ":tagdef:`[BuildingType]Message.Capture=CSF label`"
+msgstr ""
+
+#: ../new/buildings/techstructures.rst:46
+msgid ""
+"The text printed when a building of this type is captured by the player. "
+"Requires :tag:`NeedsEngineer=yes`. Defaults to :value:`none`."
+msgstr ""
+
+#: ../new/buildings/techstructures.rst:51
+msgid ":tagdef:`[BuildingType]Message.Lost=CSF label`"
+msgstr ""
+
+#: ../new/buildings/techstructures.rst:50
+msgid ""
+"The text printed when a building of this type is captured by the enemy. "
+"Requires :tag:`NeedsEngineer=yes`. Defaults to :value:`none`."
+msgstr ""
+

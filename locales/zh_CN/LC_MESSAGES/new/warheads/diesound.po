@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/warheads/diesound.rst:6
+msgid "Override Die Sounds and Voices"
+msgstr ""
+
+#: ../new/warheads/diesound.rst:8
+msgid ""
+"When killing units using this warhead, the die sounds and voices can be "
+"overridden to not give owning players a clue that their units are under "
+"attack, or to disable these sounds for warheads that should not be "
+"considered killing units like Make Infantry conversions."
+msgstr ""
+
+#: ../new/warheads/diesound.rst:16
+msgid ":tagdef:`[Warhead]DieSound.Override=soundmd entry`"
+msgstr ""
+
+#: ../new/warheads/diesound.rst:14
+msgid ""
+"The sound to use when an object is destroyed by this warhead. Objects "
+"that have no :tag:`DieSound` will not play anything. Use :value:`<none>` "
+"to suppress :tag:`DieSound`."
+msgstr ""
+
+#: ../new/warheads/diesound.rst:21
+msgid ":tagdef:`[Warhead]VoiceDie.Override=soundmd entry`"
+msgstr ""
+
+#: ../new/warheads/diesound.rst:19
+msgid ""
+"The voice to use when an object is destroyed by this warhead. Objects "
+"that have no :tag:`VoiceDie` will not play anything. Use :value:`<none>` "
+"to suppress :tag:`VoiceDie`."
+msgstr ""
+

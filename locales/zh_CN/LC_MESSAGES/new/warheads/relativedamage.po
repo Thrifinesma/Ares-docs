@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/warheads/relativedamage.rst:6
+msgid "MAD Tank Style Relative Damage"
+msgstr ""
+
+#: ../new/warheads/relativedamage.rst:8
+msgid ""
+"This logic is inspired by the MAD Tank known from the :game:`Red Alert` "
+"mission disk :game:`The Aftermath`, where it was used as a large area of "
+"effect weapon that damaged each victim by taking away a share of its "
+"health."
+msgstr ""
+
+#: ../new/warheads/relativedamage.rst:12
+msgid ""
+"Instead of using a fixed damage value, a value relative to the victim's "
+":tag:`Strength` or current health can be dealt by a warhead. Country "
+"armor multipliers and veterancy bonuses are still applied, as well as "
+":tag:`Verses`."
+msgstr ""
+
+#: ../new/warheads/relativedamage.rst:16
+msgid ""
+"Relative Damage is not supported on special weapon logics like "
+":tag:`Temporal` or :tag:`Psychedelic` warheads, and also doesn't support "
+":tag:`ProneDamage` and :tag:`DeployedDamage` for infantry. Suppressing "
+"parasites is also not supported."
+msgstr ""
+
+#: ../new/warheads/relativedamage.rst:28
+msgid ":tagdef:`[Warhead]RelativeDamage=boolean`"
+msgstr ""
+
+#: ../new/warheads/relativedamage.rst:21
+msgid ""
+"Deal damage relative to :tag:`Strength` or current health instead of "
+"dealing conventional damage. If set to :value:`yes`, the tags below are "
+"used depending on target type. If a tag is not defined, no damage is "
+"dealt. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/warheads/relativedamage.rst:26
+msgid ""
+"A dummy :tag:`Damage` is needed on this warhead for targeting, even "
+"though the value ultimately is not used. If :tag:`Damage` is negative "
+"(like for healing weapons), the Relative Damage will be negative also."
+msgstr ""
+
+#: ../new/warheads/relativedamage.rst:30
+msgid ":tagdef:`[Warhead]RelativeDamage.Buildings=integer - percent`"
+msgstr ""
+
+#: ../new/warheads/relativedamage.rst:32
+msgid ":tagdef:`[Warhead]RelativeDamage.Aircraft=integer - percent`"
+msgstr ""
+
+#: ../new/warheads/relativedamage.rst:34
+msgid ":tagdef:`[Warhead]RelativeDamage.Infantry=integer - percent`"
+msgstr ""
+
+#: ../new/warheads/relativedamage.rst:36
+msgid ":tagdef:`[Warhead]RelativeDamage.Vehicles=integer - percent`"
+msgstr ""
+
+#: ../new/warheads/relativedamage.rst:41
+msgid ":tagdef:`[Warhead]RelativeDamage.Terrain=integer - percent`"
+msgstr ""
+
+#: ../new/warheads/relativedamage.rst:39
+msgid ""
+"The damage defined as percentage from either :tag:`Strength`, if "
+"positive, or current health, if negative. Supported values range from "
+":value:`-100` to :value:`100`. A value of :value:`0` deals no damage. "
+"Defaults to :value:`0`."
+msgstr ""
+
+#: ../new/warheads/relativedamage.rst:43
+msgid ""
+"Relative Damage considers :tag:`Organic=yes` vehicles as infantry and "
+":tag:`ConsideredAircraft=yes` vehicles as aircraft."
+msgstr ""
+

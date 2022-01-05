@@ -1,0 +1,564 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../restored/emp.rst:4
+msgid "Electromagnetic Pulse (EMP)"
+msgstr ""
+
+#: ../restored/emp.rst:6
+msgid ""
+"EMP disables susceptible units and buildings along with their special "
+"functions and makes them vulnerable to attacks. EMP can affect units and "
+"buildings in various ways:"
+msgstr ""
+
+#: ../restored/emp.rst:10
+msgid ""
+"Primary effect: units will not respond to any commands. They will stop "
+"moving and will not attack anything."
+msgstr ""
+
+#: ../restored/emp.rst:12
+msgid "Hovering units (such as the Robot Tank) will land."
+msgstr ""
+
+#: ../restored/emp.rst:13
+msgid "Units display an optional sparkles animation"
+msgstr ""
+
+#: ../restored/emp.rst:14
+msgid "Voxel-based units are darkened (SHP-based units are not)."
+msgstr ""
+
+#: ../restored/emp.rst:15
+msgid ""
+"Buildings that can undeploy into vehicles (e.g. MCVs) still can, but the "
+"resulting vehicle will remain deactivated until the effect wears off."
+msgstr ""
+
+#: ../restored/emp.rst:17
+msgid "Aircraft will immediately crash."
+msgstr ""
+
+#: ../restored/emp.rst:18
+msgid "Power plants cease to produce power."
+msgstr ""
+
+#: ../restored/emp.rst:19
+msgid "Factories will stop working."
+msgstr ""
+
+#: ../restored/emp.rst:20
+msgid "Base defenses will not be able to fire their weapon."
+msgstr ""
+
+#: ../restored/emp.rst:21
+msgid "Gap Generators will stop emitting radar gap."
+msgstr ""
+
+#: ../restored/emp.rst:22
+msgid "Laser Fence Posts will stop emitting laser fences."
+msgstr ""
+
+#: ../restored/emp.rst:23
+msgid "Robot Control Centers will stop working."
+msgstr ""
+
+#: ../restored/emp.rst:24
+msgid ""
+"Super weapon buildings will shut down and the super weapons themselves "
+"will stop charging, if they have :tag:`[SuperWeapon]IsPowered=yes` set."
+msgstr ""
+
+#: ../restored/emp.rst:26
+msgid "Radar buildings will stop providing radar."
+msgstr ""
+
+#: ../restored/emp.rst:27
+msgid "SpySat buildings will stop to reveal the map."
+msgstr ""
+
+#: ../restored/emp.rst:28
+msgid ""
+"Units that spawn other units will cease to do so. If the spawner unit has"
+" launched any aircraft then the aircraft will immediately crash."
+msgstr ""
+
+#: ../restored/emp.rst:30
+msgid "Slave Miner slaves will stop working."
+msgstr ""
+
+#: ../restored/emp.rst:31
+msgid ""
+"Units that are in their unloading state (such as ore harvesters "
+"depositing ore or Siege Choppers transforming) will only become "
+"deactivated once they have finished unloading."
+msgstr ""
+
+#: ../restored/emp.rst:34
+msgid ""
+"Harvesters that were in the middle of harvesting when hit by EMP will "
+"resume harvesting after EMP wears off."
+msgstr ""
+
+#: ../restored/emp.rst:41
+msgid "Defining EMP Weapons"
+msgstr ""
+
+#: ../restored/emp.rst:43
+msgid ""
+":game:`Tiberian Sun` used the weapon's :tag:`Damage` tag to determine how"
+" long the EMP effect should last. :game:`Ares`, however, uses two new "
+"tags to provide greater control. The weapon's :tag:`Damage` will be "
+"delivered independently from EMP, so a weapon can both damage and "
+"deactivate its target. :game:`Tiberian Sun` also used the tag "
+":tag:`EMEffect=yes`, which is not used in :tag:`Ares`."
+msgstr ""
+
+#: ../restored/emp.rst:49
+msgid ""
+"The following two tags are used together to determine how long (in "
+"frames) the affected units will be affected by EMP for."
+msgstr ""
+
+#: ../restored/emp.rst:52
+msgid ":tagdef:`[Warhead]EMP.Duration=integer - frames`"
+msgstr ""
+
+#: ../restored/emp.rst:53
+msgid "Defaults to :value:`0`."
+msgstr ""
+
+#: ../restored/emp.rst:55
+msgid ":tagdef:`[Warhead]EMP.Cap=integer - frames`"
+msgstr ""
+
+#: ../restored/emp.rst:55
+msgid "Defaults to :value:`-1`."
+msgstr ""
+
+#: ../restored/emp.rst:57
+msgid ""
+"The game keeps track of how much longer each unit will remain "
+"deactivated. Each unit essentially has a hidden EMP counter that counts "
+"down frame by frame until it reaches zero, at which point the unit will "
+"re-activate. This counter is what gets modified by EMP warheads."
+msgstr ""
+
+#: ../restored/emp.rst:62
+msgid ""
+"A unit does not get affected by EMP if :tag:`Verses` is equal to "
+":value:`0%`, otherwise the target is endowed with the full effect."
+msgstr ""
+
+#: ../restored/emp.rst
+msgid "Quickstart"
+msgstr ""
+
+#: ../restored/emp.rst:65
+msgid ""
+"If you want a warhead to EMP a target for ten seconds, set \\ "
+":tag:`EMP.Duration=150` on the warhead."
+msgstr ""
+
+#: ../restored/emp.rst:70
+msgid "Damaging EMP"
+msgstr ""
+
+#: ../restored/emp.rst:72
+msgid ""
+"With a positive :tag:`EMP.Duration` the targets are going to be "
+"deactivated."
+msgstr ""
+
+#: ../restored/emp.rst:87
+msgid ":tag:`EMP.Cap` is greater than zero."
+msgstr ""
+
+#: ../restored/emp.rst:75
+msgid ""
+"Makes this EMP effect stackable, but capped. The target's EMP counter is "
+"increased by :tag:`EMP.Duration` up to but not exceeding :tag:`EMP.Cap`. "
+"If the target's EMP counter is already greater than :tag:`EMP.Cap` (e.g. "
+"caused by some other EMP weapon) then it will not be reduced."
+msgstr ""
+
+#: ../restored/emp.rst:80 ../restored/emp.rst:104 ../restored/emp.rst:122
+#: ../restored/emp.rst:135
+msgid "Examples:"
+msgstr ""
+
+#: ../restored/emp.rst:82
+msgid ""
+"EMP counter is 0, :tag:`EMP.Duration=10`, :tag:`EMP.Cap=20`. Result: EMP "
+"counter will be set to 10, because the cap is not reached yet."
+msgstr ""
+
+#: ../restored/emp.rst:84
+msgid ""
+"EMP counter is 15, :tag:`EMP.Duration=10`, :tag:`EMP.Cap=20`. Result: EMP"
+" counter will be set to 20. This weapon will not go beyond the cap."
+msgstr ""
+
+#: ../restored/emp.rst:86
+msgid ""
+"EMP counter is 60, :tag:`EMP.Duration=10`, :tag:`EMP.Cap=20`. EMP counter"
+" will remain at 60, because it was higher than the cap already."
+msgstr ""
+
+#: ../restored/emp.rst:89
+msgid ""
+":tag:`EMP.Cap=0` Makes this EMP effect stackable, but uncapped. The "
+"target's EMP counter is incremented by :tag:`EMP.Duration`, without "
+"limit. This is :game:`Ares` legacy behavior (before the :tag:`EMP.Cap` "
+"tag was added)."
+msgstr ""
+
+#: ../restored/emp.rst:94
+msgid "Example:"
+msgstr ""
+
+#: ../restored/emp.rst:96
+msgid ""
+"EMP counter is 25, :tag:`EMP.Duration=10`. Result: EMP counter will be "
+"set to 35. Because there is no cap, firing this warhead will always add "
+"10."
+msgstr ""
+
+#: ../restored/emp.rst:99
+msgid ""
+":tag:`EMP.Cap=-1` The target's EMP counter is set to this absolute number"
+" of frames specified by :tag:`EMP.Duration`, unless the target's EMP "
+"counter is already greater than this."
+msgstr ""
+
+#: ../restored/emp.rst:106
+msgid ""
+"EMP counter is 5, :tag:`EMP.Duration=10`. Result: EMP counter will be set"
+" to the absolute value of 10."
+msgstr ""
+
+#: ../restored/emp.rst:108
+msgid ""
+"EMP counter is 20, :tag:`EMP.Duration=10`. EMP counter will remain at 20,"
+" because it was already higher."
+msgstr ""
+
+#: ../restored/emp.rst:113
+msgid "Healing EMP"
+msgstr ""
+
+#: ../restored/emp.rst:115
+msgid ""
+"This can be used for re-activating deactivated allied units. With a "
+"negative :tag:`EMP.Duration`, the EMP counter is reduced by this number "
+"of frames."
+msgstr ""
+
+#: ../restored/emp.rst:118
+msgid ""
+":tag:`EMP.Cap=-1` The target's EMP counter is reduced by the number of "
+"frames specified by :tag:`EMP.Duration`."
+msgstr ""
+
+#: ../restored/emp.rst:124
+msgid ""
+"EMP counter is 50, :tag:`EMP.Duration=-10`. Result: EMP counter will be "
+"set to 40."
+msgstr ""
+
+#: ../restored/emp.rst:126
+msgid ""
+"EMP counter is 7, `EMP.Duration=-10`. Result: EMP counter will be set to "
+"zero and the unit will re-activate, because EMP effect was removed "
+"completely."
+msgstr ""
+
+#: ../restored/emp.rst:130
+msgid ""
+":tag:`EMP.Cap` is greater than zero. The target's EMP counter is reduced "
+"by the number of frames specified by :tag:`EMP.Duration`. If this value "
+"is still greater than :tag:`EMP.Cap` then the EMP counter is reduced "
+"further to equal :tag:`EMP.Cap`."
+msgstr ""
+
+#: ../restored/emp.rst:137
+msgid ""
+"EMP counter is 50, :tag:`EMP.Duration=-10`, :tag:`EMP.Cap=70`. Result: "
+"EMP counter will be set to 40."
+msgstr ""
+
+#: ../restored/emp.rst:139
+msgid ""
+"EMP counter is 50, :tag:`EMP.Duration=-10`, :tag:`EMP.Cap=20`. Result: "
+"EMP counter will be set to 20. It is reduced to the value of the cap."
+msgstr ""
+
+#: ../restored/emp.rst:141
+msgid ""
+"EMP counter is 7, `EMP.Duration=-10`. Result: EMP counter will be set to "
+"zero and the unit will re-activate. Even without the cap the unit would "
+"reactivate."
+msgstr ""
+
+#: ../restored/emp.rst:145
+msgid ""
+":tag:`EMP.Cap=0` :tag:`EMP.Duration` does not matter because the EMP "
+"counter will be set to zero by the cap and the unit will re-activate "
+"immediately. This is a special case of the description above."
+msgstr ""
+
+#: ../restored/emp.rst:154
+msgid "EMP Immunity"
+msgstr ""
+
+#: ../restored/emp.rst:156
+msgid ""
+"There are several ways to create units that are not affected by EMP "
+"weapons."
+msgstr ""
+
+#: ../restored/emp.rst:179
+msgid ":tagdef:`[TechnoType]ImmuneToEMP=boolean`"
+msgstr ""
+
+#: ../restored/emp.rst:159
+msgid ""
+"The above tag specifies whether or not the :type:`TechnoType` is immune "
+"to the effects of EMP. The default immunity status is determined based on"
+" the following rules:"
+msgstr ""
+
+#: ../restored/emp.rst:163
+msgid ""
+":type:`BuildingTypes`: Defaults to :value:`no` if :tag:`Powered=yes` and "
+":tag:`Power` is negative. Defaults to :value:`no` if providing one or "
+"more of the following special functions:"
+msgstr ""
+
+#: ../restored/emp.rst:167
+msgid "Radar"
+msgstr ""
+
+#: ../restored/emp.rst:168
+msgid "Super weapons (:tag:`SuperWeapon` and :tag:`SuperWeapon2` only)"
+msgstr ""
+
+#: ../restored/emp.rst:169
+msgid "Undeploy into a vehicle (e.g. Construction Yards)"
+msgstr ""
+
+#: ../restored/emp.rst:170
+msgid "Powers vehicles (e.g. Robot Control Centre)"
+msgstr ""
+
+#: ../restored/emp.rst:171
+msgid "Gap Generator"
+msgstr ""
+
+#: ../restored/emp.rst:172
+msgid "Sensors"
+msgstr ""
+
+#: ../restored/emp.rst:173
+msgid "Laser Fence Posts"
+msgstr ""
+
+#: ../restored/emp.rst:175
+msgid "Defaults to :value:`yes` otherwise."
+msgstr ""
+
+#: ../restored/emp.rst:176
+msgid ""
+":type:`InfantryTypes`: Defaults to :value:`no` if :tag:`Cyborg=yes`, to "
+":value:`yes` otherwise."
+msgstr ""
+
+#: ../restored/emp.rst:178
+msgid ""
+":type:`VehicleTypes` and :type:`AircraftTypes`: Defaults to :value:`yes` "
+"if :tag:`Organic=yes`, to :value:`no` otherwise."
+msgstr ""
+
+#: ../restored/emp.rst:181
+msgid ""
+"EMP immunity can also be granted using the new veteran/elite ability "
+":value:`EMPIMMUNE`. Set :tag:`VeteranAbilities` or :tag:`EliteAbilities` "
+"on the :type:`TechnoType`."
+msgstr ""
+
+#: ../restored/emp.rst:185
+msgid ""
+"EMP immunity also respects :tag:`TypeImmune` on the :type:`TechnoType`, "
+"as well as :tag:`AffectsAllies` and :tag:`AffectsEnemies` on the warhead."
+msgstr ""
+
+#: ../restored/emp.rst:190
+msgid "Modifying the Effect Duration"
+msgstr ""
+
+#: ../restored/emp.rst:192
+msgid ""
+"Instead of either affecting an object fully or not at all, :game:`Ares` "
+"allows to also reduce or increase the duration of EMP for each type. A "
+"high tech tank could thus stay deactivated longer than a normal tank, "
+"while a low tech jeep could reactivate sooner than the tank."
+msgstr ""
+
+#: ../restored/emp.rst:201
+msgid ":tagdef:`[TechnoType]EMP.Modifier=float - multiplier`"
+msgstr ""
+
+#: ../restored/emp.rst:198
+msgid ""
+"If the EMP effect duration is positive it will be multiplied by this "
+"factor. You can create units that are more or less prone to the "
+"Electromagnetic Pulse. Defaults to :value:`100%`."
+msgstr ""
+
+#: ../restored/emp.rst:204
+msgid "Destructive EMP"
+msgstr ""
+
+#: ../restored/emp.rst:206
+msgid ""
+"This setting allows objects to be destroyed by EMP rather than just being"
+" deactivated temporarily. This is to bridge a difference between flying "
+"aircraft, which is destroyed by EMP instantaneously, and other flying "
+"objects like the Siege Chopper, Kirov and Yuri's Disk, which are not "
+"because they are no :type:`AircraftTypes`."
+msgstr ""
+
+#: ../restored/emp.rst:212
+msgid ""
+"You can create units that only take a certain amount of EMP before "
+"failing completely, as well as :tag:`BalloonHover=yes` or "
+":tag:`JumpJet=yes` units that either crash just like aircraft when in "
+"air, or get deactivated like ground units and just stay alive."
+msgstr ""
+
+#: ../restored/emp.rst:233
+msgid ""
+":tagdef:`[TechnoType]EMP.Threshold=enumeration - one of yes|no|inair *or*"
+" integer - frames`"
+msgstr ""
+
+#: ../restored/emp.rst:218
+msgid ""
+"Specifies whether or not an object of this type will be destroyed by EMP "
+"weapons. Use an integer to set the exact EMP duration this unit has to "
+"exceed to get destroyed."
+msgstr ""
+
+#: ../restored/emp.rst:222
+msgid ""
+"Positive values will destroy the unit if the number of EMP frames exceeds"
+" this value. :value:`yes` equals :value:`1`, meaning immediately."
+msgstr ""
+
+#: ../restored/emp.rst:224
+msgid ""
+"Negative values will destroy the unit only if is currently in-air. "
+":value:`inair` equals :value:`-1`, meaning immediately if in air."
+msgstr ""
+
+#: ../restored/emp.rst:226
+msgid "A value of zero will disable this feature. :value:`no` equals :value:`0`."
+msgstr ""
+
+#: ../restored/emp.rst:228
+msgid ""
+"Defaults to :value:`inair`, destroying all units if they are in the air "
+"the instant the EMP hits."
+msgstr ""
+
+#: ../restored/emp.rst:231
+msgid ""
+"Parachuting units and units being lifted or lowered by a Magnetron do not"
+" count as being in air. Only exceeding their positive threshold (if set) "
+"will kill them."
+msgstr ""
+
+#: ../restored/emp.rst:235
+msgid ""
+"For example, using :value:`inair` causes a deployed Siege Chopper not to "
+"be destroyed. Using :value:`-100` will crash the Siege Chopper only if it"
+" is in-air and it accumulates an EMP duration of more than 100 frames."
+msgstr ""
+
+#: ../restored/emp.rst:245
+msgid "Sparkles Animation"
+msgstr ""
+
+#: ../restored/emp.rst:247
+msgid ""
+"When a unit or building is under the effect of EMP, it can display an "
+"optional animation."
+msgstr ""
+
+#: ../restored/emp.rst:254
+msgid ":tagdef:`[TechnoType]EMP.Sparkles=animation`"
+msgstr ""
+
+#: ../restored/emp.rst:251
+msgid ""
+"The animation played over an object of this type disabled by EMP as long "
+"as the effect lasts. When the effect subsides, the animation will finish "
+"playing and then disappear. Use :value:`none` to disable the animation. "
+"Defaults to :tag:`[General]EMPulseSparkles`."
+msgstr ""
+
+#: ../restored/emp.rst:256
+msgid ""
+"This animation can be overridden by the warhead that initiates the EMP "
+"effect."
+msgstr ""
+
+#: ../restored/emp.rst:261
+msgid ":tagdef:`[Warhead]EMP.Sparkles=animation`"
+msgstr ""
+
+#: ../restored/emp.rst:259
+msgid ""
+"If set, overrides the default animation to be played on the unit or "
+"structure under EMP. This only applies if the object does not already "
+"have an EMP animation."
+msgstr ""
+
+#: ../restored/emp.rst:263
+msgid ""
+"The file :file:`emp_fx01.shp` that comes with :game:`Yuri's Revenge` and "
+"which is referenced by default by :tag:`[General]EMPulseSparkles` is "
+"still in the :game:`Tiberian Sun` palette and needs to be converted."
+msgstr ""
+
+#: ../restored/emp.rst:271
+msgid "Global Settings"
+msgstr ""
+
+#: ../restored/emp.rst:275
+msgid ":tagdef:`[CombatDamage]EMPAIRecoverMission=mission`"
+msgstr ""
+
+#: ../restored/emp.rst:274
+msgid ""
+"The mission units controlled by the AI will go onto when an EMP effect "
+"expires. Defaults to :value:`Hunt`."
+msgstr ""
+

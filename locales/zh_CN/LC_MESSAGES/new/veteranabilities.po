@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/veteranabilities.rst:8
+msgid "Veteran and Elite Abilities"
+msgstr ""
+
+#: ../new/veteranabilities.rst:10
+msgid ""
+"This is a list of all new veteran and elite abilities :game:`Ares` "
+"supports."
+msgstr ""
+
+#: ../new/veteranabilities.rst:12
+msgid ""
+":value:`EMPIMMUNE` See :ref:`Electromagnetic Pulse Immunity <empulse-"
+"immunity>`."
+msgstr ""
+
+#: ../new/veteranabilities.rst:15
+msgid ""
+":value:`RADIMMUNE` Makes the unit immune to radiation like "
+":tag:`ImmuneToRadiation`. This affects direct hits from "
+":tag:`Radiation=yes` warheads as well as from radiation sites spread by "
+"warheads with :tag:`RadLevel` greater than :value:`0`."
+msgstr ""
+
+#: ../new/veteranabilities.rst:20
+msgid ""
+":value:`PROTECTED_DRIVER` See :ref:`Killing Drivers and Protected Drivers"
+" <killingdrivers-immunity>`."
+msgstr ""
+
+#: ../new/veteranabilities.rst:23
+msgid ""
+":value:`UNWARPABLE` Makes units immune to :tag:`Temporal=yes` weapons "
+"like :tag:`Warpable=no`."
+msgstr ""
+
+#: ../new/veteranabilities.rst:26
+msgid ""
+":value:`POISONIMMUNE` Makes units immune to :tag:`Poison=yes` weapons "
+"like :tag:`ImmuneToPoison=yes`."
+msgstr ""
+
+#: ../new/veteranabilities.rst:30
+msgid ""
+":value:`PSIONICWEAPONIMMUNE` Makes units immune to "
+":tag:`PsychicDamage=yes` weapons like :tag:`ImmuneToPsionicWeapons=yes`."
+msgstr ""
+
+#: ../new/veteranabilities.rst:34
+msgid ""
+":value:`PSIONICSIMMUNE` Makes units immune to :tag:`Psychedelic=yes` and "
+":tag:`MindControl=yes` weapons like :tag:`ImmuneToPsionics=yes`. The "
+"Psychic Dominator can still override this effect just like the "
+"unconditional :tag:`ImmuneToPsionics=yes`."
+msgstr ""
+

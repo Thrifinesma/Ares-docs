@@ -1,0 +1,33 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../bugfixes/type1/checksumimpl.rst:7
+msgid "Checksummer Implementation Error"
+msgstr ""
+
+#: ../bugfixes/type1/checksumimpl.rst:9
+msgid ""
+"The code generating checksums to compare game state to detect "
+"desynchronisations had a bug and wrote into memory beyond class bounds. "
+"It is not clear whether this caused any trouble, as memory management is "
+"highly dynamic and depends on too many factors like OS version, other "
+"running programs, and game state. In any case, this was a coding error "
+"which has been fixed."
+msgstr ""
+

@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/misc/bagfiles.rst:6
+msgid "Additional Bag Files"
+msgstr ""
+
+#: ../new/misc/bagfiles.rst:8
+msgid ""
+":game:`Yuri's Revenge` only read :file:`audio.idx` and :file:`audio.bag`,"
+" either requiring modders to deliver custom versions also including the "
+"original sound files, or to rely on loose wave files."
+msgstr ""
+
+#: ../new/misc/bagfiles.rst:12
+msgid ""
+":game:`Ares` adds support for multiple index and bag files, which make it"
+" easier to deliver sounds while also decreasing the mod's file sizes "
+"potentially. First :file:`audio.idx` is read as before, and then all "
+"files from :file:`audio01.idx` to :file:`audio99.idx`, with the actual "
+"data in the corresponding :file:`.bag` file."
+msgstr ""
+
+#: ../new/misc/bagfiles.rst:18
+msgid ""
+"Index files loaded later can override sound files that were included "
+"earlier, thus it is possible to update sound files using relatively small"
+" bag files for patches."
+msgstr ""
+

@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/tiberium/damage.rst:8
+msgid "Tiberium Damage"
+msgstr ""
+
+#: ../new/tiberium/damage.rst:10
+msgid ""
+"Infantry being damaged when walking on tiberium (not just standing there)"
+" is a feature of :game:`Tiberian Dawn` and :game:`Tiberian Sun`. "
+":game:`Ares` brings this feature back and extends it to work with all "
+"unit types."
+msgstr ""
+
+#: ../new/tiberium/damage.rst:14
+msgid ""
+"Units killed by Tiberium Damage may convert into a Visceroid. See "
+":ref:`Visceroids <visceroids>`"
+msgstr ""
+
+#: ../new/tiberium/damage.rst:21
+msgid "Enabling Tiberium Damage"
+msgstr ""
+
+#: ../new/tiberium/damage.rst:23
+msgid ""
+":game:`Ares` requires a new tag to be set to enable the Damage feature, "
+"and it does no longer damage units that are positioned above "
+":tag:`[General]HoverHeight`."
+msgstr ""
+
+#: ../new/tiberium/damage.rst:30
+msgid ":tagdef:`[General]TiberiumDamageEnabled=boolean`"
+msgstr ""
+
+#: ../new/tiberium/damage.rst:28
+msgid ""
+"Whether tiberium damages units that are not tiberium proof. Required for "
+"the following tags to work. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/tiberium/damage.rst:33
+msgid "Who gets damaged"
+msgstr ""
+
+#: ../new/tiberium/damage.rst:35
+msgid ""
+"All units that are not tiberium proof (neither through the tag "
+":tag:`TiberiumProof` nor through the :value:`TIBERIUM_PROOF` veteran "
+"ability) will be damaged when entering a cell containing tiberium. It "
+"does not matter how long they stay in a cell."
+msgstr ""
+
+#: ../new/tiberium/damage.rst:43
+msgid ":tagdef:`[TechnoType]TiberiumProof=boolean`"
+msgstr ""
+
+#: ../new/tiberium/damage.rst:41
+msgid ""
+"Whether this unit is immune to tiberium damage. Defaults to :value:`no` "
+"for :type:`InfantryTypes`, to :value:`yes` otherwise."
+msgstr ""
+
+#: ../new/tiberium/damage.rst:46
+msgid "Damage and Warhead"
+msgstr ""
+
+#: ../new/tiberium/damage.rst:48
+msgid ""
+"The damage and the warhead used to deliver it can be customized for each "
+"of the :type:`Tiberiums`. This allows to have damaging and non-damaging "
+"resources at the same time, for example Tiberium and ore respectively."
+msgstr ""
+
+#: ../new/tiberium/damage.rst:55
+msgid ":tagdef:`[Tiberium]Damage=integer`"
+msgstr ""
+
+#: ../new/tiberium/damage.rst:53
+msgid ""
+"The damage a unit that is not tiberium proof receives from entering a "
+"cell containing this type of Tiberium. Defaults to :value:`Power / 10`, "
+"but at least :value:`1`."
+msgstr ""
+
+#: ../new/tiberium/damage.rst:62
+msgid ":tagdef:`[Tiberium]Warhead=warhead`"
+msgstr ""
+
+#: ../new/tiberium/damage.rst:58
+msgid ""
+"The warhead that deals the Tiberium Damage. Defaults to "
+":tag:`[CombatDamage]C4Warhead`."
+msgstr ""
+
+#: ../new/tiberium/damage.rst:61
+msgid "This is not used for the Tiberium Explosive feature."
+msgstr ""
+
+#: ../new/tiberium/damage.rst:72
+msgid "Visceroids"
+msgstr ""
+
+#: ../new/tiberium/damage.rst:74
+msgid "Visceroids have been recreated partially."
+msgstr ""
+
+#: ../new/tiberium/damage.rst:76
+msgid ""
+"They will move around the map, and when two units with "
+":tag:`SmallVisceroid=yes` (not :tag:`[General]SmallVisceroid`) meet, they"
+" will merge into a unit of type :tag:`[General]LargeVisceroid`."
+msgstr ""
+
+#: ../new/tiberium/damage.rst:80
+msgid ""
+"Visceroids will not yet retreat to a patch of tiberium to regenerate "
+"health when badly damaged."
+msgstr ""
+
+#: ../new/tiberium/damage.rst:83
+msgid ""
+"When units die because of Tiberium Damage, there is a chance they will "
+"spawn a unit of type :tag:`[General]SmallVisceroid` (if defined). This "
+"logic requires :tag:`[Basic]TiberiumDeathToVisceroid=yes` in a map to "
+"work. The Visceroid is owned by the country :value:`Neutral`."
+msgstr ""
+
+#: ../new/tiberium/damage.rst:88
+msgid ""
+":game:`Ares` adds a global tag that can be customized for each type. The "
+"global tag existed since :game:`Tiberian Sun` but did not do anything."
+msgstr ""
+
+#: ../new/tiberium/damage.rst:93
+msgid ":tagdef:`[General]TiberiumTransmogrify=integer - percent`"
+msgstr ""
+
+#: ../new/tiberium/damage.rst:92
+msgid ""
+"Chance of which a unit dying of tiberium damage transforms into a "
+":tag:`[General]SmallVisceroid`. Defaults to :value:`0`."
+msgstr ""
+
+#: ../new/tiberium/damage.rst:98
+msgid ":tagdef:`[TechnoType]TiberiumTransmogrify=integer - percent`"
+msgstr ""
+
+#: ../new/tiberium/damage.rst:96
+msgid ""
+"Chance of which a unit of this type dying of tiberium damage transforms "
+"into a :tag:`[General]SmallVisceroid`. Defaults to "
+":tag:`[General]TiberiumTransmogrify`."
+msgstr ""
+

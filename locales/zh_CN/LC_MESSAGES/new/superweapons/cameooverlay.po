@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/superweapons/cameooverlay.rst:8
+msgid "Cameo Overlay Texts"
+msgstr ""
+
+#: ../new/superweapons/cameooverlay.rst:10
+msgid ""
+"These texts will overlay the cameo in the sidebar to show the super "
+"weapon's current status."
+msgstr ""
+
+#: ../new/superweapons/cameooverlay.rst:14
+msgid ":tagdef:`[SuperWeapon]Text.Hold=CSF label`"
+msgstr ""
+
+#: ../new/superweapons/cameooverlay.rst:14
+msgid ""
+"Overlay displayed in case this super weapon is powered and can't "
+"currently charge because the building is shut down."
+msgstr ""
+
+#: ../new/superweapons/cameooverlay.rst:17
+msgid ":tagdef:`[SuperWeapon]Text.Ready=CSF label`"
+msgstr ""
+
+#: ../new/superweapons/cameooverlay.rst:17
+msgid ""
+"Overlay displayed in case this super weapon is fully charged and ready to"
+" be launched."
+msgstr ""
+
+#: ../new/superweapons/cameooverlay.rst:20
+msgid ":tagdef:`[SuperWeapon]Text.Charging=CSF label`"
+msgstr ""
+
+#: ../new/superweapons/cameooverlay.rst:20
+msgid ""
+"Overlay displayed in case this super weapon has :tag:`UseChargeDrain=yes`"
+" set and can be fired, but it isn't fully charged yet."
+msgstr ""
+
+#: ../new/superweapons/cameooverlay.rst:23
+msgid ":tagdef:`[SuperWeapon]Text.Active=CSF label`"
+msgstr ""
+
+#: ../new/superweapons/cameooverlay.rst:23
+msgid ""
+"Overlay displayed in case this super weapon has :tag:`UseChargeDrain=yes`"
+" set and is currently enabled and draining."
+msgstr ""
+
+#: ../new/superweapons/cameooverlay.rst:28
+msgid ":tagdef:`[SuperWeapon]Text.Preparing=CSF label`"
+msgstr ""
+
+#: ../new/superweapons/cameooverlay.rst:26
+msgid ""
+"Overlay displayed in case none of the above texts are shown for this "
+"super weapon. That is, for example, charging for super weapons not using "
+"charge drain."
+msgstr ""
+

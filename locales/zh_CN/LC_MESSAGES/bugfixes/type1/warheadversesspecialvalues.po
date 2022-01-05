@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../bugfixes/type1/warheadversesspecialvalues.rst:9
+msgid "Warhead :captiontag:`Verses`' Special Values"
+msgstr ""
+
+#: ../bugfixes/type1/warheadversesspecialvalues.rst:11
+msgid ""
+"The :tag:`Verses` flag (which is used on warheads to manipulate the "
+"damage dealt versus different armor types) has three special-case values "
+"used to define additional behavior:"
+msgstr ""
+
+#: ../bugfixes/type1/warheadversesspecialvalues.rst:15
+msgid ":value:`0%`"
+msgstr ""
+
+#: ../bugfixes/type1/warheadversesspecialvalues.rst:16
+msgid "means no force fire, no retaliate, no passive acquire"
+msgstr ""
+
+#: ../bugfixes/type1/warheadversesspecialvalues.rst:17
+msgid ":value:`1%`"
+msgstr ""
+
+#: ../bugfixes/type1/warheadversesspecialvalues.rst:18
+msgid "means no retaliate, no passive acquire"
+msgstr ""
+
+#: ../bugfixes/type1/warheadversesspecialvalues.rst:20
+msgid ":value:`2%`"
+msgstr ""
+
+#: ../bugfixes/type1/warheadversesspecialvalues.rst:20
+msgid "means no passive acquire"
+msgstr ""
+
+#: ../bugfixes/type1/warheadversesspecialvalues.rst:22
+msgid ""
+"However, a bug with the way the floating-point values are compared means "
+"that these behaviors were not always applied consistently. :game:`Ares` "
+"fixes this bug so the behavior should always be consistent now. The "
+"special behaviors can also now be toggled independently of the "
+":tag:`Verses` value (see :doc:`/new/additionalarmortypesandverses`)."
+msgstr ""
+

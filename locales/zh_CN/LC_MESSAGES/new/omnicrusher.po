@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/omnicrusher.rst:8
+msgid ":captiontag:`OmniCrusher` Enhancements"
+msgstr ""
+
+#: ../new/omnicrusher.rst:10
+msgid ""
+":tag:`OmniCrusher=yes` units are allowed to overrun enemies, and units "
+"are eager to try that when ordered to attack a victim, or when "
+"retaliating against an enemy unit firing at it. This mechanism is "
+"sometimes useful, but sometimes it is not. Like when a Battle Fortress "
+"deliberately closes in on a group of enemy tanks, and is then lured into "
+"an ambush and overpowered itself."
+msgstr ""
+
+#: ../new/omnicrusher.rst:16
+msgid ":game:`Ares` allows deactivating the aggressive behavior."
+msgstr ""
+
+#: ../new/omnicrusher.rst:24
+msgid ":tagdef:`[TechnoType]OmniCrusher.Aggressive=boolean`"
+msgstr ""
+
+#: ../new/omnicrusher.rst:19
+msgid ""
+"Whether or not a unit should try to crush its target aggressively. If "
+":value:`no`, the unit will not try to come as close as possible to the "
+"target to finally crush it. Requires :tag:`OmniCrusher=yes`. Defaults to "
+":tag:`yes`."
+msgstr ""
+
+#: ../new/omnicrusher.rst:23
+msgid ""
+"Only supported if :tag:`OmniCrusher=yes` is set. The default might change"
+" in a later version."
+msgstr ""
+

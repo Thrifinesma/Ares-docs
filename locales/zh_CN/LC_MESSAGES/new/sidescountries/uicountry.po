@@ -1,0 +1,245 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/sidescountries/uicountry.rst:4
+msgid "User Interface"
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:13
+msgid "Display and Selection Chance"
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:17
+msgid ":tagdef:`[Country]MenuText.Status=CSF label`"
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:16
+msgid ""
+"Brief description of the country, displayed in the status bar of the "
+"country selection screen when the player mouse-overs that country in the "
+"country selection drop-down list."
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:26
+msgid ":tagdef:`[Country]ListIndex=integer`"
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:20
+msgid ""
+"Specifies which position this country should appear in the country "
+"dropdown list. If two or more countries use the same :tag:`ListIndex`, "
+"the order is defined by their appearance in the :tag:`[Countries]` "
+"enumeration. Countries with negative values will not appear in the "
+"dropdown list; you can use this to effectively hide countries without "
+"having to change the :tag:`[Countries]` list and thus without risking "
+"game crashes. To also prevent such countries from being selected "
+"randomly, set :tag:`RandomSelectionWeight=0`. Defaults to :value:`100`."
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:32
+msgid ":tagdef:`[Country]RandomSelectionWeight=integer`"
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:29
+msgid ""
+"Specifies how likely it is that this country will be randomly selected "
+"when a player chooses 'Random'. The probability of this country being "
+"picked is calculated by dividing this country's "
+":tag:`RandomSelectionWeight` value by the sum of all :tag:`Multiplay=yes`"
+" countries' :tag:`RandomSelectionWeight` values. Defaults to :value:`1`."
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:37
+msgid ":tagdef:`[Country]AIRandomSelectionWeight=integer`"
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:35
+msgid ""
+"The random selection weight used for AI players. This can be used to make"
+" it more or less likely for AI players to pick this country randomly. "
+"Defaults to :tag:`RandomSelectionWeight`."
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:48
+msgid "Flags and Observer Graphics"
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:52
+msgid ":tagdef:`[Country]File.Flag=filename, *including* the .pcx extension`"
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:51
+msgid ""
+"The PCX file to use for the country's flag, in the format "
+"\"filename.pcx\". If the flag is not set or the file does not exist, a "
+"warning is written into the debug log."
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:56
+msgid ""
+":tagdef:`[Country]File.ObserverBackground=filename, *including* the .pcx "
+"or .shp extension`"
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:55
+msgid ""
+"The SHP or PCX file to use for the country's background in observer mode,"
+" in the format \"filename.shp\" or \"filename.pcx\". The size should be "
+"121x96. The SHP file will be drawn using :file:`observer.pal`."
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:59
+msgid ""
+":tagdef:`[Country]File.ObserverFlag=filename, *including* the .pcx or "
+".shp extension`"
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:59
+msgid ""
+"The SHP or PCX file to use for the country's flag in observer mode, in "
+"the format \"filename.shp\" or \"filename.pcx\"."
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:64
+msgid ":tagdef:`[Country]File.ObserverFlagAltPalette=boolean`"
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:62
+msgid ""
+"If :value:`yes`, draw SHP file :tag:`File.ObserverFlag=` using "
+":file:`yrii.pal`. Otherwise the SHP file will be drawn using "
+":file:`observer.pal`."
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:76
+msgid "Loading Screen"
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:78
+msgid "Loading screen background options:"
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:81
+msgid ""
+":tagdef:`[Country]File.LoadScreen=filename, *including* the .shp "
+"extension`"
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:81
+msgid ""
+"The SHP file to use for the country's loading screen, in the format "
+"\"filename.shp\"."
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:85
+msgid ""
+":tagdef:`[Country]File.LoadScreenPAL=filename, *including* the .pal "
+"extension`"
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:84
+msgid ""
+"The palette file to use for the country's loading screen, in the format "
+"\"filename.pal\"."
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:87
+msgid "Options regarding the text drawn on the background:"
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:91
+msgid ":tagdef:`[Country]LoadScreenText.Name=CSF label`"
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:90
+msgid ""
+"Name of the country, displayed on the loading screen (where a map of the "
+"country is usually shown). For example, "
+":tag:`LoadScreenText.Name=Name:Americans`."
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:94
+msgid ":tagdef:`[Country]LoadScreenText.SpecialName=CSF label`"
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:94
+msgid ""
+"Name of the country's special weapon, displayed on the loading screen. "
+"For example, :tag:`LoadScreenText.SpecialName=Name:apara`."
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:97
+msgid ":tagdef:`[Country]LoadScreenText.Brief=CSF label`"
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:97
+msgid ""
+"Description of the country and its special weapon, displayed on the "
+"loading screen. For example, :tag:`LoadScreenText.Brief=loadbrief:usa`."
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:103
+msgid ":tagdef:`[Country]LoadScreenText.Color=Color scheme`"
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:100
+msgid ""
+"Text on the multiplayer loading screens for this country will be drawn "
+"using this color from the :tag:`[Colors]` list. Defaults to "
+":value:`AlliedLoad` for the first side, to :value:`SovietLoad` for the "
+"second side, and to :value:`YuriLoad` or :value:`Purple` for the third "
+"side."
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:105
+msgid ""
+"The music theme for multiplayer matches can be customized with the "
+"following tag. For single player mission loading themes, please see "
+":doc:`Campaign Load Screen </ui-features/campaignloadscreen>`."
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:111
+msgid ":tagdef:`[Country]LoadingTheme=theme id`"
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:110
+msgid ""
+"The theme playing for a player of this country while the multiplayer "
+"match is loading. Defaults to :tag:`[Side]LoadingTheme`."
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:120
+msgid "Taunts"
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:127
+msgid ""
+":tagdef:`[Country]File.Taunt=filename, *including* the Taunts\\ directory"
+" and .wav extension`"
+msgstr ""
+
+#: ../new/sidescountries/uicountry.rst:123
+msgid ""
+"Path of the files to use for the country's taunts, in the format "
+"\"Taunts\\\\filename~~.wav\". The filename specified *must* include "
+"\"`~~`\", which will be substituted for the taunt ID (01 through 08). For"
+" example, :tag:`File.Taunt=Taunts\\\\tauam~~.wav` will make the game load"
+" taunts :file:`tauam01.wav` through :file:`tauam08.wav`."
+msgstr ""
+

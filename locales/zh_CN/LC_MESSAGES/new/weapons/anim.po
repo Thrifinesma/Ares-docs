@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/weapons/anim.rst:8
+msgid ":captiontag:`Anim` for Facings"
+msgstr ""
+
+#: ../new/weapons/anim.rst:10
+msgid ""
+":tag:`Anim` supports either a single animation as muzzle flash when this "
+"weapon fires, or a set of 8 animations to select from depending on the "
+"facing the weapon was fired in."
+msgstr ""
+
+#: ../new/weapons/anim.rst:14
+msgid ""
+"Now you can also define 16 or 32 animations, without any further change. "
+":game:`Ares` will pick this up automatically and use the largest power of"
+" 2 equal to or larger than 8 to select the best animation from for each "
+"firing direction."
+msgstr ""
+
+#: ../new/weapons/anim.rst:19
+msgid ""
+"Fewer than 8 defined animations will result in only the first animation "
+"being used."
+msgstr ""
+

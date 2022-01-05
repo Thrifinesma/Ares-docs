@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/weapons/ammo.rst:8
+msgid ":captiontag:`Ammo`"
+msgstr ""
+
+#: ../new/weapons/ammo.rst:10
+msgid ""
+"Weapons no longer have to use up one round of ammunition when firing. It "
+"is now possible to create weapons that require more rounds as well as "
+"weapons that do not use up a single round of ammunition."
+msgstr ""
+
+#: ../new/weapons/ammo.rst:14
+msgid ""
+"This way, a unit with a powerful primary weapon could fire only a few "
+"shots at buildings for example, while still having a weaker secondary to "
+"fend off tanks and infantry."
+msgstr ""
+
+#: ../new/weapons/ammo.rst:18
+msgid ""
+"Firing a weapon that uses up no ammunition does not reset the reload "
+"timer."
+msgstr ""
+
+#: ../new/weapons/ammo.rst:28
+msgid ":tagdef:`[Weapon]Ammo=integer`"
+msgstr ""
+
+#: ../new/weapons/ammo.rst:21
+msgid ""
+"The rounds of ammunition needed to fire this weapon. If fewer than the "
+"required rounds are present, the unit will not fire and wait for the ammo"
+" to reload. Defaults to :value:`1`."
+msgstr ""
+
+#: ../new/weapons/ammo.rst:25
+msgid "This feature does not support :type:`AircraftTypes`."
+msgstr ""
+
+#: ../new/weapons/ammo.rst:27
+msgid ""
+"Units with :tag:`ManualReload=yes` will still target enemies and wait for"
+" reloading, which never happens."
+msgstr ""
+
+#: ../new/weapons/ammo.rst:30
+msgid ""
+"To make units and structures automatically switch to another weapon when "
+"out of ammo, see :doc:`NoAmmoWeapon </new/noammoweapon>`."
+msgstr ""
+

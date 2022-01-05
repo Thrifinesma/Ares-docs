@@ -1,0 +1,35 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../bugfixes/type2/infantrylostinspecialfunctionbuildings.rst:10
+msgid "Infantry Lost In Special Function Buildings"
+msgstr ""
+
+#: ../bugfixes/type2/infantrylostinspecialfunctionbuildings.rst:12
+msgid ""
+"Infantry sent into an Armory or old-style Tech Hospital emerge a few "
+"moments later, having had the relevant benefit applied (e.g. promotion or"
+" healing). However, if the building were destroyed, sold or undeployed "
+"whilst the :type:`InfantryType` were still inside then that "
+":tag:`InfantryType` would remain in 'limbo' whilst still counting towards"
+" the owning player's units (e.g. defeat conditions, build limit, etc). "
+":game:`Ares` will make sure that such :type:`InfantryTypes` are ejected "
+"from the building in those situations."
+msgstr ""
+

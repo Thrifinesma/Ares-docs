@@ -1,0 +1,189 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/warheads/ioncannon.rst:4
+msgid "Ion Cannon"
+msgstr ""
+
+#: ../new/warheads/ioncannon.rst:6
+msgid ""
+"Any warhead can launch an Ion Cannon effect in :game:`Ares`. The Ion "
+"Cannon consists of a beam and an impact animation on the ground as well "
+"as damage delivery using a custom warhead."
+msgstr ""
+
+#: ../new/warheads/ioncannon.rst:16
+msgid "Ion Cannon Blast"
+msgstr ""
+
+#: ../new/warheads/ioncannon.rst:20
+msgid ":tagdef:`[Warhead]IonCannon=boolean`"
+msgstr ""
+
+#: ../new/warheads/ioncannon.rst:19
+msgid ""
+"Whether Ion Cannon logic will be activated when this warhead impacts. "
+"Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/warheads/ioncannon.rst:22
+msgid "The following settings are available for Ion Cannon warheads."
+msgstr ""
+
+#: ../new/warheads/ioncannon.rst:28
+msgid ":tagdef:`[Warhead]IonCannon.Blast=Animation`"
+msgstr ""
+
+#: ../new/warheads/ioncannon.rst:25
+msgid ""
+"The optional first animation on the impact site. This is only used if the"
+" warhead impacts on land. If the impact site is on water, the last "
+"animation from the :tag:`[CombatDamage]SplashList` is used. Set to "
+":value:`none` to deactivate. Defaults to :tag:`[General]IonBlast`."
+msgstr ""
+
+#: ../new/warheads/ioncannon.rst:32
+msgid ":tagdef:`[Warhead]IonCannon.Beam=Animation`"
+msgstr ""
+
+#: ../new/warheads/ioncannon.rst:31
+msgid ""
+"The optional second animation on the impact site. Set to :value:`none` to"
+" deactivate. Defaults to :tag:`[General]IonBeam`."
+msgstr ""
+
+#: ../new/warheads/ioncannon.rst:36
+msgid ":tagdef:`[Warhead]IonCannon.Warhead=Warhead`"
+msgstr ""
+
+#: ../new/warheads/ioncannon.rst:35
+msgid ""
+"The optional warhead to deliver the damage. Set to :value:`none` to deal "
+"no Ion Cannon damage. Defaults to :tag:`[CombatDamage]IonCannonWarhead`."
+msgstr ""
+
+#: ../new/warheads/ioncannon.rst:40
+msgid ":tagdef:`[Warhead]IonCannon.Damage=integer - hitpoints`"
+msgstr ""
+
+#: ../new/warheads/ioncannon.rst:39
+msgid ""
+"The damage dealt by the Ion Cannon warhead. Defaults to "
+":tag:`[CombatDamage]IonCannonDamage`."
+msgstr ""
+
+#: ../new/warheads/ioncannon.rst:43
+msgid ":tagdef:`[Warhead]IonCannon.Rock=boolean`"
+msgstr ""
+
+#: ../new/warheads/ioncannon.rst:43
+msgid "Whether voxel units are rocked by the impact. Defaults to :value:`yes`."
+msgstr ""
+
+#: ../new/warheads/ioncannon.rst:52
+msgid "Ripple Effect"
+msgstr ""
+
+#: ../new/warheads/ioncannon.rst:54
+msgid ""
+"The shockwave visual effect can be activated independently of a warhead "
+"being an Ion Cannon."
+msgstr ""
+
+#: ../new/warheads/ioncannon.rst:76
+msgid ":tagdef:`[Warhead]IonCannon.Ripple=integer - frames`"
+msgstr ""
+
+#: ../new/warheads/ioncannon.rst:58
+msgid ""
+"This generates a visual shockwave when the warhead detonates, identical "
+"to the one produced by :game:`Tiberian Sun`'s Ion Cannon. Note that this "
+"is a visual effect only. Valid values range from :value:`0` (off) to "
+":value:`79` (max effect). Defaults to :value:`79` for "
+":tag:`IonCannon=yes`, to :value:`0` otherwise."
+msgstr ""
+
+#: ../new/warheads/ioncannon.rst:64
+msgid "Below are listed some results of modifying the tag values."
+msgstr ""
+
+#: ../new/warheads/ioncannon.rst:66
+msgid ":tag:`IonCannon.Ripple=1` - Forget it, nothing."
+msgstr ""
+
+#: ../new/warheads/ioncannon.rst:67
+msgid ":tag:`IonCannon.Ripple=5` - Target cell, only voxel rippling"
+msgstr ""
+
+#: ../new/warheads/ioncannon.rst:68
+msgid ":tag:`IonCannon.Ripple=8` - Target cell, both voxel and SHP rippling."
+msgstr ""
+
+#: ../new/warheads/ioncannon.rst:69
+msgid ":tag:`IonCannon.Ripple=10` - 1 cell radius"
+msgstr ""
+
+#: ../new/warheads/ioncannon.rst:70
+msgid ":tag:`IonCannon.Ripple=15` - 2 cell radius"
+msgstr ""
+
+#: ../new/warheads/ioncannon.rst:71
+msgid ":tag:`IonCannon.Ripple=20` - 3 cell radius"
+msgstr ""
+
+#: ../new/warheads/ioncannon.rst:72
+msgid ":tag:`IonCannon.Ripple=25` - 3 cell radius"
+msgstr ""
+
+#: ../new/warheads/ioncannon.rst:73
+msgid ""
+":tag:`IonCannon.Ripple=28` - 3 cell unit-rippling, 4 cell terrain "
+"rippling radius"
+msgstr ""
+
+#: ../new/warheads/ioncannon.rst:75
+msgid ""
+":tag:`IonCannon.Ripple=30` and onwards - 3 cell unit-rippling, 5 cell "
+"terrain-rippling radius"
+msgstr ""
+
+#: ../new/warheads/ioncannon.rst:85
+msgid "Bridge Destroyer"
+msgstr ""
+
+#: ../new/warheads/ioncannon.rst:87
+msgid ""
+"A hardcoded property of the original Ion Cannon from :game:`Tiberian Sun`"
+" was that it instantly destroyed bridges it hit. This special logic was "
+"only applied for the warhead defined as :tag:`IonCannonWarhead`. With "
+":game:`Ares`, this feature can be used on any warhead, and turned off for"
+" the original warhead."
+msgstr ""
+
+#: ../new/warheads/ioncannon.rst:95
+msgid ":tagdef:`[Warhead]BridgeAbsoluteDestroyer=boolean`"
+msgstr ""
+
+#: ../new/warheads/ioncannon.rst:93
+msgid ""
+"Whether this warhead immediately destroys a bridge it hits. Requires "
+":tag:`Wall=yes`. Defaults to :value:`yes` for "
+":tag:`[CombatDamage]IonCannonWarhead`, to :value:`no` otherwise."
+msgstr ""
+

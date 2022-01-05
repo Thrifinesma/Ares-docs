@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/harvesters.rst:8
+msgid "Harvesters, Slave Miners, and Slaves"
+msgstr ""
+
+#: ../new/harvesters.rst:10
+msgid ""
+"The following new tags deglobalize settings that define harvesting "
+"behavior like scan ranges for Harvesters and Slaves and intervals in "
+"which to wake up Slave Miners."
+msgstr ""
+
+#: ../new/harvesters.rst:17
+msgid ":tagdef:`[TechnoType]Harvester.LongScan=integer - cells`"
+msgstr ""
+
+#: ../new/harvesters.rst:15
+msgid ""
+"Overrides the distance to consider for long scans. For "
+":tag:`Harvester=yes` units, defaults to :tag:`[General]TiberiumLongScan`."
+" For Slave Miners, defaults to :tag:`[General]SlaveMinerLongScan`."
+msgstr ""
+
+#: ../new/harvesters.rst:23
+msgid ":tagdef:`[TechnoType]Harvester.ShortScan=integer - cells`"
+msgstr ""
+
+#: ../new/harvesters.rst:20
+msgid ""
+"Overrides the distance to consider for short scans. For "
+":tag:`Harvester=yes` units, defaults to "
+":tag:`[General]TiberiumShortScan`. For Slave Miners, defaults to "
+":tag:`[General]SlaveMinerShortScan`, and for Slaves defaults to "
+":tag:`[General]SlaveMinerSlaveScan`."
+msgstr ""
+
+#: ../new/harvesters.rst:27
+msgid ":tagdef:`[BuildingType]Harvester.ScanCorrection=integer - cells`"
+msgstr ""
+
+#: ../new/harvesters.rst:26
+msgid ""
+"Overrides the distance to consider better when scooting forward. For "
+"Slave Miner buildings only. Defaults to "
+":tag:`[General]SlaveMinerScanCorrection`."
+msgstr ""
+
+#: ../new/harvesters.rst:33
+msgid ":tagdef:`[VehicleType]Harvester.TooFarDistance=integer - cells`"
+msgstr ""
+
+#: ../new/harvesters.rst:30
+msgid ""
+"Overrides the distance to consider too far to reserve a refinery. "
+"Requires :tag:`Harvester=yes`. Defaults to "
+":tag:`[General]ChronoHarvTooFarDistance` for :tag:`Teleporter=yes` units,"
+" otherwise to :tag:`[General]HarvesterTooFarDistance`."
+msgstr ""
+
+#: ../new/harvesters.rst:38
+msgid ":tagdef:`[VehicleType]Harvester.KickDelay=integer - frames`"
+msgstr ""
+
+#: ../new/harvesters.rst:36
+msgid ""
+"Overrides the interval in which to wake up the Slave Miner. For Slave "
+"Miner unis only. Use :value:`-1` to not wake up the Slave Miner "
+"automatically. Defaults to :tag:`[General]SlaveMinerKickFrameDelay`."
+msgstr ""
+

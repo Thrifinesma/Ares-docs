@@ -1,0 +1,393 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/buildings/urbancombattrenches.rst:6
+msgid "Urban Combat - Trenches"
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:8
+msgid ""
+"This section covers several new features that were designed together in "
+"order to allow mod authors to add occupiable trenches to the game. These "
+"features do not all have to be used together to implement trenches though"
+" - each feature has been designed to be customizable and can be used "
+"separately."
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:13
+msgid ""
+"This means that these individual features do not distinguish between "
+"buildings that are a trench and buildings that are not. It is important "
+"that you understand how each new flag works - both on its own and in "
+"conjunction with other trench-related flags."
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:25
+msgid "Pass Through"
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:27
+msgid ""
+"Urban Combat buildings can now specify what percentage of attacks against"
+" them will 'pass through' to the occupants inside -- damaging them rather"
+" than the building itself."
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:35
+msgid ":tagdef:`[BuildingType]UC.PassThrough=float - chance`"
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:32
+msgid ""
+"The percentage of shots that will pass through to the occupants (and "
+"therefore not damage this building). Defaults to :value:`0%` (i.e. all "
+"shots damage the building / no shots damage the occupants). When there "
+"are no occupants inside then :tag:`UC.PassThrough` will be ignored (i.e. "
+"all shots damage the building)."
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:39
+msgid ":tagdef:`[BuildingType]UC.FatalRate=float - chance`"
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:38
+msgid ""
+"In the event that a shot has passed through, the percentage of those "
+"shots that will instantly kill one occupant, disregarding the weapon "
+"entirely. Defaults to :value:`0%`."
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:44
+msgid ":tagdef:`[BuildingType]UC.DamageMultiplier=float - multiplier`"
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:42
+msgid ""
+"If a shot has passed through but isn't necessarily fatal then one "
+"occupant will be damaged. The damage dealt by the weapon will be "
+"multiplied by :tag:`UC.DamageMultiplier`. Defaults to :value:`100%` (i.e."
+" no change to the damage dealt by the weapon)."
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:54
+msgid ":tagdef:`[Projectile]SubjectToTrenches=boolean`"
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:47
+msgid ""
+"Whether or not this projectile will override the normal "
+":value:`UC.PassThrough` chance on targeted buildings. If the projectile "
+"has :tag:`SubjectToTrenches=no` set, and the target building has "
+":tag:`UC.PassThrough` set greater than zero, then the building will be "
+"treated as if it had :tag:`UC.PassThrough=100%`, when hit by this "
+"projectile. If :tag:`SubjectToTrenches=yes` is set (default), then the "
+"normal :tag:`UC.PassThrough` chance will be used when the building is hit"
+" by this projectile."
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:56
+msgid ""
+":tag:`SubjectToTrenches` was very much intended for trenches - a "
+"Grenadier, for example, would easily be able to drop their grenade into "
+"an open trench and would therefore definitely harm the occupants."
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:60
+msgid ""
+"The name :tag:`SubjectToTrenches` is misleading if you are not thinking "
+"about trenches. This has an effect on all occupiable buildings with \\ "
+":tag:`UC.PassThrough` > :value:`0%`."
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:80
+msgid "Squatters' Rights"
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:82
+msgid ""
+"You can now specify that Battle Bunkers, for example, can be captured by "
+"enemy infantry just by having them walk in and garrison the building as "
+"if it were their own."
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:89
+msgid ":tagdef:`[BuildingType]Bunker.Raidable=boolean`"
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:87
+msgid ""
+"Whether or not this building can be garrisoned by an enemy player's "
+"infantry, provided the building is not already occupied."
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:91
+msgid ""
+"If :tag:`Bunker.Raidable=yes` is set and the building is empty then the "
+"building can be garrisoned by any player's infantry. When another player "
+"garrisons the building, ownership is transferred to that player. At this "
+"point the building can only be further garrisoned by the player whose "
+"troops are inside. If the occupants leave the building then ownership of "
+"the building is transferred back to its original owner. Whilst a building"
+" is held by a player that is not the \"true\" owner, that building cannot"
+" be sold."
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:111
+msgid "Advanced Rubble"
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:113
+msgid ""
+"If you really hit a trench hard enough to destroy it you're only doing "
+"one of two things; either you're turning a small hole into a larger hole,"
+" or you're making it collapse. Either way, you don't really remove the "
+"trench from the battlefield - just render it unusable. It will be easier "
+"to re-dig a trench there than on untouched soil, and, on the other hand, "
+"you can't just build there like nothing ever happened."
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:120
+msgid ""
+"Note that Engineers will not be 'used up' by this repair process - they "
+"keep existing outside of the trench. This is very much intended for "
+"trenches: an Engineer would not be repairing/rebuilding an entire "
+"building, just re-digging a trench so his work would not be too "
+"exhausting."
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:125
+msgid ""
+"\\ :game:`Ares` enforces the foundations of :tag:`Rubble.Destroyed=` and "
+":tag:`Rubble.Intact=` to match those of the original "
+":type:`BuildingType`. Custom foundations never match built-in "
+"foundations. A fatal error will be raised if you do not comply with this "
+"requirement and the game will exit."
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:130
+msgid ""
+"Advanced Rubble is implemented in a similar way to other upgrade systems "
+"in :game:`Ares`. The first set is for converting a building to rubble:"
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:144
+msgid ":tagdef:`[BuildingType]Rubble.Destroyed=BuildingType`"
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:134
+msgid ""
+"The new :type:`BuildingType` that this :type:`BuildingType` will "
+"transform into upon destruction. By default the building will be created "
+"with maximum :tag:`Strength`. Engineers will always get the cursor "
+":value:`RepairTrench` on the building."
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:139
+msgid ""
+"Buildings that are used as rubble via `Rubble.Destroyed` are not allowed "
+"to be occupied or have passengers of any kind. Capturable rubble is not "
+"supported."
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:142
+msgid ""
+"Do not create loops using :tag:`Rubble.Destroyed`. This can freeze the "
+"game. A building cannot be its own rubble, neither directly or indirectly"
+" over one or more other :type:`BuildingTypes`."
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:148
+msgid ":tagdef:`[BuildingType]Rubble.Destroyed.Remove=boolean`"
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:147
+msgid ""
+"Whether the building should just disappear instead of being converted to "
+"rubble. Overrides :tag:`Rubble.Destroyed`. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:155
+msgid ""
+":tagdef:`[BuildingType]Rubble.Destroyed.Owner=enumeration "
+"default|civilian|special|neutral`"
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:151
+msgid ""
+"The country the destroyed building will belong to. :value:`default` is "
+"the current owner, :value:`civilian` is the first country from the side "
+"called :value:`Civilian`, :value:`special` and :value:`neutral` are the "
+"countries named :value:`Special` and :value:`Neutral` respectively. "
+"Defaults to :value:`default`."
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:161
+msgid ":tagdef:`[BuildingType]Rubble.Destroyed.Strength=integer`"
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:158
+#, python-format
+msgid ""
+"The health the rubble building is created with. Positive values up to "
+":tag:`Strength` are used directly. Negative values down to :value:`-99` "
+"are a percentage of full health, :value:`-1` meaning 1% of health. All "
+"other values mean full health. Defaults to :tag:`Strength`."
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:165
+msgid ":tagdef:`[BuildingType]Rubble.Destroyed.Anim=AnimationType`"
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:164
+msgid ""
+"An animation played when a building converted to rubble or removed. "
+"Defaults to :value:`none`."
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:167
+msgid ""
+"There is a second set of tags to recover a building from rubble, which "
+"mirrors the first set:"
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:173
+msgid ":tagdef:`[BuildingType]Rubble.Intact=BuildingType`"
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:171
+msgid ""
+"The new :type:`BuildingType` that this :type:`BuildingType` will "
+"transform into when it is repaired. The repaired building will be created"
+" with 1% :tag:`Strength`, unless set otherwise."
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:177
+msgid ":tagdef:`[BuildingType]Rubble.Intact.Remove=boolean`"
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:176
+msgid ""
+"Whether the building should just disappear instead of being recovered "
+"when an Engineer enters. Overrides :tag:`Rubble.Intact`. Defaults to "
+":value:`no`."
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:184
+msgid ""
+":tagdef:`[BuildingType]Rubble.Intact.Owner=enumeration "
+"default|civilian|special|neutral`"
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:180
+msgid ""
+"The country the recovered building will belong to. :value:`default` is "
+"the current owner, :value:`civilian` is the first country from the side "
+"called :value:`Civilian`, :value:`special` and :value:`neutral` are the "
+"countries named :value:`Special` and :value:`Neutral` respectively. "
+"Defaults to :value:`default`."
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:190
+msgid ":tagdef:`[BuildingType]Rubble.Intact.Strength=integer`"
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:187
+#, python-format
+msgid ""
+"The health the recovered building is created with. Positive values up to "
+":tag:`Strength` are used directly. Negative values down to :value:`-99` "
+"are a percentage of full health, :value:`-1` meaning 1% of health. All "
+"other values mean full health. Defaults to :tag:`-1`, 1% of "
+":tag:`Strength`."
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:194
+msgid ":tagdef:`[BuildingType]Rubble.Intact.Anim=AnimationType`"
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:193
+msgid ""
+"An animation played when a building is recovered or removed. Defaults to "
+":value:`none`."
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:206
+msgid "Traversing Trenches"
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:208
+msgid ""
+"A major concept of trenches is the ability for infantry to move from one "
+"segment of a trench to the next, on the basis that adjacent segments are "
+"connected and, in essence, the same trench."
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:212
+msgid ""
+"Trench buildings have to have a foundation of one by one, or they will "
+"not function properly."
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:218
+msgid ":tagdef:`[BuildingType]IsTrench=string - trench type ID`"
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:216
+msgid ""
+"Specifies a unique name for this particular trench so that the game knows"
+" that it is a trench for traversal purposes, and allows occupants to "
+"transfer between segments of the same trench type."
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:220
+msgid ""
+"For example, let's say you have :tag:`IsTrench=AlliedModern`. You have "
+"two segments of this trench adjacent to one another and one of these "
+"segments is garrisoned. If you select the garrisoned segment and then "
+"position the mouse cursor over the adjacent segment, you will get an "
+"'enter' cursor over the adjacent segment. Clicking now with the enter "
+"cursor showing will transfer the occupants from the garrisoned segment "
+"into the adjacent segment."
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:227
+msgid ""
+"There is no special image-handling with :tag:`IsTrench` logic (yet); you "
+"will not get nice rows of trenches with proper joins/closed off ends like"
+" you do with, say, walls or Laser Fences."
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:240
+msgid "Specifying the occupants of a building"
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:242
+msgid "You can now specify which infantries are allowed to enter into a building."
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:246
+msgid ":tagdef:`[BuildingType]CanBeOccupiedBy=list of InfantryTypes`"
+msgstr ""
+
+#: ../new/buildings/urbancombattrenches.rst:245
+msgid ""
+"Lists the units which are allowed to enter to this building. Requires "
+":tag:`CanBeOccupied=yes` and :tag:`Occupier=yes` on the infantry."
+msgstr ""
+

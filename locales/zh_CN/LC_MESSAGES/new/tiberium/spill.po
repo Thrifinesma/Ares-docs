@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/tiberium/spill.rst:6
+msgid "Tiberium Spill"
+msgstr ""
+
+#: ../new/tiberium/spill.rst:8
+msgid ""
+"Units carrying or buildings storing tiberium can spill their contents "
+"when destroyed. This behavior is applied by default in :game:`Tiberian "
+"Sun`, and it is optional in :game:`Ares`."
+msgstr ""
+
+#: ../new/tiberium/spill.rst:14
+msgid ":tagdef:`[TechnoType]TiberiumSpill=boolean`"
+msgstr ""
+
+#: ../new/tiberium/spill.rst:13
+msgid ""
+"Whether this techno with positive :tag:`Storage` will spill parts of its "
+"stored tiberium when destroyed. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/tiberium/spill.rst:16
+msgid ""
+"Buildings like Refineries and Silos will spill as many bails as they have"
+" stored. The spilled tiberium type depends on the tiberium stored inside "
+"the building."
+msgstr ""
+
+#: ../new/tiberium/spill.rst:20
+msgid ""
+"Units like Harvesters and Slaves can spill up to 9 bails of the first "
+"resource from the :type:`Tiberiums` list depending on fill state, but not"
+" more than the unit's :tag:`Storage`."
+msgstr ""
+

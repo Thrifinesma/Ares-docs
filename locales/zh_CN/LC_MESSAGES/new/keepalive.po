@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/keepalive.rst:6
+msgid "Keep Alive"
+msgstr ""
+
+#: ../new/keepalive.rst:8
+msgid ""
+"Originally, all :tag:`Insignificant=no` and :tag:`DontScore=no` buildings"
+" keep players alive in Short Games, excluding fake vehicles like Slave "
+"Miners and deployable tanks and artilleries, and only these, aside from "
+"vehicles in the :tag:`BaseUnit` list."
+msgstr ""
+
+#: ../new/keepalive.rst:13
+msgid ""
+"Using :game:`Ares` you can customize this set by including insignificant "
+"buildings, fake as well as actual vehicles and even infantry or aircraft,"
+" or by removing certain buildings that should not keep players alive "
+"despite being significant."
+msgstr ""
+
+#: ../new/keepalive.rst:18
+msgid ""
+"As long as a player owns at least one object that keeps alive, a Short "
+"Game will not count as lost."
+msgstr ""
+
+#: ../new/keepalive.rst:29
+msgid ":tagdef:`[TechnoType]KeepAlive=boolean`"
+msgstr ""
+
+#: ../new/keepalive.rst:22
+msgid ""
+"Whether an object of this type will keep the owning player alive, "
+"independent of :tag:`DontScore=` and :tag:`Insignificant=`. Defaults to "
+":value:`yes` for :tag:`Insignificant=no` and :tag:`DontScore=no` "
+"buildings, to :value:`no` otherwise (including all units, infantry and "
+"aircraft)."
+msgstr ""
+
+#: ../new/keepalive.rst:27
+msgid ""
+"No matter this setting, :type:`VehicleType`\\ s contained in the \\ "
+":tag:`[General]BaseUnit=` list will always keep the player alive during "
+"Short Games. This might change in the future."
+msgstr ""
+

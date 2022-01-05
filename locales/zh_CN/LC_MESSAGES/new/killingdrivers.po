@@ -1,0 +1,205 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/killingdrivers.rst:9
+msgid "Killing Drivers"
+msgstr ""
+
+#: ../new/killingdrivers.rst:11
+msgid ""
+"Requested as a \"Jarmen Kell\" functionality, this feature allows "
+"specific warheads to kill the driver of a vehicle instead of damaging it,"
+" and allows others to take over the now-neutral vehicle."
+msgstr ""
+
+#: ../new/killingdrivers.rst:21
+msgid "Warhead Settings"
+msgstr ""
+
+#: ../new/killingdrivers.rst:23
+msgid ""
+"This logic supports :tag:`CellSpread` and respects all immunities as any "
+"other conventional warhead like :tag:`ImmuneToPoison` as well as their "
+"veteran abilities, :tag:`AffectsAllies`, and :tag:`AffectsEnemies`."
+msgstr ""
+
+#: ../new/killingdrivers.rst:27
+msgid ""
+"Whether this effect is applied when no conventional damage is dealt can "
+"be customized. See :ref:`wh-effects`."
+msgstr ""
+
+#: ../new/killingdrivers.rst:33
+msgid ":tagdef:`[Warhead]KillDriver=boolean`"
+msgstr ""
+
+#: ../new/killingdrivers.rst:31
+msgid ""
+"Specifies whether this warhead kills the driver of the vehicle, instead "
+"of damaging the vehicle itself. The first passenger matching the "
+"vehicle's :tag:`Operator` is considered the driver. All other passengers "
+"will be ejected. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/killingdrivers.rst:35
+msgid ":tagdef:`[Warhead]KillDriver.Owner=enumeration - civilian,special,neutral`"
+msgstr ""
+
+#: ../new/killingdrivers.rst:36
+msgid ""
+"Specifies the house the units are assigned to. Defaults to "
+":value:`special`."
+msgstr ""
+
+#: ../new/killingdrivers.rst:39
+msgid ":tagdef:`[Warhead]KillDriver.KillBelowPercent=float`"
+msgstr ""
+
+#: ../new/killingdrivers.rst:38
+msgid ""
+"Specifies the percentage of health a unit cannot exceed to have its "
+"driver killed by a :tag:`KillDriver=yes` warhead. A unit above this "
+"health level is only damaged and the driver is not killed. Defaults to "
+":value:`100%`."
+msgstr ""
+
+#: ../new/killingdrivers.rst:42
+msgid ":tagdef:`[Warhead]KillDriver.Chance=float - percentage`"
+msgstr ""
+
+#: ../new/killingdrivers.rst:42
+msgid ""
+"Specifies the chance that a unit hit by a :tag:`KillDriver=yes` warhead "
+"will have its driver killed. Defaults to :value:`100%`."
+msgstr ""
+
+#: ../new/killingdrivers.rst:48
+msgid ":tagdef:`[Warhead]KillDriver.RemoveVeterancy=boolean`"
+msgstr ""
+
+#: ../new/killingdrivers.rst:45
+msgid ""
+"Whether a unit will revert to rookie rank when the driver is killed and "
+"the unit changes owner. Not applied if the owner does not change. "
+"Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/killingdrivers.rst:57
+msgid "Protected Drivers"
+msgstr ""
+
+#: ../new/killingdrivers.rst:59
+msgid "The following settings can make a unit immune to the Kill Driver logic:"
+msgstr ""
+
+#: ../new/killingdrivers.rst:63
+msgid ":tagdef:`[TechnoType]ProtectedDriver=boolean`"
+msgstr ""
+
+#: ../new/killingdrivers.rst:62
+msgid ""
+"Whether the driver of this vehicle cannot be killed, i.e. whether this "
+"vehicle is immune to :tag:`KillDriver`. :tag:`Organic=yes` and "
+":tag:`Natural=yes` units are always immune to :tag:`KillDriver`. Defaults"
+" to :value:`no`."
+msgstr ""
+
+#: ../new/killingdrivers.rst:71
+msgid ":tagdef:`[TechnoType]ProtectedDriver.MinHealth=double - percentage`"
+msgstr ""
+
+#: ../new/killingdrivers.rst:66
+msgid ""
+"The minimum health below which the driver of this unit can be killed. If "
+"the unit's health is above this, the driver cannot be killed. If "
+":tag:`KillDriver.KillBelowPercent` is also defined on the warhead, the "
+"minimum of the two values is used, that is, this tag can make a unit more"
+" resistant against driver killing weapons. Defaults to :value:`0.0` if "
+":tag:`ProtectedDriver=yes`, to :value:`1.0` otherwise."
+msgstr ""
+
+#: ../new/killingdrivers.rst:73
+msgid ""
+"Driver protection can also be granted by specifying "
+":value:`PROTECTED_DRIVER` under :tag:`VeteranAbilities` or "
+":tag:`EliteAbilities`. If specified, the unit's driver becomes protected "
+"unconditionally against :tag:`KillDriver` (which means that "
+":tag:`ProtectedDriver.MinHealth` is no longer checked), but not against "
+"damage or other special warhead effects."
+msgstr ""
+
+#: ../new/killingdrivers.rst:85
+msgid "Reclaim Vehicles"
+msgstr ""
+
+#: ../new/killingdrivers.rst:87
+msgid ""
+"Drivers are infantry units that can capture neutral vehicles, like ones "
+"that had their driver killed."
+msgstr ""
+
+#: ../new/killingdrivers.rst:95
+msgid ":tagdef:`[TechnoType]CanDrive=boolean`"
+msgstr ""
+
+#: ../new/killingdrivers.rst:91
+msgid ""
+"Whether this :type:`InfantryType` can act as the driver of vehicles whose"
+" driver has been killed, effectively reclaiming the vehicle. If the "
+"vehicle requires an :tag:`Operator` the infantry driver turns the unit "
+"and enters as passenger that can be ejected later, otherwise the driver "
+"is swallowed, becoming the permanent driver of the vehicle. Defaults to "
+":value:`no`."
+msgstr ""
+
+#: ../new/killingdrivers.rst:101
+msgid ":tagdef:`[TechnoType]CanBeDriven=boolean`"
+msgstr ""
+
+#: ../new/killingdrivers.rst:98
+msgid ""
+"Whether this unit can be reclaimed by a driver. If :value:`no`, this unit"
+" cannot be captured by a driver after the original driver has been "
+"killed. If :value:`yes`, ownership and other still might still prevent "
+"the unit from being captured. Defaults to :value:`yes`."
+msgstr ""
+
+#: ../new/killingdrivers.rst:106
+msgid ":tagdef:`[Country]CanBeDriven=boolean`"
+msgstr ""
+
+#: ../new/killingdrivers.rst:104
+msgid ""
+"Whether units owned by this country can be captured by "
+":tag:`CanDrive=yes` infantry. This can be used to place units owned by "
+"neutral countries on the map without them being capturable. Defaults to "
+":tag:`MultiplayPassive`."
+msgstr ""
+
+#: ../new/killingdrivers.rst:108
+msgid ""
+"Vehicle Thieves cannot drive neutralized vehicles by default, but \\ "
+":tag:`VehicleThief=yes` can be combined with :tag:`CanDrive=yes` without "
+"problems."
+msgstr ""
+
+#: ../new/killingdrivers.rst:112
+msgid "See :doc:`/new/hijackers` for more options that relate to :tag:`CanDrive`."
+msgstr ""
+

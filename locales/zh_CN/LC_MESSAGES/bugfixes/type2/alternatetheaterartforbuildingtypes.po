@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../bugfixes/type2/alternatetheaterartforbuildingtypes.rst:7
+msgid "Alternate Theater Art For :type:`BuildingTypes`"
+msgstr ""
+
+#: ../bugfixes/type2/alternatetheaterartforbuildingtypes.rst:9
+msgid ""
+":type:`BuildingTypes` whose :file:`artmd.ini` entry has "
+":tag:`NewTheater=yes` set would have the second letter of their SHP "
+"filenames replaced by another letter, depending on the theater of the "
+"current map. For example, :tag:`[GAWEAP]` uses SHP files named "
+":file:`GAWEAP*` on arctic maps, :file:`GTWEAP*` on temperate maps, "
+":file:`GDWEAP*` on desert maps and so on. In the event that a SHP file "
+"with the appropriate filename does not exist, the game falls back to "
+":file:`GGWEAP*`."
+msgstr ""
+
+#: ../bugfixes/type2/alternatetheaterartforbuildingtypes.rst:17
+msgid ""
+"However, in :game:`Yuri's Revenge` this filename-adjusting logic only "
+"works for :type:`BuildingTypes` whose :tag:`Image` ID starts with G, N, Y"
+" or C. :game:`Ares` extends this logic to work for :tag:`Image` IDs "
+"starting with any letter (A-Z or a-z)."
+msgstr ""
+

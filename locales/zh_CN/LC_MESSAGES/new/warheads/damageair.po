@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/warheads/damageair.rst:6
+msgid "Damage Airborne Units"
+msgstr ""
+
+#: ../new/warheads/damageair.rst:8
+msgid ""
+"Warheads detonating on the ground cause explosions that never affect "
+"units in the air, no matter how large the :tag:`CellSpead` range is. If a"
+" warhead detonated just a few leptons above the ground however, airborne "
+"units would be affected if they were in range. This can now be changed."
+msgstr ""
+
+#: ../new/warheads/damageair.rst:20
+msgid ":tagdef:`[Warhead]DamageAirThreshold=integer - leptons`"
+msgstr ""
+
+#: ../new/warheads/damageair.rst:14
+msgid ""
+"If the warhead detonates *more* than this many leptons above the ground, "
+"units in the air will be affected. Otherwise, units in the air are not "
+"damaged. Defaults to :value:`0`."
+msgstr ""
+
+#: ../new/warheads/damageair.rst
+msgid "Quickstart"
+msgstr ""
+
+#: ../new/warheads/damageair.rst:18
+msgid ""
+"Use :value:`-1` to damage even air units when the warhead detonates on "
+"the ground, or a high positive value like :value:`9999` to disable "
+"damaging air units despite the warhead detonating in air."
+msgstr ""
+
+#: ../new/warheads/damageair.rst:29
+msgid ":tagdef:`[General]DamageAirConsiderBridges=boolean`"
+msgstr ""
+
+#: ../new/warheads/damageair.rst:23
+msgid ""
+"Whether a warhead detonating above a bridge will consider the bridge's "
+"height for finding out whether units in air are to be damaged. Defaults "
+"to :value:`no`."
+msgstr ""
+
+#: ../new/warheads/damageair.rst:27
+msgid ""
+"If :value:`no`, a warhead detonating on a bridge will be considered to be"
+" four levels (416 leptons) high in the air, if :value:`yes`, it will be 0"
+" leptons above the ground and thus by default not trigger damaging units "
+"in the air."
+msgstr ""
+

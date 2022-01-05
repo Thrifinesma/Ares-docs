@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/carryalls.rst:8
+msgid "Carryalls"
+msgstr ""
+
+#: ../new/carryalls.rst:10
+msgid ""
+"Carryalls were a feature of :game:`Tiberian Sun`. :type:`AircraftTypes` "
+"with :tag:`Carryall=yes` could pick up :type:`UnitTypes` from the "
+"battlefield, carry them around the map and place them anywhere. The "
+"carryall logic was not used in :game:`Red Alert 2` and was not updated "
+"for naval units and other new features. :game:`Ares` updates the logic "
+"and adds new options."
+msgstr ""
+
+#: ../new/carryalls.rst:16
+msgid ""
+"If a unit can be picked up, the cursor named :value:`Tote` is shown. See "
+"how to customize this :doc:`Mouse Cursor </new/mousecursors>`."
+msgstr ""
+
+#: ../new/carryalls.rst:21
+msgid ":tagdef:`[AircraftType]Carryall.SizeLimit=integer`"
+msgstr ""
+
+#: ../new/carryalls.rst:20
+msgid ""
+"The maximum :tag:`Size=` that this carryall can lift. Use :value:`-1` to "
+"allow any size. Defaults to :value:`-1`."
+msgstr ""
+
+#: ../new/carryalls.rst:31
+msgid ":tagdef:`[UnitType]Carryall.Allowed=boolean`"
+msgstr ""
+
+#: ../new/carryalls.rst:24
+msgid ""
+"Can this unit be picked up by a carryall? If not set, :tag:`Organic=yes` "
+"and :tag:`NonVehicle=yes` units cannot be picked up. If specified, "
+":tag:`Carryall.Allowed` overrules those considerations. Currently it is "
+"not possible to \"unset\" this tag to use the default again. You have to "
+"set it explicitly."
+msgstr ""
+
+#: ../new/carryalls.rst:30
+msgid "Units infected with a Parasite (Terror Drone/Squid) cannot be picked up."
+msgstr ""
+
+#: ../new/carryalls.rst:33
+msgid ""
+"For the Carryall to work it must have :tag:`AirportBound=no` and no \\ "
+":tag:`Dock=` set, otherwise they will be unable to pick up units."
+msgstr ""
+
+#: ../new/carryalls.rst:36
+msgid ""
+"By default, carryalls can pick up vessels, which are :type:`UnitTypes` "
+"with :tag:`Naval=yes` set, but they cannot be placed back on water again."
+" If a ship is placed on ground, it will explode and take the carryall "
+"with it. To prevent this, set :tag:`Carryall.Allowed=no` on the ship."
+msgstr ""
+

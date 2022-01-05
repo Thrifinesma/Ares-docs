@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/buildings/buildcount.rst:8
+msgid "Build More Buildings of a Type"
+msgstr ""
+
+#: ../new/buildings/buildcount.rst:10
+msgid ""
+"In the original game, AI base planning would allow for a structure to not"
+" be built, or built exactly one time. There are special cases for power "
+"plants, which fill up the base plan so the house always has enough power,"
+" defenses, which are picked depending on the enemy army's strength, and "
+"refineries, which have special settings to support multiple instances."
+msgstr ""
+
+#: ../new/buildings/buildcount.rst:16
+msgid ""
+"In :game:`Ares` it is not only possible to define the number of instances"
+" to build by difficulty, but also to randomize this number to some "
+"extent. The AI will build a random number of instances from build count "
+"to build count plus extra count."
+msgstr ""
+
+#: ../new/buildings/buildcount.rst:21
+msgid ""
+"Additional buildings are not built one after another, but instead mix "
+"randomly with the structures in the build list planned to be built later."
+" For example, the AI will not always build four barracks before building "
+"a war factory, though by chance it could do that at times."
+msgstr ""
+
+#: ../new/buildings/buildcount.rst:29
+msgid ":tagdef:`[BuildingType]AIBuildCounts=list of integers`"
+msgstr ""
+
+#: ../new/buildings/buildcount.rst:27
+msgid ""
+"The number of buildings the AI will build of this type depending on the "
+"difficulty. Order is hard to easy. Each value must be equal to or greater"
+" than :value:`1`. Defaults to :value:`1,1,1`."
+msgstr ""
+
+#: ../new/buildings/buildcount.rst:35
+msgid ":tagdef:`[BuildingType]AIExtraCounts=list of integers`"
+msgstr ""
+
+#: ../new/buildings/buildcount.rst:32
+msgid ""
+"The maximum number of extra buildings the AI can build of this type "
+"depending on the difficulty. Order is hard to easy. A random number of "
+"buildings will be build in addition to the ones from the normal build "
+"count. Each value must be equal to or greater than :value:`0`. Defaults "
+"to :value:`0,0,0`."
+msgstr ""
+

@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/radarjammers.rst:9
+msgid "Radar Jammers"
+msgstr ""
+
+#: ../new/radarjammers.rst:11
+msgid ""
+":game:`Red Alert`-like Radar Jammers, where the mere presence of the "
+"jammer within a certain range of the radar causes an outage (i.e. no "
+"weapons firing, no deploy, etc. needed), are now possible again."
+msgstr ""
+
+#: ../new/radarjammers.rst:15
+msgid ""
+"The jamming will only affect the radar functionality of the building, no "
+"other functions."
+msgstr ""
+
+#: ../new/radarjammers.rst:18
+msgid "The building will not go offline."
+msgstr ""
+
+#: ../new/radarjammers.rst:20
+msgid ""
+"The jammer will only jam the radars in range; should the enemy player "
+"have unjammed radars elsewhere on the map, he will continue to have radar"
+" through those structures."
+msgstr ""
+
+#: ../new/radarjammers.rst:24
+msgid ""
+"The jammer will not work on allied countries, including the player "
+"himself."
+msgstr ""
+
+#: ../new/radarjammers.rst:26
+msgid ":game:`Ares`'s jammers also jam the SpySat Uplink."
+msgstr ""
+
+#: ../new/radarjammers.rst:30
+msgid ":tagdef:`[TechnoType]RadarJamRadius=integer - radius in cells`"
+msgstr ""
+
+#: ../new/radarjammers.rst:29
+msgid ""
+"Specifies the radius around the jamming object within structures with "
+":tag:`Radar=yes` or :tag:`SpySat=yes` will be jammed."
+msgstr ""
+

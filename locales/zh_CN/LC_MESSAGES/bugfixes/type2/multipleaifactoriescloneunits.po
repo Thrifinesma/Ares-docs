@@ -1,0 +1,64 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../bugfixes/type2/multipleaifactoriescloneunits.rst:7
+msgid "Multiple AI Factories Clone Units"
+msgstr ""
+
+#: ../bugfixes/type2/multipleaifactoriescloneunits.rst:9
+msgid ""
+"If the AI were modified to build multiple factories of the same type then"
+" every time they built a unit from that factory type they would produce a"
+" copy of that unit from every additional factory. For example, if the AI "
+"were made to build a second War Factory then they would get a second copy"
+" of every vehicle they build. This behavior can be disabled in "
+":game:`Ares`, by the following flag:"
+msgstr ""
+
+#: ../bugfixes/type2/multipleaifactoriescloneunits.rst:17
+msgid ":tagdef:`[GlobalControls]AllowParallelAIQueues=boolean`"
+msgstr ""
+
+#: ../bugfixes/type2/multipleaifactoriescloneunits.rst:16
+msgid "Set this to no to disable AI factory cloning. Defaults to :value:`yes`."
+msgstr ""
+
+#: ../bugfixes/type2/multipleaifactoriescloneunits.rst:23
+msgid "AI ignores :captiontag:`BuildLimit` when creating teams"
+msgstr ""
+
+#: ../bugfixes/type2/multipleaifactoriescloneunits.rst:25
+msgid ""
+"In the original game the AI did not respect a unit's :tag:`BuildLimit` "
+"tag when creating teams. :game:`Ares` changes this to disallow the AI "
+"from creating a team if any unit's build limit would have to be violated."
+" This new tag gives you a way to restore the original behavior."
+msgstr ""
+
+#: ../bugfixes/type2/multipleaifactoriescloneunits.rst:33
+msgid ":tagdef:`[GlobalControls]AllowBypassBuildLimit= list of boolean`"
+msgstr ""
+
+#: ../bugfixes/type2/multipleaifactoriescloneunits.rst:31
+msgid ""
+"Allows AI to bypass build limits to create teams. This list is ordered by"
+" difficulty: easy, medium, hard. Use :value:`yes` to let the AI bypass "
+"build limits. Defaults to :value:`no,no,no`."
+msgstr ""
+

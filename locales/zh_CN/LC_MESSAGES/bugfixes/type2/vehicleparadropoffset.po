@@ -1,0 +1,39 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../bugfixes/type2/vehicleparadropoffset.rst:9
+msgid "Vehicle Paradrop Offset"
+msgstr ""
+
+#: ../bugfixes/type2/vehicleparadropoffset.rst:11
+msgid ""
+"Passengers of :type:`AircraftTypes` get paradropped out if the \\ "
+":type:`AircraftType` fires its weapon. The passengers would always use "
+"the infantry sub-cell positions for where they would be spawned, even if "
+"the passenger were not an :type:`InfantryType`. This ultimately meant "
+"that vehicles would appear to fall part-way into the ground upon landing."
+" This error no longer happens in :game:`Ares`."
+msgstr ""
+
+#: ../bugfixes/type2/vehicleparadropoffset.rst:18
+msgid ""
+"The same problem also used to occur with vehicles paradropped from "
+"aircraft with :tag:`Carryall=yes` set."
+msgstr ""
+

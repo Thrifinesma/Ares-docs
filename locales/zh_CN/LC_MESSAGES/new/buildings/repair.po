@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/buildings/repair.rst:6
+msgid "Repair and Insufficient Funds"
+msgstr ""
+
+#: ../new/buildings/repair.rst:8
+msgid ""
+"This global tag can be used to change how the repair mode works. By "
+"default, all repairing is stopped once a player no longer has enough "
+"credits to afford it. After gaining some credits, the buildings have to "
+"be ordered to repair again. With this tag, repairing will pause, but not "
+"stop."
+msgstr ""
+
+#: ../new/buildings/repair.rst:18
+msgid ":tagdef:`[General]RepairStopOnInsufficientFunds=boolean`"
+msgstr ""
+
+#: ../new/buildings/repair.rst:14
+msgid ""
+"Whether repairing will automatically be stopped when the owning player "
+"has insufficient funds. If :value:`no`, repairing mode will not be turned"
+" off. The wrench will still be visible, even though the building is no "
+"longer actively repaired. Repairing will resume when the player gains "
+"more funds. This only affects human players. Defaults to :value:`yes`."
+msgstr ""
+
+#: ../new/buildings/repair.rst:28
+msgid "Buildings not repairable by Engineers"
+msgstr ""
+
+#: ../new/buildings/repair.rst:34
+msgid ":tagdef:`[BuildingType]EngineerRepairable=boolean`"
+msgstr ""
+
+#: ../new/buildings/repair.rst:31
+msgid ""
+"Whether engineers can repair this building. If :value:`no`, the building "
+"might still be repaired by the normal building repair "
+"(:tag:`ClickRepairable=yes`), but Engineers cannot be used to restore "
+"full health instantly. Defaults to :tag:`Repairable`."
+msgstr ""
+

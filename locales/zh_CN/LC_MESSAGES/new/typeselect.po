@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/typeselect.rst:8
+msgid "Type Selection Groups"
+msgstr ""
+
+#: ../new/typeselect.rst:10
+msgid ""
+"In :game:`Yuri's Revenge`, each of the three original sides have own dogs"
+" and own engineer. If one player gets hold of equivalent units of other "
+"types, they will not be considered for Type Selection. Thus you could "
+"have 20 dogs, but only three would be selected, because the others are of"
+" different type."
+msgstr ""
+
+#: ../new/typeselect.rst:15
+msgid ""
+":game:`Ares` adds a method that has none of the limitations of the known "
+"workarounds, that is, you can group an arbitrary amount of types, it is "
+"not limited to infantry (it actually supports mixed types), has no side "
+"effects when types are modified in maps and it doesn't crash."
+msgstr ""
+
+#: ../new/typeselect.rst
+msgid "Quickstart"
+msgstr ""
+
+#: ../new/typeselect.rst:20
+msgid ""
+"To group all dogs as one type of unit, set :tag:`GroupAs=DOG` on all of "
+"them. For engineers, use :tag:`GroupAs=ENGINEER`."
+msgstr ""
+
+#: ../new/typeselect.rst:29
+msgid ":tagdef:`[TechnoType]GroupAs=string`"
+msgstr ""
+
+#: ../new/typeselect.rst:24
+msgid ""
+"The group name this unit is considered as. Name length can be up to 30 "
+"characters. Defaults to the type's ID."
+msgstr ""
+
+#: ../new/typeselect.rst:27
+msgid ""
+"Check that you don't accidentally use an existing ID of a probably "
+"unrelated type as group name. This would include this type in this "
+"selection group, if it doesn't have :tag:`GroupAs` set to some other "
+"value itself."
+msgstr ""
+
+#: ../new/typeselect.rst:37
+msgid ":tagdef:`[General]TypeSelectUseDeploy=boolean`"
+msgstr ""
+
+#: ../new/typeselect.rst:32
+msgid ""
+"Whether the types in :tag:`DeploysInto` and :tag:`UndeploysInto` should "
+"be included for selection automatically. Defaults to :value:`yes`."
+msgstr ""
+
+#: ../new/typeselect.rst:35
+msgid ""
+"If you set this to :value:`no`, Slave Miners, Tick Tanks and the like "
+"will differentiate between their deployed and undeployed forms. You will "
+"have to manually set :tag:`GroupAs` on the groups you want to keep."
+msgstr ""
+

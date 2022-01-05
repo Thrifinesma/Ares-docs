@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/warheads/unitlost.rst:8
+msgid "Suppress Unit Lost Message"
+msgstr ""
+
+#: ../new/warheads/unitlost.rst:10
+msgid ""
+"When a unit is killed, EVA notifies the owning player about this. To kill"
+" units silently or to create mutation weapons where killing the unit is "
+"actually not to be considered killing, this message can be suppressed for"
+" a warhead."
+msgstr ""
+
+#: ../new/warheads/unitlost.rst:17
+msgid ":tagdef:`[Warhead]UnitLost.Suppress=boolean`"
+msgstr ""
+
+#: ../new/warheads/unitlost.rst:15
+msgid ""
+"Whether units killed by this warhead should not play the Unit Lost EVA "
+"message. Damaging  units without killing them using this warhead will not"
+" silence the message. Defaults to :value:`no`."
+msgstr ""
+

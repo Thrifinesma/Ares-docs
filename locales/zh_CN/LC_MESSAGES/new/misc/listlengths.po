@@ -1,0 +1,33 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/misc/listlengths.rst:6
+msgid "List Lengths"
+msgstr ""
+
+#: ../new/misc/listlengths.rst:8
+msgid ""
+"There are several INI flags that take a comma-separated list of values. "
+"The game imposes a maximum length for INI flag values of 128 characters "
+"which isn't always long enough for lists -- especially with some of the "
+"extensions that :game:`Ares` allows. This limit has been relaxed *for "
+"flags that take lists* -- the maximum length for flags that take lists is"
+" now 512 characters (including tag name and equal sign)."
+msgstr ""
+

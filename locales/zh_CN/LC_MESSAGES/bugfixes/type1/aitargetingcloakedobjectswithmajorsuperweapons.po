@@ -1,0 +1,33 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../bugfixes/type1/aitargetingcloakedobjectswithmajorsuperweapons.rst:9
+msgid "AI Targeting Cloaked Objects With Major Super Weapons"
+msgstr ""
+
+#: ../bugfixes/type1/aitargetingcloakedobjectswithmajorsuperweapons.rst:11
+msgid ""
+"When AI controlled super weapons with :tag:`Type=LightningStorm`, "
+":tag:`Type=MultiMissile`, :tag:`Type=PsychicDominator`, and "
+":tag:`Type=GeneticConverter` picked their target, they failed to ignore "
+"cloaked objects (such as Submarines) and, as a result, sometimes selected"
+" them as targets, ruining the appearance of fair play. Cloaked objects "
+"are no longer considered as targets for these super weapons."
+msgstr ""
+

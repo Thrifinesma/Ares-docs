@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../bugfixes/type2/ejectlastpassenger.rst:7
+msgid "Passengers and :captiontag:`TurretCount`"
+msgstr ""
+
+#: ../bugfixes/type2/ejectlastpassenger.rst:9
+msgid ""
+"If :tag:`TurretCount` is larger than zero, a transport vehicle would not "
+"eject the last passenger when deployed. Deploying the unit a second time "
+"ejected the remaining passenger. This affected :type:`VehicleTypes` with "
+"charge turrets (:tag:`IsChargeTurret=yes`), units with Gattling weapon "
+"systems (:tag:`IsGattling=yes`) and IFVs (:tag:`Gunner=yes`)."
+msgstr ""
+
+#: ../bugfixes/type2/ejectlastpassenger.rst:15
+msgid ""
+"Only :tag:`Gunner=yes` vehicles will keep the last passenger now. They "
+"handle passenger pips in a special way as the first pip is separated from"
+" the others, and it makes sense for them not to eject the passenger which"
+" is considered the \"driver\" and which also controls the weapon used by "
+"the transport vehicle."
+msgstr ""
+

@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../restored/firestormwall.rst:7
+msgid "Firestorm Wall"
+msgstr ""
+
+#: ../restored/firestormwall.rst:9
+msgid ""
+"The Firestorm Wall and the corresponding super weapon can now be "
+"implemented in :game:`Yuri's Revenge`."
+msgstr ""
+
+#: ../restored/firestormwall.rst:12
+msgid ""
+"When the Firestorm Defense is activated, all structures owned by the "
+"firing player that have :tag:`Firestorm.Wall=yes` set will emit an energy"
+" field, blocking all hostile projectiles from passing through. The energy"
+" field also destroys any friend or foe unlucky (or stupid) enough to come"
+" into direct contact with active cells."
+msgstr ""
+
+#: ../restored/firestormwall.rst:18
+msgid ""
+":tag:`IgnoresFirestorm` is respected and if :value:`yes`, neither units "
+"nor bullets are destroyed when passing an active Firestorm Wall. If an "
+"object is destroyed, crew or passengers will not be ejected."
+msgstr ""
+
+#: ../restored/firestormwall.rst:22
+msgid ""
+"See the :doc:`Firestorm super weapon </new/superweapons/types/firestorm>`"
+" for more details."
+msgstr ""
+
+#: ../restored/firestormwall.rst:32
+msgid "Defining a Wall"
+msgstr ""
+
+#: ../restored/firestormwall.rst:34
+msgid ""
+":type:`BuildingTypes` with :tag:`Firestorm.Wall=yes` set will act as a "
+"section of the Firestorm Wall and auto-connect to other nearby pieces "
+"(check the original building's SHP from :game:`Tiberian Sun` to see how "
+"the art is controlled)."
+msgstr ""
+
+#: ../restored/firestormwall.rst:42
+msgid ":tagdef:`[BuildingType]Firestorm.Wall=boolean`"
+msgstr ""
+
+#: ../restored/firestormwall.rst:40
+msgid ""
+"Whether this building is part of the Firestorm Defense System. Defaults "
+"to :value:`no`."
+msgstr ""
+
+#: ../restored/firestormwall.rst:47
+msgid "Global Settings"
+msgstr ""
+
+#: ../restored/firestormwall.rst:51
+msgid ":tagdef:`[CombatDamage]FirestormWarhead=Warhead`"
+msgstr ""
+
+#: ../restored/firestormwall.rst:50
+msgid ""
+"The warhead used by active Firestorm Walls to destroy objects. Cannot be "
+":value:`none`. Defaults to :tag:`[General]C4Warhead`."
+msgstr ""
+
+#: ../restored/firestormwall.rst:61
+msgid ":tagdef:`[General]DamageToFirestormDamageCoefficient=double - multiplier`"
+msgstr ""
+
+#: ../restored/firestormwall.rst:54
+msgid ""
+"The multiplier for the damage dealt to active Firestorm Walls to convert "
+"hitpoints to frames to subtract from the Firestorm Defense Super Weapon's"
+" change time. Higher values reduce remaining active time faster. Defaults"
+" to :value:`0.0`."
+msgstr ""
+
+#: ../restored/firestormwall.rst:59
+msgid ""
+"\\ :game:`Tiberian Sun` defaulted to :value:`0.1`, but :game:`Ares` did "
+"not have this feature and just nullified all damage. This is what a value"
+" of :value:`0.0` still does."
+msgstr ""
+
+#: ../restored/firestormwall.rst:63
+msgid ""
+"There are four global tags that define the animations played when a "
+"Firestorm Wall is active, or idle, or immolating something."
+msgstr ""
+
+#: ../restored/firestormwall.rst:68
+msgid ":tagdef:`[AudioVisual]FirestormActiveAnim=AnimationType`"
+msgstr ""
+
+#: ../restored/firestormwall.rst:67
+msgid ""
+"The optional animation played randomly on Firestorm Wall sections when "
+"active. This is drawn in the building's palette. Defaults to "
+":value:`GAFSDF_A`."
+msgstr ""
+
+#: ../restored/firestormwall.rst:72
+msgid ":tagdef:`[AudioVisual]FirestormIdleAnim=AnimationType`"
+msgstr ""
+
+#: ../restored/firestormwall.rst:71
+msgid ""
+"The optional animation played randomly on Firestorm Wall sections when "
+"active. This is drawn in the building's palette. Defaults to "
+":value:`FSIDLE`."
+msgstr ""
+
+#: ../restored/firestormwall.rst:77
+msgid ":tagdef:`[AudioVisual]FirestormGroundAnim=AnimationType`"
+msgstr ""
+
+#: ../restored/firestormwall.rst:75
+msgid ""
+"The animation to display when an active Firestorm Wall destroys an object"
+" on or close to the ground. This is drawn in the animation palette. "
+"Defaults to :value:`FSGRND`."
+msgstr ""
+
+#: ../restored/firestormwall.rst:82
+msgid ":tagdef:`[AudioVisual]FirestormAirAnim=AnimationType`"
+msgstr ""
+
+#: ../restored/firestormwall.rst:80
+msgid ""
+"The animation to display when an active Firestorm Wall destroys an object"
+" in the air. This is drawn in the animation palette. Defaults to "
+":value:`FSAIR`."
+msgstr ""
+
+#: ../restored/firestormwall.rst:90
+msgid "Firestorm Map Actions"
+msgstr ""
+
+#: ../restored/firestormwall.rst:92
+msgid ""
+":game:`Ares` restores the two map actions related to the Firestorm "
+"Defense from :game:`Tiberian Sun`. Map actions 92 and 93 activate and "
+"deactivate the Firestorm Walls unconditionally, and while it is active "
+"from these map actions, it will not drain the charge and thus stay active"
+" indefinitely."
+msgstr ""
+
+#: ../restored/firestormwall.rst:97
+msgid ""
+"If a building providing the Firestorm super weapon owned by the house is "
+"destroyed, loses power or goes offline due to other game logics, the "
+"Firestorm Defense is turned off like usual."
+msgstr ""
+
+#: ../restored/firestormwall.rst:101
+msgid "These map actions are only supported for non-human controlled houses."
+msgstr ""
+

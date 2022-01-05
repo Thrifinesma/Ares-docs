@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/warheads/mechanical.rst:8
+msgid "Mechanical and Organic Warheads"
+msgstr ""
+
+#: ../new/warheads/mechanical.rst:10
+msgid ""
+":game:`Yuri's Revenge` was hardcoded to only allow infantry to heal other"
+" infantry and repair vehicles to only repair other vehicles. :game:`Ares`"
+" removes this hardcoding and now :type:`InfantryTypes` and "
+":type:`VehicleTypes` can heal or repair all :type:`TechnoTypes` depending"
+" on verses. This allows creating Mechanics as known from :game:`The "
+"Aftermath` as well as Ambulances known from :game:`Generals`."
+msgstr ""
+
+#: ../new/warheads/mechanical.rst:17
+msgid ""
+":game:`Ares` supports the Guard Area action, which makes units follow and"
+" protect a specific unit, as well as overriding heal by pressing the "
+"Force Move keys, which allows units to enter damaged transporters."
+msgstr ""
+
+#: ../new/warheads/mechanical.rst:21
+msgid ""
+"Aircraft docked on a helipad or airport cannot be repaired by vehicles. "
+"This mimics the original behavior. This limitation has not been recreated"
+" for infantry. This might be changed in the future."
+msgstr ""
+

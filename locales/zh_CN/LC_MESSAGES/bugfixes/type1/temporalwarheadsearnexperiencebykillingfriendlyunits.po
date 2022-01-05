@@ -1,0 +1,37 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../bugfixes/type1/temporalwarheadsearnexperiencebykillingfriendlyunits.rst:9
+msgid ":captiontag:`Temporal` Warheads Earn Experience By Killing Friendly Units"
+msgstr ""
+
+#: ../bugfixes/type1/temporalwarheadsearnexperiencebykillingfriendlyunits.rst:11
+msgid ""
+"When a unit kills an enemy unit it gains experience, which can lead to "
+"that unit becoming veteran or elite. Killing friendly units (your own or "
+"your allies') does not earn experience in this way."
+msgstr ""
+
+#: ../bugfixes/type1/temporalwarheadsearnexperiencebykillingfriendlyunits.rst:15
+msgid ""
+"However, *Temporal* warheads (warheads with :tag:`Temporal=yes` set) "
+"*did* use to earn experience when killing friendly units. This is no "
+"longer the case."
+msgstr ""
+

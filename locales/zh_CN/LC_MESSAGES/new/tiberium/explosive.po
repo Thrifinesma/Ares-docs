@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/tiberium/explosive.rst:6
+msgid "Tiberium Explosive"
+msgstr ""
+
+#: ../new/tiberium/explosive.rst:8
+msgid ""
+"Tiberium Explosive is the feature that harvester units detonate violently"
+" on destruction. It is not to be confused with the similarly named "
+"Tiberium Explosion."
+msgstr ""
+
+#: ../new/tiberium/explosive.rst:12
+msgid ""
+"The damage to deliver depends on :tag:`Power` of the contained tiberium "
+"bails. This is like it was in :game:`Firestorm`. :game:`Tiberian Sun` "
+"also added the harvester unit's strength, which has not been recreated."
+msgstr ""
+
+#: ../new/tiberium/explosive.rst:16
+msgid ""
+":game:`Tiberian Sun` used :tag:`C4Warhead` to deliver the damage, with a "
+"hardcoded spread of :value:`1.5`. :game:`Ares` requires the warhead to "
+"define :tag:`CellSpread` itself."
+msgstr ""
+
+#: ../new/tiberium/explosive.rst:20
+msgid ""
+"Only positive damage is delivered. In case "
+":tag:`TiberiumExplosiveWarhead` is not set or the Harvester Truce feature"
+" is enabled, no damage is delivered."
+msgstr ""
+
+#: ../new/tiberium/explosive.rst:25
+msgid ":tagdef:`[CombatDamage]TiberiumExplosive=boolean`"
+msgstr ""
+
+#: ../new/tiberium/explosive.rst:24
+msgid ""
+"Whether tiberium inside of harvester units explodes using "
+":tag:`TiberiumExplosiveWarhead` when destroyed. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/tiberium/explosive.rst:29
+msgid ":tagdef:`[CombatDamage]TiberiumExplosiveWarhead=warhead`"
+msgstr ""
+
+#: ../new/tiberium/explosive.rst:28
+msgid ""
+"The warhead to deliver the damage of explosive tiberium. Defaults to "
+":value:`none`."
+msgstr ""
+
+#: ../new/tiberium/explosive.rst:34
+msgid ":tagdef:`[CombatDamage]TiberiumExplosiveAnim=animation`"
+msgstr ""
+
+#: ../new/tiberium/explosive.rst:32
+msgid ""
+"Optional animation displayed when Tiberium contained in a unit explodes. "
+"Can be used independently of damage delivery; "
+":tag:`TiberiumExplosiveWarhead` needs not be set. Defaults to "
+":value:`none`."
+msgstr ""
+

@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/spawnsparticle.rst:6
+msgid "Particle Spawning"
+msgstr ""
+
+#: ../new/spawnsparticle.rst:8
+msgid ""
+"Animations can spawn particles using :tag:`SpawnsParticle`, but no matter"
+" how many are spawned, they would always spawn at the exact same location"
+" as the animation. These new tags allow customizing the distance from the"
+" center the particles will be spawned at."
+msgstr ""
+
+#: ../new/spawnsparticle.rst:13
+msgid ""
+"This feature divides the circle around animation's base coords into "
+":tag:`NumParticles` sections. Each section will get exactly one spawned "
+"particle. The height above ground will be the same as the animation's "
+"height above the base cell."
+msgstr ""
+
+#: ../new/spawnsparticle.rst:24
+msgid ":tagdef:`[AnimType]SpawnsParticle.RangeMinimum=double - cells`"
+msgstr ""
+
+#: ../new/spawnsparticle.rst:19
+msgid ""
+"The distance from the center where particles start spawning at. Defaults "
+"to :value:`0.0`."
+msgstr ""
+
+#: ../new/spawnsparticle.rst:22
+msgid ""
+"If negative, the resulting random distance could come out as negative. If"
+" this happens, the absolute value is used. This allows doubling the "
+"chance to spawn particles closer to the center."
+msgstr ""
+
+#: ../new/spawnsparticle.rst:29
+msgid ":tagdef:`[AnimType]SpawnsParticle.RangeMaximum=double - cells`"
+msgstr ""
+
+#: ../new/spawnsparticle.rst:27
+msgid ""
+"The distance from the center where particles will not spawn beyond. Has "
+"to be equal to or larger than :tag:`SpawnsParticle.RangeMinimum`. "
+"Defaults to :value:`0.0`."
+msgstr ""
+

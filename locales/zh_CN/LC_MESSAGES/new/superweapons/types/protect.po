@@ -1,0 +1,192 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/superweapons/types/protect.rst:4
+msgid ":captiontag:`Type=IronCurtain` and :captiontag:`Type=ForceShield`"
+msgstr ""
+
+#: ../new/superweapons/types/protect.rst:6
+msgid ""
+"The difference between :tag:`Type=IronCurtain` and "
+":tag:`Type=ForceShield` are the default values used. "
+":tag:`Type=ForceShield` will always use the force shield protection color"
+" for buildings, otherwise the iron curtain color is used. At the moment, "
+"the color cannot be customized."
+msgstr ""
+
+#: ../new/superweapons/types/protect.rst:11
+msgid "Default values for general tags:"
+msgstr ""
+
+#: ../new/superweapons/types/protect.rst:15
+msgid ":tagdef:`[SuperWeapon]SW.Range=float,integer`"
+msgstr ""
+
+#: ../new/superweapons/types/protect.rst:14
+msgid ""
+"Range affected by the protection. Defaults to "
+":tag:`[General]ForceShieldRadius` for :value:`ForceShield`, to "
+":value:`3,3` otherwise."
+msgstr ""
+
+#: ../new/superweapons/types/protect.rst:18
+msgid ":tagdef:`[SuperWeapon]SW.Animation=Animation`"
+msgstr ""
+
+#: ../new/superweapons/types/protect.rst:18
+msgid ""
+"Defaults to :tag:`[General]ForceShieldInvokeAnim` for "
+":value:`ForceShield`, to :tag:`[General]IronCurtainInvokeAnim` otherwise."
+msgstr ""
+
+#: ../new/superweapons/types/protect.rst:21
+msgid ":tagdef:`[SuperWeapon]SW.AnimationHeight=integer`"
+msgstr ""
+
+#: ../new/superweapons/types/protect.rst:21
+msgid ""
+"The height the :tag:`SW.Animation` is played above the ground. Defaults "
+"to :value:`5`."
+msgstr ""
+
+#: ../new/superweapons/types/protect.rst:24
+msgid ":tagdef:`[SuperWeapon]SW.AITargeting=enumeration`"
+msgstr ""
+
+#: ../new/superweapons/types/protect.rst:24
+#: ../new/superweapons/types/protect.rst:39
+msgid ""
+"Defaults to :value:`ForceShield` for :value:`ForceShield`, to "
+":value:`IronCurtain` otherwise."
+msgstr ""
+
+#: ../new/superweapons/types/protect.rst:27
+msgid ":tagdef:`[SuperWeapon]SW.AffectsHouse=enumeration`"
+msgstr ""
+
+#: ../new/superweapons/types/protect.rst:27
+msgid ""
+"Specifies the houses affected by the protection. Defaults to "
+":value:`team` for :value:`ForceShield`, to :value:`all` otherwise."
+msgstr ""
+
+#: ../new/superweapons/types/protect.rst:30
+msgid ":tagdef:`[SuperWeapon]SW.AffectsTarget=enumeration`"
+msgstr ""
+
+#: ../new/superweapons/types/protect.rst:30
+msgid ""
+"Specifies which types the protection affects. Defaults to "
+":value:`buildings` for :value:`ForceShield`, to :value:`all` otherwise."
+msgstr ""
+
+#: ../new/superweapons/types/protect.rst:33
+msgid ":tagdef:`[SuperWeapon]SW.RequiresTarget=enumeration`"
+msgstr ""
+
+#: ../new/superweapons/types/protect.rst:33
+msgid ""
+"Specifies which types the protection can be fired upon. Defaults to "
+":value:`buildings` for :value:`ForceShield`, to :value:`all` otherwise."
+msgstr ""
+
+#: ../new/superweapons/types/protect.rst:36
+msgid ":tagdef:`[SuperWeapon]SW.RequiresHouse=enumeration`"
+msgstr ""
+
+#: ../new/superweapons/types/protect.rst:36
+msgid ""
+"Defaults to :value:`team` for :value:`ForceShield`, to :value:`none` "
+"otherwise."
+msgstr ""
+
+#: ../new/superweapons/types/protect.rst:39
+msgid ":tagdef:`[SuperWeapon]Cursor=mouse cursor`"
+msgstr ""
+
+#: ../new/superweapons/types/protect.rst:43
+msgid ":tagdef:`[SuperWeapon]NoCursor=mouse cursor`"
+msgstr ""
+
+#: ../new/superweapons/types/protect.rst:42
+msgid "Defaults to :value:`NoForceShield` for :value:`ForceShield`."
+msgstr ""
+
+#: ../new/superweapons/types/protect.rst:45
+msgid "Iron Curtain and Force Shield specific tags:"
+msgstr ""
+
+#: ../new/superweapons/types/protect.rst:49
+msgid ":tagdef:`[SuperWeapon]Protect.Duration=integer - frames`"
+msgstr ""
+
+#: ../new/superweapons/types/protect.rst:48
+msgid ""
+"The length the protection effect endures. Defaults to "
+":tag:`[General]ForceShieldDuration` for :value:`ForceShield`, to "
+":tag:`[CombatDamage]IronCurtainDuration` otherwise."
+msgstr ""
+
+#: ../new/superweapons/types/protect.rst:53
+msgid ":tagdef:`[SuperWeapon]Protect.PowerOutage=integer - frames`"
+msgstr ""
+
+#: ../new/superweapons/types/protect.rst:52
+msgid ""
+"The length the owning player will experience a power outage after firing "
+"this super weapon. Defaults to "
+":tag:`[General]ForceShieldBlackoutDuration` for :value:`ForceShield`, to "
+":value:`0` otherwise."
+msgstr ""
+
+#: ../new/superweapons/types/protect.rst:60
+msgid ":tagdef:`[SuperWeapon]Protect.PlayFadeSoundTime=integer - frames`"
+msgstr ""
+
+#: ../new/superweapons/types/protect.rst:56
+msgid ""
+"This many frames before the protection effect ends the "
+":tag:`[SuperWeapon]SpecialSound` is played. Must be lower than "
+":tag:`Protect.Duration`. Defaults to "
+":tag:`[General]ForceShieldPlayFadeSoundTime` for :value:`ForceShield`, to"
+" :value:`0` otherwise."
+msgstr ""
+
+#: ../new/superweapons/types/protect.rst:62
+msgid ""
+"The duration of the protection can be customized for each "
+":type:`TechnoType`. See the :doc:`Force Shield Modifier "
+"</new/buildings/forceshield>` section for :tag:`Type=ForceShield`, "
+"otherwise see the :ref:`Iron Curtain Effect on Warheads <wh-ironcurtain>`"
+" section."
+msgstr ""
+
+#: ../new/superweapons/types/protect.rst:67
+msgid ""
+"The AI can use Iron Curtains. Multiple Iron Curtains can be distinguised "
+"by grouping them using :tag:`SW.Group`. See :ref:`Iron Curtain Team "
+"Script Action <script-ironcurtain>`."
+msgstr ""
+
+#: ../new/superweapons/types/protect.rst:71
+msgid ""
+"The AI only fully supports Team Script Actions. It does not yet support "
+"AI Triggers."
+msgstr ""
+

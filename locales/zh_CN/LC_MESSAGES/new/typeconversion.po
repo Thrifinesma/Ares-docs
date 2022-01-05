@@ -1,0 +1,284 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/typeconversion.rst:6
+msgid "Type Conversion"
+msgstr ""
+
+#: ../new/typeconversion.rst:8
+msgid ""
+"To a limited extent, it is possible to change the type of a unit in "
+"certain conditions. Supported are only unit to unit, infantry to "
+"infantry, and aircraft to aircraft. This is not supported for buildings."
+msgstr ""
+
+#: ../new/typeconversion.rst:12
+msgid ""
+"There is one rule to follow, which is easily stated but difficult to "
+"adhere to: **a unit is not allowed to convert into another type that has "
+"a chance to currently be in a position where the new type cannot be**. "
+"For example if an infantry unit gets bigger while inside a full open "
+"topped transport, the converted type not being allowed as passenger or "
+"occupant. This also works backwards: a vehicle cannot lose its ability to"
+" hold passengers."
+msgstr ""
+
+#: ../new/typeconversion.rst:19
+msgid ""
+"A unit that has not been created with a temporal weapon, a mind control "
+"weapon, or a parasite weapon cannot gain such by changing the type."
+msgstr ""
+
+#: ../new/typeconversion.rst:22
+msgid "The following are fully supported:"
+msgstr ""
+
+#: ../new/typeconversion.rst:24
+msgid "changing :tag:`Strength` will keep the units health the same"
+msgstr ""
+
+#: ../new/typeconversion.rst:25
+msgid "changing :tag:`Armor`"
+msgstr ""
+
+#: ../new/typeconversion.rst:26
+msgid "Ammo is reduced if new type has less :tag:`Ammo`"
+msgstr ""
+
+#: ../new/typeconversion.rst:27
+msgid ":tag:`Cloakable` is applied again"
+msgstr ""
+
+#: ../new/typeconversion.rst:28
+msgid "Spotlight is removed or created"
+msgstr ""
+
+#: ../new/typeconversion.rst:29
+msgid "AttachEffect on the type is removed or created"
+msgstr ""
+
+#: ../new/typeconversion.rst:30
+msgid ":tag:`ROT` and :tag:`TurretROT` are reset"
+msgstr ""
+
+#: ../new/typeconversion.rst:31
+msgid "All prerequisites are rechecked once a unit converts"
+msgstr ""
+
+#: ../new/typeconversion.rst:33
+msgid ""
+"Converted units no longer count as original units for :tag:`BuildLimit` "
+"checks. As with all other prerequisite checks, units will not be "
+"disallowed to convert, even if it violates :tag:`BuildLimit` rules."
+msgstr ""
+
+#: ../new/typeconversion.rst:43
+msgid "On Promotion"
+msgstr ""
+
+#: ../new/typeconversion.rst:45
+msgid ""
+"The unit type can be changed by promotion, not only allowing for more "
+"than the usual three veterancy levels, but also allowing to change "
+"several of the unit's attributes including their appearance."
+msgstr ""
+
+#: ../new/typeconversion.rst:49
+msgid ""
+"Note that if the unit skips the veteran rank and becomes elite "
+"immediately, Veteran settings are not applied. Also note that this is not"
+" cascading: if a unit is promoted to elite and converts to a veteran "
+"version of another type, which in turn should convert to something else, "
+"no further conversion takes place."
+msgstr ""
+
+#: ../new/typeconversion.rst:57
+msgid ":tagdef:`[TechnoType]Promote.VeteranType=TechnoType`"
+msgstr ""
+
+#: ../new/typeconversion.rst:56
+msgid ""
+"If set, the unit converts into this type when being promoted to veteran "
+"rank. Defaults to :value:`none`."
+msgstr ""
+
+#: ../new/typeconversion.rst:61
+msgid ":tagdef:`[TechnoType]Promote.EliteType=TechnoType`"
+msgstr ""
+
+#: ../new/typeconversion.rst:60
+msgid ""
+"If set, the unit converts into this type when being promoted to elite "
+"rank. Defaults to :value:`none`."
+msgstr ""
+
+#: ../new/typeconversion.rst:63
+msgid ""
+"The following tags can be used to promote a unit to a rookie of another "
+"type. Using :value:`-1.0` removes one rank, thus a unit becoming veteran "
+"gets one rank removed and essentially ends as a rookie of the converted "
+"type, while a unit becoming elite gets one rank removed and essentially "
+"becomes a veteran of the converted type. :value:`-2.0` would make the "
+"latter a rookie, too."
+msgstr ""
+
+#: ../new/typeconversion.rst:71
+msgid ":tagdef:`[TechnoType]Promote.VeteranExperience=double`"
+msgstr ""
+
+#: ../new/typeconversion.rst:70
+msgid ""
+"A value added to the experience when a unit type is converted using "
+":tag:`Promote.VeteranType`. Defaults to :value:`0.0`."
+msgstr ""
+
+#: ../new/typeconversion.rst:75
+msgid ":tagdef:`[TechnoType]Promote.EliteExperience=double`"
+msgstr ""
+
+#: ../new/typeconversion.rst:74
+msgid ""
+"A value added to the experience when a unit type is converted using "
+":tag:`Promote.EliteType`. Defaults to :value:`0.0`."
+msgstr ""
+
+#: ../new/typeconversion.rst:83
+msgid "Via :captiontag:`IsSimpleDeployer`"
+msgstr ""
+
+#: ../new/typeconversion.rst:85
+msgid ""
+"Unit can simple-deploy into another type. Unlike in the original game the"
+" unit will be movable after deploying, opposed to being locked in place "
+"like the original Siege Chopper."
+msgstr ""
+
+#: ../new/typeconversion.rst:89
+msgid ""
+":tag:`DeployingAnim` is optional. If not present, units will convert "
+"types immediately, without turning their facing to :tag:`DeployDir`. See "
+":doc:`DeployDir </new/deploydir>`."
+msgstr ""
+
+#: ../new/typeconversion.rst:93
+msgid ""
+":game:`Ares` extends :tag:`IsSimpleDeployer` logic to allow deploying "
+"units not on the ground. Also, :tag:`DeployToLand` has been extended to "
+"also work on units using the Hover locomotor. If :value:`yes`, units will"
+" land, also respecting :tag:`DeployDir`."
+msgstr ""
+
+#: ../new/typeconversion.rst:98
+msgid ""
+"Because this conversion always happens with the unit being present on the"
+" map and guaranteed to be standing still, settings like :tag:`Locomotor` "
+"and :tag:`Size` can be changed within reasonable limits."
+msgstr ""
+
+#: ../new/typeconversion.rst:105
+msgid ":tagdef:`[TechnoType]Convert.Deploy=TechnoType`"
+msgstr ""
+
+#: ../new/typeconversion.rst:103
+msgid ""
+"The type a :tag:`IsSimpleDeployer=yes` unit deploys into. This converts "
+"the type after deploying completed, and after the optional "
+":tag:`DeployingAnim` has finished playing. Defaults to :value:`none`."
+msgstr ""
+
+#: ../new/typeconversion.rst:113
+msgid "When Transitioning Between Land and Water"
+msgstr ""
+
+#: ../new/typeconversion.rst:115
+msgid ""
+"The tag :tag:`WaterImage` allows to render a unit differently when it is "
+"on water, which was used on the GDI APC in :game:`Tiberian Sun`. The "
+"following settings allow to change a unit's type. This way, the unit "
+"could change image, weapons, armor and so on."
+msgstr ""
+
+#: ../new/typeconversion.rst:120
+msgid ""
+"Water and Land units should not define a conversion to their own type, "
+"like a water unit converting into an other water unit."
+msgstr ""
+
+#: ../new/typeconversion.rst:125
+msgid ":tagdef:`[TechnoType]Convert.Water=TechnoType`"
+msgstr ""
+
+#: ../new/typeconversion.rst:124
+msgid ""
+"The type to convert to when a unit moves onto a beach or water cell. "
+"Defaults to :value:`none`."
+msgstr ""
+
+#: ../new/typeconversion.rst:129
+msgid ":tagdef:`[TechnoType]Convert.Land=TechnoType`"
+msgstr ""
+
+#: ../new/typeconversion.rst:128
+msgid ""
+"The type to convert to when a unit moves onto a cell that's neither beach"
+" nor water. Defaults to :value:`none`."
+msgstr ""
+
+#: ../new/typeconversion.rst:139
+msgid "Triggered by Team Script"
+msgstr ""
+
+#: ../new/typeconversion.rst:141
+msgid ""
+"This tag generalizes the relationship that existed since :game:`Tiberian "
+"Sun`, where team members of the hardcoded :type:`UnitType`\\ s "
+":tag:`[TRUCKA]` and :tag:`[TRUCKB]` could be converted between each other"
+" by two Team Scripts. This gave the impression of cargo trucks loading or"
+" unloading, which was the only purpose of this logic and limited to "
+"exactly this combination of types."
+msgstr ""
+
+#: ../new/typeconversion.rst:147
+msgid ""
+":game:`Ares` allows to define a type to convert to for each individual "
+"type. See :ref:`Convert Type Team Script <script-converttype>` for how to"
+" trigger the conversion."
+msgstr ""
+
+#: ../new/typeconversion.rst:153
+msgid ":tagdef:`[TechnoType]Convert.Script=TechnoType`"
+msgstr ""
+
+#: ../new/typeconversion.rst:152
+msgid ""
+"The type to convert an object to when executing the Convert Type Team "
+"Script. Defaults to :value:`none`."
+msgstr ""
+
+#: ../new/typeconversion.rst:155
+msgid ""
+"Because the type changes immediately when the conversion is triggered, "
+"you cannot generally assume the units to be standing still, idling. Thus,"
+" changing locomotors is not supported, while changing other movement "
+"settings or weapons might not work reliably. It is possible to change "
+"type settings unrelated to moving and firing, though: Add the ability to "
+"deploy, remove the restriction to manually unload, change the image or "
+"the Death Weapon, ..."
+msgstr ""
+

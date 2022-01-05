@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/factoryplant.rst:8
+msgid "Factory Plant Effect"
+msgstr ""
+
+#: ../new/factoryplant.rst:10
+msgid ""
+"The cost reduction effect of :tag:`FactoryPlant` buildings like the "
+"Industrial Plant can be modified per :type:`TechnoType`, using this "
+"multiplier."
+msgstr ""
+
+#: ../new/factoryplant.rst:22
+msgid ":tagdef:`[TechnoType]FactoryPlant.Multiplier=double - multiplier`"
+msgstr ""
+
+#: ../new/factoryplant.rst:14
+msgid ""
+"The effect of the respective :tag:`CostBonus` tag for this type is "
+"multiplied by this value to either increase, decrease, or nullify the "
+"effect. Fully supported values range from :value:`-1.0` to reverse the "
+"effect to :value:`1.0` to not apply the effect. :value:`0.0` nullifies "
+"the bonus. Defaults to :value:`1.0`."
+msgstr ""
+
+#: ../new/factoryplant.rst:20
+msgid ""
+"Values beyond :value:`1.0` can potentially cause the cost to drop to "
+"zero, if the effect of the product of all cost bonuses is multiplied by a"
+" too large value. This is because the effect of this multiplier is "
+"linear."
+msgstr ""
+
+#: ../new/factoryplant.rst:24
+#, python-format
+msgid ""
+"An example: If the cost bonus is :value:`0.6` and the multiplier is "
+":value:`0.5`, then the final bonus will be :value:`0.8`. In other words: "
+"if a bonus reduces the cost to 60% and the multiplier only grants half of"
+" that, the final price will be at 80% of the original cost."
+msgstr ""
+

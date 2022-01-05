@@ -1,0 +1,39 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/weapons/projectilerange.rst:8
+msgid ":captiontag:`ProjectileRange`"
+msgstr ""
+
+#: ../new/weapons/projectilerange.rst:10
+msgid ""
+"This setting from :game:`Firestorm` allows customizing the maximum "
+"distance after which a projectile will detonate."
+msgstr ""
+
+#: ../new/weapons/projectilerange.rst:15
+msgid ":tagdef:`[Weapon]ProjectileRange=float - cell range`"
+msgstr ""
+
+#: ../new/weapons/projectilerange.rst:14
+msgid ""
+"The distance a :tag:`Ranged=yes` projectile is allowed to travel before "
+"running out of fuel and detonating. Defaults to :value:`390`."
+msgstr ""
+

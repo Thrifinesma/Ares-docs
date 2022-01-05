@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../bugfixes/type2/producecash.rst:7
+msgid ":captiontag:`ProduceCashDelay` Problems"
+msgstr ""
+
+#: ../bugfixes/type2/producecash.rst:9
+msgid ""
+":tag:`ProduceCashDelay` was handled differently than other timers, as it "
+"fired one frame earlier than expected. This might have been done to "
+"distinguish from buildings that don't produce cash, because their timer "
+"is always set to 0."
+msgstr ""
+
+#: ../bugfixes/type2/producecash.rst:13
+msgid ""
+"If the timer expired, it would not be reset. This did not only happen for"
+" cash producing buildings, but also if a cash producing building was "
+"attacked by a :tag:`Temporal=yes` weapon at the time the timer reached "
+"and passed 1 without being reset. The consequence was that the building "
+"would stop producing cash until captured by and recaptured from a "
+":tag:`MultiplayPassive=yes` house."
+msgstr ""
+
+#: ../bugfixes/type2/producecash.rst:19
+msgid ""
+"Both issues have been fixed. The full :tag:`ProduceCashDelay` is now used"
+" and the timer will be reset correctly."
+msgstr ""
+
+#: ../bugfixes/type2/producecash.rst:22
+msgid ""
+"Also, the delay never started if :tag:`ProduceCashStartup` was "
+":value:`0`. In :game:`Ares` it will start anyhow."
+msgstr ""
+

@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/customcameopalettes.rst:8
+msgid "Custom Cameo Palettes"
+msgstr ""
+
+#: ../new/customcameopalettes.rst:10
+msgid ""
+"Rather than always using the cameo palette, individual cameos can now use"
+" their own bespoke palette."
+msgstr ""
+
+#: ../new/customcameopalettes.rst:13
+msgid "In :file:`artmd.ini`:"
+msgstr ""
+
+#: ../new/customcameopalettes.rst:19
+msgid ":tagdef:`[UnitArt]CameoPalette=filename, *including* the .pal extension)`"
+msgstr ""
+
+#: ../new/customcameopalettes.rst:16
+msgid ""
+"Specifies the palette to use for the unit's cameo (:tag:`Cameo` and "
+":tag:`AltCameo` must use the same palette), in the format "
+"\"filename.pal\". Defaults to :value:`cameo.pal`."
+msgstr ""
+
+#: ../new/customcameopalettes.rst:21
+msgid "In :file:`rulesmd.ini`:"
+msgstr ""
+
+#: ../new/customcameopalettes.rst:25
+msgid ""
+":tagdef:`[SuperWeapon]SidebarPalette=filename, *including* the .pal "
+"extension`"
+msgstr ""
+
+#: ../new/customcameopalettes.rst:24
+msgid ""
+"Specifies the palette to use for the super weapon's :tag:`SidebarImage`, "
+"in the format \"filename.pal\". Defaults to :value:`cameo.pal`."
+msgstr ""
+
+#: ../new/customcameopalettes.rst:27
+msgid ""
+"The cameo must not use the color at index 0 of the palette. It will be "
+"transparent in-game."
+msgstr ""
+

@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/cloak/cloaksound.rst:6
+msgid "Cloak Sounds"
+msgstr ""
+
+#: ../new/cloak/cloaksound.rst:8
+msgid ""
+"There was only one global sound used to indicate a change of cloak state."
+" :game:`Ares` split this into two separate flags for cloaking and "
+"decloaking, and made both of them customizable for each "
+":type:`TechnoType`."
+msgstr ""
+
+#: ../new/cloak/cloaksound.rst:14
+msgid ":tagdef:`[AudioVisual]DecloakSound=Sound`"
+msgstr ""
+
+#: ../new/cloak/cloaksound.rst:13
+msgid ""
+"The sound played when a unit or building decloaks. Defaults to \\ "
+":tag:`[AudioVisual]CloakSound`."
+msgstr ""
+
+#: ../new/cloak/cloaksound.rst:16
+msgid ""
+":type:`TechnoTypes` can override the global sounds. It does not matter "
+"whether the unit cloaks itself or whether it is cloaked by a Cloak "
+"Generator."
+msgstr ""
+
+#: ../new/cloak/cloaksound.rst:21
+msgid ":tagdef:`[TechnoType]CloakSound=Sound`"
+msgstr ""
+
+#: ../new/cloak/cloaksound.rst:20
+msgid ""
+"The sound played when this object cloaks or submerges. Defaults to \\ "
+":tag:`[AudioVisual]CloakSound`."
+msgstr ""
+
+#: ../new/cloak/cloaksound.rst:25
+msgid ":tagdef:`[TechnoType]DecloakSound=Sound`"
+msgstr ""
+
+#: ../new/cloak/cloaksound.rst:24
+msgid ""
+"The sound played when this object decloaks or emerges. Defaults to \\ "
+":tag:`[AudioVisual]DecloakSound`."
+msgstr ""
+

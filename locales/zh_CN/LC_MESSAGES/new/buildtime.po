@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/buildtime.rst:7
+msgid "Build Time"
+msgstr ""
+
+#: ../new/buildtime.rst:9
+msgid ""
+"In :game:`Ares` it is possible to customize all settings related to the "
+"build time of objects per type."
+msgstr ""
+
+#: ../new/buildtime.rst:17
+msgid ":tagdef:`[TechnoType]BuildTime.Speed=double - minutes`"
+msgstr ""
+
+#: ../new/buildtime.rst:13
+msgid ""
+"The time in minutes it takes to produce an object which costs 1000 "
+"credits. Defaults to :tag:`[General]BuildSpeed`."
+msgstr ""
+
+#: ../new/buildtime.rst:16
+msgid ""
+"If set, :tag:`WallBuildSpeedCoefficient` will not be applied to "
+":tag:`Wall=yes` buildings any more, because :tag:`BuildTime.Speed` is "
+"taken as final value."
+msgstr ""
+
+#: ../new/buildtime.rst:21
+msgid ":tagdef:`[TechnoType]BuildTime.Cost=integer - credits`"
+msgstr ""
+
+#: ../new/buildtime.rst:20
+msgid ""
+"If set, the build time is calculated as if this item cost this much, "
+"instead of using actual :tag:`Cost`. Defaults to :tag:`Cost`."
+msgstr ""
+
+#: ../new/buildtime.rst:23
+msgid ""
+"If the player does not have enough power, the following settings apply. "
+"They define a factor applied to the amount of power lacking and the range"
+" the resulting modifier will be clamped in before being multipled with "
+"the build time."
+msgstr ""
+
+#: ../new/buildtime.rst:30
+msgid ":tagdef:`[TechnoType]BuildTime.LowPowerPenalty=double - multiplier`"
+msgstr ""
+
+#: ../new/buildtime.rst:29
+msgid ""
+"The penalty to apply to the build time in low power situations. Defaults "
+"to :tag:`[General]LowPowerPenaltyModifier`."
+msgstr ""
+
+#: ../new/buildtime.rst:35
+msgid ":tagdef:`[TechnoType]BuildTime.MinLowPower=double`"
+msgstr ""
+
+#: ../new/buildtime.rst:33
+msgid ""
+"The minimum production speed when power is low. The resulting low power "
+"modifier will not be lower than this. Defaults to "
+":tag:`[General]MinLowPowerProductionSpeed`."
+msgstr ""
+
+#: ../new/buildtime.rst:40
+msgid ":tagdef:`[TechnoType]BuildTime.MaxLowPower=double`"
+msgstr ""
+
+#: ../new/buildtime.rst:38
+msgid ""
+"The maximum production speed when power is low. The resulting low power "
+"modifier will not be greater than this. Defaults to "
+":tag:`[General]MaxLowPowerProductionSpeed`."
+msgstr ""
+
+#: ../new/buildtime.rst:42
+msgid ""
+"When a player has more than one factory of the same type, the following "
+"modifier also applies."
+msgstr ""
+
+#: ../new/buildtime.rst:47
+msgid ":tagdef:`[TechnoType]BuildTime.MultipleFactory=double - multiplier`"
+msgstr ""
+
+#: ../new/buildtime.rst:46
+msgid ""
+"The factor multiplied by the build time per additional factory of the "
+"same type. Defaults to :tag:`[General]MultipleFactory`."
+msgstr ""
+

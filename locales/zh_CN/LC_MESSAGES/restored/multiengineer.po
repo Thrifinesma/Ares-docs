@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../restored/multiengineer.rst:4
+msgid "Multi Engineer"
+msgstr ""
+
+#: ../restored/multiengineer.rst:6
+msgid ""
+":game:`Red Alert` introduced a way to balance engineers. By being able to"
+" capture a building only if has been damaged already engineer rushes "
+"became a lot more difficult. If the building could not be captured the "
+"engineer would damage it instead. :tag:`EngineerDamage` is not present in"
+" :game:`Yuri's Revenge`. :game:`Ares` restores this feature."
+msgstr ""
+
+#: ../restored/multiengineer.rst:18
+msgid ":tagdef:`[General]EngineerCaptureLevel=float - percent`"
+msgstr ""
+
+#: ../restored/multiengineer.rst:17
+msgid ""
+"If the building's health is equal to or below this percentage of its "
+"strength it can be captured by an engineer instead of being damaged. "
+"Defaults to \\ :value:`1.0`."
+msgstr ""
+
+#: ../restored/multiengineer.rst:21
+msgid ":tagdef:`[General]EngineerDamage=float - percent`"
+msgstr ""
+
+#: ../restored/multiengineer.rst:21
+msgid ""
+"If the building cannot be captured the engineer will damage it by this "
+"amount of its full health. Defaults to :value:`0.0`."
+msgstr ""
+
+#: ../restored/multiengineer.rst:29
+msgid ":tagdef:`[General]EngineerAlwaysCaptureTech=boolean`"
+msgstr ""
+
+#: ../restored/multiengineer.rst:24
+msgid ""
+"Specifies whether tech buildings can be captured no matter what their "
+"current health status is. Defaults to :value:`yes`."
+msgstr ""
+
+#: ../restored/multiengineer.rst:27
+msgid ""
+"All structures originally owned by countries with \\ "
+":tag:`MultiplayPassive=yes` are considered tech structures. This "
+"definition  is likely to change in a later version."
+msgstr ""
+
+#: ../restored/multiengineer.rst:31
+msgid ""
+"Use sensible defaults. Generally, :tag:`EngineerDamage` should never be "
+"higher than :tag:`EngineerCaptureLevel` or there might be situations an "
+"engineer blows up the building to be captured."
+msgstr ""
+
+#: ../restored/multiengineer.rst:35
+msgid ""
+"See :doc:`/restored/multiengineercheckbox` to enable the user to turn the"
+" Multi Engineer option on and off from the game menu. If the checkbox is "
+"not enabled, the game will enforce the settings defined in "
+":file:`rulesmd.ini`."
+msgstr ""
+
+#: ../restored/multiengineer.rst:39
+msgid ""
+"See :doc:`Mouse Cursors </new/mousecursors>` on how to customize the "
+"cursor to indicate an engineer will only damage the building instead of "
+"capturing it by defining :value:`EngineerDamage`."
+msgstr ""
+

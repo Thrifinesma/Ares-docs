@@ -1,0 +1,64 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/spawners.rst:6
+msgid "Spawners"
+msgstr ""
+
+#: ../new/spawners.rst:8
+msgid ""
+"Spawners have been enhanced to support cloak. A cloaking Destroyer or "
+"Aircraft Carrier will not cause all its spawns to self-destruct any more."
+" Spawners now have rudimentary support for :tag:`BalloonHover=yes`."
+msgstr ""
+
+#: ../new/spawners.rst:16
+msgid "Flying Aircraft Carriers"
+msgstr ""
+
+#: ../new/spawners.rst:18
+msgid ""
+"Non-Missile spawns were always put on the ground for take-off, even if "
+"the carrier was in the air. This has been changed and spawns now start "
+"from the carrier."
+msgstr ""
+
+#: ../new/spawners.rst:22
+msgid ""
+"Spawned units now return to :tag:`BalloonHover=yes` spawners, instead of "
+"flying off the map and potentially crashing the game. If the spawner unit"
+" is moving, it is possible that the spawns lower on the wrong cell and "
+"then gain altitude again."
+msgstr ""
+
+#: ../new/spawners.rst:27
+msgid ""
+"For best effects, the :tag:`FlightLevel` of spawns should be higher than "
+"the :tag:`FlightLevel` of the spawning unit. Otherwise the spawns would "
+"disappear from mid-air when docking, or even try to lower down to the "
+"ground instead of going up to the carrier."
+msgstr ""
+
+#: ../new/spawners.rst:32
+msgid ""
+"Please note that this logics still has some shortcomings and it has many "
+"opportunities for improvements. For example, move sounds do not work "
+"correctly once a spawn has launched once."
+msgstr ""
+

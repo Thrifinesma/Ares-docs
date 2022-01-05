@@ -1,0 +1,137 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/buildings/trivialstructuredamage.rst:6
+msgid "Trivial Structure Damage"
+msgstr ""
+
+#: ../new/buildings/trivialstructuredamage.rst:8
+msgid ""
+"When a house is suffering low power, buildings can be made to degrade "
+"just like in the earlier games like :game:`Tiberian Dawn` and :game:`Red "
+"Alert`. The buildings lose health while they are unpowered, defined by an"
+" amount and an interval, down to a minimum health. The damage is always "
+"dealt by :tag:`[General]C4Warhead`."
+msgstr ""
+
+#: ../new/buildings/trivialstructuredamage.rst:14
+msgid ""
+"In the earlier games, only buildings consuming power degraded one "
+"hitpoint per interval until reaching yellow health."
+msgstr ""
+
+#: ../new/buildings/trivialstructuredamage.rst:19
+msgid ":tagdef:`[General]Degrade.Enabled=boolean`"
+msgstr ""
+
+#: ../new/buildings/trivialstructuredamage.rst:18
+msgid ""
+"Whether structures are damaged in intervals defined by :tag:`DamageDelay`"
+" when a player has low power. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/buildings/trivialstructuredamage.rst:24
+msgid ":tagdef:`[General]Degrade.Percentage=double - percentage`"
+msgstr ""
+
+#: ../new/buildings/trivialstructuredamage.rst:22
+msgid ""
+"The health above which this building will continue to degrade during low "
+"power situations. Buildings with health equal to or below this will not "
+"degrade further. Defaults to :tag:`[AudioVisual]ConditionYellow`."
+msgstr ""
+
+#: ../new/buildings/trivialstructuredamage.rst:28
+msgid ":tagdef:`[General]Degrade.AmountNormal=integer - hitpoints`"
+msgstr ""
+
+#: ../new/buildings/trivialstructuredamage.rst:27
+msgid ""
+"The damage caused to buildings with :tag:`Power` equal to or greater than"
+" :value:`0` in low power situations. Defaults to :value:`0`."
+msgstr ""
+
+#: ../new/buildings/trivialstructuredamage.rst:32
+msgid ":tagdef:`[General]Degrade.AmountConsumer=integer - hitpoints`"
+msgstr ""
+
+#: ../new/buildings/trivialstructuredamage.rst:31
+msgid ""
+"The damage caused to buildings with :tag:`Power` less than :value:`0` in "
+"low power situations. Defaults to :value:`1`."
+msgstr ""
+
+#: ../new/buildings/trivialstructuredamage.rst:34
+msgid "These global options can be customized per :type:`BuildingType`."
+msgstr ""
+
+#: ../new/buildings/trivialstructuredamage.rst:40
+msgid ":tagdef:`[BuildingType]Degrade.Percentage=double - percentage`"
+msgstr ""
+
+#: ../new/buildings/trivialstructuredamage.rst:37
+msgid ""
+"The percentage of health this building will degrade to in low power "
+"situations. A value of :value:`1.0` will not degrade this building, a "
+"value of :value:`0.0` will make it degrade till complete destruction. "
+"Defaults to :tag:`[General]Degrade.Percentage`."
+msgstr ""
+
+#: ../new/buildings/trivialstructuredamage.rst:47
+msgid ":tagdef:`[BuildingType]Degrade.Amount=integer - hitpoints`"
+msgstr ""
+
+#: ../new/buildings/trivialstructuredamage.rst:43
+msgid ""
+"The amount of damage this building will receive each interval of "
+":tag:`DamageDelay` in low power situations. A value of :value:`0` will "
+"not degrade this building. Defaults to "
+":tag:`[General]Degrade.AmountNormal` if :tag:`Power` is greater than or "
+"equal to :value:`0`, otherwise to :tag:`[General]Degrade.AmountConsumer`."
+msgstr ""
+
+#: ../new/buildings/trivialstructuredamage.rst:49
+msgid ""
+"Trivial Structure Damage can be enabled or disabled for each house "
+"individually. By default, :tag:`MultiplayPassive=yes` houses are not "
+"affected."
+msgstr ""
+
+#: ../new/buildings/trivialstructuredamage.rst:55
+msgid ":tagdef:`[Country]Degrades=boolean`"
+msgstr ""
+
+#: ../new/buildings/trivialstructuredamage.rst:53
+msgid ""
+"Whether buildings owned by this country degrade in low power situations. "
+"Defaults to :value:`no` for :tag:`MultiplayPassive=yes`, to :value:`yes` "
+"otherwise."
+msgstr ""
+
+#: ../new/buildings/trivialstructuredamage.rst:59
+msgid ":tagdef:`[House]Degrades=boolean`"
+msgstr ""
+
+#: ../new/buildings/trivialstructuredamage.rst:58
+msgid ""
+"Whether buildings owned by this country degrade in low power situations. "
+"Only supported in single player missions. Defaults to "
+":tag:`[Country]Degrades`."
+msgstr ""
+

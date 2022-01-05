@@ -1,0 +1,207 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/superweapons/types/empulse.rst:6
+msgid ":captiontag:`Type=EMPulse`"
+msgstr ""
+
+#: ../new/superweapons/types/empulse.rst:8
+msgid ""
+"This type implements the super weapon known from :game:`Tiberian Sun`, "
+"with several extensions. It makes one or more buildings, called cannons, "
+"of arbitrary type fire at the same time at either a target location "
+"selected by the player or at themselves."
+msgstr ""
+
+#: ../new/superweapons/types/empulse.rst:13
+msgid ""
+"The AI cannot make full use of this super weapon yet, because it does not"
+" respect ranges, which is a fundamental feature of this super weapon "
+"type."
+msgstr ""
+
+#: ../new/superweapons/types/empulse.rst:16
+msgid "Default values for general tags:"
+msgstr ""
+
+#: ../new/superweapons/types/empulse.rst:21
+msgid ":tagdef:`[SuperWeapon]SW.RangeMinimum=float - cell range`"
+msgstr ""
+
+#: ../new/superweapons/types/empulse.rst:19
+msgid ""
+"The minimum range below which a cannon is not eligible to fire. Set to "
+"negative values to use each cannon's primary weapon's minimum range. "
+"Defaults to :value:`0.0`, which disables the check."
+msgstr ""
+
+#: ../new/superweapons/types/empulse.rst:26
+msgid ":tagdef:`[SuperWeapon]SW.RangeMaximum=float - cell range`"
+msgstr ""
+
+#: ../new/superweapons/types/empulse.rst:24
+msgid ""
+"The maximum range above which a cannon is not eligible to fire. Set to "
+"negative values to use the each cannon's primary weapon's range. Defaults"
+" to :value:`-1.0`."
+msgstr ""
+
+#: ../new/superweapons/types/empulse.rst:30
+msgid ":tagdef:`[SuperWeapon]SW.MaxCount=integer`"
+msgstr ""
+
+#: ../new/superweapons/types/empulse.rst:29
+msgid ""
+"The maximum number of cannons firing. Set to negative values for "
+"unlimited cannons. Defaults to :value:`1`."
+msgstr ""
+
+#: ../new/superweapons/types/empulse.rst:35
+msgid ":tagdef:`[SuperWeapon]SW.AITargeting=enumeration`"
+msgstr ""
+
+#: ../new/superweapons/types/empulse.rst:33
+msgid ""
+"AI does not respect ranges. For :tag:`EMPulse.TargetSelf=yes` super "
+"weapons, use :value:`NoTarget` to enable AI players to use it. Defaults "
+"to :value:`None`."
+msgstr ""
+
+#: ../new/superweapons/types/empulse.rst:38
+msgid ":tagdef:`[SuperWeapon]Cursor=mouse cursor`"
+msgstr ""
+
+#: ../new/superweapons/types/empulse.rst:38
+msgid "Used when the target is in range of a cannon. Defaults to :value:`Attack`."
+msgstr ""
+
+#: ../new/superweapons/types/empulse.rst:41
+msgid ":tagdef:`[SuperWeapon]NoCursor=mouse cursor`"
+msgstr ""
+
+#: ../new/superweapons/types/empulse.rst:41
+msgid ""
+"Used when there is no cannon in range. Defaults to "
+":value:`AttackOutOfRange`."
+msgstr ""
+
+#: ../new/superweapons/types/empulse.rst:43
+msgid "EMPulse specific tags:"
+msgstr ""
+
+#: ../new/superweapons/types/empulse.rst:48
+msgid ":tagdef:`[SuperWeapon]EMPulse.Cannons=list of BuildingType`"
+msgstr ""
+
+#: ../new/superweapons/types/empulse.rst:46
+msgid ""
+"The building types considered to check the range and to fire. If the list"
+" is empty, all buildings with :tag:`EMPulseCannon=yes` are considered. "
+"All buildings are required to have a primary weapon. Defaults to "
+":value:`none`."
+msgstr ""
+
+#: ../new/superweapons/types/empulse.rst:54
+msgid ":tagdef:`[SuperWeapon]EMPulse.TargetSelf=boolean`"
+msgstr ""
+
+#: ../new/superweapons/types/empulse.rst:51
+msgid ""
+"Whether each cannon to fire should fire its primary weapon at itself. The"
+" cannon does not actually fire; the weapon just detonates once on the "
+"cannon building immediately, similar to a death weapon. To actually "
+"damage itself, the building needs to have :tag:`DamageSelf=yes` set. "
+"Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/superweapons/types/empulse.rst:61
+msgid ":tagdef:`[SuperWeapon]EMPulse.Linked=boolean`"
+msgstr ""
+
+#: ../new/superweapons/types/empulse.rst:57
+msgid ""
+"Whether only one cannon needs to satisfy the range checks to the target. "
+"All other cannons will then be considered regardless of range. Only makes"
+" sense if :tag:`SW.MaxCount` has a value other than :value:`1`. The "
+"difference to just making the cannon itself a designator is that the "
+"cannon can be made to not provide fire clearance on their own. Defaults "
+"to :value:`no`."
+msgstr ""
+
+#: ../new/superweapons/types/empulse.rst:66
+msgid ":tagdef:`[SuperWeapon]EMPulse.PulseBall=Animation`"
+msgstr ""
+
+#: ../new/superweapons/types/empulse.rst:64
+msgid ""
+"The optional animation played at the FLH at the beginning of the delay "
+"before the cannon fires. Use :value:`none` to disable the pulse ball. "
+"This does not disable the delay. Defaults to :value:`PULSBALL`."
+msgstr ""
+
+#: ../new/superweapons/types/empulse.rst:70
+msgid ":tagdef:`[SuperWeapon]EMPulse.PulseDelay=integer - frames`"
+msgstr ""
+
+#: ../new/superweapons/types/empulse.rst:69
+msgid ""
+"The delay before firing, but after the cannon rotated towards the target "
+"and started the :tag:`EMPulse.PulseBall` animation. Defaults to "
+":value:`32`."
+msgstr ""
+
+#: ../new/superweapons/types/empulse.rst:72
+msgid ""
+"There are three firing modes opposed to the one known from "
+":game:`Tiberian Sun`. Buildings with :tag:`EMPulseCannon=yes` rotate "
+"their turret and then create a single bullet using the primary weapon "
+"that is thrown at the target. The building does not actually fire and "
+"several weapon and building effects are not respected that apply when the"
+" building is on a regular attack mission."
+msgstr ""
+
+#: ../new/superweapons/types/empulse.rst:78
+msgid ""
+"If :tag:`EMPulse.TargetSelf=yes`, a single bullet is immediately "
+"detonated at each firing cannon's location. Again, the building does not "
+"actually fire."
+msgstr ""
+
+#: ../new/superweapons/types/empulse.rst:81
+msgid ""
+"If a building with :tag:`EMPulseCannon=no` is put into "
+":tag:`EMPulse.Cannons`, the building will fire its primary weapon at the "
+"target directly, but without charging or turret rotation, and without any"
+" further range checks. Thus, turrets are not supported, and buildings are"
+" not guaranteed to fire at all if they didn't rotate in the right "
+"direction before the super weapon is fired."
+msgstr ""
+
+#: ../new/superweapons/types/empulse.rst:87
+msgid "Other changes:"
+msgstr ""
+
+#: ../new/superweapons/types/empulse.rst:89
+msgid ""
+"The pulse ball animation that was previously hardcoded to "
+":value:`PULSBALL` has now been made customizable and optional. If an "
+":tag:`EMPulseCannon=yes` building had a primary weapon without any valid "
+":tag:`Report` set, the game would crash. This does not happen anymore."
+msgstr ""
+

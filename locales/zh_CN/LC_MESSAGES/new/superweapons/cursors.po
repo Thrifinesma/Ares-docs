@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/superweapons/cursors.rst:8
+msgid "Cursors"
+msgstr ""
+
+#: ../new/superweapons/cursors.rst:10
+msgid ""
+":game:`Ares` allows you to specify custom mouse cursors for the super "
+"weapon, using the following flags. See :doc:`Mouse Cursors "
+"</new/mousecursors>` on how to define them."
+msgstr ""
+
+#: ../new/superweapons/cursors.rst:16
+msgid ":tagdef:`[SuperWeapon]Cursor=mouse cursor`"
+msgstr ""
+
+#: ../new/superweapons/cursors.rst:15
+msgid ""
+"Cursor to use when it is ok to fire the super weapon at the given "
+"location. Defaults to :value:`Attack`, if not stated otherwise."
+msgstr ""
+
+#: ../new/superweapons/cursors.rst:22
+msgid ":tagdef:`[SuperWeapon]NoCursor=mouse cursor`"
+msgstr ""
+
+#: ../new/superweapons/cursors.rst:19
+msgid ""
+"Cursor to use when the super weapon is not allowed to fire at the given "
+"location. This may be because the selected target is not of the required "
+"type or its owner is not allowed, or the target is out of range, or there"
+" is no designator nearby. Defaults to :value:`Disallowed`, if not stated "
+"otherwise."
+msgstr ""
+

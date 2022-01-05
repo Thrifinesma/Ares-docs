@@ -1,0 +1,171 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/superweapons/types/hunterseeker.rst:4
+msgid ":captiontag:`Type=HunterSeeker`"
+msgstr ""
+
+#: ../new/superweapons/types/hunterseeker.rst:6
+msgid ""
+"The Hunter Seeker super weapon known from :game:`Tiberian Sun` has been "
+"restored and expanded. The Hunter Seeker is a :type:`VehicleType` that is"
+" launched from a building and then steers into an enemy object, "
+"detonating on impact."
+msgstr ""
+
+#: ../new/superweapons/types/hunterseeker.rst:10
+msgid "Default values for general tags:"
+msgstr ""
+
+#: ../new/superweapons/types/hunterseeker.rst:13
+msgid ":tagdef:`[SuperWeapon]SW.MaxCount=integer`"
+msgstr ""
+
+#: ../new/superweapons/types/hunterseeker.rst:13
+msgid ""
+"The maximum number of buildings launching a Hunter Seeker. Set to "
+"negative values for unlimited buildings. Defaults to :value:`1`."
+msgstr ""
+
+#: ../new/superweapons/types/hunterseeker.rst:15
+msgid ":tagdef:`[SuperWeapon]SW.AITargeting=enumeration`"
+msgstr ""
+
+#: ../new/superweapons/types/hunterseeker.rst:16
+msgid "Defaults to :value:`HunterSeeker`."
+msgstr ""
+
+#: ../new/superweapons/types/hunterseeker.rst:17
+msgid ":tagdef:`[SuperWeapon]SW.AffectsHouse=enumeration`"
+msgstr ""
+
+#: ../new/superweapons/types/hunterseeker.rst:18
+msgid "Specifies the houses targeted. Defaults to :value:`enemies`."
+msgstr ""
+
+#: ../new/superweapons/types/hunterseeker.rst:19
+msgid ":tagdef:`[SuperWeapon]SW.AffectsTarget=enumeration`"
+msgstr ""
+
+#: ../new/superweapons/types/hunterseeker.rst:20
+msgid "Specifies which types are targeted. Defaults to :value:`all`."
+msgstr ""
+
+#: ../new/superweapons/types/hunterseeker.rst:21
+msgid ":tagdef:`[SuperWeapon]EVA.Detected=EVA event`"
+msgstr ""
+
+#: ../new/superweapons/types/hunterseeker.rst:22
+msgid "Defaults to :value:`EVA_HunterSeekerDetected`."
+msgstr ""
+
+#: ../new/superweapons/types/hunterseeker.rst:23
+msgid ":tagdef:`[SuperWeapon]EVA.Ready=EVA event`"
+msgstr ""
+
+#: ../new/superweapons/types/hunterseeker.rst:24
+msgid "Defaults to :value:`EVA_HunterSeekerReady`."
+msgstr ""
+
+#: ../new/superweapons/types/hunterseeker.rst:25
+msgid ":tagdef:`[SuperWeapon]EVA.Activated=EVA event`"
+msgstr ""
+
+#: ../new/superweapons/types/hunterseeker.rst:26
+msgid "Defaults to :value:`EVA_HunterSeekerLaunched`."
+msgstr ""
+
+#: ../new/superweapons/types/hunterseeker.rst:29
+msgid ":tagdef:`[SuperWeapon]Text.Ready=CSF label`"
+msgstr ""
+
+#: ../new/superweapons/types/hunterseeker.rst:28
+msgid "Defaults to :value:`TXT_RELEASE`."
+msgstr ""
+
+#: ../new/superweapons/types/hunterseeker.rst:31
+msgid "Hunter Seeker specific tags:"
+msgstr ""
+
+#: ../new/superweapons/types/hunterseeker.rst:36
+msgid ":tagdef:`[SuperWeapon]HunterSeeker.Buildings=list of BuildingType`"
+msgstr ""
+
+#: ../new/superweapons/types/hunterseeker.rst:34
+msgid ""
+"The list of :type:`BuildingTypes` that can launch this Hunter Seeker. "
+"Does not have to be the same buildings that provide this super weapon. If"
+" the player does not own a building of any type, the super weapon "
+"discharges without launching a Hunter Seeker. Defaults to "
+":tag:`[SpecialWeapons]HSBuilding`."
+msgstr ""
+
+#: ../new/superweapons/types/hunterseeker.rst:39
+msgid ":tagdef:`[SuperWeapon]HunterSeeker.Type=VehicleType`"
+msgstr ""
+
+#: ../new/superweapons/types/hunterseeker.rst:39
+msgid ""
+"The Hunter Seeker unit to spawn. Only set this to use a specific unit "
+"instead of each players' side default. Defaults to the side's "
+":tag:`HunterSeeker`."
+msgstr ""
+
+#: ../new/superweapons/types/hunterseeker.rst:46
+msgid ":tagdef:`[SuperWeapon]HunterSeeker.RandomOnly=boolean`"
+msgstr ""
+
+#: ../new/superweapons/types/hunterseeker.rst:42
+msgid ""
+"Whether every enemy object on the map has an equal chance of being "
+"targeted by the Hunter Seeker. If :value:`no`, non-civilian targets are "
+"preferred for human players in multiplayer games, and only if no "
+"preferred target is found, a random target is chosen. Defaults to "
+":value:`no`."
+msgstr ""
+
+#: ../new/superweapons/types/hunterseeker.rst:48
+msgid ""
+"Launches up to :tag:`[SuperWeapon]SW.MaxCount` Hunter Seekers of the "
+"specified type from the firing player's buildings that are valid launch "
+"sites. Only one Hunter Seeker is launched per building."
+msgstr ""
+
+#: ../new/superweapons/types/hunterseeker.rst:52
+msgid ""
+"Hunter Seekers might pick other targets while in flight. They will not "
+"target objects under the effect of the Iron Curtain or objects currently "
+"being warped out of time."
+msgstr ""
+
+#: ../new/superweapons/types/hunterseeker.rst:56
+msgid ""
+"If the unit used as Hunter Seeker has :tag:`Harvester=yes` set, the unit "
+"will go on a harvest mission automatically."
+msgstr ""
+
+#: ../new/superweapons/types/hunterseeker.rst:59
+msgid ""
+"See :doc:`Hunter Seeker </new/hunterseeker>` for information on how to "
+"define a valid Hunter Seeker unit and how to prevent certain "
+":type:`TechnoTypes` to be targeted. See :ref:`Sides & Countries <sides-"
+"hunterseeker>` on how to define a default Hunter Seeker unit for each "
+"side."
+msgstr ""
+

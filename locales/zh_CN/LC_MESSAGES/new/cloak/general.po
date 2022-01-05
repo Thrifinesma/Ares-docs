@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/cloak/general.rst:4
+msgid "General Changes and Updates"
+msgstr ""
+
+#: ../new/cloak/general.rst:9
+msgid "Powered Units"
+msgstr ""
+
+#: ../new/cloak/general.rst:11
+msgid ""
+"Deactivated units (using either the :tag:`PoweredBy=` or "
+":value:`PoweredUnit=` logic) and units whose drivers have been killed "
+"lose the ability to cloak themselves, and they will uncloak "
+"automatically. The units are still allowed to be cloaked by allied Cloak "
+"Generators in range."
+msgstr ""
+
+#: ../new/cloak/general.rst:22
+msgid "Parasites"
+msgstr ""
+
+#: ../new/cloak/general.rst:24
+msgid ""
+"In the original :game:`Yuri's Revenge`, parasites like the Terror Drone "
+"were ejected from a unit when it cloaked. This has been changed so the "
+"parasite stays inside the victim and continues damaging it."
+msgstr ""
+

@@ -1,0 +1,197 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/sidescountries/defaultside.rst:4
+msgid "Side Defaults"
+msgstr ""
+
+#: ../new/sidescountries/defaultside.rst:6
+msgid "These are the side defaults used instead of global tags."
+msgstr ""
+
+#: ../new/sidescountries/defaultside.rst:15
+msgid "Crew, Survivors and Other Types"
+msgstr ""
+
+#: ../new/sidescountries/defaultside.rst:19
+msgid ":tagdef:`[Side]Crew=InfantryType`"
+msgstr ""
+
+#: ../new/sidescountries/defaultside.rst:18
+msgid ""
+"The :type:`InfantryType` that is spawned as a survivor when objects (with"
+" :tag:`Crewed=yes` set) owned by this side are destroyed (or, in the case"
+" of buildings, sold)."
+msgstr ""
+
+#: ../new/sidescountries/defaultside.rst:28
+msgid ":tagdef:`[Side]Engineer=InfantryType`"
+msgstr ""
+
+#: ../new/sidescountries/defaultside.rst:22
+msgid ""
+"The :type:`InfantryType` that has a chance to be spawned when buildings "
+"with :tag:`Factory=BuildingType` owned by this side are destroyed or "
+"sold. Defaults to :tag:`[General]Engineer`."
+msgstr ""
+
+#: ../new/sidescountries/defaultside.rst
+msgid "Quickstart"
+msgstr ""
+
+#: ../new/sidescountries/defaultside.rst:26
+msgid ""
+"To make the Soviet Construction Yards spawn Soviet Engineers instead of "
+"the Allied one as set by :tagdef:`[General]Engineer`, set \\ "
+":tagdef:`[Nod]Engineer=SENGINEER`. Similarily, for Yuri's side set \\ "
+":tagdef:`[ThirdSide]Engineer=YENGINEER`."
+msgstr ""
+
+#: ../new/sidescountries/defaultside.rst:32
+msgid ":tagdef:`[Side]Technician=InfantryType`"
+msgstr ""
+
+#: ../new/sidescountries/defaultside.rst:31
+msgid ""
+"The :type:`InfantryType` that has a chance to be spawned when armed "
+"objects owned by this side are destroyed or sold. Defaults to "
+":tag:`[General]Technician`."
+msgstr ""
+
+#: ../new/sidescountries/defaultside.rst:35
+msgid ":tagdef:`[Side]DefaultDisguise=InfantryType`"
+msgstr ""
+
+#: ../new/sidescountries/defaultside.rst:35
+msgid ""
+"Default :type:`InfantryType` that disguisable infantry will be disguised "
+"as when first created."
+msgstr ""
+
+#: ../new/sidescountries/defaultside.rst:40
+msgid ":tagdef:`[Side]SurvivorDivisor=integer`"
+msgstr ""
+
+#: ../new/sidescountries/defaultside.rst:38
+msgid ""
+"An object's refund amount is divided by this number to determine how many"
+" survivors will be spawned when this object is destroyed (or, in the case"
+" of buildings, sold)."
+msgstr ""
+
+#: ../new/sidescountries/defaultside.rst:51
+msgid "AI and Base-Building"
+msgstr ""
+
+#: ../new/sidescountries/defaultside.rst:53
+msgid ":tagdef:`[Side]AI.BaseDefenses=list of BuildingTypes`"
+msgstr ""
+
+#: ../new/sidescountries/defaultside.rst:54
+msgid "List of base defense buildings that the AI can build."
+msgstr ""
+
+#: ../new/sidescountries/defaultside.rst:60
+msgid ":tagdef:`[Side]AI.BaseDefenseCounts=list of integers`"
+msgstr ""
+
+#: ../new/sidescountries/defaultside.rst:56
+msgid ""
+"The maximum amount of base defense building that the AI can build. "
+"(listed as AI difficulties: hard, medium, easy)  Defaults to "
+":tag:`[General]AlliedBaseDefenseCounts` for GDI (Allied), "
+":tag:`[General]SovietBaseDefenseCounts` for Nod (Soviet), and "
+":tag:`[General]ThirdBaseDefenseCounts` for ThirdSide (Yuri)."
+msgstr ""
+
+#: ../new/sidescountries/defaultside.rst:70
+msgid "Paradrop Defaults"
+msgstr ""
+
+#: ../new/sidescountries/defaultside.rst:80
+msgid ":tagdef:`[Side]ParaDrop.Types=list of InfantryTypes and/or VehicleTypes`"
+msgstr ""
+
+#: ../new/sidescountries/defaultside.rst:73
+msgid ""
+"The units that will be paradropped by :tag:`Type=ParaDrop` super weapons "
+"(such as the one normally provided by a Tech Airport) for this side. "
+"Defaults to :tag:`[General]AllyParaDropInf` for GDI (Allied), "
+":tag:`[General]SovParaDropInf` for Nod (Soviet), and "
+":tag:`[General]YuriParaDropInf` for ThirdSide (Yuri)."
+msgstr ""
+
+#: ../new/sidescountries/defaultside.rst:79
+msgid ""
+"The original flags used to control the paradrop units only accept \\ "
+":type:`InfantryTypes`. To include :type:`VehicleTypes` in a paradrop you "
+"*have to* use the new :tag:`ParaDrop.Types` and :tag:`ParaDrop.Num` "
+"flags."
+msgstr ""
+
+#: ../new/sidescountries/defaultside.rst:85
+msgid ":tagdef:`[Side]ParaDrop.Num=list of integers`"
+msgstr ""
+
+#: ../new/sidescountries/defaultside.rst:83
+msgid ""
+"The quantity of each corresponding unit (listed against "
+":tag:`ParaDrop.Types`) that will be paradropped. Defaults to "
+":tag:`[General]AllyParaDropNum` for GDI (Allied), "
+":tag:`[General]SovParaDropNum` for Nod (Soviet), and "
+":tag:`[General]YuriParaDropNum` for ThirdSide (Yuri)."
+msgstr ""
+
+#: ../new/sidescountries/defaultside.rst:88
+msgid ":tagdef:`[Side]ParaDrop.Aircraft=AircraftType`"
+msgstr ""
+
+#: ../new/sidescountries/defaultside.rst:88
+msgid ""
+"The aircraft type that will be used to deliver paradrops from super "
+"weapons or by teams created by map actions. Defaults to :value:`PDPLANE`."
+msgstr ""
+
+#: ../new/sidescountries/defaultside.rst:92
+msgid ":tagdef:`[Side]Parachute.Anim=Animation`"
+msgstr ""
+
+#: ../new/sidescountries/defaultside.rst:91
+msgid ""
+"This side's default parachute used if not overridden by the country or a "
+":type:`TechnoType`. Defaults to :value:`PARACH`."
+msgstr ""
+
+#: ../new/sidescountries/defaultside.rst:105
+msgid "Hunter Seeker Defaults"
+msgstr ""
+
+#: ../new/sidescountries/defaultside.rst:112
+msgid ":tagdef:`[Side]HunterSeeker=VehicleType`"
+msgstr ""
+
+#: ../new/sidescountries/defaultside.rst:108
+msgid ""
+"The unit used as default Hunter Seeker for the Hunter Seeker super "
+"weapon. Replaces :tag:`[General]GDIHunterSeeker` and "
+":tag:`[General]NodHunterSeeker` from :game:`Tiberian Sun`. Set this to a "
+"voxel :type:`VehicleType` with Fly locomotor as specified under "
+":doc:`Hunter Seeker </new/hunterseeker>`. Defaults to :value:`none`."
+msgstr ""
+

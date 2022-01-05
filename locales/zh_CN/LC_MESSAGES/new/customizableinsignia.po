@@ -1,0 +1,120 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/customizableinsignia.rst:8
+msgid "Veterancy Insignia"
+msgstr ""
+
+#: ../new/customizableinsignia.rst:11
+msgid "Chevrons"
+msgstr ""
+
+#: ../new/customizableinsignia.rst:13
+msgid ""
+"Units can now have custom insignia (chevrons) to represent their "
+"veterancy level."
+msgstr ""
+
+#: ../new/customizableinsignia.rst:16
+msgid ""
+":tagdef:`[TechnoType]Insignia.Rookie=filename, excluding the .shp "
+"extension`"
+msgstr ""
+
+#: ../new/customizableinsignia.rst:18
+msgid ""
+":tagdef:`[TechnoType]Insignia.Veteran=filename, excluding the .shp "
+"extension`"
+msgstr ""
+
+#: ../new/customizableinsignia.rst:22
+msgid ""
+":tagdef:`[TechnoType]Insignia.Elite=filename, excluding the .shp "
+"extension`"
+msgstr ""
+
+#: ../new/customizableinsignia.rst:21
+msgid ""
+"For example, :tag:`Insignia.Rookie=SAMPLE` would display "
+":file:`sample.shp` as the insignia while the object is rookie. Defaults "
+"to :value:`PIPS`."
+msgstr ""
+
+#: ../new/customizableinsignia.rst:24
+msgid ""
+"These SHPs - like the original :file:`pips.shp` - are expected to be in "
+"the theater palette. If you specify an insignia, the first frame of its "
+"SHP will be drawn. Veteran and Elite objects without the insignia "
+"specified will still display the 15th/16th frames of :file:`pips.shp` as "
+"usual."
+msgstr ""
+
+#: ../new/customizableinsignia.rst:29
+msgid ":tagdef:`[TechnoType]InsigniaFrame.Rookie=integer - frame`"
+msgstr ""
+
+#: ../new/customizableinsignia.rst:31
+msgid ":tagdef:`[TechnoType]InsigniaFrame.Veteran=integer - frame`"
+msgstr ""
+
+#: ../new/customizableinsignia.rst:35
+msgid ":tagdef:`[TechnoType]InsigniaFrame.Elite=integer - frame`"
+msgstr ""
+
+#: ../new/customizableinsignia.rst:34
+msgid ""
+"The frame used from the insignia shape. Set to :value:`-1` to use the "
+"default frame index."
+msgstr ""
+
+#: ../new/customizableinsignia.rst:45
+msgid "Hiding Enemy Insignia"
+msgstr ""
+
+#: ../new/customizableinsignia.rst:47
+msgid ""
+"Because you usually cannot ask enemy troops what their rank is, and from "
+"a distance they look all the same anyhow, you can also disable displaying"
+" insignia on enemy units by using the following tags."
+msgstr ""
+
+#: ../new/customizableinsignia.rst:53
+msgid ":tagdef:`[General]EnemyInsignia=boolean`"
+msgstr ""
+
+#: ../new/customizableinsignia.rst:52
+msgid ""
+"Whether insignia will be shown for enemy players by default. Each unit "
+"type can override this value. Defaults to :value:`yes`."
+msgstr ""
+
+#: ../new/customizableinsignia.rst:57
+msgid ":tagdef:`[TechnoType]Insignia.ShowEnemy=boolean`"
+msgstr ""
+
+#: ../new/customizableinsignia.rst:56
+msgid ""
+"Whether insignia for a unit of this type will be shown for enemy players."
+" Defaults to :tag:`[General]EnemyInsignia`."
+msgstr ""
+
+#: ../new/customizableinsignia.rst:59
+msgid "Observers will always be able to see insignia of all players."
+msgstr ""
+

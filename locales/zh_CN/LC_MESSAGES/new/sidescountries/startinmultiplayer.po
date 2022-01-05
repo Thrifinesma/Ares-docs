@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/sidescountries/startinmultiplayer.rst:4
+msgid "Start in Multiplayer"
+msgstr ""
+
+#: ../new/sidescountries/startinmultiplayer.rst:11
+msgid "Starting Units"
+msgstr ""
+
+#: ../new/sidescountries/startinmultiplayer.rst:20
+msgid ""
+":tagdef:`[Country]StartInMultiplayer.Types=list of InfantryTypes and/or "
+"VehicleTypes`"
+msgstr ""
+
+#: ../new/sidescountries/startinmultiplayer.rst:14
+msgid ""
+"The custom list of potential units to start with in multiplayer games. If"
+" not set, the game selects the types by using "
+":tag:`AllowedToStartInMultiplayer`. Only :type:`InfantryTypes` and "
+":type:`VehicleTypes` are supported. Use :value:`<none>` to disable "
+"starting units for this country."
+msgstr ""
+
+#: ../new/sidescountries/startinmultiplayer.rst:19
+msgid ""
+"It is now supported to have no starting infantry. The game will no longer"
+" crash."
+msgstr ""
+
+#: ../new/sidescountries/startinmultiplayer.rst:28
+msgid "Fixed Global Unit Cost"
+msgstr ""
+
+#: ../new/sidescountries/startinmultiplayer.rst:30
+msgid ""
+"By default, the game will determine the average cost of a unit by summing"
+" up and averaging all costs of units that could be used as starting units"
+" (only considering countries that are in the current match). The Unit "
+"Count setting is multiplied by this."
+msgstr ""
+
+#: ../new/sidescountries/startinmultiplayer.rst:38
+msgid ":tagdef:`[General]StartInMultiplayerUnitCost=integer - credits`"
+msgstr ""
+
+#: ../new/sidescountries/startinmultiplayer.rst:36
+msgid ""
+"The fixed amount of credits for one average unit. If not set, the game "
+"will use the method described above. In this case, :game:`Ares` will now "
+"output the inferred average unit cost into the log file."
+msgstr ""
+
+#: ../new/sidescountries/startinmultiplayer.rst:49
+msgid "Pre-Deployed MCV"
+msgstr ""
+
+#: ../new/sidescountries/startinmultiplayer.rst:51
+msgid ""
+"This allows for countries to not have an MCV at the beginning of the "
+"match, as well as for game modes where the base locations are fixed. "
+"Also, the initial Construction Yard could be made different from the ones"
+" obtainable later in the game."
+msgstr ""
+
+#: ../new/sidescountries/startinmultiplayer.rst:59
+msgid ":tagdef:`[Country]StartInMultiplayer.WithConst=boolean`"
+msgstr ""
+
+#: ../new/sidescountries/startinmultiplayer.rst:57
+msgid ""
+"Whether this country shall start with the first buildable building from "
+":tag:`BuildConst` instead of a unit from :tag:`BaseUnit` when starting a "
+"multiplayer match. Defaults to :value:`no`."
+msgstr ""
+

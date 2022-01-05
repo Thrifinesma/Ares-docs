@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/hunterseeker.rst:8
+msgid "Hunter Seeker"
+msgstr ""
+
+#: ../new/hunterseeker.rst:10
+msgid ""
+"The Hunter Seeker known from :game:`Tiberian Sun` is a voxel "
+":type:`VehicleType` that uses the Fly locomotor and has "
+":tag:`HunterSeeker=yes` set. It is launched by the :doc:`Hunter Seeker "
+"super weapon </new/superweapons/types/hunterseeker>`."
+msgstr ""
+
+#: ../new/hunterseeker.rst:14
+msgid ""
+"Refer to `ModEnc <https://www.modenc.renegadeprojects.com/HunterSeeker>`_"
+" for more information about Hunter Seeker's movement and targeting logic."
+msgstr ""
+
+#: ../new/hunterseeker.rst:17
+msgid ""
+"SHP units are not supported. They do not respect :tag:`FlightLevel` and "
+"might detonate before reaching their target."
+msgstr ""
+
+#: ../new/hunterseeker.rst:28
+msgid "Global Settings"
+msgstr ""
+
+#: ../new/hunterseeker.rst:30
+msgid ""
+"The following tags define the defaults for the Hunter Seeker super "
+"weapons and all :type:`VehicleTypes` with :tag:`HunterSeeker=yes` set. "
+"The tags do not default to meaningful values, but the values "
+":game:`Tiberian Sun` uses are given here for reference."
+msgstr ""
+
+#: ../new/hunterseeker.rst:35
+msgid "Default for super weapons:"
+msgstr ""
+
+#: ../new/hunterseeker.rst:43
+msgid ":tagdef:`[SpecialWeapons]HSBuilding=list of BuildingTypes`"
+msgstr ""
+
+#: ../new/hunterseeker.rst:38
+msgid ""
+"Buildings that can launch Hunter Seekers. :type:`BuildingTypes` in this "
+"list do not have to provide the Hunter Seeker super weapon. Either this "
+"or the corresponding tag on the super weapon have to be set. If the "
+"player does not own any building from this list, the super weapon will "
+"discharge without a Hunter Seeker being launched. Defaults to "
+":value:`none`, :game:`Tiberian Sun` uses :value:`GAPLUG,NATMPL`."
+msgstr ""
+
+#: ../new/hunterseeker.rst:45
+msgid "Defaults for :type:`VehicleTypes`:"
+msgstr ""
+
+#: ../new/hunterseeker.rst:48
+msgid ":tagdef:`[General]HunterSeekerDetonateProximity=integer`"
+msgstr ""
+
+#: ../new/hunterseeker.rst:48
+msgid ""
+"Distance to target in leptons below which the Hunter Seeker will "
+"detonate. Defaults to :value:`0`, :game:`Tiberian Sun` uses :value:`150`."
+msgstr ""
+
+#: ../new/hunterseeker.rst:51
+msgid ":tagdef:`[General]HunterSeekerDescendProximity=integer`"
+msgstr ""
+
+#: ../new/hunterseeker.rst:51
+msgid ""
+"Distance to target in leptons where the Hunter Seeker will start to "
+"descend. Defaults to :value:`0`, :game:`Tiberian Sun` uses :value:`700`."
+msgstr ""
+
+#: ../new/hunterseeker.rst:54
+msgid ":tagdef:`[General]HunterSeekerAscentSpeed=integer`"
+msgstr ""
+
+#: ../new/hunterseeker.rst:54
+msgid ""
+"Speed value used while rising to a higher flight level. Defaults to "
+":value:`0`, :game:`Tiberian Sun` uses :value:`40`."
+msgstr ""
+
+#: ../new/hunterseeker.rst:57
+msgid ":tagdef:`[General]HunterSeekerDescentSpeed=integer`"
+msgstr ""
+
+#: ../new/hunterseeker.rst:57
+msgid ""
+"Speed value used while going down to a lower flight level. Defaults to "
+":value:`0`, :game:`Tiberian Sun` uses :value:`50`."
+msgstr ""
+
+#: ../new/hunterseeker.rst:61
+msgid ":tagdef:`[General]HunterSeekerEmergeSpeed=integer`"
+msgstr ""
+
+#: ../new/hunterseeker.rst:60
+msgid ""
+"Speed value used when ascending from the launch site. Defaults to "
+":value:`0`, :game:`Tiberian Sun` uses :value:`6`."
+msgstr ""
+
+#: ../new/hunterseeker.rst:64
+msgid "Hunter Seeker Unit Settings"
+msgstr ""
+
+#: ../new/hunterseeker.rst:66
+msgid ""
+"These tags override the global tags for each unit type. Only the Fly "
+"locomotor makes use of these values."
+msgstr ""
+
+#: ../new/hunterseeker.rst:70
+msgid ":tagdef:`[VehicleType]HunterSeeker.DetonateProximity=integer`"
+msgstr ""
+
+#: ../new/hunterseeker.rst:70
+msgid ""
+"Distance to target in leptons below which the Hunter Seeker will "
+"detonate. Defaults to :tag:`[General]HunterSeekerDetonateProximity`."
+msgstr ""
+
+#: ../new/hunterseeker.rst:73
+msgid ":tagdef:`[VehicleType]HunterSeeker.DescendProximity=integer`"
+msgstr ""
+
+#: ../new/hunterseeker.rst:73
+msgid ""
+"Distance to target in leptons where the Hunter Seeker will start to "
+"descend. Defaults to :tag:`[General]HunterSeekerDescendProximity`."
+msgstr ""
+
+#: ../new/hunterseeker.rst:76
+msgid ":tagdef:`[VehicleType]HunterSeeker.AscentSpeed=integer`"
+msgstr ""
+
+#: ../new/hunterseeker.rst:76
+msgid ""
+"Speed value used while rising to a higher flight level. Defaults to "
+":tag:`[General]HunterSeekerAscentSpeed`."
+msgstr ""
+
+#: ../new/hunterseeker.rst:79
+msgid ":tagdef:`[VehicleType]HunterSeeker.DescentSpeed=integer`"
+msgstr ""
+
+#: ../new/hunterseeker.rst:79
+msgid ""
+"Speed value used while going down to a lower flight level. Defaults to "
+":tag:`[General]HunterSeekerDescentSpeed`."
+msgstr ""
+
+#: ../new/hunterseeker.rst:84
+msgid ":tagdef:`[VehicleType]HunterSeeker.EmergeSpeed=integer`"
+msgstr ""
+
+#: ../new/hunterseeker.rst:82
+msgid ""
+"Speed value used when ascending from the launch site. Defaults to "
+":tag:`[General]HunterSeekerEmergeSpeed`."
+msgstr ""
+
+#: ../new/hunterseeker.rst:91
+msgid "Disallow Targeting"
+msgstr ""
+
+#: ../new/hunterseeker.rst:93
+msgid ""
+"A :type:`TechnoType` can be exempt from the target scan of all Hunter "
+"Seekers enabling the tag below. This can help reduce frustration because "
+"vital or overly expensive objects or insignificant or unreasonably cheap "
+"objects can be spared. It can also be used for mission-critical objects "
+"in campaigns."
+msgstr ""
+
+#: ../new/hunterseeker.rst:100
+msgid ":tagdef:`[TechnoType]HunterSeeker.Ignore=boolean`"
+msgstr ""
+
+#: ../new/hunterseeker.rst:99
+msgid ""
+"Whether the Hunter Seeker will ignore targets of this type altogether, "
+"and not even randomly select them when no other target is eligible. "
+"Defaults to :value:`no`."
+msgstr ""
+

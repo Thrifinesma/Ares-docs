@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/droppod.rst:8
+msgid "Drop Pods"
+msgstr ""
+
+#: ../new/droppod.rst:10
+msgid ""
+"These are the collected settings that apply to the Drop Pod locomotor in "
+"general and the :doc:`Drop Pod super weapon "
+"</new/superweapons/types/droppod>` specifically."
+msgstr ""
+
+#: ../new/droppod.rst:22
+msgid "Trailer"
+msgstr ""
+
+#: ../new/droppod.rst:24
+msgid ""
+"The original Drop Pod trailer was not customizable and also not "
+"implemented in an optimal way. Now the animation is looked up only once, "
+"not once for each Drop Pod every six frames. Also, the smoke trailer now "
+"is created even if the Drop Pod does not have a "
+":tag:`[General]DropPodWeapon` set."
+msgstr ""
+
+#: ../new/droppod.rst:32
+msgid ":tagdef:`[General]DropPodTrailer=AnimationType`"
+msgstr ""
+
+#: ../new/droppod.rst:30
+msgid ""
+"The animation used as smoke trailer for Drop Pods. Defaults to "
+":value:`SMOKEY`."
+msgstr ""
+
+#: ../new/droppod.rst:39
+msgid "Global Super Weapon Defaults"
+msgstr ""
+
+#: ../new/droppod.rst:41
+msgid ""
+"The following tags define the defaults for the Drop Pod super weapons. "
+"The tags do not default to meaningful values, but the values "
+":game:`Firestorm` uses are given here for reference."
+msgstr ""
+
+#: ../new/droppod.rst:48
+msgid ":tagdef:`[General]DropPodTypes=list of InfantryTypes`"
+msgstr ""
+
+#: ../new/droppod.rst:46
+msgid ""
+"The types to randomly choose from when spawning units for the Drop Pod "
+"super weapon. Each type has an equal chance of being selected. You can "
+"add types more than once. Only infantry is supported. Defaults to "
+":value:`none`, :game:`Firestorm` uses an equivalent :value:`E1,E2`."
+msgstr ""
+
+#: ../new/droppod.rst:51
+msgid ":tagdef:`[General]DropPodMinimum=integer`"
+msgstr ""
+
+#: ../new/droppod.rst:51
+msgid ""
+"The minimum number of Drop Pods being created. Defaults to :value:`0`, "
+":game:`Firestorm` uses :value:`5`."
+msgstr ""
+
+#: ../new/droppod.rst:56
+msgid ":tagdef:`[General]DropPodMaximum=integer`"
+msgstr ""
+
+#: ../new/droppod.rst:54
+msgid ""
+"The maximum number of Drop Pods being created. Defaults to :value:`0`, "
+":game:`Firestorm` uses :value:`8`."
+msgstr ""
+
+#: ../new/droppod.rst:59
+msgid "Miscellaneous"
+msgstr ""
+
+#: ../new/droppod.rst:61
+msgid ""
+"If the weapon used as :tag:`[General]DropPodWeapon` does not have at "
+"least one valid :tag:`Report` sound set, the game will not crash any more"
+" when a Drop Pod is spawned."
+msgstr ""
+

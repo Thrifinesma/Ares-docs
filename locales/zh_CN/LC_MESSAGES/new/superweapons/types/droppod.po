@@ -1,0 +1,144 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/superweapons/types/droppod.rst:6
+msgid ":captiontag:`Type=DropPod`"
+msgstr ""
+
+#: ../new/superweapons/types/droppod.rst:8
+msgid ""
+":game:`Ares` re-implements the Drop Pod SW (:tag:`Type=DropPod`) known "
+"from :game:`Firestorm`. A super weapon of this type spawns between a "
+"minimum and a maximum number of random units from a list of types, which "
+"all arrive in drop pods."
+msgstr ""
+
+#: ../new/superweapons/types/droppod.rst:13
+msgid ""
+"\\ :game:`Firestorm` had the Drop Pods hardcoded to use :value:`E1` "
+"(Rifle Soldier) and :value:`E2` (Disk Thrower), a behavior that has not "
+"been recreated. :game:`Ares` uses no default types, thus do not forget to"
+" set them correctly."
+msgstr ""
+
+#: ../new/superweapons/types/droppod.rst:19
+msgid "Default values for general tags:"
+msgstr ""
+
+#: ../new/superweapons/types/droppod.rst:21
+msgid ":tagdef:`[SuperWeapon]SW.AITargeting=enumeration`"
+msgstr ""
+
+#: ../new/superweapons/types/droppod.rst:22
+msgid "Defaults to :value:`DropPod`."
+msgstr ""
+
+#: ../new/superweapons/types/droppod.rst:23
+msgid ":tagdef:`[SuperWeapon]EVA.Detected=EVA event`"
+msgstr ""
+
+#: ../new/superweapons/types/droppod.rst:24
+msgid "Defaults to :value:`EVA_DropPodDetected`."
+msgstr ""
+
+#: ../new/superweapons/types/droppod.rst:25
+msgid ":tagdef:`[SuperWeapon]EVA.Ready=EVA event`"
+msgstr ""
+
+#: ../new/superweapons/types/droppod.rst:26
+msgid "Defaults to :value:`EVA_DropPodReady`."
+msgstr ""
+
+#: ../new/superweapons/types/droppod.rst:27
+msgid ":tagdef:`[SuperWeapon]EVA.Activated=EVA event`"
+msgstr ""
+
+#: ../new/superweapons/types/droppod.rst:28
+msgid "Defaults to :value:`EVA_DropPodActivated`."
+msgstr ""
+
+#: ../new/superweapons/types/droppod.rst:31
+msgid ":tagdef:`[SuperWeapon]Cursor=mouse cursor`"
+msgstr ""
+
+#: ../new/superweapons/types/droppod.rst:30
+msgid "Defaults to :value:`ParaDrop`."
+msgstr ""
+
+#: ../new/superweapons/types/droppod.rst:33
+msgid "Drop Pod specific tags:"
+msgstr ""
+
+#: ../new/superweapons/types/droppod.rst:37
+msgid ":tagdef:`[SuperWeapon]DropPod.Types=list of InfantryTypes`"
+msgstr ""
+
+#: ../new/superweapons/types/droppod.rst:36
+msgid ""
+"The types to choose from. Each type has an equal chance of being "
+"selected. You can add types more than once. Only infantry is supported. "
+"Defaults to :tag:`[General]DropPodTypes`."
+msgstr ""
+
+#: ../new/superweapons/types/droppod.rst:41
+msgid ":tagdef:`[SuperWeapon]DropPod.Veterancy=float`"
+msgstr ""
+
+#: ../new/superweapons/types/droppod.rst:40
+msgid ""
+"The veterancy level the units will start with, if they do not have a "
+"higher initial rank already. Values between :value:`0.0` and "
+":tag:`[General]VeteranCap` are valid. Defaults to :value:`2.0` (elite)."
+msgstr ""
+
+#: ../new/superweapons/types/droppod.rst:44
+msgid ":tagdef:`[SuperWeapon]DropPod.Minimum=integer`"
+msgstr ""
+
+#: ../new/superweapons/types/droppod.rst:44
+msgid ""
+"The minimum number of Drop Pods being created. Defaults to "
+":tag:`[General]DropPodMinimum`."
+msgstr ""
+
+#: ../new/superweapons/types/droppod.rst:48
+msgid ":tagdef:`[SuperWeapon]DropPod.Maximum=integer`"
+msgstr ""
+
+#: ../new/superweapons/types/droppod.rst:47
+msgid ""
+"The maximum number of Drop Pods being created. Defaults to "
+":tag:`[General]DropPodMaximum`."
+msgstr ""
+
+#: ../new/superweapons/types/droppod.rst:50
+msgid ""
+"Drop pods need clear ground around them to be spawned. If a unit cannot "
+"find a place to land and another cell to spawn above, another random unit"
+" and new cell close to the last cell are picked. The maximum number of "
+"retries for placing all units is 3 times the number of units to spawn. In"
+" case this limit is exceeded, the super weapon stops to place more units."
+msgstr ""
+
+#: ../new/superweapons/types/droppod.rst:56
+msgid ""
+"See :doc:`Drop Pods </new/droppod>` for information about the global "
+"defaults and other related additions."
+msgstr ""
+

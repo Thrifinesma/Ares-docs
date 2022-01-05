@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/manual.rst:4
+msgid "Manual Control"
+msgstr ""
+
+#: ../new/manual.rst:11
+msgid "No Manual Target Selection"
+msgstr ""
+
+#: ../new/manual.rst:13
+msgid ""
+"Like :tag:`EMPulseCannon`, this disallows players to manually select "
+"targets, but it neither prevents the object from picking its own targets "
+"automatically, nor to retaliate."
+msgstr ""
+
+#: ../new/manual.rst:20
+msgid ":tagdef:`[TechnoType]NoManualFire=boolean`"
+msgstr ""
+
+#: ../new/manual.rst:18
+msgid ""
+"Whether players may not select targets for this type of object manually. "
+"If enabled, units will have to rely on auto-targeting and retaliation "
+"rules. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/manual.rst:30
+msgid "No Manual Passenger Unload"
+msgstr ""
+
+#: ../new/manual.rst:32
+msgid ""
+"This setting disallows players to manually eject the passengers. This is "
+"useful for vehicles that are no real transports, like :doc:`Chrono "
+"Prisons </new/chronoprisons>`."
+msgstr ""
+
+#: ../new/manual.rst:36
+msgid ""
+"By default, passengers might still be ejected when the vehicle is "
+"destroyed. To change this, set the :doc:`Passenger Survivor Chance "
+"</new/survivors>` accordingly."
+msgstr ""
+
+#: ../new/manual.rst:43
+msgid ":tagdef:`[TechnoType]NoManualUnload=boolean`"
+msgstr ""
+
+#: ../new/manual.rst:41
+msgid ""
+"Whether this vehicle or aircraft is disallowed to eject its passengers. "
+"If enabled, the owning player will not get deploy or no-deploy cursors. "
+"Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/manual.rst:54
+msgid "No Manual Enter Transport"
+msgstr ""
+
+#: ../new/manual.rst:56
+msgid ""
+"This cosmetic setting allows to hide the fact that a unit is a transport "
+"by removing the enter and no-enter cursors."
+msgstr ""
+
+#: ../new/manual.rst:59
+msgid ""
+"This does not prevent units from entering by other means, like scripts, "
+"though. Also, the AI will not respect this setting. Use the "
+":doc:`Specific Passengers </new/passengers>` feature to prevent this."
+msgstr ""
+
+#: ../new/manual.rst:66
+msgid ":tagdef:`[TechnoType]NoManualEnter=boolean`"
+msgstr ""
+
+#: ../new/manual.rst:64
+msgid ""
+"Whether units will not get an enter or no-enter cursor when on this "
+"object. If :value:`yes`, the select cursor is used, as if this unit is "
+"not a transport. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/manual.rst:76
+msgid "No Guard Area on Self"
+msgstr ""
+
+#: ../new/manual.rst:78
+msgid ""
+"Medics usually get a guard area cursor on themselves so players can set "
+"them to guard mode by clicking. This prevents infantry with negative "
+"damage weapons to have deploy ability. :game:`Ares` adds a tag to turn "
+"this feature off."
+msgstr ""
+
+#: ../new/manual.rst:86
+msgid ":tagdef:`[InfantryType]NoSelfGuardArea=boolean`"
+msgstr ""
+
+#: ../new/manual.rst:83
+msgid ""
+"Whether infantry units with negative damage weapons get the guard area "
+"cursor on themselves. If :value:`no`, the guard area cursor will not take"
+" precedence, allowing other cursors like the deploy cursor to be shown. "
+"Defaults to :value:`no`."
+msgstr ""
+

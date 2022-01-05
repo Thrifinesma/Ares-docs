@@ -1,0 +1,240 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../credits.rst:5
+msgid "Credits"
+msgstr ""
+
+#: ../credits.rst:8
+msgid "Developers"
+msgstr ""
+
+#: ../credits.rst:11
+msgid "Current"
+msgstr ""
+
+#: ../credits.rst:12
+msgid "AlexB"
+msgstr ""
+
+#: ../credits.rst:15
+msgid "Past"
+msgstr ""
+
+#: ../credits.rst:16
+msgid "pd"
+msgstr ""
+
+#: ../credits.rst:17
+msgid "DCoder"
+msgstr ""
+
+#: ../credits.rst:18 ../credits.rst:54
+msgid "Renegade"
+msgstr ""
+
+#: ../credits.rst:19
+msgid "Electro"
+msgstr ""
+
+#: ../credits.rst:20 ../credits.rst:28 ../credits.rst:51
+msgid "Marshall"
+msgstr ""
+
+#: ../credits.rst:21 ../credits.rst:36 ../credits.rst:37
+msgid "Graion Dilach"
+msgstr ""
+
+#: ../credits.rst:24
+msgid "Contributors"
+msgstr ""
+
+#: ../credits.rst:26
+msgid "A Mystery Guest"
+msgstr ""
+
+#: ../credits.rst:26
+msgid "New Powered Unit Logic"
+msgstr ""
+
+#: ../credits.rst:27
+msgid "[Gluk-v48]"
+msgstr ""
+
+#: ../credits.rst:27
+msgid "Advanced Rubble Expansion"
+msgstr ""
+
+#: ../credits.rst:28
+msgid "Prism Forwarding"
+msgstr ""
+
+#: ../credits.rst:32
+msgid "Collaborators"
+msgstr ""
+
+#: ../credits.rst:34
+msgid "Project Manager"
+msgstr ""
+
+#: ../credits.rst:34
+msgid "Nighthawk"
+msgstr ""
+
+#: ../credits.rst:35
+msgid "Documentation Maintainer"
+msgstr ""
+
+#: ../credits.rst:35
+msgid "Steel Mirage"
+msgstr ""
+
+#: ../credits.rst:36
+msgid "User Support Agent"
+msgstr ""
+
+#: ../credits.rst:37
+msgid "Project Ambassador"
+msgstr ""
+
+#: ../credits.rst:38
+msgid "Promo Material Creator"
+msgstr ""
+
+#: ../credits.rst:38 ../credits.rst:75
+msgid "Speeder"
+msgstr ""
+
+#: ../credits.rst:39
+msgid "Final Alert Support"
+msgstr ""
+
+#: ../credits.rst:39
+msgid "Starkku"
+msgstr ""
+
+#: ../credits.rst:40
+msgid "Chinese Translation"
+msgstr ""
+
+#: ../credits.rst:40
+msgid "Project z Zomboid"
+msgstr ""
+
+#: ../credits.rst:41
+msgid "French Translation"
+msgstr ""
+
+#: ../credits.rst:41
+msgid "Kik0u"
+msgstr ""
+
+#: ../credits.rst:45
+msgid "Special Thanks"
+msgstr ""
+
+#: ../credits.rst:48
+msgid "Westwood Studios"
+msgstr ""
+
+#: ../credits.rst:47
+msgid ""
+"For creating this great game in the first place. Although you guys really"
+" should've fired half of your coding staff (out of a cannon, into the "
+"sun)."
+msgstr ""
+
+#: ../credits.rst:51
+msgid ""
+"For developing :game:`Launch Base` and the :game:`YR Unofficial 1.002 "
+"Mini-Patch` (UMP), and whipping the documentation into shape."
+msgstr ""
+
+#: ../credits.rst:54
+msgid ""
+"For providing the infrastructure for the :game:`Ares` website and the "
+"unstable development builds page."
+msgstr ""
+
+#: ../credits.rst:58
+msgid "eva-251"
+msgstr ""
+
+#: ../credits.rst:57
+msgid ""
+"For researching and providing the proper Comodo Internet Security "
+"settings for Syringe/Ares."
+msgstr ""
+
+#: ../credits.rst:61
+msgid "Testers"
+msgstr ""
+
+#: ../credits.rst:62
+msgid ""
+"The developers would like to express their gratitude to all those who "
+"invested time and effort to help improve :game:`Ares` by testing it, "
+"suffering through countless bugs, exceptions and menial tasks in the "
+"process."
+msgstr ""
+
+#: ../credits.rst:66
+msgid ""
+"Without them, we could not have reached the standard of quality we have "
+"reached today."
+msgstr ""
+
+#: ../credits.rst:69
+msgid ""
+"Though we had many testers over the years, some have distinguished "
+"themselves through exceptional effort, high testing quality and "
+"commendable dedication:"
+msgstr ""
+
+#: ../credits.rst:72
+msgid "MasterHaosis"
+msgstr ""
+
+#: ../credits.rst:73
+msgid "mevitar"
+msgstr ""
+
+#: ../credits.rst:74
+msgid "Professor_Tesla"
+msgstr ""
+
+#: ../credits.rst:76
+msgid "YR M0ddEr"
+msgstr ""
+
+#: ../credits.rst:79
+msgid "Community Members"
+msgstr ""
+
+#: ../credits.rst:80
+msgid ""
+"While not officially working on :game:`Ares`, the following community "
+"members have been loyal supporters over the years, discussing, providing "
+"feedback and helping out where they could:"
+msgstr ""
+
+#: ../credits.rst:84
+msgid "WoRmINaToR"
+msgstr ""
+

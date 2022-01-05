@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/fallrate.rst:4
+msgid "Fall Rate"
+msgstr ""
+
+#: ../new/fallrate.rst:6
+msgid ""
+"When a unit is dropped onto the battlefield from a plane, with or without"
+" parachute, these settings define how fast it will accelerate and how "
+"fast it will fall at most."
+msgstr ""
+
+#: ../new/fallrate.rst:12
+msgid ":tagdef:`[TechnoType]FallRate.Parachute=integer`"
+msgstr ""
+
+#: ../new/fallrate.rst:11
+msgid ""
+"The acceleration towards the ground applied each frame a parachuted unit "
+"is falling. Defaults to :value:`1`."
+msgstr ""
+
+#: ../new/fallrate.rst:16
+msgid ":tagdef:`[TechnoType]FallRate.NoParachute=integer`"
+msgstr ""
+
+#: ../new/fallrate.rst:15
+msgid ""
+"The acceleration towards the ground applied each frame a unit without "
+"parachute is falling. Defaults to :value:`1`."
+msgstr ""
+
+#: ../new/fallrate.rst:20
+msgid ":tagdef:`[TechnoType]FallRate.ParachuteMax=integer`"
+msgstr ""
+
+#: ../new/fallrate.rst:19
+msgid ""
+"The maximum speed a parachuted unit is falling with. Value has to be "
+"negative. Defaults to :tag:`[General]ParachuteMaxFallRate`."
+msgstr ""
+
+#: ../new/fallrate.rst:24
+msgid ":tagdef:`[TechnoType]FallRate.NoParachuteMax=integer`"
+msgstr ""
+
+#: ../new/fallrate.rst:23
+msgid ""
+"The maximum speed a unit without parachute is falling with. Value has to "
+"be negative. Defaults to :tag:`[General]NoParachuteMaxFallRate`."
+msgstr ""
+

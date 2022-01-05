@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/superweapons/types/sonarpulse.rst:6
+msgid ":captiontag:`Type=SonarPulse`"
+msgstr ""
+
+#: ../new/superweapons/types/sonarpulse.rst:8
+msgid ""
+"The Sonar Pulse is a variation of the original Sonar Pulse known from "
+":game:`Red Alert` -- it will cause any cloaked object either in range or "
+"on the entire map to temporarily decloak, even if it is cloaked by a "
+"Cloak Generator."
+msgstr ""
+
+#: ../new/superweapons/types/sonarpulse.rst:12
+msgid "Default values for general tags:"
+msgstr ""
+
+#: ../new/superweapons/types/sonarpulse.rst:17
+msgid ":tagdef:`[SuperWeapon]SW.Range=float,integer`"
+msgstr ""
+
+#: ../new/superweapons/types/sonarpulse.rst:15
+msgid ""
+"The radius, in cells, that the decloak effect will be applied. Use "
+":value:`-1` to reveal all units on the map. When using full-map sonar you"
+" don't have to select a target location; instead the super weapon will be"
+" fired when you click its cameo icon. Defaults to :value:`10`."
+msgstr ""
+
+#: ../new/superweapons/types/sonarpulse.rst:19
+msgid ":tagdef:`[SuperWeapon]SW.AITargeting=enumeration`"
+msgstr ""
+
+#: ../new/superweapons/types/sonarpulse.rst:20
+msgid "Defaults to :value:`Stealth`."
+msgstr ""
+
+#: ../new/superweapons/types/sonarpulse.rst:22
+msgid ":tagdef:`[SuperWeapon]SW.AffectsHouse=enumeration`"
+msgstr ""
+
+#: ../new/superweapons/types/sonarpulse.rst:22
+msgid ""
+"Specifies the houses affected by the sonar reveal. Defaults to "
+":value:`enemies`."
+msgstr ""
+
+#: ../new/superweapons/types/sonarpulse.rst:25
+msgid ":tagdef:`[SuperWeapon]SW.AffectsTarget=enumeration`"
+msgstr ""
+
+#: ../new/superweapons/types/sonarpulse.rst:25
+msgid ""
+"Specifies which types the sonar affects. Defaults to :value:`water`, all "
+"unit types situated on water cells."
+msgstr ""
+
+#: ../new/superweapons/types/sonarpulse.rst:28
+msgid ":tagdef:`[SuperWeapon]SW.RequiresTarget=enumeration`"
+msgstr ""
+
+#: ../new/superweapons/types/sonarpulse.rst:28
+msgid ""
+"Specifies where human players can fire the sonar at, which excludes land "
+"by default. Defaults to :value:`water`."
+msgstr ""
+
+#: ../new/superweapons/types/sonarpulse.rst:32
+msgid ":tagdef:`[SuperWeapon]SW.AIRequiresTarget=enumeration`"
+msgstr ""
+
+#: ../new/superweapons/types/sonarpulse.rst:31
+msgid ""
+"Specifies where AI players can fire the sonar at, which excludes land by "
+"default. Defaults to :value:`water`."
+msgstr ""
+
+#: ../new/superweapons/types/sonarpulse.rst:34
+msgid "Sonar Pulse specific tags:"
+msgstr ""
+
+#: ../new/superweapons/types/sonarpulse.rst:37
+msgid ":tagdef:`[SuperWeapon]SonarPulse.Delay=integer - frames`"
+msgstr ""
+
+#: ../new/superweapons/types/sonarpulse.rst:37
+msgid "The duration that the decloak effect will last. Defaults to :value:`60`."
+msgstr ""
+

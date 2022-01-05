@@ -1,0 +1,217 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/mousecursors.rst:4
+msgid "Mouse Cursors"
+msgstr ""
+
+#: ../new/mousecursors.rst:9
+msgid "Defining Cursors"
+msgstr ""
+
+#: ../new/mousecursors.rst:11
+msgid ""
+"New cursors can be added and default cursors can be changed using the new"
+" :tag:`[MouseCursors]` section, which centralizes cursor definitions in "
+"one place. Each cursor has a name, which can then be used as valid value "
+"for tags asking for a mouse cursor. Cursors are defined in a single line "
+"with comma-separated values as follows:"
+msgstr ""
+
+#: ../new/mousecursors.rst:51
+msgid ":tagdef:`[MouseCursors]Name=cursor definition`"
+msgstr ""
+
+#: ../new/mousecursors.rst:18
+msgid ""
+":tag:`Name` can be up to 31 characters long. Enter the values in the "
+"given order, separated by commas: "
+":value:`Frame,Count,Interval,MiniFrame,MiniCount,HotSpotX,HotSpotY`. If "
+"fewer items are defined, the remaining values are defaulted."
+msgstr ""
+
+#: ../new/mousecursors.rst:23
+msgid ""
+":value:`Frame` is the starting frame of the cursor from "
+":file:`mouse.sha`. The first frame is :value:`0`. Defaults to :value:`0`."
+msgstr ""
+
+#: ../new/mousecursors.rst:26
+msgid ""
+":value:`Count` is the number of frames in the animated cursor. Defaults "
+"to :value:`1`."
+msgstr ""
+
+#: ../new/mousecursors.rst:29
+msgid ""
+":value:`Interval` is the rate to animate the cursor. Defaults to "
+":value:`0`."
+msgstr ""
+
+#: ../new/mousecursors.rst:31
+msgid ""
+":value:`MiniFrame` is like :value:`Frame`, except this is for the mouse "
+"cursor when positioned on the minimap. Set this to :value:`-1` to disable"
+" the minimap cursor and to only allow players to click on the "
+"battlefield. Defaults to :value:`-1`."
+msgstr ""
+
+#: ../new/mousecursors.rst:36
+msgid ""
+":value:`MiniCount` is like :value:`Count`, except this is for the mouse "
+"cursor when positioned on the minimap. Defaults to :value:`-1`."
+msgstr ""
+
+#: ../new/mousecursors.rst:39
+msgid ""
+":value:`HotSpot` specifies the point from which the click event will "
+"handled. :value:`HotSpotX` should be one of :value:`Left`, "
+":value:`Center` or :value:`Right`. :value:`HotSpotY` should be one of "
+":value:`Top`, :value:`Middle` or :value:`Bottom`. For example, "
+":value:`Left,Top` will treat the top-left corner of the cursor as the "
+"tip. Default is :value:`Left,Top`."
+msgstr ""
+
+#: ../new/mousecursors.rst:46
+msgid ""
+"You cannot directly use the same definitions as used with other patches "
+"for :game:`Yuri's Revenge`, because :game:`Ares` uses descriptive names "
+"instead of numbers for the HotSpotX,HotSpotY parts. To convert the "
+"values, replace :value:`0` by either :value:`Left` or :value:`Top`, \\ "
+":value:`12345` by either :value:`Center` or :value:`Middle`, and \\ "
+":value:`54321` by either :value:`Right` or :value:`Bottom`."
+msgstr ""
+
+#: ../new/mousecursors.rst:61
+msgid "Default Cursors"
+msgstr ""
+
+#: ../new/mousecursors.rst:63
+msgid ""
+"The original game's cursors are defined implicitly, that is, they exist "
+"and are available even without them being explicitly defined. See the "
+":download:`list of default cursors </extras/MouseCursors.txt>`."
+msgstr ""
+
+#: ../new/mousecursors.rst:67
+msgid ""
+":game:`Ares` adds several new named cursors by default, which are used "
+"for special purposes like newly added features, or to distinguish "
+"different unit actions. These cursors can be overridden to give these "
+"functions a separate cursor without also changing the original cursors."
+msgstr ""
+
+#: ../new/mousecursors.rst:72
+msgid ""
+":value:`TogglePower`: used for the Toggle Power feature when toggling "
+"power is possible on a building. Defaults to :value:`Power`."
+msgstr ""
+
+#: ../new/mousecursors.rst:74
+msgid ""
+":value:`NoTogglePower`: used for the Toggle Power feature when toggling "
+"power is not allowed. Defaults to :value:`Disallowed`."
+msgstr ""
+
+#: ../new/mousecursors.rst:76
+msgid ""
+":value:`EngineerDamage`: the cursor when an Engineer will not capture a "
+"building due to MultiEngineer being enabled. Defaults to "
+":value:`Detonate`."
+msgstr ""
+
+#: ../new/mousecursors.rst:78
+msgid ""
+":value:`InfantryHeal`: the repair cursor on allied infantry. Defaults to "
+":value:`355,1,0,-1,-1,Center,Middle`."
+msgstr ""
+
+#: ../new/mousecursors.rst:80
+msgid ""
+":value:`UnitRepair`: the repair cursor on allied units. Defaults to "
+":value:`Repair`."
+msgstr ""
+
+#: ../new/mousecursors.rst:82
+msgid ""
+":value:`Tote`: used for picking up Carryall cargo. Defaults to the blue "
+"move cursor."
+msgstr ""
+
+#: ../new/mousecursors.rst:84
+msgid ""
+":value:`TakeVehicle`: used for VehicleThief and CanDrive on capturable "
+"vehicles. Defaults to the :value:`Enter`."
+msgstr ""
+
+#: ../new/mousecursors.rst:86
+msgid ""
+":value:`Sabotage`: used for Saboteur infantry on valid target buildings. "
+"Defaults to the :value:`Enter`."
+msgstr ""
+
+#: ../new/mousecursors.rst:88
+msgid ""
+":value:`RepairTrench`: used for Engineers on trench buildings to rebuild."
+" Defaults to the :value:`Repair`."
+msgstr ""
+
+#: ../new/mousecursors.rst:91
+msgid ""
+"The default cursors might change. :game:`Ares` might add more special "
+"cursors to differentiate actions in a later version, change the defaults "
+"of the new cursors, or enable animations on default cursors."
+msgstr ""
+
+#: ../new/mousecursors.rst:95
+msgid "Changing the cursor called :value:`Default` is not supported."
+msgstr ""
+
+#: ../new/mousecursors.rst:101
+msgid "Migrating from Previous Versions"
+msgstr ""
+
+#: ../new/mousecursors.rst:103
+msgid ""
+"Ares versions prior to 0.D supported seven tags to define a mouse cursor:"
+" one base tag and six additional tags to define each of the parts of a "
+"cursor definition separately."
+msgstr ""
+
+#: ../new/mousecursors.rst:107
+msgid ""
+"To migrate to the new :tag:`[MouseCursors]` section, first merge the "
+"separate tags like :tag:`Cursor.Frame=355`, :tag:`Cursor.Count=1`, ... "
+"into a one-line definition like :tag:`Cursor=355,1,...`."
+msgstr ""
+
+#: ../new/mousecursors.rst:111
+msgid ""
+"If you have such a one line cursor definition, copy it into the new "
+":tag:`[MouseCursors]` section and give it a new, unique name like "
+":tag:`Medic`. Use this unique name instead of the original "
+":tag:`Cursor=355,1,...`  line, that is, make it :tag:`Cursor=Medic`."
+msgstr ""
+
+#: ../new/mousecursors.rst:116
+msgid ""
+"If you are using the same cursor definitions in several places, there is "
+"no need to give each a new name. You can reuse existing cursors."
+msgstr ""
+

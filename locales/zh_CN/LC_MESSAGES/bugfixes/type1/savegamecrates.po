@@ -1,0 +1,40 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../bugfixes/type1/savegamecrates.rst:9
+msgid "Crates Disappear When Loading A Game"
+msgstr ""
+
+#: ../bugfixes/type1/savegamecrates.rst:11
+msgid ""
+":game:`Yuri's Revenge` contained special code to remove all crates from "
+"the map after loading. When removed, crates existing before the game was "
+"saved would not disappear after being collected any more. Whether the "
+"special code was added to disguise this bug remains unknown, but it could"
+" break campaign missions relying on mission critical crates."
+msgstr ""
+
+#: ../bugfixes/type1/savegamecrates.rst:17
+msgid ""
+":game:`Ares` fixed the underlying issue preventing the crates to "
+"disappear when collected and removes the special code in the game that "
+"removed all crates after loading. Mission critical crates are now working"
+" reliably."
+msgstr ""
+

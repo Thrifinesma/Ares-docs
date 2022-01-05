@@ -1,0 +1,245 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/superweapons/types/psychicdominator.rst:4
+msgid ":captiontag:`Type=PsychicDominator`"
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:6
+msgid "Default values for general tags:"
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:9
+msgid ":tagdef:`[SuperWeapon]SW.Range=float,integer`"
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:9
+msgid ""
+"Area around the target location the Psychic Dominator captures. This does"
+" not affect the damage. Defaults to "
+":tag:`[General]DominatorCaptureRange`."
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:13
+msgid ":tagdef:`[SuperWeapon]SW.Damage=integer`"
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:12
+msgid ""
+"The damage the Psychic Dominator delivers right before capturing. No "
+"damage is dealt if this value is 0 or negative. Defaults to "
+":tag:`[General]DominatorDamage`."
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:16
+msgid ":tagdef:`[SuperWeapon]SW.Warhead=Warhead`"
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:16
+msgid ""
+"The warhead used to deal the damage. Defaults to "
+":tag:`[General]DominatorWarhead`."
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:18
+msgid ":tagdef:`[SuperWeapon]SW.Deferment=integer - frames`"
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:19
+msgid "Defaults to :value:`0`."
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:20
+msgid ":tagdef:`[SuperWeapon]SW.ActivationSound=Sound`"
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:21
+msgid "Defaults to :tag:`[AudioVisual]PsychicDominatorActivateSound`."
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:22
+msgid ":tagdef:`[SuperWeapon]SW.AITargeting=enumeration`"
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:23
+#: ../new/superweapons/types/psychicdominator.rst:32
+msgid "Defaults to :value:`PsychicDominator`."
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:24
+msgid ":tagdef:`[SuperWeapon]SW.AffectsHouse=enumeration`"
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:25
+msgid "Specifies the houses affected by the capture. Defaults to :value:`all`."
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:27
+msgid ":tagdef:`[SuperWeapon]SW.AffectsTarget=enumeration`"
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:27
+msgid ""
+"Specifies which types the capture affects. Defaults to "
+":value:`infantry,units`."
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:29
+msgid ":tagdef:`[SuperWeapon]Light.*=integer`"
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:30
+msgid "Default to the scenario's :tag:`[Lighting]Dominator*`."
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:33
+msgid ":tagdef:`[SuperWeapon]Cursor=mouse cursor`"
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:35
+msgid "Psychic Dominator specific tags:"
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:38
+msgid ":tagdef:`[SuperWeapon]Dominator.FirstAnim=Animation`"
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:38
+msgid ""
+"The Animation hovering above the target for some time before the Psychic "
+"Dominator strikes. Defaults to :tag:`[General]DominatorFirstAnim`."
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:41
+msgid ":tagdef:`[SuperWeapon]Dominator.FirstAnimHeight=integer - leptons`"
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:41
+msgid ""
+"The height the :tag:`Dominator.FirstAnim` is played above the ground. "
+"Defaults to :value:`750`."
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:44
+msgid ":tagdef:`[SuperWeapon]Dominator.SecondAnim=Animation`"
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:44
+msgid ""
+"The Animation hovering above the target when the Psychic Dominator "
+"strikes. Defaults to :tag:`[General]DominatorSecondAnim`."
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:47
+msgid ":tagdef:`[SuperWeapon]Dominator.SecondAnimHeight=integer - leptons`"
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:47
+msgid ""
+"The height the :tag:`Dominator.SecondAnim` is played above the ground. "
+"Defaults to :value:`0`."
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:52
+msgid ":tagdef:`[SuperWeapon]Dominator.FireAtPercentage=integer`"
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:50
+msgid ""
+"After this percentage of the :tag:`Dominator.FirstAnim`'s frames have "
+"been played, the Dominator is fired. This is the actual percentage, "
+":value:`20` is 20%. Don't use decimal numbers. Defaults to "
+":tag:`[General]DominatorFireAtPercentage`."
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:55
+msgid ":tagdef:`[SuperWeapon]Dominator.ControlAnim=Animation`"
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:55
+msgid ""
+"The Animation displayed above units being mind-controlled by the "
+"Dominator permanently. Defaults to "
+":tag:`[CombatDamage]PermaControlledAnimationType`."
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:58
+msgid ":tagdef:`[SuperWeapon]Dominator.Capture=boolean`"
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:58
+msgid ""
+"Defines whether this Psychic Dominator captures units in its range. "
+"Otherwise only the damage is dealt. Defaults to :value:`yes`."
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:61
+msgid ":tagdef:`[SuperWeapon]Dominator.Ripple=boolean`"
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:61
+msgid ""
+"Defines whether this Psychic Dominator creates a ripple effect when the "
+"Psychic Dominator strikes. Defaults to :value:`yes`."
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:65
+msgid ":tagdef:`[SuperWeapon]Dominator.CaptureMindControlled=boolean`"
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:64
+msgid ""
+"Defines whether this Psychic Dominator can capture units that are mind-"
+"controlled already. Otherwise already mind-controlled units are ignored. "
+"Defaults to :value:`yes`."
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:69
+msgid ":tagdef:`[SuperWeapon]Dominator.CapturePermaMindControlled=boolean`"
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:68
+msgid ""
+"Defines whether this Psychic Dominator can capture units that are "
+"permanently mind-controlled already. Otherwise already permanently mind-"
+"controlled units are ignored. Defaults to :value:`yes`."
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:73
+msgid ":tagdef:`[SuperWeapon]Dominator.CaptureImmuneToPsionics=boolean`"
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:72
+msgid ""
+"Defines whether this Psychic Dominator can capture units that usually "
+"aren't mind-controllable. Setting this to :value:`yes` ignores the "
+":tag:`ImmuneToPsionics` tag on its victims. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:79
+msgid ":tagdef:`[SuperWeapon]Dominator.PermanentCapture=boolean`"
+msgstr ""
+
+#: ../new/superweapons/types/psychicdominator.rst:76
+msgid ""
+"Defines whether the victims are permanently mind-controlled. Setting this"
+" to :value:`no` allows other mind-controllers to re-capture the victim, "
+"otherwise it will be uncapturable. Defaults to :value:`yes`."
+msgstr ""
+

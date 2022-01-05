@@ -1,0 +1,427 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/triggerevents.rst:4
+msgid "Trigger Events"
+msgstr ""
+
+#: ../new/triggerevents.rst:6
+msgid ":game:`Ares` adds the following Trigger Events to :game:`Yuri's Revenge`."
+msgstr ""
+
+#: ../new/triggerevents.rst:8
+msgid "In this section, the following terms are used:"
+msgstr ""
+
+#: ../new/triggerevents.rst:10
+msgid ""
+"Events that are *persistent* need to be satisfied only once and the game "
+"will remember that they occured. Events that are not persistent thus have"
+" to be satisfied the very instant for the event to fire."
+msgstr ""
+
+#: ../new/triggerevents.rst:14
+msgid ""
+"An event is *incidental* if the event is actually satisfied by triggering"
+" that very event. Incidental events occur at a specific point in time and"
+" are tied to some specific action taking place. An example would be "
+":value:`Spied By` (2), which is triggered the moment a Spy enters a "
+"building."
+msgstr ""
+
+#: ../new/triggerevents.rst:19
+msgid ""
+"An event is *situational* if it depends on the circumstances of the match"
+" and thus is satisfied at any point in time the condition is currently "
+"true. That is, the condition is usually satisfied over a period of time "
+"and can potentially change over time. Examples are :value:`No Factories "
+"Left` (17) and :value:`Low Power` (30)."
+msgstr ""
+
+#: ../new/triggerevents.rst:25
+msgid ""
+"This means that a trigger with two non-persistent incidental events will "
+"never fire, because they are raised one after another, not "
+"simultaneously, and thus can never be satisfied at the same time."
+msgstr ""
+
+#: ../new/triggerevents.rst:29
+msgid ""
+"It also means that if a trigger contains a chain of events, and it "
+"includes one non-persistent incidental event, it will have to be the last"
+" event satisfied to fire the trigger and execute the actions."
+msgstr ""
+
+#: ../new/triggerevents.rst:33
+msgid ""
+"See :doc:`Editor Support </new/editorsupport>` on how to use the new "
+"Trigger Events from map editors."
+msgstr ""
+
+#: ../new/triggerevents.rst:40
+msgid ":captiontag:`Electromagnetic Pulse` (62-65)"
+msgstr ""
+
+#: ../new/triggerevents.rst:42
+msgid ""
+":value:`62,0,0` Under EMP: Triggers when the attached object is disabled "
+"by EMP (works like Trigger Event :value:`53` in :game:`Tiberian Sun`)."
+msgstr ""
+
+#: ../new/triggerevents.rst:45
+msgid ""
+":value:`63,0,<house>` Under EMP By House: Triggers when the specified "
+"house disables the attached object by EMP."
+msgstr ""
+
+#: ../new/triggerevents.rst:48
+msgid ""
+":value:`64,0,0` Removed EMP: Triggers when the attached object is "
+"reactivated by a \"healing\" EMP."
+msgstr ""
+
+#: ../new/triggerevents.rst:51
+msgid ""
+":value:`65,0,<house>` Removed EMP By House: Triggers when the specified "
+"house reactivates the attached object by a \"healing\" EMP."
+msgstr ""
+
+#: ../new/triggerevents.rst:54
+msgid "These are all incidental and non-persistent."
+msgstr ""
+
+#: ../new/triggerevents.rst:56
+msgid ""
+"When deactivating an object, event :value:`63` is triggered before "
+":value:`62` and when reactivating, :value:`65` is triggered before "
+":value:`64`. This is to allow a specific house to take precedence over "
+"the general case."
+msgstr ""
+
+#: ../new/triggerevents.rst:67
+msgid ":captiontag:`Enemy In Spotlight Now` (66)"
+msgstr ""
+
+#: ../new/triggerevents.rst:69
+msgid ""
+":value:`66,0,0` Enemy In Spotlight Now: Triggers when the attached "
+"building's searching spotlight found an enemy. This works like event "
+":value:`54` in :game:`Firestorm`."
+msgstr ""
+
+#: ../new/triggerevents.rst:73
+msgid ""
+"This works like event :value:`Enemy In Spotlight` (35) with the minor "
+"difference that the game will not remember if this event occurred."
+msgstr ""
+
+#: ../new/triggerevents.rst:76
+msgid "This event is incidental and non-persistent."
+msgstr ""
+
+#: ../new/triggerevents.rst:85
+msgid ":captiontag:`Kill Driver` (67+68)"
+msgstr ""
+
+#: ../new/triggerevents.rst:87
+msgid ""
+":value:`67,0,0` Driver Killed: Triggers when the driver of the attached "
+"object has been killed."
+msgstr ""
+
+#: ../new/triggerevents.rst:90
+msgid ""
+":value:`68,0,<house>` Driver Killed By House: Triggers when the specified"
+" house kills the driver of the attached object."
+msgstr ""
+
+#: ../new/triggerevents.rst:93 ../new/triggerevents.rst:113
+#: ../new/triggerevents.rst:161 ../new/triggerevents.rst:211
+msgid "Both events are incidental and persistent."
+msgstr ""
+
+#: ../new/triggerevents.rst:95
+msgid ""
+"When killing a driver, event :value:`68` is triggered before :value:`67`."
+" This is to allow a specific house to take precedence over the general "
+"case."
+msgstr ""
+
+#: ../new/triggerevents.rst:105
+msgid ":captiontag:`Vehicle Taken` (69+70)"
+msgstr ""
+
+#: ../new/triggerevents.rst:107
+msgid ""
+":value:`69,0,0` Vehicle Taken: Triggers when a driver or Vehicle Thief "
+"enters the attached object."
+msgstr ""
+
+#: ../new/triggerevents.rst:110
+msgid ""
+":value:`70,0,<house>` Vehicle Taken By House: Triggers when a driver or "
+"Vehicle Thief of the specified house enters the attached object."
+msgstr ""
+
+#: ../new/triggerevents.rst:115
+msgid ""
+"When taking a vehicle, event :value:`70` is triggered before :value:`69`."
+" This is to allow a specific house to take precedence over the general "
+"case. Both trigger before the :value:`Entered By` event."
+msgstr ""
+
+#: ../new/triggerevents.rst:126
+msgid ":captiontag:`Abduction` (71-74)"
+msgstr ""
+
+#: ../new/triggerevents.rst:128
+msgid ":value:`71,0,0` Abducted: Triggers when the attached object is abducted."
+msgstr ""
+
+#: ../new/triggerevents.rst:130
+msgid ""
+":value:`72,0,<house>` Abducted By House: Triggers when the specified "
+"house abducts the attached object."
+msgstr ""
+
+#: ../new/triggerevents.rst:133
+msgid ""
+":value:`73,0,0` Abducts Something: Triggers when the attached object "
+"abducts something."
+msgstr ""
+
+#: ../new/triggerevents.rst:136
+msgid ""
+":value:`74,0,<house>` Abducts Something Of House: Triggers when an "
+"attached object abducts something of the specified house."
+msgstr ""
+
+#: ../new/triggerevents.rst:139
+msgid "These events are all incidental and non-persistent."
+msgstr ""
+
+#: ../new/triggerevents.rst:141
+msgid ""
+"When an object is abducted, event :value:`72` is triggered before "
+":value:`71` and when abducting an object, :value:`74` is triggered before"
+" :value:`73`. This is to allow a specific house to take precedence over "
+"the general case."
+msgstr ""
+
+#: ../new/triggerevents.rst:152
+msgid ":captiontag:`Super Weapon Activation` (75+76)"
+msgstr ""
+
+#: ../new/triggerevents.rst:154
+msgid ""
+":value:`75,0,<super weapon>` Super Weapon Activated: Triggers when the "
+"owning house fires the super weapon."
+msgstr ""
+
+#: ../new/triggerevents.rst:157
+msgid ""
+":value:`76,0,<super weapon>` Super Weapon Deactivated: Triggers when the "
+"owning house deactivates the super weapon. Only Charge-Drain super weapon"
+" types deactivate."
+msgstr ""
+
+#: ../new/triggerevents.rst:170
+msgid ":captiontag:`Super Weapon Near Waypoint` (77)"
+msgstr ""
+
+#: ../new/triggerevents.rst:172
+msgid ""
+":value:`77,2,<waypoint>,<super weapon ID>` Super Weapon Activated Near "
+"Waypoint: Triggers when the named super weapon is used near the waypoint."
+msgstr ""
+
+#: ../new/triggerevents.rst:175 ../new/triggerevents.rst:279
+msgid "This event is incidental and persistent."
+msgstr ""
+
+#: ../new/triggerevents.rst:177
+msgid "The definition of *near* is the same as for :value:`Comes Near Waypoint`."
+msgstr ""
+
+#: ../new/triggerevents.rst:186
+msgid ":captiontag:`Reverse Engineered` (78)"
+msgstr ""
+
+#: ../new/triggerevents.rst:188
+msgid ""
+":value:`78,2,0,<techno type id>` Reverse Engineered: Triggers while the "
+"owning house has access to reverse engineered techno type."
+msgstr ""
+
+#: ../new/triggerevents.rst:191 ../new/triggerevents.rst:298
+msgid "This event is situational and non-persistent."
+msgstr ""
+
+#: ../new/triggerevents.rst:193
+msgid ""
+"This event will trigger for the type a unit has been reversed as when put"
+" into a reverse engineering structure, that is, respecting "
+":tag:`ReversedAs=`."
+msgstr ""
+
+#: ../new/triggerevents.rst:203
+msgid ":captiontag:`Reverse Engineering` (79+80)"
+msgstr ""
+
+#: ../new/triggerevents.rst:205
+msgid ""
+":value:`79,0,0` Reverse Engineers Anything: Triggers when the attached "
+"building successfully reverse engineers any type."
+msgstr ""
+
+#: ../new/triggerevents.rst:208
+msgid ""
+":value:`80,2,0,<techno type id>` Reverse Engineers Type: Triggers when "
+"the attached building successfully reverse engineers the specific type."
+msgstr ""
+
+#: ../new/triggerevents.rst:213
+msgid ""
+"This event will trigger for the original type that is put into a reverse "
+"engineering structure, not respecting :tag:`ReversedAs=`. It will however"
+" only trigger if a unit has been reversed successfully, that is, only "
+"once per reversed type, respecting :tag:`ReversedAs=`."
+msgstr ""
+
+#: ../new/triggerevents.rst:218
+msgid ""
+"When reverse engineering, event :value:`80` is triggered before "
+":value:`79`. This is to allow a specific house to take precedence over "
+"the general case."
+msgstr ""
+
+#: ../new/triggerevents.rst:228
+msgid ":captiontag:`House Owns Techno Type` (81+82)"
+msgstr ""
+
+#: ../new/triggerevents.rst:230
+msgid ""
+":value:`81,2,<count>,<techno type id>` House Owns Techno Type: Triggers "
+"while the owning house has at least count instances of the specified "
+"techno type."
+msgstr ""
+
+#: ../new/triggerevents.rst:233
+msgid ""
+":value:`82,2,<count>,<techno type id>` House Doesn't Own Techno Type: "
+"Triggers while the owning house has fewer than count instances of the "
+"specified techno type."
+msgstr ""
+
+#: ../new/triggerevents.rst:237
+msgid "Both events are situational and non-persistent."
+msgstr ""
+
+#: ../new/triggerevents.rst:239
+msgid ""
+"These mirror the :value:`Tech Type Exists` (60) and :value:`Tech Type "
+"Doesn't Exist` (61), but they only check the owning house instead of all "
+"houses."
+msgstr ""
+
+#: ../new/triggerevents.rst:249
+msgid ":captiontag:`Attacked Or Destroyed By` (83+84)"
+msgstr ""
+
+#: ../new/triggerevents.rst:251
+msgid ""
+":value:`83,0,0` Attacked Or Destroyed By Anybody: Triggers when the "
+"attached object is attacked or destroyed by any attack (even ones without"
+" source)."
+msgstr ""
+
+#: ../new/triggerevents.rst:254
+msgid ""
+":value:`84,0,<house>` Attacked Or Destroyed By House: Triggers when the "
+"attached object is attacked or destroyed by an attack where the source is"
+" owned by a specific house."
+msgstr ""
+
+#: ../new/triggerevents.rst:258
+msgid "Both events are incidental and non-persistent."
+msgstr ""
+
+#: ../new/triggerevents.rst:260
+msgid ""
+"These mirror the :value:`Attacked By Anybody` (6) and :value:`Attacked By"
+" House` (44) trigger events, but they will fire even if the object just "
+"has been destroyed with the first strike, that is, also for fatal hits."
+msgstr ""
+
+#: ../new/triggerevents.rst:264
+msgid ""
+"Unlike the original game, the house-specific event will fire first to "
+"allow the more specific event to take precedence over the less specific "
+"one."
+msgstr ""
+
+#: ../new/triggerevents.rst:274
+msgid ":captiontag:`Destroyed By House` (85)"
+msgstr ""
+
+#: ../new/triggerevents.rst:276
+msgid ""
+":value:`85,0,<house>` Destroyed By House: Triggers when the attached "
+"object is destroyed by any attack where the source is owned by a specific"
+" house."
+msgstr ""
+
+#: ../new/triggerevents.rst:281
+msgid ""
+"The house-specific event :value:`85` will fire before the generic event "
+":value:`Destroyed By Anybody` (7) to allow the more specific event to "
+"take precedence over the less specific one."
+msgstr ""
+
+#: ../new/triggerevents.rst:292
+msgid ":captiontag:`Techno Type Doesn't Exist More Than` (86)"
+msgstr ""
+
+#: ../new/triggerevents.rst:294
+msgid ""
+":value:`86,2,<count>,<techno type id>` Techno Type Doesn't Exist More "
+"Than: Triggers while there are no more than count instances of the "
+"specified techno type."
+msgstr ""
+
+#: ../new/triggerevents.rst:307
+msgid ":captiontag:`All KeepAlives Destroyed` (87+88)"
+msgstr ""
+
+#: ../new/triggerevents.rst:309
+msgid ""
+":value:`87,0,<house>` All KeepAlives Destroyed: Triggers when the "
+"specified house has no more :tag:`KeepAlive=yes` objects."
+msgstr ""
+
+#: ../new/triggerevents.rst:312
+msgid ""
+":value:`88,0,<house>` All KeepAlive Buildings Destroyed: Triggers when "
+"the specified house has no more buildings with :tag:`KeepAlive=yes`."
+msgstr ""
+
+#: ../new/triggerevents.rst:315
+msgid "Both events are situational and persistent."
+msgstr ""
+

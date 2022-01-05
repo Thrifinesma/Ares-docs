@@ -1,0 +1,39 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../bugfixes/type2/shpcompression1.rst:7
+msgid "Shape Compression 1 Draws Vertical Lines on Large Images"
+msgstr ""
+
+#: ../bugfixes/type2/shpcompression1.rst:9
+msgid ""
+"In-game :game:`Yuri's Revenge` originally only fully supported compressed"
+" shape images up to a width of 256 pixels. The game used a buffer of "
+"fixed size with additional data while drawing, and larger images read "
+"past the end of that buffer. The vertical lines were a consequence of "
+"random data being applied to each line drawn, selectively making the "
+"pixels at the same x coordinates transparent."
+msgstr ""
+
+#: ../bugfixes/type2/shpcompression1.rst:16
+msgid ""
+"This has been fixed. :game:`Ares` uses a large enough buffer to draw "
+"compressed shape images."
+msgstr ""
+

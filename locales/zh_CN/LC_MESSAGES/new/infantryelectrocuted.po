@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/infantryelectrocuted.rst:8
+msgid ":captiontag:`InfantryElectrocuted`"
+msgstr ""
+
+#: ../new/infantryelectrocuted.rst:10
+msgid ""
+"The animation displayed for a dying :type:`InfantryType` when the warhead"
+" that killed them had :tag:`InfDeath=5` used to be hard-coded to the "
+"second animation from the :tag:`[Animations]` list. You can now specify "
+":tag:`[AudioVisual]InfantryElectrocuted=` instead."
+msgstr ""
+
+#: ../new/infantryelectrocuted.rst:18
+msgid ":tagdef:`[AudioVisual]InfantryElectrocuted=animation`"
+msgstr ""
+
+#: ../new/infantryelectrocuted.rst:16
+msgid ""
+"If :tag:`InfantryElectrocuted` is not defined then the game will search "
+"for an animation named :value:`ELECTRO`, before finally falling back to "
+"the second animation like before."
+msgstr ""
+

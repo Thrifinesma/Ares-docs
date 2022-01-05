@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../bugfixes/type2/engineertechniciancrew.rst:9
+msgid "Crew with :captiontag:`Engineer=yes` could freeze the game"
+msgstr ""
+
+#: ../bugfixes/type2/engineertechniciancrew.rst:11
+msgid ""
+"Because of a bad algorithm selling a building could go into an infinite "
+"loop. The game ensures to at most spawn one infantry unit having "
+":tag:`Engineer=yes` set by just generating a new crew member until it has"
+" :tag:`Engineer=no` set. If there are only crew types (set in "
+":tag:`AlliedCrew=`, :tag:`Technician=`, :tag:`Engineer=` and others) with"
+" :tag:`Engineer=yes`, this will never succeed and the game will freeze."
+msgstr ""
+
+#: ../bugfixes/type2/engineertechniciancrew.rst:27
+msgid ""
+"Crash with undefined :captiontag:`Engineer`, :captiontag:`Technician` and"
+" :captiontag:`Crew`"
+msgstr ""
+
+#: ../bugfixes/type2/engineertechniciancrew.rst:29
+msgid ""
+"When :tag:`Technician=`, :tag:`Engineer=`, :tag:`AlliedCrew=` and others "
+"weren't defined, the game crashed when a building was sold or destroyed. "
+"This was just because of oversights in both cases."
+msgstr ""
+
+#: ../bugfixes/type2/engineertechniciancrew.rst:33
+msgid ""
+"When selling, the flawed :tag:`[InfantryType]Engineer=yes` check happened"
+" before the crew type was verified to be set at all."
+msgstr ""
+
+#: ../bugfixes/type2/engineertechniciancrew.rst:36
+msgid ""
+"When destroyed, the game checked whether the crew type was set, but then "
+"went ahead and tried to write the name of the crew type to the debug log "
+"regardless of the result."
+msgstr ""
+

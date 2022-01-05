@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/additionalarmortypesandverses.rst:8
+msgid "Additional :type:`ArmorTypes` and :captiontag:`Verses`"
+msgstr ""
+
+#: ../new/additionalarmortypesandverses.rst:10
+msgid ""
+"The new :tag:`[ArmorTypes]` section can be used to define new "
+":type:`ArmorTypes` for objects (in addition to the 11 existing "
+":type:`ArmorTypes`; :value:`none`, \\ :value:`flak`, :value:`plate`, "
+":value:`light`, :value:`medium`, \\ :value:`heavy`, :value:`wood`, "
+":value:`steel`, :value:`concrete`, \\ :value:`special_1` and "
+":value:`special_2`)."
+msgstr ""
+
+#: ../new/additionalarmortypesandverses.rst:24
+msgid ""
+":tag:`paper=steel` declares a new :type:`ArmorType` called \"paper\" "
+"whose verses on each warhead defaults to being the same as that warhead's"
+" verses against the \"steel\" :type:`ArmorType`. :tag:`magic=11%` "
+"declares a new :type:`ArmorType` called \"magic\" whose Verses on all "
+"warheads defaults to 11%. These :type:`ArmorTypes` can be assigned to "
+"objects in the same way as the standard :type:`ArmorTypes` (case-"
+"insensitively). Their susceptibility to specific warheads can be "
+"specified as follows:"
+msgstr ""
+
+#: ../new/additionalarmortypesandverses.rst:33
+msgid ":tagdef:`[Warhead]Versus.magic=float - modifier`"
+msgstr ""
+
+#: ../new/additionalarmortypesandverses.rst:33
+msgid "Sets the efficiency of this warhead against the armor called :tag:`magic`."
+msgstr ""
+
+#: ../new/additionalarmortypesandverses.rst:35
+msgid ""
+"Note that each individual :type:`ArmorType`'s versus value is specified "
+"using the new :tag:`Versus.*` flag, whereas the original 11 "
+":type:`ArmorTypes` versus values are specified using the original "
+":tag:`Verses` flag (note Westwood's misspelling of \"versus\")."
+msgstr ""
+
+#: ../new/additionalarmortypesandverses.rst:40
+msgid ""
+"The original :tag:`Verses` flag parser no longer crashes if you specify "
+"less than 11 values."
+msgstr ""
+
+#: ../new/additionalarmortypesandverses.rst:52
+msgid "Warhead :captiontag:`Verses`' Special Values"
+msgstr ""
+
+#: ../new/additionalarmortypesandverses.rst:54
+msgid ""
+"The Verses flag has three special-case values that can be used to define "
+"additional behavior:"
+msgstr ""
+
+#: ../new/additionalarmortypesandverses.rst:58
+msgid ":value:`0%` means no force fire, no retaliate, no passive acquire"
+msgstr ""
+
+#: ../new/additionalarmortypesandverses.rst:59
+msgid ":value:`1%` means no retaliate, no passive acquire"
+msgstr ""
+
+#: ../new/additionalarmortypesandverses.rst:60
+msgid ":value:`2%` means no passive acquire"
+msgstr ""
+
+#: ../new/additionalarmortypesandverses.rst:63
+#, python-format
+msgid ""
+"These behaviors can now be toggled on or off independently of the damage "
+"multiplier (so you can now have a warhead that is 100% effective against "
+"an armor type but, at the same time, will not directly target a unit with"
+" that armor type)."
+msgstr ""
+
+#: ../new/additionalarmortypesandverses.rst:69
+msgid ":tagdef:`[Warhead]Versus.magic.ForceFire=boolean`"
+msgstr ""
+
+#: ../new/additionalarmortypesandverses.rst:69
+msgid ""
+"Whether or not this warhead is allowed to be force-fired on the "
+":tag:`magic` :type:`ArmorType`."
+msgstr ""
+
+#: ../new/additionalarmortypesandverses.rst:72
+msgid ":tagdef:`[Warhead]Versus.steel.Retaliate=boolean`"
+msgstr ""
+
+#: ../new/additionalarmortypesandverses.rst:72
+msgid ""
+"Whether or not this warhead is allowed to be used in retaliation against "
+"the :tag:`steel` :type:`ArmorType`."
+msgstr ""
+
+#: ../new/additionalarmortypesandverses.rst:77
+msgid ":tagdef:`[Warhead]Versus.clingfilm.PassiveAcquire=boolean`"
+msgstr ""
+
+#: ../new/additionalarmortypesandverses.rst:75
+msgid ""
+"Whether or not this warhead is allowed to be used to attack the "
+":tag:`clingfilm` :type:`ArmorType` automatically."
+msgstr ""
+
+#: ../new/additionalarmortypesandverses.rst:79
+msgid "Note :game:`Ares`' correct spelling of \"acquire\"."
+msgstr ""
+
+#: ../new/additionalarmortypesandverses.rst:90
+msgid "Immunities"
+msgstr ""
+
+#: ../new/additionalarmortypesandverses.rst:92
+msgid ""
+"The original game has a way to make certain units immune to certain "
+"warheads, however this is severely limited. For example, the "
+":tag:`[DESO]` infantry has the flag :tag:`ImmuneToRadiation=yes` and the "
+":tag:`[RadBeamWarhead]` warhead has the flag :tag:`Radiation=yes`. This "
+"means that the Desolator is immune to damage from the radiation beams "
+"fired by other Desolators. This immunity system has two limitations:"
+msgstr ""
+
+#: ../new/additionalarmortypesandverses.rst:100
+msgid "Only a small handful of working flag pairs exist, and"
+msgstr ""
+
+#: ../new/additionalarmortypesandverses.rst:101
+msgid ""
+"The immunity only prevents the unit from taking damage from the warhead. "
+"It does not prevent the unit from being targeted. In the above example, "
+"Desolators can fire at each other ineffectually."
+msgstr ""
+
+#: ../new/additionalarmortypesandverses.rst:106
+msgid ""
+":game:`Ares` overcomes these limitations with new armor types, as "
+"mentioned above. If you want to have additional 'old-style' immunities "
+"that still allow units to target things they can't damage (e.g. because "
+"they will affect enemies in an area around the target) then you can "
+"create a new armor type that will emulate this as follows:"
+msgstr ""
+
+#: ../new/additionalarmortypesandverses.rst:132
+msgid ""
+"The above settings give the IceMan unit a damage immunity to the IceBlast"
+" weapon, even though he can still be attacked by that weapon."
+msgstr ""
+

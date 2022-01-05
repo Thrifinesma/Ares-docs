@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/sidescountries/defaultcountry.rst:4
+msgid "Country Defaults"
+msgstr ""
+
+#: ../new/sidescountries/defaultcountry.rst:11
+msgid "AI and Base-Building"
+msgstr ""
+
+#: ../new/sidescountries/defaultcountry.rst:21
+msgid ":tagdef:`[Country]AI.PowerPlants=list of BuildingTypes`"
+msgstr ""
+
+#: ../new/sidescountries/defaultcountry.rst:14
+msgid ""
+"A list of buildings that the AI will treat as this country's power "
+"plants. Defaults to :tag:`[General]GDIPowerPlant` for the first side, to "
+":tag:`[General]ThirdPowerPlant` for the third side, and to "
+":tag:`[General]NodRegularPower` and :tag:`[General]NodAdvancedPower` for "
+"the second side and all other sides."
+msgstr ""
+
+#: ../new/sidescountries/defaultcountry.rst:20
+msgid ""
+"There has to be at least one building in this list that always satisfies "
+"prerequisites."
+msgstr ""
+
+#: ../new/sidescountries/defaultcountry.rst:31
+msgid "Paradrop Defaults"
+msgstr ""
+
+#: ../new/sidescountries/defaultcountry.rst:39
+msgid ""
+":tagdef:`[Country]ParaDrop.Types=list of InfantryTypes and/or "
+"VehicleTypes`"
+msgstr ""
+
+#: ../new/sidescountries/defaultcountry.rst:34
+msgid ""
+"The units that will be paradropped by :tag:`Type=ParaDrop` super weapons "
+"(such as the one normally provided by a Tech Airport) for this country. "
+"Defaults to the corresponding side's :tag:`ParaDrop.Types=`."
+msgstr ""
+
+#: ../new/sidescountries/defaultcountry.rst:38
+msgid ""
+"The original flags used to control the paradrop units only accept \\ "
+":type:`InfantryTypes`. To include :type:`VehicleTypes` in a paradrop you "
+"*have to* use the new :tag:`ParaDrop.Types` and :tag:`ParaDrop.Num` "
+"flags."
+msgstr ""
+
+#: ../new/sidescountries/defaultcountry.rst:43
+msgid ":tagdef:`[Country]ParaDrop.Num=list of integers`"
+msgstr ""
+
+#: ../new/sidescountries/defaultcountry.rst:42
+msgid ""
+"The quantity of each corresponding unit (listed against "
+":tag:`ParaDrop.Types`) that will be paradropped. Defaults to the "
+"corresponding side's :tag:`ParaDrop.Num=`."
+msgstr ""
+
+#: ../new/sidescountries/defaultcountry.rst:47
+msgid ":tagdef:`[Country]ParaDrop.Aircraft=AircraftType`"
+msgstr ""
+
+#: ../new/sidescountries/defaultcountry.rst:46
+msgid ""
+"The aircraft type that will be used to deliver paradrops from super "
+"weapons or by teams created by map actions. Defaults to the corresponding"
+" side's :tag:`ParaDrop.Aircraft=`."
+msgstr ""
+
+#: ../new/sidescountries/defaultcountry.rst:52
+msgid ":tagdef:`[Country]Parachute.Anim=Animation`"
+msgstr ""
+
+#: ../new/sidescountries/defaultcountry.rst:50
+msgid ""
+"This country's default parachute used if not overridden by a "
+":type:`TechnoType`. Defaults to the corresponding side's "
+":tag:`Parachute.Anim=`."
+msgstr ""
+
+#: ../new/sidescountries/defaultcountry.rst:63
+msgid "Others"
+msgstr ""
+
+#: ../new/sidescountries/defaultcountry.rst:67
+msgid ":tagdef:`[Country]VeteranBuildings=list of BuildingTypes`"
+msgstr ""
+
+#: ../new/sidescountries/defaultcountry.rst:66
+msgid ""
+"All buildings in this list start as veteran for this country and, if "
+"available, veteran cameos are displayed in the sidebar."
+msgstr ""
+

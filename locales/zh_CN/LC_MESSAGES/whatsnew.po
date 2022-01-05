@@ -1,0 +1,823 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../whatsnew.rst:5
+msgid "What's New"
+msgstr ""
+
+#: ../whatsnew.rst:7
+msgid ""
+"This section contains non-exhaustive lists of features and bugfixes that "
+"were added to a particular version of :game:`Ares`. Internal changes, "
+"optimizations and updates are mentioned here only if they are notable."
+msgstr ""
+
+#: ../whatsnew.rst:12
+msgid "Ares 3.0"
+msgstr ""
+
+#: ../whatsnew.rst:13
+msgid ""
+"**Super Weapons** can be :doc:`limited to human or AI players, only "
+"provide a limited number of shots, or be granted without any building "
+"</new/superweapons/availability>`, :doc:`charged initially or charge in "
+"the background without any building to provide them "
+"</new/superweapons/general>`, :doc:`can be fired according to AI "
+"targeting rules, but at the player's command, with fully customizable "
+"constraints </new/superweapons/targeting>`. A :doc:`new Battery super "
+"weapon type </new/superweapons/types/battery>` has been added, as well as"
+" :doc:`some new AI targeting modes </new/superweapons/targeting>`."
+msgstr ""
+
+#: ../whatsnew.rst:23
+msgid ""
+"**Trigger Actions** :doc:`provide auxiliary power, kill drivers, change "
+"the EVA voice or the group units belong to dynamically "
+"</new/triggeractions>`"
+msgstr ""
+
+#: ../whatsnew.rst:26
+msgid ""
+"**Trigger Events** raised for :doc:`EMP, spotlights, killing drivers, "
+"tanking vehicles, abduction, reverse engineering, super weapon use, "
+"houses owning a certain object type, a certain house destroying an "
+"object, no more objects of a certain type existing, and a house having no"
+" more objects keeping the player alive </new/triggerevents>`"
+msgstr ""
+
+#: ../whatsnew.rst:32
+msgid ""
+"**Team Scripts** have been added to :doc:`provide auxiliary power, kill "
+"drivers, capture vehicles, convert the type, cause sonar detection, and "
+"disable weapons </new/scripts>`"
+msgstr ""
+
+#: ../whatsnew.rst:36
+msgid ""
+"**Short Games** :doc:`end only if the player has no more units or "
+"structures that keep them alive </new/keepalive>`"
+msgstr ""
+
+#: ../whatsnew.rst:39
+msgid ""
+"**Harvesters** allow to :doc:`customize the global scan and distance "
+"settings </new/harvesters>`"
+msgstr ""
+
+#: ../whatsnew.rst:42
+msgid ""
+"**Refineries** allow to slightly :doc:`customize dock unloading cells and"
+" facings </new/buildings/refineries>`"
+msgstr ""
+
+#: ../whatsnew.rst:45
+msgid ""
+"**Warheads** support :doc:`culling enemies like the Squid parasite attack"
+" does </new/warheads/culling>`"
+msgstr ""
+
+#: ../whatsnew.rst:48
+msgid ""
+"**Railguns** can be :doc:`detached and fire before the last one has "
+"disappeared </new/weapons/railgun>`"
+msgstr ""
+
+#: ../whatsnew.rst:51
+msgid ""
+"**Selling Units** can be :doc:`customized per type, and buildings can be "
+"set to allow selling units </new/sellunit>`"
+msgstr ""
+
+#: ../whatsnew.rst:54
+msgid ""
+"**Bugfixes** have been added to solve :doc:`burst abuse "
+"</bugfixes/type1/burstabuse>`, :doc:`IFVs chasing aircraft "
+"</bugfixes/type1/guardapproachtarget>`, an :doc:`infantry deploy jam "
+"</bugfixes/type1/infantrydeploy>`"
+msgstr ""
+
+#: ../whatsnew.rst:60
+msgid "Ares 2.0"
+msgstr ""
+
+#: ../whatsnew.rst:61
+msgid ""
+"**Type Conversions** can switch a unit type when :doc:`deploying, "
+"promoting or moving into or out of water</new/typeconversion>`"
+msgstr ""
+
+#: ../whatsnew.rst:64
+msgid ""
+"**Animations** can :doc:`deal damage using a weapon, optionally with a "
+"delay </new/animations>`"
+msgstr ""
+
+#: ../whatsnew.rst:67
+msgid ""
+"**Waves** optimized and expanded to support to recreate :doc:`original "
+"colors </new/weapons/waves>`"
+msgstr ""
+
+#: ../whatsnew.rst:70
+msgid ""
+"**Warheads** can fire :doc:`Ion Cannons </new/warheads/ioncannon>`, can "
+":doc:`distinguish between firer and allies </new/warheads/general>`,"
+msgstr ""
+
+#: ../whatsnew.rst:73
+msgid ""
+"**AI** can use custom :doc:`Iron Curtains </new/scripts>`, and even use "
+"any super weapon with :doc:`Iron Curtain Targeting "
+"</new/superweapons/targeting>` to support teams"
+msgstr ""
+
+#: ../whatsnew.rst:77
+msgid "**Build Time** can be :doc:`customized for each type </new/buildtime>`"
+msgstr ""
+
+#: ../whatsnew.rst:79
+msgid ""
+"**Spy Effects** to :doc:`build buildings, naval units or aircraft as "
+"veteran </new/buildings/spyeffects>`"
+msgstr ""
+
+#: ../whatsnew.rst:83
+msgid "Ares 1.0"
+msgstr ""
+
+#: ../whatsnew.rst:84
+msgid "**Save Games** are :doc:`supported again </ui-features/savegames>`"
+msgstr ""
+
+#: ../whatsnew.rst:87
+msgid "Ares 0.E"
+msgstr ""
+
+#: ../whatsnew.rst:88
+msgid ""
+"**Tunnel Networks** allow to :doc:`move units between entrance buildings "
+"</new/buildings/tunnels>`"
+msgstr ""
+
+#: ../whatsnew.rst:91
+msgid ""
+"**IFV units** support :doc:`more than 18 weapons, turrets, and modes "
+"</new/gunner>`"
+msgstr ""
+
+#: ../whatsnew.rst:94
+msgid ""
+"**Warheads** can apply new effects like :doc:`sonar "
+"</new/warheads/sonar>`, :doc:`weapon disabling "
+"</new/warheads/disableweapons>`, :doc:`flashing </new/warheads/flash>`, "
+"and :doc:`Nuke flash </new/warheads/nukeflash>`, and deal :doc:`relative "
+"damage like the MAD Tank </new/warheads/relativedamage>`"
+msgstr ""
+
+#: ../whatsnew.rst:99
+msgid ""
+"**Veterancy Abilities** support :doc:`immunity to radiation, poison, "
+"psionics, temporals, abductors, psychedelics, and psychic weapons "
+"</new/veteranabilities>`"
+msgstr ""
+
+#: ../whatsnew.rst:103
+msgid ""
+"**Chronoshifting** can be :doc:`disallowed to destroy units at the "
+"destination </new/chronoshift>`"
+msgstr ""
+
+#: ../whatsnew.rst:106
+msgid ""
+"**Movies List** can be :doc:`defined with new unlockable movies "
+"</new/movies>`"
+msgstr ""
+
+#: ../whatsnew.rst:109
+msgid "Ares 0.D"
+msgstr ""
+
+#: ../whatsnew.rst:110
+msgid ""
+"**Mouse Cursors** have been :doc:`reworked completely "
+"</new/mousecursors>` and now can be customized for :doc:`units and "
+"structures </new/cursors>` as well as for :doc:`weapons "
+"</new/weapons/cursors>`"
+msgstr ""
+
+#: ../whatsnew.rst:114
+msgid ""
+"**Warheads** have been expanded to support :doc:`mechanics and ambulances"
+" </new/warheads/mechanical>`, and Temporal weapons can consider "
+":doc:`health </new/warheads/temporal>` and :doc:`work together with "
+"Abductor logic </new/chronoprisons>`"
+msgstr ""
+
+#: ../whatsnew.rst:119
+msgid ""
+"**Ivan Bombs** added support for the :doc:`death bombs "
+"</new/weapons/ivanbombs>` cut from the original game"
+msgstr ""
+
+#: ../whatsnew.rst:122
+msgid ""
+"**Buildings** can have :doc:`custom buildup and separate sell times "
+"</new/buildings/builduptime>` and AI players can :doc:`build more than "
+"one of each type </new/buildings/buildcount>`"
+msgstr ""
+
+#: ../whatsnew.rst:126
+msgid ""
+"**Units** can have custom :doc:`fall rates </new/fallrate>` and :doc:`dig"
+" animations and sounds </new/dig>`"
+msgstr ""
+
+#: ../whatsnew.rst:129
+msgid ""
+"**Countries** can have :doc:`custom starting units and start with a "
+"deployed Construction Yard </new/sidescountries/startinmultiplayer>`"
+msgstr ""
+
+#: ../whatsnew.rst:134
+msgid "Ares 0.C"
+msgstr ""
+
+#: ../whatsnew.rst:135
+msgid "**Bounty** is :doc:`money awarded for killing enemies </new/bounty>`"
+msgstr ""
+
+#: ../whatsnew.rst:137
+msgid ""
+"**Particles** :doc:`spark and railgun have been optimized heavily; gas "
+"can damage more than one cell; gas, smoke, and fire support custom "
+"palettes </new/particles>` and :doc:`animations can spawn particles "
+"farther away </new/spawnsparticle>`"
+msgstr ""
+
+#: ../whatsnew.rst:142
+msgid ""
+"**Particle Systems** can now be :doc:`attached to projectiles "
+"</new/projectiles/attachedsystem>`"
+msgstr ""
+
+#: ../whatsnew.rst:145
+msgid ""
+"**Factory Plant** :doc:`cost bonus effect can be modified for each unit "
+"or structure </new/factoryplant>`"
+msgstr ""
+
+#: ../whatsnew.rst:148
+msgid ""
+"**Promotion** :doc:`sounds, EVA messages, and flashing </new/promotion>` "
+"can be customized"
+msgstr ""
+
+#: ../whatsnew.rst:151
+msgid "**Weapon switching** when a unit is :doc:`out of ammo </new/noammoweapon>`"
+msgstr ""
+
+#: ../whatsnew.rst:155
+msgid "Ares 0.B"
+msgstr ""
+
+#: ../whatsnew.rst:156
+msgid ""
+"**Generic Prerequisites** now also :doc:`accept vehicles as prerequisites"
+" </new/prerequisites>`"
+msgstr ""
+
+#: ../whatsnew.rst:159
+msgid ""
+"**Warheads** can now optionally :doc:`always or never damage air units "
+"</new/warheads/damageair>`"
+msgstr ""
+
+#: ../whatsnew.rst:162
+msgid ""
+"**Ammo changes** allow for weapons that :doc:`use custom amounts of "
+"ammunition (or no ammo at all) </new/weapons/ammo>`, units "
+":doc:`reloading more than one round of ammunition </new/reload>`, and "
+":doc:`aircraft with individual reload rate </new/aircraftreload>`."
+msgstr ""
+
+#: ../whatsnew.rst:167
+msgid "**Self Heal** :doc:`made customizable </new/selfheal>`"
+msgstr ""
+
+#: ../whatsnew.rst:169
+msgid ""
+"**Spies** can steal plans for :doc:`one-time or permanent super weapons "
+"</new/buildings/spyeffects>`, and they can be deceived by :doc:`deploying"
+" fake buildings </new/buildings/fakes>`"
+msgstr ""
+
+#: ../whatsnew.rst:173
+msgid ""
+"**Disallow** players from getting the :doc:`enter or no-enter cursor on "
+"transports or the area guard cursor on medics</new/manual>`"
+msgstr ""
+
+#: ../whatsnew.rst:178
+msgid "Ares 0.A"
+msgstr ""
+
+#: ../whatsnew.rst:179
+msgid ""
+"**Audio improvements** like support for :doc:`multiple bag files "
+"</new/misc/bagfiles>` and support for :doc:`loose wave files of arbitrary"
+" type </new/misc/looseaudiofiles>`"
+msgstr ""
+
+#: ../whatsnew.rst:183
+msgid ""
+"**Solid Buildings** have been reworked to :doc:`support invisible "
+"projectiles and solidity levels </new/buildings/solidbuildings>`"
+msgstr ""
+
+#: ../whatsnew.rst:186
+msgid ""
+"**Firestorm** has gotten :doc:`customizable animations and many more "
+"improvements </restored/firestormwall>`"
+msgstr ""
+
+#: ../whatsnew.rst:189
+msgid ""
+"**Transports** can come from the factory with :doc:`prebuilt passengers "
+"</new/initialpayload>`, can only accept :doc:`specific passengers "
+"</new/passengers>`, or be :doc:`disallowed to eject their passengers "
+"manually </new/manual>`"
+msgstr ""
+
+#: ../whatsnew.rst:194
+msgid ""
+"**Custom Missiles** :doc:`can use weapons instead of damage and warhead "
+"</new/custommissiles>`"
+msgstr ""
+
+#: ../whatsnew.rst:197
+msgid ""
+"**Saboteurs** are sneaky :doc:`one-time building demolition troopers "
+"</new/saboteur>`"
+msgstr ""
+
+#: ../whatsnew.rst:200
+msgid ""
+"**Units** can be made to :doc:`hold fire if not in area-guard mode "
+"</new/canpassiveaquire>` or to :doc:`not try to crush enemies "
+"</new/omnicrusher>`"
+msgstr ""
+
+#: ../whatsnew.rst:206
+msgid "Ares 0.9"
+msgstr ""
+
+#: ../whatsnew.rst:207
+msgid ""
+"**Better AI support** for :doc:`super weapons and the new Ares features "
+"</new/superweapons/targeting>`"
+msgstr ""
+
+#: ../whatsnew.rst:210
+msgid ""
+"**Super Weapons** support :doc:`Inhibitors </new/superweapons/range>`, "
+":doc:`multiple AuxBuildings, negative AuxBuildings and owner countries "
+"</new/superweapons/availability>`, :doc:`full-map PsychicReveal "
+"</new/superweapons/types/psychicreveal>`, and :doc:`multiple Hunter "
+"Seeker launches </new/superweapons/types/hunterseeker>`"
+msgstr ""
+
+#: ../whatsnew.rst:216
+msgid ""
+"**Buildings and upgrades** allow :doc:`more than two super weapons "
+"</new/superweapons/buildings>` and :doc:`Oil Derrick logic "
+"</new/buildings/producecash>`"
+msgstr ""
+
+#: ../whatsnew.rst:220
+msgid ""
+"**Graphical stuff** like more than 8 facings for :doc:`SHP based units "
+"</new/facings>` and :doc:`weapon muzzle flashes "
+"</new/projectiles/animations>`, as well as :doc:`animated rotating "
+"projectiles </new/projectiles/animations>`"
+msgstr ""
+
+#: ../whatsnew.rst:225
+msgid ""
+"**EVA alerts and text messages** when :doc:`capturing or losing tech "
+"structures </new/buildings/techstructures>` and if :doc:`silos needed "
+"</new/tiberium/storage>`"
+msgstr ""
+
+#: ../whatsnew.rst:229
+msgid "**KillDriver** :doc:`owner house can be set </new/killingdrivers>`"
+msgstr ""
+
+#: ../whatsnew.rst:233
+msgid "Ares 0.8"
+msgstr ""
+
+#: ../whatsnew.rst:234
+msgid ""
+"**Toggle Power** :doc:`keyboard command, customizable cursors and "
+"optional support for AI players </new/buildings/togglepower>`"
+msgstr ""
+
+#: ../whatsnew.rst:237
+msgid ""
+"**EM Pulse** :doc:`Super Weapon </new/superweapons/types/empulse>`, with "
+"lots of enhancements"
+msgstr ""
+
+#: ../whatsnew.rst:240
+msgid ""
+"**Super Weapon ranges** :doc:`can be restricted around the firing "
+"structures and/or around designator units </new/superweapons/range>`"
+msgstr ""
+
+#: ../whatsnew.rst:243
+msgid ""
+"**Tech Academies** :doc:`are structures that allow training units with "
+"initial veterancy </new/buildings/academy>`"
+msgstr ""
+
+#: ../whatsnew.rst:246
+msgid ""
+"**Forest Fires** :doc:`restored, optional per tree type "
+"</new/forestfires>`"
+msgstr ""
+
+#: ../whatsnew.rst:248
+msgid ""
+"**Advanced Rubble** :ref:`expanded with customizable owner and initial "
+"health <trenches-rubble>`"
+msgstr ""
+
+#: ../whatsnew.rst:251
+msgid ""
+"**Animation tags** :doc:`Scorch and Flamer have been restored "
+"</new/scorchflamer>`"
+msgstr ""
+
+#: ../whatsnew.rst:253
+msgid ""
+"**Repair wrenches** can be :doc:`hidden from enemies "
+"<new/buildings/enemywrench>`, and :doc:`no longer reveal cloaked "
+"buildings <bugfixes/type2/cloakwrench>`"
+msgstr ""
+
+#: ../whatsnew.rst:257
+msgid ""
+"**Unit Delivery** :doc:`placement changed, units guard or hunt, and "
+"support for giving units to neutral countries "
+"</new/superweapons/types/unitdelivery>`"
+msgstr ""
+
+#: ../whatsnew.rst:262
+msgid "Ares 0.7"
+msgstr ""
+
+#: ../whatsnew.rst:263
+msgid ""
+"**Memory Management** issues were resolved, which results in fewer "
+"crashes and better support for Windows 8."
+msgstr ""
+
+#: ../whatsnew.rst:266
+msgid ""
+"**Hunter Seeker** :doc:`Super Weapon "
+"</new/superweapons/types/hunterseeker>`, :doc:`Unit Settings "
+"</new/hunterseeker>` and :ref:`Side defaults <sides-hunterseeker>`"
+msgstr ""
+
+#: ../whatsnew.rst:270
+msgid ""
+"**Drop Pod** :doc:`Super Weapon </new/superweapons/types/droppod>` and "
+":doc:`customizable Settings </new/hunterseeker>`"
+msgstr ""
+
+#: ../whatsnew.rst:273
+msgid ""
+"**Several weapon additions** like :doc:`Splits and Airburst enhancements "
+"</new/projectiles/splits>`, :doc:`Ranged </new/projectiles/ranged>` and "
+":doc:`ProjectileRange </new/weapons/projectilerange>`, and "
+":doc:`BallisticScatter </new/projectiles/ballisticscatter>`"
+msgstr ""
+
+#: ../whatsnew.rst:278
+msgid ""
+"**Warheads** that :doc:`prevent units to scatter </new/warheads/general>`"
+" when hit"
+msgstr ""
+
+#: ../whatsnew.rst:281
+msgid ""
+"**Civilian enemies** :doc:`attacked in multiplayer and smarter defense "
+"against civilian threats </new/civilianenemies>`"
+msgstr ""
+
+#: ../whatsnew.rst:284
+msgid ""
+"**Loading themes** for :doc:`campaigns <ui-features/campaignloadscreen>` "
+"and :doc:`multiplayer </new/sidescountries/uicountry>`"
+msgstr ""
+
+#: ../whatsnew.rst:287
+msgid ""
+"**Score screen** :doc:`Graphics and Themes for campaign and multiplayer "
+"</new/sidescountries/scorescreens>`"
+msgstr ""
+
+#: ../whatsnew.rst:290
+msgid ""
+"**Aircraft customization** with :doc:`Smoke animations "
+"</new/aircraftsmoke>` and :doc:`Airstrike-related voices "
+"</new/airstrike>`"
+msgstr ""
+
+#: ../whatsnew.rst:293
+msgid ""
+"**MakeInfantryOwner** :doc:`expanded <new/makeinfantryowner>` to work "
+"with generic infantry death animations"
+msgstr ""
+
+#: ../whatsnew.rst:296
+msgid ""
+"**Teams** can :doc:`retaliate </new/teamretaliate>` in case a member is "
+"attacked"
+msgstr ""
+
+#: ../whatsnew.rst:299
+msgid ""
+"**Passable structures** :doc:`units can drive on "
+"</new/buildings/passablestructures>` without side effects like the "
+"workarounds have"
+msgstr ""
+
+#: ../whatsnew.rst:303
+msgid ""
+"**Dimming deactivated units** :doc:`by reason for deactivation "
+"</new/dimming>`"
+msgstr ""
+
+#: ../whatsnew.rst:305
+msgid ""
+"**Damage sparks** :doc:`made customizable and enhanced to work with all "
+"types </new/damageparticlesystems>`"
+msgstr ""
+
+#: ../whatsnew.rst:310
+msgid "Ares 0.6"
+msgstr ""
+
+#: ../whatsnew.rst:311
+msgid ""
+"**CellSpread** :doc:`not limited to 11 anymore, and buildings can define "
+"a maximum hit count </new/warheads/cellspread>`"
+msgstr ""
+
+#: ../whatsnew.rst:314
+msgid "**Sight** :doc:`values above 10 are supported </new/sight>`"
+msgstr ""
+
+#: ../whatsnew.rst:316
+msgid ""
+"**Tech structures** can be :doc:`returned to the neutral house when a "
+"player is defeated instead of being destroyed "
+"</new/buildings/techstructures>`"
+msgstr ""
+
+#: ../whatsnew.rst:319
+msgid ""
+"**Prerequisites** that :doc:`require a factory build by a certain country"
+" </new/prerequisites>`"
+msgstr ""
+
+#: ../whatsnew.rst:322
+msgid ""
+"**Veterancy from spawns** can be :doc:`awarded to the spawner unit "
+"</new/customizableveterancy>`"
+msgstr ""
+
+#: ../whatsnew.rst:325
+msgid ""
+"**Aircraft** that :doc:`does not spin when crashing "
+"</new/crashableaircraft>`"
+msgstr ""
+
+#: ../whatsnew.rst:327
+msgid ""
+"**Spawners** now have :doc:`basic support for flying Aircraft Carriers "
+"</new/spawners>` and are :doc:`allowed to cloak "
+"</bugfixes/type2/cloakablespawners>`"
+msgstr ""
+
+#: ../whatsnew.rst:331
+msgid ""
+"**KillDriver** only applied :doc:`below a certain percentage of health "
+"</new/killingdrivers>`"
+msgstr ""
+
+#: ../whatsnew.rst:334
+msgid ""
+"**Helicopter units** :doc:`animate in air regardless </new/airrate>` of "
+"whether they are hovering or moving"
+msgstr ""
+
+#: ../whatsnew.rst:337
+msgid "**Drain weapons** power drain amount :doc:`made customizable </new/drain>`"
+msgstr ""
+
+#: ../whatsnew.rst:339
+msgid ""
+"**Force Shield** :doc:`customizable per BuildingType "
+"</new/buildings/forceshield>`"
+msgstr ""
+
+#: ../whatsnew.rst:344
+msgid "Ares 0.5"
+msgstr ""
+
+#: ../whatsnew.rst:345
+msgid ""
+"**Tiberium features** restored like :doc:`heal </new/tiberium/heal>`, "
+":doc:`damage </new/tiberium/damage>`, and :doc:`explosive harvesters "
+"</new/tiberium/explosive>`, as well as :doc:`spilling on destruction "
+"</new/tiberium/spill>` and :doc:`Tiberium chain reactions "
+"</new/tiberium/chainreactions>`, with lots of new settings."
+msgstr ""
+
+#: ../whatsnew.rst:351
+msgid "**Storage logic** :doc:`has been restored </new/tiberium/storage>`"
+msgstr ""
+
+#: ../whatsnew.rst:353
+msgid ""
+"**Cloak enhancements** allow :doc:`units to cloak only if idle, deployed,"
+" powered, or not at all </new/cloak/cloakstates>`, :doc:`hover units to "
+"cloak </new/cloak/cloakheight>`, :doc:`customizable cloak sounds "
+"</new/cloak/cloaksound>`, :doc:`parasites to attack cloaked units "
+"</new/cloak/general>` and more."
+msgstr ""
+
+#: ../whatsnew.rst:359
+msgid ""
+"**Sensor Arrays** :doc:`work again, with additions "
+"</new/cloak/sensorarray>`"
+msgstr ""
+
+#: ../whatsnew.rst:361
+msgid ""
+"**Type selection** can now :doc:`consider several unit types as one "
+"</new/typeselect>`"
+msgstr ""
+
+#: ../whatsnew.rst:364
+msgid ""
+"**AttachEffect** expanded with :doc:`settings for decloaking and entering"
+" transports </new/attacheffect>`"
+msgstr ""
+
+#: ../whatsnew.rst:367
+msgid ""
+"**Veterancy** :doc:`insignia can be hidden for enemy players "
+"</new/customizableinsignia>`"
+msgstr ""
+
+#: ../whatsnew.rst:370
+msgid ""
+"**Engineers and Technicians** can be :doc:`defined for each side "
+"</new/sidescountries/defaultside>`, and :doc:`they can spawn as survivors"
+" </new/survivors>`"
+msgstr ""
+
+#: ../whatsnew.rst:374
+msgid ""
+"**C4 veteran ability** has been restored back :doc:`into working state "
+"</bugfixes/type2/c4veteranability>`"
+msgstr ""
+
+#: ../whatsnew.rst:377
+msgid "**EVA message** :doc:`in case a unit is destroyed </new/losteva>`"
+msgstr ""
+
+#: ../whatsnew.rst:381
+msgid "Ares 0.4"
+msgstr ""
+
+#: ../whatsnew.rst:382
+msgid ""
+"**AttachEffect** feature allows to :doc:`change unit and building stats "
+"on the battlefield </new/attacheffect>` for a variety of new features and"
+" play styles"
+msgstr ""
+
+#: ../whatsnew.rst:385
+msgid ""
+"**Super weapon additions** with :doc:`cameos being grayed out "
+"</new/superweapons/cost>`, and a new :doc:`EVA event for selecting "
+"targets </new/superweapons/evaevents>`"
+msgstr ""
+
+#: ../whatsnew.rst:389
+msgid "**Aircraft** now :doc:`supports Crashable </new/crashableaircraft>`"
+msgstr ""
+
+#: ../whatsnew.rst:391
+msgid "**Pips** :doc:`support more than only the hardcoded values </new/pips>`"
+msgstr ""
+
+#: ../whatsnew.rst:393
+msgid ""
+"**Spy Effects** now support :doc:`PCX cameos and persistent radar reveal "
+"</new/buildings/spyeffects>`, and :doc:`spies can no longer infiltrate "
+"allied buildings </bugfixes/type1/spyingalliedbuildings>`"
+msgstr ""
+
+#: ../whatsnew.rst:397
+msgid "**Gate** :doc:`sounds are now customizable </new/buildings/gates>`"
+msgstr ""
+
+#: ../whatsnew.rst:399
+msgid ""
+"**Veteran Buildings** :doc:`added to the country options "
+"</new/sidescountries/defaultcountry>`"
+msgstr ""
+
+#: ../whatsnew.rst:402
+msgid ""
+"**Text color** for :doc:`tool tips and message texts customizable "
+"</new/sidescountries/uiside>`"
+msgstr ""
+
+#: ../whatsnew.rst:405
+msgid ""
+"**Chaos Gas** :doc:`prevents the stop command from working now "
+"</bugfixes/type1/chaosgasandstopcommand>`"
+msgstr ""
+
+#: ../whatsnew.rst:408
+msgid ""
+"**Release Note** text can be :doc:`shown on the ingame screen </ui-"
+"features/releasenote>`"
+msgstr ""
+
+#: ../whatsnew.rst:411
+msgid ""
+"**Output all missing CSF labels** :doc:`using a new command line "
+"parameter </ui-features/commandlinearguments>`"
+msgstr ""
+
+#: ../whatsnew.rst:416
+msgid "Ares 0.3"
+msgstr ""
+
+#: ../whatsnew.rst:417
+msgid "**Custom Missiles** like the V3 :doc:`can be added </new/custommissiles>`"
+msgstr ""
+
+#: ../whatsnew.rst:419
+msgid ""
+"**Whiteboy bug** has been fixed and now :doc:`more than 74 cameos are "
+"supported </bugfixes/type2/whiteboybug>`"
+msgstr ""
+
+#: ../whatsnew.rst:422
+msgid ""
+"**Cyclic Gattling** :doc:`support to go back to first stage added "
+"</new/gattlingcycle>`"
+msgstr ""
+
+#: ../whatsnew.rst:425
+msgid ""
+"**Unit Delivery** now :doc:`supports Deferment "
+"</new/superweapons/types/unitdelivery>`"
+msgstr ""
+
+#: ../whatsnew.rst:428
+msgid ""
+"**Observer flags** :doc:`customizable for each country "
+"</new/sidescountries/uicountry>`"
+msgstr ""
+
+#: ../whatsnew.rst:431
+msgid ""
+"**FPS counter** can be :doc:`displayed on the ingame screen </ui-"
+"features/keyboardcommandshotkeys>`"
+msgstr ""
+

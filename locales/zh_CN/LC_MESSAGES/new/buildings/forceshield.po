@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/buildings/forceshield.rst:8
+msgid "Force Shield"
+msgstr ""
+
+#: ../new/buildings/forceshield.rst:10
+msgid ""
+"Like the Iron Curtain the Force Shield duration can be customized for "
+"each :type:`BuildingType`."
+msgstr ""
+
+#: ../new/buildings/forceshield.rst:19
+msgid ":tagdef:`[BuildingType]ForceShield.Modifier=float - multiplier`"
+msgstr ""
+
+#: ../new/buildings/forceshield.rst:14
+msgid ""
+"The number of seconds of Force Shield duration is multiplied by this "
+"value. Valid values are :value:`0%` (Force Shield disallowed) or higher. "
+"Defaults to :value:`100%`."
+msgstr ""
+
+#: ../new/buildings/forceshield.rst:18
+msgid ""
+"Buildings with a :tag:`ForceShield.Modifier` value of :value:`0.0` or "
+"less are not eligible to fire a Force Shield super weapon on."
+msgstr ""
+

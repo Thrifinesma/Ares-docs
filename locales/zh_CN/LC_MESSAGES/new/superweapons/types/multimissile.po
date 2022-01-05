@@ -1,0 +1,170 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/superweapons/types/multimissile.rst:4
+msgid ":captiontag:`Type=MultiMissile`"
+msgstr ""
+
+#: ../new/superweapons/types/multimissile.rst:6
+msgid "Default values for general tags:"
+msgstr ""
+
+#: ../new/superweapons/types/multimissile.rst:9
+msgid ":tagdef:`[SuperWeapon]SW.Damage=integer`"
+msgstr ""
+
+#: ../new/superweapons/types/multimissile.rst:9
+msgid ""
+"The damage the nuclear missile delivers. Negative values indicate to use "
+"the payload weapon's damage. Defaults to :value:`-1`."
+msgstr ""
+
+#: ../new/superweapons/types/multimissile.rst:12
+msgid ":tagdef:`[SuperWeapon]SW.Warhead=Warhead`"
+msgstr ""
+
+#: ../new/superweapons/types/multimissile.rst:12
+msgid ""
+"The warhead used to deal the damage of the nuke. If this is empty, the "
+"payload weapon's warhead will be used. Defaults to :value:`none`."
+msgstr ""
+
+#: ../new/superweapons/types/multimissile.rst:15
+msgid ":tagdef:`[SuperWeapon]SW.ActivationSound=Sound`"
+msgstr ""
+
+#: ../new/superweapons/types/multimissile.rst:15
+msgid ""
+"The nuke warn siren played at the destination. Defaults to "
+":tag:`[AudioVisual]DigSound`."
+msgstr ""
+
+#: ../new/superweapons/types/multimissile.rst:17
+msgid ":tagdef:`[SuperWeapon]SW.AITargeting=enumeration`"
+msgstr ""
+
+#: ../new/superweapons/types/multimissile.rst:18
+#: ../new/superweapons/types/multimissile.rst:23
+msgid "Defaults to :value:`Nuke`."
+msgstr ""
+
+#: ../new/superweapons/types/multimissile.rst:20
+msgid ":tagdef:`[SuperWeapon]Light.*=integer`"
+msgstr ""
+
+#: ../new/superweapons/types/multimissile.rst:20
+msgid ""
+"Default to :tag:`Light.Ambient=200`, :tag:`Light.Red=175`, "
+":tag:`Light.Green=150`, and :tag:`Light.Blue=125` respectively."
+msgstr ""
+
+#: ../new/superweapons/types/multimissile.rst:24
+msgid ":tagdef:`[SuperWeapon]Cursor=mouse cursor`"
+msgstr ""
+
+#: ../new/superweapons/types/multimissile.rst:26
+msgid "Nuclear missile specific tags:"
+msgstr ""
+
+#: ../new/superweapons/types/multimissile.rst:33
+msgid ":tagdef:`[SuperWeapon]Nuke.Payload=Weapon`"
+msgstr ""
+
+#: ../new/superweapons/types/multimissile.rst:29
+msgid ""
+"The Weapon used to display the downward-pointing nuke and as default, if "
+":tag:`SW.Damage` and :tag:`SW.Warhead` aren't set. Defaults to "
+":value:`NukePayload`."
+msgstr ""
+
+#: ../new/superweapons/types/multimissile.rst:33
+msgid ""
+"The weapon used as :tag:`Nuke.Payload` has to be put into the "
+":tag:`WeaponTypes` section. The Weedguy hack will not work."
+msgstr ""
+
+#: ../new/superweapons/types/multimissile.rst:36
+msgid ":tagdef:`[SuperWeapon]Nuke.TakeOff=Animation`"
+msgstr ""
+
+#: ../new/superweapons/types/multimissile.rst:36
+msgid ""
+"The Animation played on the missile silo when the missile is launched. "
+"Defaults to :tag:`[General]NukeTakeOff`."
+msgstr ""
+
+#: ../new/superweapons/types/multimissile.rst:39
+msgid ":tagdef:`[SuperWeapon]Nuke.PsiWarning=Animation`"
+msgstr ""
+
+#: ../new/superweapons/types/multimissile.rst:39
+msgid ""
+"The Animation played at the nuke target, detectable by Psychic Sensors. "
+"Defaults to :value:`PSIWARN`."
+msgstr ""
+
+#: ../new/superweapons/types/multimissile.rst:46
+msgid ":tagdef:`[SuperWeapon]Nuke.SiloLaunch=boolean`"
+msgstr ""
+
+#: ../new/superweapons/types/multimissile.rst:42
+msgid ""
+"Whether this missile is launched from a building with :tag:`NukeSilo=yes`"
+" providing this super weapon. Otherwise the weapon defined by "
+":tag:`Nuke.Payload` is created off-screen, aiming for the target cell. "
+"Defaults to :value:`yes`."
+msgstr ""
+
+#: ../new/superweapons/types/multimissile.rst:48
+msgid "Other changes:"
+msgstr ""
+
+#: ../new/superweapons/types/multimissile.rst:50
+msgid ""
+"Use :tag:`WeaponType` to control the properties of the upward flying "
+"animation (especially its :tag:`Projectile`). :game:`Ares` respects the "
+":tag:`WeaponType` for every nuke, it will not use the :tag:`WeaponType` "
+"of the first superweapon with :tag:`Type=Nuke` like :game:`Yuri's "
+"Revenge` did. Also mind to set :tag:`NukeMaker=yes` on the "
+":tag:`WeaponType`, otherwise the nuke will not come down again."
+msgstr ""
+
+#: ../new/superweapons/types/multimissile.rst:57
+msgid ""
+":game:`Ares` supports multiple buildings with :tag:`NukeSilo=yes` "
+"providing this super weapon. :game:`Yuri's Revenge` only tried to find "
+"the first building type that matched those criteria."
+msgstr ""
+
+#: ../new/superweapons/types/multimissile.rst:61
+msgid ""
+":game:`Ares` adds support to launch the missile and have it aim for the "
+"target directly like in :game:`Tiberian Sun` instead of going straight up"
+" from the silo and coming down on the target. This is controlled by "
+":tag:`Vertical` on the projectile."
+msgstr ""
+
+#: ../new/superweapons/types/multimissile.rst:66
+msgid ""
+":game:`Yuri's Revenge` supported the nuke impact animation only for the "
+"warhead called :tag:`NUKE`, hardcoded to :tag:`NUKEBALL`. To change this "
+"animation in :game:`Ares`, have a look at :ref:`PreImpactAnim "
+"<preimpactanim>`."
+msgstr ""
+

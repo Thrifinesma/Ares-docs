@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/buildings/producecash.rst:8
+msgid "Oil Derricks (:captiontag:`ProduceCash`)"
+msgstr ""
+
+#: ../new/buildings/producecash.rst:11
+msgid "General Changes"
+msgstr ""
+
+#: ../new/buildings/producecash.rst:13
+msgid ""
+"Building upgrades now support :tag:`ProduceCashDelay`, "
+":tag:`ProduceCashAmount` and :tag:`ProduceCashStartup` like normal "
+"buildings. Each upgrade manages its own timer, so they will grant the "
+"amount independently of the main building or other upgrades."
+msgstr ""
+
+#: ../new/buildings/producecash.rst:18
+msgid ""
+":tag:`ProduceCashStartup` has been expanded to support negative values. "
+"The amount is withdrawn from the capturing player's account. If less than"
+" the specified amount is available, then the building can still be "
+"captured or placed. Also, :tag:`ProduceCashStartup` is no longer granted "
+"if a building is captured by a :tag:`MultiplayPassive=yes` house."
+msgstr ""
+
+#: ../new/buildings/producecash.rst:24
+msgid ""
+"Unlike in the original game, :tag:`ProduceCashStartup` does not have to "
+"be non-null for :tag:`ProduceCashDelay` and :tag:`ProduceCashAmount` to "
+"work."
+msgstr ""
+
+#: ../new/buildings/producecash.rst:35
+msgid "Display Cash Produced"
+msgstr ""
+
+#: ../new/buildings/producecash.rst:37
+msgid ""
+"Buildings producing cash can display the amount they generated as a text "
+"appearing over the building. The text will appear above the building and "
+"then move up slightly."
+msgstr ""
+
+#: ../new/buildings/producecash.rst:44
+msgid ":tagdef:`[BuildingType]ProduceCashDisplay=boolean`"
+msgstr ""
+
+#: ../new/buildings/producecash.rst:42
+msgid ""
+"Whether the building will show the credits it produced. Not respected on "
+"upgrades. The setting from the main building type will be used instead. "
+"Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/buildings/producecash.rst:49
+msgid ":tagdef:`[AudioVisual]DisplayCreditsDelay=double - minutes`"
+msgstr ""
+
+#: ../new/buildings/producecash.rst:47
+msgid ""
+"The interval between two texts appearing to display how many credits a "
+"building produced. Until then, the amounts are collected to be displayed "
+"after the interval passed. Defaults to :value:`0.02`."
+msgstr ""
+
+#: ../new/buildings/producecash.rst:51
+msgid ""
+"At the moment the colors are hardcoded to green for positive amounts and "
+"red for negative amounts. the format is hardcoded to the amount with a "
+"plus or minus sign prefixed."
+msgstr ""
+
+#: ../new/buildings/producecash.rst:55
+msgid ""
+"This feature might be expanded or changed in the future. Do not take the "
+"appearance of these texts for granted. Colors, positions, and movement "
+"speed might change."
+msgstr ""
+

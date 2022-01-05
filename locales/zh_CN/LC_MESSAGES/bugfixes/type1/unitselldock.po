@@ -1,0 +1,40 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../bugfixes/type1/unitselldock.rst:9
+msgid "Selling Unit on Dock Structures"
+msgstr ""
+
+#: ../bugfixes/type1/unitselldock.rst:11
+msgid ""
+"In the vanilla game, the Allied Service Depot could be used to sell units"
+" that were currently docked, while the Soviet Repair Depot could not. "
+"This was because of the different foundation both structures use: If the "
+"unit docked at the building's center like for the 3x3 Service Depot, the "
+"unit could be sold, while it couldn't on the 4x3 Repair Depot."
+msgstr ""
+
+#: ../bugfixes/type1/unitselldock.rst:17
+msgid ""
+":game:`Ares` changes the logic to work with a unit's individual dock "
+"position on each building instead. This feature can now be turned on or "
+"off per building. See :doc:`Sell Units </new/sellunit>` on how to "
+"customize selling units."
+msgstr ""
+

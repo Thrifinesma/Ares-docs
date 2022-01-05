@@ -1,0 +1,37 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../bugfixes/type2/nospawnaltturret.rst:7
+msgid ":captiontag:`NoSpawnAlt` and :captiontag:`Turret`"
+msgstr ""
+
+#: ../bugfixes/type2/nospawnaltturret.rst:9
+msgid ""
+"To store the spawn-less voxel, spawner units with :tag:`NoSpawnAlt=yes` "
+"used the same storage space normally used for turrets. Thus, spawner "
+"units which should have a spawn-less voxel cannot also have a turret at "
+"the same time."
+msgstr ""
+
+#: ../bugfixes/type2/nospawnaltturret.rst:13
+msgid ""
+":game:`Ares` reworked this feature and makes it possible to combine "
+"turrets and spawn-less voxels."
+msgstr ""
+

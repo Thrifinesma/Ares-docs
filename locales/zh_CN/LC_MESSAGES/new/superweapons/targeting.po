@@ -1,0 +1,741 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/superweapons/targeting.rst:4
+msgid "Targeting"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:12
+msgid "General Settings"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:14
+msgid "These settings allow enabling AI targeting even for human players."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:25
+msgid ":tagdef:`[SuperWeapon]SW.UseAITargeting=boolean`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:17
+msgid ""
+"Whether AI targeting will decide the target used when firing this super "
+"weapon. If :value:`yes`, clicking the cameo will not allow manual target "
+"selection and instead fire the super weapon at an automatically "
+"determined location. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:22
+msgid ""
+"All applicable AI targeting constraints have to be satisfied for the "
+"super weapon to fire and actually discharge. If the constraints are not "
+"satisfied, the cameo will be darkened. If the player tries to fire the "
+"super weapon anyhow, the message :tag:`Message.CannotFire` is displayed."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:30
+msgid ":tagdef:`[SuperWeapon]SW.AutoFire=boolean`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:28
+msgid ""
+"Sets whether this super weapon will be launched automatically once ready "
+"even for human players. If set to :value:`yes`, the AI targeting options "
+"are used to infer the target cell. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:41
+msgid ":tagdef:`[SuperWeapon]SW.ManualFire=boolean`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:33
+msgid ""
+"Sets whether this super weapon can be manually fired by the owning "
+"player. If set to :value:`no`, the player will not be able to get a "
+"selection cursor for this super weapon when clicking the cameo. This "
+"setting is ignored if :tag:`SW.AutoFire=no` is set, because the player "
+"would have no way to fire this super weapon. Defaults to :value:`yes`."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:39
+msgid ""
+"You can use this on auto-firing super weapons where the targeting mode "
+"might prevent it from being fired (like the Lightning Storm or Psychic "
+"Dominator, if another super weapon of this type is currently active)."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:51
+msgid "Manual Target Selection"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:53
+msgid "These settings only apply to human players."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:57
+msgid ":tagdef:`[SuperWeapon]SW.FireIntoShroud=boolean`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:56
+msgid ""
+"Whether or not this super weapon is allowed to fire into an unexplored "
+"area of the map. Default is :value:`yes`."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:67
+msgid ""
+":tagdef:`[SuperWeapon]SW.RequiresTarget=enumeration "
+"none|land|water|empty|infantry|units|buildings`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:60
+msgid ""
+"Which items this super weapon can fire at. Hovering above an allowed item"
+" will show the :tag:`Cursor`, otherwise the player gets the "
+":tag:`NoCursor` and it is not possible to launch the super weapon. For an"
+" example see :tag:`SW.AffectsTarget=`."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:65
+msgid ""
+"Please be aware of the problems that can arise if this and \\ "
+":tag:`SW.AffectsTarget=` are set to mutually exclusive values not "
+"allowing the super weapon to affect anything."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:70
+msgid ""
+":tagdef:`[SuperWeapon]SW.RequiresHouse=enumeration "
+"none|owner|allies|team|enemies|all`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:70
+msgid "Which house's items this super weapon can fire at."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:81
+msgid "Automatic Target Selection"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:83
+msgid ""
+"Define the way the AI selects eligible targets to fire the super weapon "
+"at."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:87
+msgid ":tagdef:`[SuperWeapon]SW.AITargeting=enumeration SW Targeting Type`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:86
+msgid ""
+"Select one of the following values to define how the AI will use this "
+"super weapon:"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:89 ../new/superweapons/targeting.rst:213
+#: ../new/superweapons/targeting.rst:269 ../new/superweapons/targeting.rst:329
+msgid ":value:`None`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:91
+msgid "Does not fire. Effectively disables this super weapon for the AI."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:93 ../new/superweapons/targeting.rst:331
+msgid ":value:`Nuke`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:95
+msgid ""
+"Selects a valid target using the Ion Cannon rules or picks a target by "
+"preferred type. Ignores cloaked targets."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:98 ../new/superweapons/targeting.rst:333
+msgid ":value:`LightningStorm`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:100
+msgid ""
+"Selects a valid target using the Ion Cannon rules or picks a target by "
+"preferred type. Ignores cloaked targets. Cannot fire when a Lightning "
+"Storm is currently active."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:104 ../new/superweapons/targeting.rst:335
+msgid ":value:`PsychicDominator`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:106
+msgid ""
+"Selects the valid target that has the most enemy units in Cell Spread "
+"range 3 nearby that can be permanently mind-controlled. Does not fire if "
+"a preferred target cell is set. Ignores cloaked targets."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:110 ../new/superweapons/targeting.rst:337
+msgid ":value:`GeneticMutator`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:112
+msgid ""
+"Selects the valid target that has the most enemy infantry units in Cell "
+"Spread range 1 nearby. Does not fire if a preferred target cell is set. "
+"Ignores cloaked targets."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:116 ../new/superweapons/targeting.rst:339
+msgid ":value:`IronCurtain`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:118
+msgid ""
+"Will not fire automatically. Instead, will wait for a team script "
+"requesting an Iron Curtain with matching :tag:`SW.Group`."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:121 ../new/superweapons/targeting.rst:341
+msgid ":value:`ForceShield`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:123
+msgid ""
+"Fires at the position the last super weapon with "
+":tag:`AIDefendAgainst=yes` was fired at. This honors the "
+":tag:`AISuperDefense` tags, and not all super weapons might be defended "
+"against."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:127 ../new/superweapons/targeting.rst:343
+msgid ":value:`ParaDrop`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:129
+msgid ""
+"Searches for a free area of 5 by 5 cells close to the favorite enemy "
+"player's base center. If the owner has not settled for a favorite enemy "
+"yet, tries to find a location around the owning player's base center."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:133 ../new/superweapons/targeting.rst:345
+msgid ":value:`DropPod`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:135
+msgid ""
+"Fires at a randomly chosen land cell in one of the four outer sectors "
+"around the owning player's base center."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:138 ../new/superweapons/targeting.rst:273
+#: ../new/superweapons/targeting.rst:347
+msgid ":value:`Offensive`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:140
+msgid ""
+"Selects a valid target using the Ion Cannon rules. Ignores cloaked "
+"targets."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:142 ../new/superweapons/targeting.rst:349
+msgid ":value:`MultiMissile`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:144
+msgid ""
+"Selects a valid target by looking at the summed :tag:`ThreatPosed` values"
+" of the area around them. For cloaked targets, a random value between 0 "
+"and 100 is used."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:148 ../new/superweapons/targeting.rst:351
+msgid ":value:`HunterSeeker`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:150
+msgid ""
+"Fires at no target, but only if the owning player settled for a favorite "
+"enemy. This is only useful with certain super weapons, or when a super "
+"weapon has a full map effect."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:154 ../new/superweapons/targeting.rst:353
+msgid ":value:`NoTarget`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:156
+msgid ""
+"Fires at no target. This is only useful with certain super weapons, or "
+"when a super weapon has a full map effect."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:159 ../new/superweapons/targeting.rst:355
+msgid ":value:`Stealth`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:161
+msgid ""
+"Selects a valid target using the Ion Cannon rules. Only considers cloaked"
+" targets."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:164 ../new/superweapons/targeting.rst:357
+msgid ":value:`Self`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:166
+msgid ""
+"Selects a building owned by the firing player which provides this super "
+"weapon and satisfies power requirements. The target is the center of the "
+"building."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:169 ../new/superweapons/targeting.rst:359
+msgid ":value:`Base`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:171
+msgid "Fires at what the game considers the firing player's base center."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:173 ../new/superweapons/targeting.rst:361
+msgid ":value:`EnemyBase`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:175
+msgid ""
+"Fires at what the game considers the base center of the firing player's "
+"favorite enemy."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:178
+msgid ":value:`Attack`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:180
+msgid ""
+"Fires like :value:`NoTarget` when the last attack on a building was "
+"recent."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:182 ../new/superweapons/targeting.rst:258
+msgid ":value:`LowPower`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:184
+msgid ""
+"Fires to the same cell as :value:`NoTarget` when the owning house has "
+"insufficient power."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:187
+msgid ":value:`LowPowerAttack`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:189
+msgid ""
+"Fires like :value:`LowPower`, but only if the last attack on a building "
+"was recent. This can be used to activate auxiliary power or to force-"
+"overcharge base defenses."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:193 ../new/superweapons/targeting.rst:363
+msgid ":value:`LightningRandom`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:195
+msgid ""
+"Targets a random cell no matter its contents, and is not otherwise "
+"constrained except for checking Designators and Inhibitors."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:202
+msgid ""
+":tagdef:`[SuperWeapon]SW.AIRequiresTarget=enumeration "
+"none|land|water|empty|infantry|units|buildings|all`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:200
+msgid ""
+"Specifies which targets will be considered eligible by AI players or "
+"human owned automatically fired super weapons. The default value depends "
+"on the :tag:`SW.AITargeting` setting. See the table below."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:207
+msgid ""
+":tagdef:`[SuperWeapon]SW.AIRequiresHouse=enumeration "
+"owner|allies|team|enemies|others|all`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:205
+msgid ""
+"Specifies which houses will be considered eligible by AI players or human"
+" owned automatically fired super weapons. The default value depends on "
+"the :tag:`SW.AITargeting` setting. See the table below."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:211
+msgid ""
+":tagdef:`[SuperWeapon]SW.AITargeting.Constraints=enumeration SW Targeting"
+" Constraints`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:210
+msgid ""
+"A comma-separated list of constraints that all have to be satisfied for "
+"the super weapon to fire. Defaults depend on the :tag:`Type=`."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:215
+msgid "No constraint."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:217
+msgid ":value:`Enemy`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:219
+msgid ""
+"This targeting mode will only select a target automatically if the house "
+"has settled for a favorite enemy player. This is usually determined when "
+"a player is attacked. Without a favorite enemy, the super weapon will not"
+" fire."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:223
+msgid ":value:`Offensive_Cell_Set`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:225
+msgid ""
+"Requires the offensive cell to be set by Map Action 135. In combination "
+"with the :value:`offensive` preference, can be used to create user-"
+"triggered super weapons at a location the mapper decides."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:229
+msgid ":value:`Offensive_Cell_Clear`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:231
+msgid "Requires the offensive cell to be not set by Map Action 135."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:233
+msgid ":value:`Defensive_Cell_Set`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:235
+msgid ""
+"Requires the defensive cell to be set by Map Action 140. In combination "
+"with the :value:`defensive` preference, can be used to create user-"
+"triggered super weapons at a location the mapper decides."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:239
+msgid ":value:`Defensive_Cell_Clear`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:241
+msgid "Requires the defensive cell to be not set by Map Action 140."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:243
+msgid ":value:`LightningStorm_Inactive`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:245
+msgid ""
+"Satisfied if there currently is no Lightning Storm manifesting or active."
+" This constraint does not apply to human players manually firing the "
+"super weapon."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:248
+msgid ":value:`Dominator_Inactive`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:250
+msgid ""
+"Satisfied if there currently is no Psychic Dominator active. This "
+"constraint does not apply to human players manually firing the super "
+"weapon."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:253
+msgid ":value:`Attacked`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:255
+msgid ""
+"Satisfied if the firing house has been attacked recently. This constraint"
+" does not apply to human players manually firing the super weapon."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:260
+msgid ""
+"Satisfied if the firing house currently has low power. This constraint "
+"does not apply to human players manually firing the super weapon."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:267
+msgid ""
+":tagdef:`[SuperWeapon]SW.AITargeting.Preference=enumeration SW Targeting "
+"Preference`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:265
+msgid ""
+"The preference overrides the actual targeting. As long as these overrides"
+" are set, the super weapons will prefer these set targets. Defaults "
+"depend on the :tag:`Type=`."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:271
+msgid "No preference."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:275
+msgid ""
+"Use the the offensive cell if set by Map Action 135. Use Map Action 136 "
+"to clear the offensive cell."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:278
+msgid ":value:`Defensive`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:280
+msgid ""
+"Use the the defensive cell if set by Map Action 140. Use Map Action 141 "
+"to clear the defensive cell."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:288
+msgid "Mechanisms"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:290
+msgid ""
+"There are several mechanisms to select a target, but three of them are "
+"notable, because they are recurring."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:293
+msgid ""
+"The **Ion Cannon targeting** rules assigns each valid object a value, "
+"which is determined by the :tag:`[General]AIIonCannon...` tags. A target "
+"is picked randomly from all objects with the highest score."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:297
+msgid ""
+"The **base center** is determined by the game and updated whenever a "
+"player builds or loses buildings. The base center can be manually set and"
+" cleared using map actions 137 and 138 respectively."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:301
+msgid ""
+"The **preferred target by type** is set by map action 35. The game looks "
+"at the first team on the map owned by the firing player and has the team "
+"leader acquire a target of the preferred type. A value of :value:`1` "
+"means to use the special firing behavior, which usually is Ion Cannon "
+"targeting or base center selection."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:306
+msgid ""
+"Currently, :game:`Ares` does not support preferred types other than \\ "
+":value:`1`. The super weapons might not check ranges, designators, and "
+"inhibitors, and fire regardless of any restriction."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:312
+msgid "Defaults"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:314
+msgid ""
+"The following table lists the defaults for the AI targeting tags "
+"depending on :tag:`SW.AITargeting`, as well as some general properties "
+"that affect targeting."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:317
+msgid ""
+"Note that the defaults used depend on the super weapon's :tag:`Type`, and"
+" the type always takes precedence. See the specific super weapon type "
+"documentation for the actual values. If no specific value is given, the "
+"value from this table is used."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:322
+msgid ""
+"Most targeting modes support the new **extra** features added by "
+":game:`Ares`. That is maximum and minimum ranges, designators and "
+"inhibitors. Note that if a preferred target type is set using map action "
+"35, they are not checked."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:327
+msgid ":tag:`SW.AITargeting`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:327
+msgid ":tag:`SW.AIRequiresTarget`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:327
+msgid ":tag:`SW.AIRequiresHouse`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:327
+msgid ":tag:`SW.AITargeting.Constraints`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:327
+msgid ":tag:`SW.AITargeting.Preference`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:327
+msgid "Extras"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:329 ../new/superweapons/targeting.rst:351
+#: ../new/superweapons/targeting.rst:353 ../new/superweapons/targeting.rst:363
+msgid "N/A"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:329 ../new/superweapons/targeting.rst:335
+#: ../new/superweapons/targeting.rst:337 ../new/superweapons/targeting.rst:339
+#: ../new/superweapons/targeting.rst:341 ../new/superweapons/targeting.rst:343
+#: ../new/superweapons/targeting.rst:345 ../new/superweapons/targeting.rst:347
+#: ../new/superweapons/targeting.rst:349 ../new/superweapons/targeting.rst:353
+#: ../new/superweapons/targeting.rst:355 ../new/superweapons/targeting.rst:357
+#: ../new/superweapons/targeting.rst:359 ../new/superweapons/targeting.rst:361
+#: ../new/superweapons/targeting.rst:363
+msgid ":value:`none`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:331 ../new/superweapons/targeting.rst:333
+#: ../new/superweapons/targeting.rst:347 ../new/superweapons/targeting.rst:355
+msgid ":value:`infantry,units,buildings`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:331 ../new/superweapons/targeting.rst:333
+#: ../new/superweapons/targeting.rst:347 ../new/superweapons/targeting.rst:355
+msgid ":value:`enemies`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:331 ../new/superweapons/targeting.rst:345
+#: ../new/superweapons/targeting.rst:347 ../new/superweapons/targeting.rst:349
+#: ../new/superweapons/targeting.rst:351 ../new/superweapons/targeting.rst:361
+msgid ":value:`enemy`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:331 ../new/superweapons/targeting.rst:333
+#: ../new/superweapons/targeting.rst:343 ../new/superweapons/targeting.rst:349
+msgid ":value:`offensive`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:331 ../new/superweapons/targeting.rst:333
+#: ../new/superweapons/targeting.rst:335 ../new/superweapons/targeting.rst:337
+#: ../new/superweapons/targeting.rst:341 ../new/superweapons/targeting.rst:343
+#: ../new/superweapons/targeting.rst:345 ../new/superweapons/targeting.rst:347
+#: ../new/superweapons/targeting.rst:349 ../new/superweapons/targeting.rst:355
+#: ../new/superweapons/targeting.rst:357 ../new/superweapons/targeting.rst:359
+#: ../new/superweapons/targeting.rst:361 ../new/superweapons/targeting.rst:363
+msgid "yes"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:333
+msgid ":value:`enemy,lightningstorm_inactive`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:335
+msgid ":value:`infantry,units`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:335 ../new/superweapons/targeting.rst:337
+msgid ":value:`all`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:335
+msgid ":value:`enemy,dominator_inactive,offensive_cell_clear`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:337
+msgid ":value:`infantry`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:337
+msgid ":value:`offensive_cell_clear`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:339 ../new/superweapons/targeting.rst:341
+#: ../new/superweapons/targeting.rst:343 ../new/superweapons/targeting.rst:345
+#: ../new/superweapons/targeting.rst:357 ../new/superweapons/targeting.rst:359
+#: ../new/superweapons/targeting.rst:361
+msgid "do not use"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:339 ../new/superweapons/targeting.rst:351
+#: ../new/superweapons/targeting.rst:353
+msgid "no"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:341
+msgid ":value:`defensive`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:349
+msgid ":value:`buildings`"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:357
+msgid ":value:`none`\\ 1)"
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:366
+msgid ""
+"If you define the :tag:`SW.AIRequiresTarget` or :tag:`SW.AIRequiresHouse`"
+" when the table says *do not use*, you might render the super weapon "
+"unable to fire."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:369
+msgid ""
+"\\ 1) :value:`Self` always only checks buildings owned by the owning "
+"player. You can only use :value:`land`, :value:`water`, and :value:`none`"
+" here. All other values are invalid."
+msgstr ""
+
+#: ../new/superweapons/targeting.rst:373
+msgid ""
+"If a targeting mode is constrained to require (:value:`enemy`), the "
+"targeting mode might not work if this constraint is not defined. For "
+"example, if the mode by design only considers the buildings owned by the "
+"favorite enemy, there's nothing to chose from, thus no target can be "
+"picked."
+msgstr ""
+

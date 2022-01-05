@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/evatypes.rst:6
+msgid "EVA Types"
+msgstr ""
+
+#: ../new/evatypes.rst:8
+msgid ""
+":game:`Ares` supports defining new EVA voice types in addition to the "
+"three announcers for the original sides. You can add as many new types as"
+" you like."
+msgstr ""
+
+#: ../new/evatypes.rst:11
+msgid ""
+"All new EVA types have to be named in the new :value:`[EVATypes]` list in"
+" :file:`evamd.ini`. This is a list like every other list, that is, the "
+"part left of the equal sign is ignored. The original voices called "
+":tag:`Allied`, :tag:`Russian` and :tag:`Yuri` are added by default."
+msgstr ""
+
+#: ../new/evatypes.rst:22
+msgid ""
+"Now, these names can be used as keys in the EVA sound sections to point "
+"to an EVA-specific filename. Filenames can have a length of up to eight "
+"characters. If you don't specify a filename for an EVA Type, no sound "
+"will play."
+msgstr ""
+
+#: ../new/evatypes.rst:32
+msgid ""
+"Now you are ready to use this new EVA Type. See :ref:`EVA.Tag for Sides "
+"<sides-evatag>`."
+msgstr ""
+

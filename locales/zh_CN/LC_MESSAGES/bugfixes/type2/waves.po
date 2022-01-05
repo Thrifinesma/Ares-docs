@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../bugfixes/type2/waves.rst:9
+msgid ":captiontag:`IsMagBeam` Waves and Moving Targets"
+msgstr ""
+
+#: ../bugfixes/type2/waves.rst:11
+msgid ""
+":tag:`IsMagBeam=yes` waves would not disconnect from their target if it "
+"moved out of weapon's range of the firing unit. The unit would no longer "
+"fire, but the beam would persist. If the wave dealt :tag:`AmbientDamage`,"
+" this would still be applied though."
+msgstr ""
+
+#: ../bugfixes/type2/waves.rst:16
+msgid ""
+"Magnetron waves are now always disconnected in :game:`Ares` if the target"
+" moves out of range."
+msgstr ""
+
+#: ../bugfixes/type2/waves.rst:28
+msgid ":captiontag:`IsSonic` Waves and Hardcoded Ranges"
+msgstr ""
+
+#: ../bugfixes/type2/waves.rst:30
+msgid ""
+":tag:`IsSonic=yes` waves were hardcoded to disappear if they were farther"
+" away from their source than six diagonal cells, equaling a cell range of"
+" about 8.5. If the weapon's range was longer than that, the sonic waves "
+"would dissolve before reaching their target."
+msgstr ""
+
+#: ../bugfixes/type2/waves.rst:35
+msgid "In :game:`Ares` this has been changed to use the weapon's actual range."
+msgstr ""
+
+#: ../bugfixes/type2/waves.rst:46
+msgid ":captiontag:`IsLaser` and :captiontag:`IsBigLaser` on Lower Detail Levels"
+msgstr ""
+
+#: ../bugfixes/type2/waves.rst:48
+msgid ""
+":tag:`IsLaser` and :tag:`IsBigLaser` waves were always invisible if the "
+"detail level wasn't set to high. This was unlike all other waves and was "
+"most likely a leftover from :game:`Tiberian Sun`, where these kinds of "
+"waves were used to give lasers drawn by the actual laser line drawing "
+"mechanism a more detailed glow."
+msgstr ""
+
+#: ../bugfixes/type2/waves.rst:53
+msgid ""
+"Laser waves will now always draw, because they are a standalone feature "
+"in :game:`Ares`."
+msgstr ""
+

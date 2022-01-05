@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/radialindicators.rst:8
+msgid "Radial Indicators"
+msgstr ""
+
+#: ../new/radialindicators.rst:10
+msgid ""
+"Radial Indicators were a feature for buildings that could visualize the "
+"range of its weapons or of some ranged effect it provided like a Stealh "
+"Generator. The radius was determined automatically by checking certain "
+"functions the building had, and it could only be turned on or off using a"
+" setting."
+msgstr ""
+
+#: ../new/radialindicators.rst:15
+msgid ""
+"With :game:`Ares` it is possible to customize the range with a setting, "
+"which could be used to override the automatically picked radius, or to "
+"give a Radial Indicator to a building that by default would not have one."
+" Radial Indicators can now also be enabled for units."
+msgstr ""
+
+#: ../new/radialindicators.rst:24
+msgid ":tagdef:`[TechnoType]RadialIndicatorRadius=integer - cells`"
+msgstr ""
+
+#: ../new/radialindicators.rst:21
+msgid ""
+"Overrides the radius of the radial indicator for this unit or structure. "
+"Requires :tag:`HasRadialIndicator=yes`. The default is determined by the "
+"game."
+msgstr ""
+
+#: ../new/radialindicators.rst:24
+msgid "Units only support non-sweeping, non-concentric radial indicators."
+msgstr ""
+

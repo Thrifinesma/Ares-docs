@@ -1,0 +1,873 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../migration.rst:5
+msgid "Migration Guide"
+msgstr ""
+
+#: ../migration.rst:7
+msgid ""
+"If you are upgrading from previous versions of :game:`Ares`, you may have"
+" to account for the following changes."
+msgstr ""
+
+#: ../migration.rst:11
+msgid "From Ares 0.1"
+msgstr ""
+
+#: ../migration.rst:13 ../migration.rst:42 ../migration.rst:61
+#: ../migration.rst:106 ../migration.rst:152 ../migration.rst:236
+#: ../migration.rst:249 ../migration.rst:268 ../migration.rst:305
+#: ../migration.rst:324 ../migration.rst:335 ../migration.rst:358
+#: ../migration.rst:397 ../migration.rst:413 ../migration.rst:427
+#: ../migration.rst:466
+msgid "Changed tags:"
+msgstr ""
+
+#: ../migration.rst:16
+msgid ":tag:`[SuperWeapon]SW.Deliver` --> :tag:`[SuperWeapon]Deliver.Types`."
+msgstr ""
+
+#: ../migration.rst:16 ../migration.rst:19 ../migration.rst:22
+#: ../migration.rst:25 ../migration.rst:28 ../migration.rst:31
+#: ../migration.rst:437 ../migration.rst:440
+msgid "Replace the old tag name by the new tag name."
+msgstr ""
+
+#: ../migration.rst:19
+msgid ""
+":tag:`[SuperWeapon]SW.DeliverBuildups` --> "
+":tag:`[SuperWeapon]Deliver.Buildups`."
+msgstr ""
+
+#: ../migration.rst:22
+msgid ":tag:`[SuperWeapon]SonarPulse.Range` --> :tag:`[SuperWeapon]SW.Range`."
+msgstr ""
+
+#: ../migration.rst:25
+msgid ""
+":tag:`[SuperWeapon]GenericWarhead.Warhead` --> "
+":tag:`[SuperWeapon]SW.Warhead`."
+msgstr ""
+
+#: ../migration.rst:28
+msgid ""
+":tag:`[SuperWeapon]GenericWarhead.Damage` --> "
+":tag:`[SuperWeapon]SW.Damage`."
+msgstr ""
+
+#: ../migration.rst:31
+msgid ":tag:`[SuperWeapon]Nuke.Sound` --> :tag:`[SuperWeapon]SW.ActivationSound`."
+msgstr ""
+
+#: ../migration.rst:33 ../migration.rst:46 ../migration.rst:91
+#: ../migration.rst:138 ../migration.rst:240 ../migration.rst:253
+#: ../migration.rst:277 ../migration.rst:309 ../migration.rst:328
+#: ../migration.rst:351 ../migration.rst:381 ../migration.rst:403
+#: ../migration.rst:417 ../migration.rst:445 ../migration.rst:486
+msgid "Other changes:"
+msgstr ""
+
+#: ../migration.rst:35
+msgid ""
+":game:`Ares` 0.1 supported options in :file:`ares.ini` to configure how "
+"graphics surfaces were allocated. The tags :tag:`Surface.*.Memory` and "
+":tag:`Surface.*.Force3D` are obsolete now and have no effect any more."
+msgstr ""
+
+#: ../migration.rst:40
+msgid "From Ares 0.2 and below"
+msgstr ""
+
+#: ../migration.rst:44 ../migration.rst:238 ../migration.rst:251
+#: ../migration.rst:307 ../migration.rst:326 ../migration.rst:415
+msgid "No changes required."
+msgstr ""
+
+#: ../migration.rst:48
+msgid ""
+"The ini file reader has been updated for :game:`Ares` 0.3. Values that "
+"were invalid previously might now be valid, and previously valid "
+"notations might have become invalid. If values cannot be parsed "
+"correctly, :game:`Ares` puts a message into the debug log."
+msgstr ""
+
+#: ../migration.rst:53
+msgid ""
+"For example, it was possible to supply only one or two numbers when three"
+" comma separated numbers were expected. In that case, the value became "
+"inconsistent. This is no longer allowed and will result in a message in "
+"the debug log."
+msgstr ""
+
+#: ../migration.rst:59
+msgid "From Ares 0.3 and below"
+msgstr ""
+
+#: ../migration.rst:63
+msgid ""
+"The following tags have been changed to use the actual value of their "
+"default tags, not the value the default tags have in :file:`rulesmd.ini`."
+" If a default is changed in a game mode or map file, this updated value "
+"will be used. In other words: It now uses the last value, while "
+"previously the first would have been used."
+msgstr ""
+
+#: ../migration.rst:69
+msgid ""
+"If you do not change a default tag in game modes or maps, no action is "
+"needed. If you want to use the value the default tag has in "
+":file:`rulesmd.ini`, you have to copy the default value to the respective"
+" tag."
+msgstr ""
+
+#: ../migration.rst:74
+msgid ":tag:`[Weapon]IvanBomb.AttachSound`"
+msgstr ""
+
+#: ../migration.rst:74
+msgid "Defaults to :tag:`[AudioVisual]BombAttachSound`."
+msgstr ""
+
+#: ../migration.rst:77
+msgid ":tag:`[Weapon]IvanBomb.TickingSound`"
+msgstr ""
+
+#: ../migration.rst:77
+msgid "Defaults to :tag:`[AudioVisual]BombTickingSound`."
+msgstr ""
+
+#: ../migration.rst:80
+msgid ":tag:`[SuperWeapon]Lightning.Sounds`"
+msgstr ""
+
+#: ../migration.rst:80
+msgid "Defaults to :tag:`[AudioVisual]LightningSounds`."
+msgstr ""
+
+#: ../migration.rst:83
+msgid ":tag:`[SuperWeapon]Lightning.Clouds`"
+msgstr ""
+
+#: ../migration.rst:83
+msgid "Defaults to :tag:`[General]WeatherConClouds`."
+msgstr ""
+
+#: ../migration.rst:86
+msgid ":tag:`[SuperWeapon]Lightning.Bolts`"
+msgstr ""
+
+#: ../migration.rst:86
+msgid "Defaults to :tag:`[General]WeatherConBolts`."
+msgstr ""
+
+#: ../migration.rst:89
+msgid ":tag:`[SuperWeapon]Lightning.Debris`"
+msgstr ""
+
+#: ../migration.rst:89
+msgid "Defaults to :tag:`[General]MetallicDebris`."
+msgstr ""
+
+#: ../migration.rst:93
+msgid ""
+"Animations that have an owner now also respect :tag:`AffectsAllies`. "
+"Previously only :tag:`AffectsEnemies` was supported."
+msgstr ""
+
+#: ../migration.rst:96
+msgid ""
+"The original tag :tag:`Crashable` does now also apply to "
+":type:`AircraftTypes`. Previously it had no function."
+msgstr ""
+
+#: ../migration.rst:99
+msgid ""
+"The original tags :tag:`Pip` and :tag:`OccupyPip` have been changed to "
+"also support integers. Previously, integers were invalid and defaulted to"
+" :value:`green`."
+msgstr ""
+
+#: ../migration.rst:104
+msgid "From Ares 0.4 and below"
+msgstr ""
+
+#: ../migration.rst:108
+msgid ""
+"The following tags have been changed to use the actual value of their "
+"default tags. (Continued work from the :game:`Ares` 0.4 release.)"
+msgstr ""
+
+#: ../migration.rst:112
+msgid ":tag:`[Side]DefaultDisguise`"
+msgstr ""
+
+#: ../migration.rst:112 ../migration.rst:115 ../migration.rst:118
+#: ../migration.rst:121 ../migration.rst:124 ../migration.rst:158
+#: ../migration.rst:161
+msgid "Defaults to the original tag for a side."
+msgstr ""
+
+#: ../migration.rst:115
+msgid ":tag:`[Side]Crew`"
+msgstr ""
+
+#: ../migration.rst:118
+msgid ":tag:`[Side]SurvivorDivisor`"
+msgstr ""
+
+#: ../migration.rst:121
+msgid ":tag:`[Side]AI.BaseDefenses`"
+msgstr ""
+
+#: ../migration.rst:124
+msgid ":tag:`[Side]AI.BaseDefenseCounts`"
+msgstr ""
+
+#: ../migration.rst:127
+msgid ":tag:`[Weapon]IvanBomb.Warhead`"
+msgstr ""
+
+#: ../migration.rst:127
+msgid "Defaults to :tag:`[CombatDamage]IvanWarhead`."
+msgstr ""
+
+#: ../migration.rst:130
+msgid ":tag:`[Weapon]IvanBomb.Damage`"
+msgstr ""
+
+#: ../migration.rst:130
+msgid "Defaults to :tag:`[CombatDamage]IvanDamage`."
+msgstr ""
+
+#: ../migration.rst:133
+msgid ":tag:`[Weapon]IvanBomb.Delay`"
+msgstr ""
+
+#: ../migration.rst:133
+msgid "Defaults to :tag:`[CombatDamage]IvanTimedDelay`."
+msgstr ""
+
+#: ../migration.rst:136
+msgid ":tag:`[Weapon]IvanBomb.FlickerRate`"
+msgstr ""
+
+#: ../migration.rst:136
+msgid "Defaults to :tag:`[CombatDamage]IvanIconFlickerRate`."
+msgstr ""
+
+#: ../migration.rst:140
+msgid ""
+"Values in :tag:`[Side]Crew` and :tag:`[Side]DefaultDisguise` will not be "
+"added to the list of :type:`InfantryTypes` automatically any more. Make "
+"sure these values are listed under the :type:`InfantryTypes` list."
+msgstr ""
+
+#: ../migration.rst:144
+msgid ""
+"Previously, destroyed units did not eject survivors if they were owned by"
+" :value:`Neutral` or :value:`Special`, because :game:`Ares` did not "
+"support survivors for them. The original handling has been restored, and "
+"these houses will use :tag:`[General]Technician` as crew."
+msgstr ""
+
+#: ../migration.rst:150
+msgid "From Ares 0.5 and below"
+msgstr ""
+
+#: ../migration.rst:154 ../migration.rst:270
+msgid ""
+"The following tags have been changed to use the actual value of their "
+"default tags. (Continued work from earlier :game:`Ares` releases.)"
+msgstr ""
+
+#: ../migration.rst:158
+msgid ":tag:`[Side]ParaDrop.Num`"
+msgstr ""
+
+#: ../migration.rst:161
+msgid ":tag:`[Side]ParaDrop.Types`"
+msgstr ""
+
+#: ../migration.rst:164
+msgid ":tag:`[Side]Parachute.Anim`"
+msgstr ""
+
+#: ../migration.rst:164
+msgid "Defaults to :tag:`[General]Parachute`."
+msgstr ""
+
+#: ../migration.rst:167
+msgid ":tag:`[Country]ParaDrop.Num`"
+msgstr ""
+
+#: ../migration.rst:167
+msgid "Defaults to the side's :tag:`ParaDrop.Num`."
+msgstr ""
+
+#: ../migration.rst:170
+msgid ":tag:`[Country]ParaDrop.Types`"
+msgstr ""
+
+#: ../migration.rst:170
+msgid "Defaults to the side's :tag:`ParaDrop.Types`."
+msgstr ""
+
+#: ../migration.rst:173 ../migration.rst:346
+msgid ":tag:`[Country]AI.PowerPlants`"
+msgstr ""
+
+#: ../migration.rst:173
+msgid "If empty or not set, the side's default power plants are used."
+msgstr ""
+
+#: ../migration.rst:176
+msgid ":tag:`[Weapon]Wave.Color`"
+msgstr ""
+
+#: ../migration.rst:176
+msgid "Default depends on wave type."
+msgstr ""
+
+#: ../migration.rst:179
+msgid ":tag:`[SuperWeapon]SW.Damage`"
+msgstr ""
+
+#: ../migration.rst:179 ../migration.rst:182 ../migration.rst:189
+#: ../migration.rst:192 ../migration.rst:195
+msgid "Default depends on :tag:`Type`."
+msgstr ""
+
+#: ../migration.rst:182
+msgid ":tag:`[SuperWeapon]SW.Range`"
+msgstr ""
+
+#: ../migration.rst:186
+msgid ":tag:`[SuperWeapon]SW.Deferment`"
+msgstr ""
+
+#: ../migration.rst:185
+msgid ""
+"Defaults to :tag:`[General]LightningDeferment` for "
+":tag:`Type=LightningStorm`."
+msgstr ""
+
+#: ../migration.rst:189
+msgid ":tag:`[SuperWeapon]SW.Animation`"
+msgstr ""
+
+#: ../migration.rst:192
+msgid ":tag:`[SuperWeapon]SW.Sound`"
+msgstr ""
+
+#: ../migration.rst:195
+msgid ":tag:`[SuperWeapon]SW.ActivationSound`"
+msgstr ""
+
+#: ../migration.rst:198
+msgid ":tag:`[SuperWeapon]Lightning.Duration`"
+msgstr ""
+
+#: ../migration.rst:198 ../migration.rst:201
+msgid "Defaults to :tag:`[General]LightningStormDuration`."
+msgstr ""
+
+#: ../migration.rst:201
+msgid ":tag:`[SuperWeapon]Lightning.RadarOutage`"
+msgstr ""
+
+#: ../migration.rst:204
+msgid ":tag:`[SuperWeapon]Lightning.HitDelay`"
+msgstr ""
+
+#: ../migration.rst:204
+msgid "Defaults to :tag:`[General]LightningHitDelay`."
+msgstr ""
+
+#: ../migration.rst:207
+msgid ":tag:`[SuperWeapon]Lightning.ScatterDelay`"
+msgstr ""
+
+#: ../migration.rst:207
+msgid "Defaults to :tag:`[General]LightningScatterDelay`."
+msgstr ""
+
+#: ../migration.rst:210
+msgid ":tag:`[SuperWeapon]Lightning.Separation`"
+msgstr ""
+
+#: ../migration.rst:210
+msgid "Defaults to :tag:`[General]LightningSeparation`."
+msgstr ""
+
+#: ../migration.rst:213
+msgid ":tag:`[SuperWeapon]Lightning.PrintText`"
+msgstr ""
+
+#: ../migration.rst:213
+msgid "Defaults to :tag:`[General]LightningPrintText`."
+msgstr ""
+
+#: ../migration.rst:216
+msgid ":tag:`[SuperWeapon]Lightning.BoltExplosion`"
+msgstr ""
+
+#: ../migration.rst:216
+msgid "Defaults to :tag:`[General]WeatherConBoltExplosion`."
+msgstr ""
+
+#: ../migration.rst:219
+msgid ":tag:`[SuperWeapon]Nuke.TakeOff`"
+msgstr ""
+
+#: ../migration.rst:219
+msgid "Defaults to :tag:`[General]NukeTakeOff`."
+msgstr ""
+
+#: ../migration.rst:222
+msgid ":tag:`[SuperWeapon]Dominator.FireAtPercentage`"
+msgstr ""
+
+#: ../migration.rst:222
+msgid "Defaults to :tag:`[General]DominatorFireAtPercentage`."
+msgstr ""
+
+#: ../migration.rst:225
+msgid ":tag:`[SuperWeapon]Chronosphere.BlastSrc`"
+msgstr ""
+
+#: ../migration.rst:225
+msgid "Defaults to :tag:`[General]ChronoBlast`."
+msgstr ""
+
+#: ../migration.rst:228
+msgid ":tag:`[SuperWeapon]Chronosphere.BlastDest`"
+msgstr ""
+
+#: ../migration.rst:228
+msgid "Defaults to :tag:`[General]ChronoBlastDest`."
+msgstr ""
+
+#: ../migration.rst:231
+msgid ":tag:`[SuperWeapon]Mutate.Explosion`"
+msgstr ""
+
+#: ../migration.rst:231
+msgid "Defaults to :tag:`[General]MutateExplosion`."
+msgstr ""
+
+#: ../migration.rst:234
+msgid "From Ares 0.6 and below"
+msgstr ""
+
+#: ../migration.rst:242
+msgid ""
+"Only unpowered units create sparkle particle systems. Deactivation "
+"because of EMP and Operator logics does not make the unit sparkle any "
+"more. This is not optional at the moment."
+msgstr ""
+
+#: ../migration.rst:247
+msgid "From Ares 0.7 and below"
+msgstr ""
+
+#: ../migration.rst:255
+msgid ""
+"The Unit Delivery super weapon uses a new placing method. Compared to "
+"previous versions, unit and buildings are placed more random now. "
+"Delivered objects are put on guard, area guard or hunt mission."
+msgstr ""
+
+#: ../migration.rst:259
+msgid ""
+"Force Shield no longer considers buildings with "
+":tag:`ForceShield.Modifier` less than or equal to :value:`0.0` eligible "
+"targets."
+msgstr ""
+
+#: ../migration.rst:262
+msgid ""
+"Super weapon targeting mode :value:`Self` now centers on the firing "
+"building instead of using the origin."
+msgstr ""
+
+#: ../migration.rst:266
+msgid "From Ares 0.8 and below"
+msgstr ""
+
+#: ../migration.rst:275
+msgid ":tag:`[BuildingType]SecretLab.PossibleBoons`"
+msgstr ""
+
+#: ../migration.rst:274
+msgid ""
+"Defaults to the combination of the latest :tag:`[General]SecretInfantry`,"
+" :tag:`[General]SecretUnits` and :tag:`[General]SecretBuildings`."
+msgstr ""
+
+#: ../migration.rst:279
+msgid ""
+"The way projectiles deliver the new warhead effects has changed. "
+"Previously, they were applied on the location the projectile was supposed"
+" to hit, not where it actually detonated. Short distance misses still "
+"count as direct hit. Abduction, KillDriver and Occupant Damage are only "
+"applied on direct hits."
+msgstr ""
+
+#: ../migration.rst:284
+msgid ""
+"AttachEffect only checked verses if it had an owner. Now verses are "
+"applied even if owner-less. Previously affected victims might not get "
+"affected any more."
+msgstr ""
+
+#: ../migration.rst:288
+msgid ""
+"The default :tag:`SW.AITargeting` for :tag:`Type=HunterSeeker` super "
+"weapons has been changed from :value:`NoTarget` to :value:`HunterSeeker`."
+" It now only fires if the house has selected a favorite enemy."
+msgstr ""
+
+#: ../migration.rst:292
+msgid ""
+"The targeting type :value:`Stealth` now adheres to "
+":tag:`SW.AIRequiresTarget` and :tag:`SW.AIRequiresHouse` instead of "
+":tag:`SW.RequiresTarget` and :tag:`SW.RequiresHouse`. The targeting type "
+":value:`Offensive` no longer requires :tag:`SW.AffectedHouse` to include "
+":value:`enemies`."
+msgstr ""
+
+#: ../migration.rst:297
+msgid ""
+"Prism Forwarding now properly uses negative intensity values for "
+"supporting beams. A :tag:`PrismSupportModifier` related bug has been "
+"fixed."
+msgstr ""
+
+#: ../migration.rst:300
+msgid "Lasers were often drawn too big. This has been changed."
+msgstr ""
+
+#: ../migration.rst:303
+msgid "From Ares 0.9 and below"
+msgstr ""
+
+#: ../migration.rst:311
+msgid ""
+"Solid Buildings have been reworked. The feature now works with invisible "
+"projectiles. Also, units will now change positions instead of just firing"
+" through a Solid Building."
+msgstr ""
+
+#: ../migration.rst:315
+msgid ""
+"The Firestorm Wall active and idle animations will now draw in the "
+"building's palette, while they were drawn using the animation palette "
+"before."
+msgstr ""
+
+#: ../migration.rst:318
+msgid ""
+":file:`ares.csf` will always be read, no matter which language the game "
+"is run in."
+msgstr ""
+
+#: ../migration.rst:322
+msgid "From Ares 0.A and below"
+msgstr ""
+
+#: ../migration.rst:330 ../migration.rst:353
+msgid "None."
+msgstr ""
+
+#: ../migration.rst:333
+msgid "From Ares 0.B and below"
+msgstr ""
+
+#: ../migration.rst:338
+msgid ":tag:`[TechnoType]Spotlight.StartHeight`"
+msgstr ""
+
+#: ../migration.rst:338
+msgid ""
+"Default has been changed to :value:`430`. Defaulted to :value:`200` "
+"before."
+msgstr ""
+
+#: ../migration.rst:342
+msgid ":tag:`[TechnoType]Spotlight.AttachedTo`"
+msgstr ""
+
+#: ../migration.rst:341
+msgid ""
+"The value :value:`barrel` is no longer supported. Use :value:`turret` "
+"instead."
+msgstr ""
+
+#: ../migration.rst:345
+msgid ""
+"Default for the second side and all sides after side 3 now includes "
+":tag:`[General]NodAdvancedPower` again."
+msgstr ""
+
+#: ../migration.rst:349
+msgid ":tag:`[Projectile]SubjectToFirewall`"
+msgstr ""
+
+#: ../migration.rst:349
+msgid "The tag has been removed. Use :tag:`[Projectile]IgnoresFirestorm` instead."
+msgstr ""
+
+#: ../migration.rst:356
+msgid "From Ares 0.C and below"
+msgstr ""
+
+#: ../migration.rst:362
+msgid ":tag:`[General]EngineerDamageCursor`"
+msgstr ""
+
+#: ../migration.rst:361
+msgid ""
+"The tag has been removed. Customize the :value:`EngineerDamage` cursor "
+"instead."
+msgstr ""
+
+#: ../migration.rst:366
+msgid ":tag:`[General]TogglePowerCursor`"
+msgstr ""
+
+#: ../migration.rst:365
+msgid ""
+"The tag has been removed. Customize the :value:`TogglePower` cursor "
+"instead."
+msgstr ""
+
+#: ../migration.rst:370
+msgid ":tag:`[General]TogglePowerNoCursor`"
+msgstr ""
+
+#: ../migration.rst:369
+msgid ""
+"The tag has been removed. Customize the :value:`NoTogglePower` cursor "
+"instead."
+msgstr ""
+
+#: ../migration.rst:373
+msgid ":tag:`[SuperWeapon]Cursor`"
+msgstr ""
+
+#: ../migration.rst:373 ../migration.rst:376
+msgid "The tag has been changed to only support mouse cursor names."
+msgstr ""
+
+#: ../migration.rst:376
+msgid ":tag:`[SuperWeapon]NoCursor`"
+msgstr ""
+
+#: ../migration.rst:379
+msgid ":tag:`[SuperWeapon]Deliver.Buildups`"
+msgstr ""
+
+#: ../migration.rst:379
+msgid "The tag has been removed. Buildups are now always on."
+msgstr ""
+
+#: ../migration.rst:383
+msgid ""
+"Some :type:`ArmorType` parsing issues have been resolved to improve "
+"defaulting to other types, and to not reset data unexpectedly."
+msgstr ""
+
+#: ../migration.rst:386
+msgid ""
+"The Unit Delivery super weapon has been reworked. It now allows placing "
+"units on ore, and delivered objects are put on guard, area guard or hunt "
+"mission. The option to skip the buildup animations has been deprecated, "
+"because it never worked correctly."
+msgstr ""
+
+#: ../migration.rst:391
+msgid ""
+"Hunter Seekers no longer target objects under the effect of the Iron "
+"Curtain or objects being temporally attacked."
+msgstr ""
+
+#: ../migration.rst:395
+msgid "From Ares 0.D and below"
+msgstr ""
+
+#: ../migration.rst:401
+msgid ":tag:`[SuperWeapon]Nuke.Payload`"
+msgstr ""
+
+#: ../migration.rst:400
+msgid ""
+"No longer automatically adds the weapon to the list. Ensure that the "
+"weapon is known to the game by adding it to the :tag:`[WeaponTypes]` "
+"list."
+msgstr ""
+
+#: ../migration.rst:405
+msgid ""
+":tag:`KillDriver` has been changed to be applied like regular damage. It "
+"now respects immunities and supports :tag:`CellSpread`. Thus, the effect "
+"might not be applied in all cases where it was applied before, and might "
+"be applied in cases where it previously was not."
+msgstr ""
+
+#: ../migration.rst:411
+msgid "From Ares 0.E and below"
+msgstr ""
+
+#: ../migration.rst:419
+msgid ""
+"Some Super Weapon Targeting Modes used the wrong target cell when firing "
+"at buildings. Now, the centers of the buildings are targeted. Affected "
+"modes are :value:`Nuke`, :value:`LightningStorm`, :value:`Offensive`, "
+":value:`Stealth`, :value:`Self`, and :value:`MultiMissile`."
+msgstr ""
+
+#: ../migration.rst:425
+msgid "From Ares 1.0 and below"
+msgstr ""
+
+#: ../migration.rst:434
+msgid ":tag:`[BuildingType]SpyEffect.UnitVeterancy`"
+msgstr ""
+
+#: ../migration.rst:430
+msgid ""
+"This setting has been replaced by finer grained options. Replace with "
+":tag:`SpyEffect.InfantryVeterancy=yes` for :type:`BuildingType`\\ s with "
+":tag:`Factory=InfantryType`, and with "
+":tag:`SpyEffect.VehicleVeterancy=yes` for :type:`BuildingType`\\ s with "
+":tag:`Factory=UnitType` to achieve the previous effect."
+msgstr ""
+
+#: ../migration.rst:437
+msgid ""
+":tag:`[BuildingType]FactoryOwners.HaveAllPlans=` --> "
+":tag:`[BuildingType]FactoryOwners.Permanent=`."
+msgstr ""
+
+#: ../migration.rst:440
+msgid ":tag:`[Warhead]Ripple.Radius=` --> :tag:`[Warhead]IonCannon.Ripple=`."
+msgstr ""
+
+#: ../migration.rst:443
+msgid ":tag:`[Weapon]Abductor.ChangeOwner=`."
+msgstr ""
+
+#: ../migration.rst:443
+msgid "Respects :value:`PSIONICSIMMUNE` veteran ability."
+msgstr ""
+
+#: ../migration.rst:447
+msgid ""
+"Splits logic only targets air units if the :tag:`AirburstWeapon` "
+"projectile is :tag:`AA=yes`. Furthermore, Splits logic now only retargets"
+" objects that the projectile's warhead can affect."
+msgstr ""
+
+#: ../migration.rst:451
+msgid ""
+"Units lifted by a Magnetron no longer count as being actively in air, and"
+" EMP might no longer destroy them."
+msgstr ""
+
+#: ../migration.rst:454
+msgid ""
+"The AI supports other Iron Curtains and it might now use super weapons "
+"with :tag:`Type=IronCurtain` it has not used before, because of the "
+"changed default for :tag:`SW.AITargetingMode`. To restore previous "
+"behavior, manually set :tag:`SW.AITargetingMode=none` on all but the "
+"first super weapon with :tag:`Type=IronCurtain`."
+msgstr ""
+
+#: ../migration.rst:460
+msgid ""
+":tag:`DeployToLand=yes` units will only turn towards :tag:`DeployDir` if "
+"they have a :tag:`DeployingAnim`."
+msgstr ""
+
+#: ../migration.rst:464
+msgid "From Ares 2.0 and below"
+msgstr ""
+
+#: ../migration.rst:472
+msgid ":tag:`[BuildingType]SpyEffect.StolenMoneyAmount`"
+msgstr ""
+
+#: ../migration.rst:469
+msgid ""
+":tag:`[BuildingType]SpyEffect.StolenMoneyPercentage` now takes "
+"precedence, and the meaning of this tag changed if both tags are used "
+"together. To retain the previous behavior in this case, remove "
+":tag:`[BuildingType]SpyEffect.StolenMoneyPercentage`."
+msgstr ""
+
+#: ../migration.rst:475
+msgid ":tag:`[BuildingType]PrismForwarding.MyHeight`"
+msgstr ""
+
+#: ../migration.rst:475
+msgid "The tag has been removed. It had no effect."
+msgstr ""
+
+#: ../migration.rst:480
+msgid ":tag:`[BuildingType]Rubble.Destroyed`"
+msgstr ""
+
+#: ../migration.rst:478
+msgid ""
+"The hardcoded building properties have been removed. To go back to the "
+"previous behavior, set :tag:`TogglePower=no` and :tag:`Unsellable=yes`. "
+"Rubble buildings are not allowed to have occupants or passengers."
+msgstr ""
+
+#: ../migration.rst:484
+msgid ":tag:`[InfantryType]IsDesolator`"
+msgstr ""
+
+#: ../migration.rst:483
+msgid ""
+"Now also controls the behavior that deployed infantry starts firing at "
+"the ground automatically. Desolator-like infantry has to have this set."
+msgstr ""
+
+#: ../migration.rst:488
+msgid ""
+"Overlay images for Ivan Bombs have been rewritten to work like in the "
+"original game. Editing :file:`bombcurs.shp` is no longer necessary."
+msgstr ""
+
+#: ../migration.rst:491
+msgid ""
+"The default :tag:`SW.AITargeting` for :tag:`Type=DropPod` super weapons "
+"has been changed from :value:`ParaDrop` to :value:`DropPod`. The effect "
+"is similar."
+msgstr ""
+
+#: ../migration.rst:495
+msgid ""
+"The Soviet Repair Depot can now by default be used to sell units. To "
+"restore the vanilla behavior, add :tag:`[NADEPT]UnitSell=no` to "
+":file:`rulesmd.ini`."
+msgstr ""
+

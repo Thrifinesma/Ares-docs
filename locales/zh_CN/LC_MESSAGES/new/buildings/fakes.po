@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/buildings/fakes.rst:8
+msgid "Fakes"
+msgstr ""
+
+#: ../new/buildings/fakes.rst:10
+msgid ""
+"Fakes are buildings known from :game:`Red Alert` which look like their "
+"original counterparts but are weaker and serve no function. Their mere "
+"purpose is to hide the location of the real buildings."
+msgstr ""
+
+#: ../new/buildings/fakes.rst:14
+msgid ""
+"Fakes show the string defined by :value:`TXT_FAKE` when selected by the "
+"owning player and its allies, and also by enemies if they infiltrated the"
+" building and it has the :ref:`Reveal Production Spy Effect <spybehavior-"
+"revealproduction>` enabled."
+msgstr ""
+
+#: ../new/buildings/fakes.rst:20
+msgid ":tagdef:`[BuildingType]Fake=boolean`"
+msgstr ""
+
+#: ../new/buildings/fakes.rst:20
+msgid "Whether this building is considered a fake. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/buildings/fakes.rst:22
+msgid ""
+"See :doc:`EnemyUIName </new/enemyuiname>` to find out how to hide the "
+"real name of the building from enemy players."
+msgstr ""
+

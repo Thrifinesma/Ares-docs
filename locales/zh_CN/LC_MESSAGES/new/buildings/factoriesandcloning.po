@@ -1,0 +1,132 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/buildings/factoriesandcloning.rst:4
+msgid "Factories and Cloning"
+msgstr ""
+
+#: ../new/buildings/factoriesandcloning.rst:11
+msgid "Different factories for units (Kennels)"
+msgstr ""
+
+#: ../new/buildings/factoriesandcloning.rst:16
+msgid ":tagdef:`[InfantryOrVehicle]BuiltAt=list of BuildingTypes`"
+msgstr ""
+
+#: ../new/buildings/factoriesandcloning.rst:14
+msgid ""
+"Units will be kicked out of the first not-busy building the house owns "
+"that is mentioned in this list. If no :type:`BuildingType` is set, all "
+"factories that can produce this unit will be checked. Defaults to "
+":value:`none`."
+msgstr ""
+
+#: ../new/buildings/factoriesandcloning.rst:29
+msgid ":tagdef:`[BuildingType]Factory.ExplicitOnly=boolean`"
+msgstr ""
+
+#: ../new/buildings/factoriesandcloning.rst:19
+msgid ""
+"Set this to :value:`yes` to only allow this factory to produce units that"
+" explicitly mention this :type:`BuildingType` in their :tag:`BuiltAt` "
+"list. Units with empty :tag:`BuiltAt` lists will not be built here. The "
+"effect is the same as stating :tag:`BuiltAt` lists on every unit, "
+"omitting all factories that have this tag set. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/buildings/factoriesandcloning.rst
+msgid "Quickstart"
+msgstr ""
+
+#: ../new/buildings/factoriesandcloning.rst:25
+msgid ""
+"To recreate the dog from :game:`Red Alert` that is trained in a kennel, "
+"set :tag:`[KENN]Factory=InfantryType`, \\ "
+":tag:`[KENN]Factory.ExplicitOnly=yes`, :tag:`[DOG]BuiltAt=KENN` and "
+"update the :tag:`[DOG]Prerequisite` to contain :tag:`[KENN]`."
+msgstr ""
+
+#: ../new/buildings/factoriesandcloning.rst:36
+msgid "\"Cloning Vats\" for :type:`VehicleTypes`"
+msgstr ""
+
+#: ../new/buildings/factoriesandcloning.rst:43
+msgid ":tagdef:`[BuildingType]CloningFacility=boolean`"
+msgstr ""
+
+#: ../new/buildings/factoriesandcloning.rst:39
+msgid ""
+"Defines whether this building will clone all :type:`VehicleTypes` with "
+"the same :tag:`Naval` setting as itself that are :tag:`Cloneable=yes` and"
+" :tag:`ClonedAt=none`. This is the :type:`VehicleType` version of the "
+"Cloning Vats. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/buildings/factoriesandcloning.rst:51
+msgid "Cloning options"
+msgstr ""
+
+#: ../new/buildings/factoriesandcloning.rst:56
+msgid ":tagdef:`[InfantryOrVehicle]Cloneable=boolean`"
+msgstr ""
+
+#: ../new/buildings/factoriesandcloning.rst:54
+msgid ""
+"Whether or not this infantry or unit can be cloned by :tag:`Cloning=yes`,"
+" :tag:`CloningFacility=yes` or their respective :tag:`ClonedAt` "
+"buildings. Defaults to :value:`yes`."
+msgstr ""
+
+#: ../new/buildings/factoriesandcloning.rst:62
+msgid ":tagdef:`[InfantryOrVehicle]ClonedAs=TechnoType`"
+msgstr ""
+
+#: ../new/buildings/factoriesandcloning.rst:59
+msgid ""
+"The type to use as override when producing a clone of this object. If not"
+" set, the clones will be made of the same type as this object. Units can "
+"only be cloned as :type:`VehicleType`, and infantry can only be cloned as"
+" :type:`InfantryType`. Defaults to :value:`none`."
+msgstr ""
+
+#: ../new/buildings/factoriesandcloning.rst:75
+msgid ":tagdef:`[InfantryOrVehicle]ClonedAt=list of BuildingTypes`"
+msgstr ""
+
+#: ../new/buildings/factoriesandcloning.rst:65
+msgid ""
+"Each building of the types mentioned in the list owned by the same house "
+"will kick out an extra clone of this object for free. If a building is "
+"blocked, the player will get no refunds. Defaults to :value:`none`."
+msgstr ""
+
+#: ../new/buildings/factoriesandcloning.rst:69
+msgid ""
+"Cloning will ignore buildings with :tag:`Factory=` set. Note that \\ "
+":tag:`Factory` is not what causes the units to walk or drive out "
+"properly, \\ :tag:`WeaponsFactory=yes`, :tag:`GDIBarracks=yes`, "
+":tag:`NODBarracks=yes` and :tag:`YuriBarracks=yes` are."
+msgstr ""
+
+#: ../new/buildings/factoriesandcloning.rst:74
+msgid ""
+"If :tag:`ClonedAt` is specified, neither :tag:`Cloning=yes` nor \\ "
+":tag:`CloningFacility=yes` will clone the object."
+msgstr ""
+

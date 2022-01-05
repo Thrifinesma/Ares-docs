@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/movies.rst:6
+msgid "Movies List"
+msgstr ""
+
+#: ../new/movies.rst:8
+msgid ""
+"With :game:`Ares` the in-game movies list can be customized and new "
+"unlockable movies can be added. Each movie is now unlocked individually "
+"instead of using only two campaign progression trackers for Allies and "
+"Soviets. The unlocked state is saved in a new section called "
+":tag:`[UnlockedMovies]` in :file:`ra2md.ini`."
+msgstr ""
+
+#: ../new/movies.rst:14
+msgid ""
+"In the new file :file:`moviemd.ini`, add all movie filenames without the "
+":file:`.BIK` extension to the :tag:`[Movies]` list. All movies will "
+"appear on the in-game menu in the same order as in this list. Only if the"
+" list is empty does the game default to the original behavior using the "
+"hardcoded movie lists and the two progression trackers."
+msgstr ""
+
+#: ../new/movies.rst:20
+msgid "Each movie item can be customized using these settings:"
+msgstr ""
+
+#: ../new/movies.rst:24
+msgid ":tagdef:`[MovieFilename]Description=CSF label`"
+msgstr ""
+
+#: ../new/movies.rst:23
+msgid ""
+"The name this movie will appear under in the list. Defining this tag is "
+"required."
+msgstr ""
+
+#: ../new/movies.rst:29
+msgid ":tagdef:`[MovieFilename]Unlockable=boolean`"
+msgstr ""
+
+#: ../new/movies.rst:27
+msgid ""
+"Whether this movie has to be unlocked first before appearing in the list."
+" If :value:`no`, the movie will always appear in the list, like the intro"
+" movie. Defaults to :value:`yes`."
+msgstr ""
+
+#: ../new/movies.rst:44
+msgid "Example:"
+msgstr ""
+

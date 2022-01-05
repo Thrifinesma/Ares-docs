@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../ui-features/commandlinearguments.rst:7
+msgid "Command Line Arguments"
+msgstr ""
+
+#: ../ui-features/commandlinearguments.rst:9
+msgid ""
+"Allows the game to run without the :game:`Yuri's Revenge` CD. Requires "
+"the content of the :game:`Yuri's Revenge` CD to be copied to the "
+":game:`Red Alert 2` directory first. :game:`The First Decade` users "
+"already have all the required files installed, so no further action has "
+"to be taken."
+msgstr ""
+
+#: ../ui-features/commandlinearguments.rst:13
+msgid "Prevents the EA logo video from playing before the game begins to load."
+msgstr ""
+
+#: ../ui-features/commandlinearguments.rst:15
+msgid ""
+"Turns :file:`debug.log` file writing on initially. See :doc:`Internal "
+"Errors/Debugging </ui-features/internalerrorsdebugging>`."
+msgstr ""
+
+#: ../ui-features/commandlinearguments.rst:17
+msgid ""
+"Outputs all CSF labels that cannot be found in the language files into "
+":file:`debug.log`. Each label is written only once, and prefixed with "
+":value:`[CSFLoader]`."
+msgstr ""
+
+#: ../ui-features/commandlinearguments.rst:20
+msgid ""
+"Throws an Internal Error on game load if a not-necessarily-critical error"
+" is detected. For example, when you set a flag to a non-empty value that "
+"cannot be parsed."
+msgstr ""
+
+#: ../ui-features/commandlinearguments.rst:24
+msgid ""
+"There are several existing errors in the stock rules that will trip this "
+"so you will need to clean them up before using it."
+msgstr ""
+
+#: ../ui-features/commandlinearguments.rst:26
+msgid ""
+"Enables AI Control feature. Entering this command in the command line "
+"before opening :game:`Yuri's Revenge` allows the player to assign a "
+"hotkey to allowing AI control."
+msgstr ""
+
+#: ../ui-features/commandlinearguments.rst:30
+msgid ""
+"This feature was designed primarily for the purposes of offline testing "
+"and AI design testing. Due to this, feature complexity, lack of interest "
+"and a change in personnel, please note that this feature is NOT "
+"officially supported."
+msgstr ""
+
+#: ../ui-features/commandlinearguments.rst:34
+msgid ""
+"Controls which processors the game will run on. :value:`N` is a bit mask "
+"with one bit for each processor starting with :value:`1` for the first, "
+":value:`2` for the second, :value:`4` for the third and so on. If not "
+"set, :value:`1` is used, meaning the game will run on the first processor"
+" only. Use :value:`0` to disable this feature."
+msgstr ""
+
+#: ../ui-features/commandlinearguments.rst:40
+msgid ""
+"Several bits can be combined, like :value:`3` representing the first two "
+"processors. Usually, the game should run on only one processor (that is, "
+":value:`N` being a power of 2), as it is not designed to make use of "
+"multiple processors."
+msgstr ""
+

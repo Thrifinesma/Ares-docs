@@ -1,0 +1,187 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/superweapons/range.rst:4
+msgid "Range Limits"
+msgstr ""
+
+#: ../new/superweapons/range.rst:6
+msgid ""
+"There are two ways to restrict the targets a super weapon can fire at by "
+"range. One is the distance to the building firing the super weapon at the"
+" target, the second is the distance of a certain unit to the target area,"
+" which is called a designator."
+msgstr ""
+
+#: ../new/superweapons/range.rst:14
+msgid "Range around Launch Site"
+msgstr ""
+
+#: ../new/superweapons/range.rst:16
+msgid ""
+"Two tags define the range a super weapon can fire in: the maximum range "
+"the target can be away from the super weapon building, and the minimum "
+"range, below which the super weapon cannot fire."
+msgstr ""
+
+#: ../new/superweapons/range.rst:20
+msgid ""
+"A super weapon can fire at a location, if at least one building providing"
+" this super weapon satisfies both range requirements. If not, the "
+":tag:`NoCursor` is shown."
+msgstr ""
+
+#: ../new/superweapons/range.rst:27
+msgid ":tagdef:`[SuperWeapon]SW.RangeMaximum=float - cell range`"
+msgstr ""
+
+#: ../new/superweapons/range.rst:25
+msgid ""
+"Distance in cells the target coordinates may be away from a player's "
+"building providing this super weapon. Values below :value:`0.0` mean "
+"type-specific default, which usually disables this range check. Defaults "
+"to :value:`-1.0`."
+msgstr ""
+
+#: ../new/superweapons/range.rst:32
+msgid ":tagdef:`[SuperWeapon]SW.RangeMinimum=float - cell range`"
+msgstr ""
+
+#: ../new/superweapons/range.rst:30
+msgid ""
+"Distance in cells the target coordinates must be away from a player's "
+"building providing this super weapon. Values below :value:`0.0` mean "
+"type-specific default, which usually disables this range check. Defaults "
+"to :value:`-1.0`."
+msgstr ""
+
+#: ../new/superweapons/range.rst:40
+msgid "Designators"
+msgstr ""
+
+#: ../new/superweapons/range.rst:42
+msgid ""
+"A designator is a unit or structure that does the reconnaissance and "
+"provides a targeting area around itself. A super weapon requiring a "
+"designator can only fire at a location if at least one designator is in "
+"range. If no designator is in range, the :tag:`NoCursor` is shown."
+msgstr ""
+
+#: ../new/superweapons/range.rst:49
+msgid ":tagdef:`[SuperWeapon]SW.Designators=list of TechnoTypes`"
+msgstr ""
+
+#: ../new/superweapons/range.rst:48
+msgid ""
+"List of units and structures eligible for designating the target "
+"location. An empty list requires no designator. Defaults to "
+":value:`none`."
+msgstr ""
+
+#: ../new/superweapons/range.rst:53
+msgid ":tagdef:`[SuperWeapon]SW.AnyDesignator=boolean`"
+msgstr ""
+
+#: ../new/superweapons/range.rst:52
+msgid ""
+"Whether any unit or structure is considered a valid designator for this "
+"super weapon. Overrides :tag:`SW.Designators`. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/superweapons/range.rst:55
+msgid ""
+"The designator range can be customized for each :type:`TechnoType` "
+"individually."
+msgstr ""
+
+#: ../new/superweapons/range.rst:60
+msgid ":tagdef:`[TechnoType]DesignatorRange=integer - cells`"
+msgstr ""
+
+#: ../new/superweapons/range.rst:58
+msgid ""
+"Range in cells around the unit or structure that becomes targetable by "
+"super weapons requiring this object as designator. Defaults to "
+":tag:`[TechnoType]Sight`."
+msgstr ""
+
+#: ../new/superweapons/range.rst:68
+msgid "Inhibitors"
+msgstr ""
+
+#: ../new/superweapons/range.rst:70
+msgid ""
+"In a sense, inhibitors are double negative designators: All enemy units "
+"and structures are checked instead of player owned ones, and they "
+"disallow firing a super weapon around them instead of being a "
+"requirement. In a positive sense, inhibitors protect a player from enemy "
+"super weapons."
+msgstr ""
+
+#: ../new/superweapons/range.rst:75
+msgid ""
+"If at least one enemy inhibitor is in range, the :tag:`NoCursor` is shown"
+" to a player and the super weapon cannot fire."
+msgstr ""
+
+#: ../new/superweapons/range.rst:78
+msgid ""
+"Buildings only inhibit firing a super weapon when they are online, that "
+"is when there is sufficient power for them to function or they are "
+"overpowered, and they suffice the :tag:`NeedsEngineer` requirement."
+msgstr ""
+
+#: ../new/superweapons/range.rst:84
+msgid ":tagdef:`[SuperWeapon]SW.Inhibitors=list of TechnoTypes`"
+msgstr ""
+
+#: ../new/superweapons/range.rst:83
+msgid ""
+"List of units and structures preventing this super weapon from firing "
+"close to any of them. An empty list means no inhibitors. Defaults to "
+":value:`none`."
+msgstr ""
+
+#: ../new/superweapons/range.rst:88
+msgid ":tagdef:`[SuperWeapon]SW.AnyInhibitor=boolean`"
+msgstr ""
+
+#: ../new/superweapons/range.rst:87
+msgid ""
+"Whether any unit or structure is considered a valid inhibitor for this "
+"super weapon. Overrides :tag:`SW.Inhibitors`. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/superweapons/range.rst:90
+msgid ""
+"The inhibitor range can be customized for each :type:`TechnoType` "
+"individually."
+msgstr ""
+
+#: ../new/superweapons/range.rst:95
+msgid ":tagdef:`[TechnoType]InhibitorRange=integer - cells`"
+msgstr ""
+
+#: ../new/superweapons/range.rst:93
+msgid ""
+"Range in cells around the unit or structure that becomes untargetable by "
+"super weapons having this object set as inhibitor. Defaults to "
+":tag:`[TechnoType]Sight`."
+msgstr ""
+

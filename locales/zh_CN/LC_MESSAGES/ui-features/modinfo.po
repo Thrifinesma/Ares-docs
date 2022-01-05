@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../ui-features/modinfo.rst:6
+msgid "Mod-specific Information"
+msgstr ""
+
+#: ../ui-features/modinfo.rst:8
+msgid ""
+"The following settings describe your mod and give it a name and a version"
+" number to uniquely identify your mod. These tags are important for "
+"savegames to distinguish files from different mods or different versions "
+"of the same mod, and they are also printed out in :file:`debug.log` to "
+"aid diagnosing problems."
+msgstr ""
+
+#: ../ui-features/modinfo.rst:13
+msgid "It is highly recommended to set those to meaningful individual values."
+msgstr ""
+
+#: ../ui-features/modinfo.rst:15
+msgid "Both can be defined in :file:`uimd.ini`:"
+msgstr ""
+
+#: ../ui-features/modinfo.rst:18
+msgid ":tagdef:`[VersionInfo]Name=string`"
+msgstr ""
+
+#: ../ui-features/modinfo.rst:18
+msgid ""
+"The name of the modification in unspecified format. Maximum 63 "
+"characters. Defaults to :value:`Yuri's Revenge`."
+msgstr ""
+
+#: ../ui-features/modinfo.rst:22
+msgid ":tagdef:`[VersionInfo]Version=string`"
+msgstr ""
+
+#: ../ui-features/modinfo.rst:21
+msgid ""
+"The version of the modification in unspecified format. Maximum 63 "
+"characters. Defaults to :value:`1.001`."
+msgstr ""
+

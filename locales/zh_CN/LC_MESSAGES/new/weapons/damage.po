@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/weapons/damage.rst:6
+msgid ""
+"Ordinary Damage for :captiontag:`IsSonic` and "
+":captiontag:`UseFireParticles`"
+msgstr ""
+
+#: ../new/weapons/damage.rst:8
+msgid ""
+"Weapons with either :tag:`IsSonic=yes` or :tag:`UseFireParticles=yes` do "
+"not deliver conventional damage and rely on other means like ambient "
+"damage."
+msgstr ""
+
+#: ../new/weapons/damage.rst:19
+msgid ":tagdef:`[Weapon]ApplyDamage=boolean`"
+msgstr ""
+
+#: ../new/weapons/damage.rst:12
+msgid ""
+"Whether this weapon deals ordinary damage. Can be used to enable "
+":tag:`Damage` to work with special weapons, or to disable dealing damage."
+" Defaults to :value:`no` if either :tag:`IsSonic=yes` or "
+":tag:`UseFireParticles=yes`, to :value:`yes` otherwise."
+msgstr ""
+
+#: ../new/weapons/damage.rst:17
+msgid ""
+"If :tag:`ApplyDamage=no`, the damage is reduced to 0, thus some weapon "
+"effects like the warhead's animation will not play. This might change in "
+"the future."
+msgstr ""
+

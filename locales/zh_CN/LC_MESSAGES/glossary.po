@@ -1,0 +1,266 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../glossary.rst:5
+msgid "Glossary"
+msgstr ""
+
+#: ../glossary.rst:8
+msgid "booleanbooleans"
+msgstr ""
+
+#: ../glossary.rst:11
+msgid ""
+"Either :value:`yes` or :value:`no`, :value:`true` or :value:`false`, "
+":value:`1` or :value:`0`."
+msgstr ""
+
+#: ../glossary.rst:13
+msgid "bytebytes"
+msgstr ""
+
+#: ../glossary.rst:16
+msgid "All whole numbers from 0 to 255. For allowed formats see :term:`integer`"
+msgstr ""
+
+#: ../glossary.rst:17
+msgid "cellcells"
+msgstr ""
+
+#: ../glossary.rst:20
+msgid ""
+"Depending on context, range or distance as :term:`integer` or "
+":term:`floating point value <float>`."
+msgstr ""
+
+#: ../glossary.rst:22
+msgid "clsidclsidslocomotorlocomotors"
+msgstr ""
+
+#: ../glossary.rst:27
+msgid "One of the fixed locomotor clsids."
+msgstr ""
+
+#: ../glossary.rst:28
+msgid "colorcolors"
+msgstr ""
+
+#: ../glossary.rst:31
+msgid ""
+"Color definition values, either in :term:`R,G,B <rgb>` or :term:`H,S,B "
+"<hsb>` notation."
+msgstr ""
+
+#: ../glossary.rst:33
+msgid "csf labelcsf string"
+msgstr ""
+
+#: ../glossary.rst:36
+msgid ""
+"The name of an entry in the CSF file containing the translated strings "
+"displayed by the game. Label names can be up to 31 characters long."
+msgstr ""
+
+#: ../glossary.rst:38
+msgid "enumeration"
+msgstr ""
+
+#: ../glossary.rst:40
+msgid ""
+"One value of a fixed set of all possible values. Values of enumerations "
+"are strings, associating behavior or options to names. The value names "
+"have to be used as described, with spelling unchanged."
+msgstr ""
+
+#: ../glossary.rst:43
+msgid "eva entryevamd entry"
+msgstr ""
+
+#: ../glossary.rst:46
+msgid "The name of an EVA message defined in :file:`evamd.ini`."
+msgstr ""
+
+#: ../glossary.rst:47
+msgid "facing32"
+msgstr ""
+
+#: ../glossary.rst:49
+msgid ""
+"An integer from :value:`0` (north) to :value:`31` (north west) "
+"representing a direction. :value:`8` is east, :value:`16` is south, "
+":value:`24` is west."
+msgstr ""
+
+#: ../glossary.rst:51
+msgid "floatfloatsdoubledoubles"
+msgstr ""
+
+#: ../glossary.rst:56
+msgid ""
+"Any decimal number, using the dot :value:`.` as decimal point. If the "
+"value ends with a percentage sign :value:`%`, the value is divided by "
+"100."
+msgstr ""
+
+#: ../glossary.rst:58
+msgid "frameframes"
+msgstr ""
+
+#: ../glossary.rst:61
+msgid ""
+"Ticks of game-time as :term:`integer`. One second of game-time is 15 "
+"frames; one minute of game-time is 900 frames. One second of game-time "
+"equals one second of real-time on normal game speed. Used to define "
+"durations, delays, or intervals."
+msgstr ""
+
+#: ../glossary.rst:65
+msgid "hsb"
+msgstr ""
+
+#: ../glossary.rst:67
+msgid ""
+"Hue, Saturation, and Brightness is used much less frequently than "
+":term:`RGB`. Similarly, each :term:`byte` represents the amount of each "
+"factor. However, it is important to note that the Tiberian Sun and Red "
+"Alert 2 engines use a unique HSB color model that is not the same as the "
+"one used by most PC programs, like MS Paint."
+msgstr ""
+
+#: ../glossary.rst:72
+msgid "integerintegers"
+msgstr ""
+
+#: ../glossary.rst:75
+msgid ""
+"Whole numbers from -2147483648 to 2147483647; in rare cases, only from "
+"-32768 to 32767. Allowed formats are all decimal numbers, and hexadecimal"
+" numbers either with a :value:`$` prefix or an :value:`H` or :value:`h` "
+"suffix. For example :value:`123`, :value:`$7b`, and :value:`7Bh` all mean"
+" the same."
+msgstr ""
+
+#: ../glossary.rst:80
+msgid "leptonleptons"
+msgstr ""
+
+#: ../glossary.rst:83
+msgid ""
+"Distance as :term:`integer` as fractions of a :term:`cell`. 256 leptons "
+"are one cell."
+msgstr ""
+
+#: ../glossary.rst:85
+msgid "list"
+msgstr ""
+
+#: ../glossary.rst:87
+msgid ""
+"A comma-separated list of items like integers or type names. Usually, "
+"lists can be up to 127 characters long."
+msgstr ""
+
+#: ../glossary.rst:89
+msgid "minuteminutes"
+msgstr ""
+
+#: ../glossary.rst:92
+msgid ""
+"Minutes as :term:`floating point value <float>`, with support for "
+"fractions. Multiplied by 900, gives the number of :term:`frames` of game-"
+"time. Used to define durations, delays, or intervals. Note that this is "
+"sometimes used as `real-time` minutes."
+msgstr ""
+
+#: ../glossary.rst:96
+msgid "modifiermultiplier"
+msgstr ""
+
+#: ../glossary.rst:99
+msgid ""
+"A :term:`floating point value <float>` used as a factor, that is it is "
+"being multiplied to strengthen or weaken an effect. :value:`1.0` or "
+":value:`100%` usually mean an effect is not changed, while :value:`0.0` "
+"or :value:`0%` mean an effect is nullified. Depending on context, values "
+"larger than :value:`100%` are allowed."
+msgstr ""
+
+#: ../glossary.rst:104
+msgid "percentpercentspercentagepercentageschance"
+msgstr ""
+
+#: ../glossary.rst:110
+msgid ""
+"A :term:`floating point value <float>` that is used as a percentage "
+"value, a probability or a multiplier. Most commonly a value between "
+":value:`0%` and :value:`100%`."
+msgstr ""
+
+#: ../glossary.rst:114
+msgid ""
+"Seldom an :term:`integer` between :value:`0` and :value:`100`. Note that "
+"integer percentages `do not` end with a :value:`%` sign."
+msgstr ""
+
+#: ../glossary.rst:116
+msgid "rgb"
+msgstr ""
+
+#: ../glossary.rst:118
+msgid ""
+"Red, Green, and Blue is the most common way colors are represented. Each "
+":term:`byte` represents the amount of each color respectively, with "
+":value:`0` as the minimum and :value:`255` as the maximum."
+msgstr ""
+
+#: ../glossary.rst:121
+msgid "sound entrysoundmd entry"
+msgstr ""
+
+#: ../glossary.rst:124
+msgid "The name of a sound entry defined in :file:`soundmd.ini`."
+msgstr ""
+
+#: ../glossary.rst:125
+msgid "special"
+msgstr ""
+
+#: ../glossary.rst:127
+msgid ""
+"If given as a value type, this value doesn't conform to any typical "
+"format. Please check the context of the documentation to see how the "
+"value must be formatted."
+msgstr ""
+
+#: ../glossary.rst:130
+msgid "stringstrings"
+msgstr ""
+
+#: ../glossary.rst:133
+msgid "Normal text. Mind the length limits that apply."
+msgstr ""
+
+#: ../glossary.rst:134
+msgid "themetheme id"
+msgstr ""
+
+#: ../glossary.rst:137
+msgid "The name of a theme entry defined in :file:`thememd.ini`."
+msgstr ""
+

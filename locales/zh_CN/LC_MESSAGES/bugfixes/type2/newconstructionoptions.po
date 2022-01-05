@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../bugfixes/type2/newconstructionoptions.rst:9
+msgid "New Construction Options"
+msgstr ""
+
+#: ../bugfixes/type2/newconstructionoptions.rst:11
+msgid ""
+"One cause of the NCO bug (where the EVA will announce \"new construction "
+"options\" when, in fact, there aren't any) was the game's failure to "
+"check if the player had the appropriate factory type to build the unit "
+"concerned (e.g. a :type:`VehicleType` factory for :type:`VehicleTypes`). "
+"Such a check will now take place, thus removing this cause of the NCO "
+"bug."
+msgstr ""
+
+#: ../bugfixes/type2/newconstructionoptions.rst:19
+msgid ""
+"Another cause of the NCO bug is when a house is not listed as a buildable"
+" building's owner. Ares's prerequisite system does not check for that, "
+"thereby eliminating this type of bug."
+msgstr ""
+
+#: ../bugfixes/type2/newconstructionoptions.rst:23
+msgid "Owners still affect AI base planning."
+msgstr ""
+

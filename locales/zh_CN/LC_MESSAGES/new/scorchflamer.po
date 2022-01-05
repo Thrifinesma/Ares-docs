@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/scorchflamer.rst:6
+msgid ":captiontag:`Scorch` and :captiontag:`Flamer`"
+msgstr ""
+
+#: ../new/scorchflamer.rst:8
+msgid ""
+":game:`Tiberian Sun` had special support for napalm animations: two tags "
+"that spawned new fire animations defined by :tag:`SmallFire` and "
+":tag:`LargeFire`. This has been reimplemented as it worked previously."
+msgstr ""
+
+#: ../new/scorchflamer.rst:12
+msgid ""
+"There is one notable change in behavior compared to :game:`Tiberian Sun`:"
+" If :tag:`LargeFire` or :tag:`SmallFire` are not set correctly, the game "
+"will not crash when a new animation of these types is about to be "
+"created."
+msgstr ""
+
+#: ../new/scorchflamer.rst:26
+msgid ":tagdef:`[Animation]Scorch=boolean`"
+msgstr ""
+
+#: ../new/scorchflamer.rst:17
+msgid ""
+"Whether a new :tag:`[AudioVisual]SmallFire` animation should be attached "
+"to the same object this animation is attached to when expiring. Does not "
+"spawn on water, beach, ice, or rock terrain. For a complete description "
+"of behavior and requirements, refer to `Scorch on ModEnc "
+"<https://www.modenc.renegadeprojects.com/Scorch>`_ Defaults to "
+":value:`no`."
+msgstr ""
+
+#: ../new/scorchflamer.rst:23
+msgid ""
+"Do not set :tag:`Scorch=yes` on :tag:`[AudioVisual]SmallFire`, because "
+"this would create a loop: if the animation expires, a new animation of "
+"the same type is created and attached to the same object. It also causes "
+"trees on fire to never burn down."
+msgstr ""
+
+#: ../new/scorchflamer.rst:33
+msgid ":tagdef:`[Animation]Flamer=boolean`"
+msgstr ""
+
+#: ../new/scorchflamer.rst:29
+msgid ""
+"Whether new :tag:`[AudioVisual]SmallFire` and "
+":tag:`[AudioVisual]LargeFire` animations should be randomly created close"
+" to the location of this animation when expiring. For a complete "
+"description of behavior and requirements, refer to `Flamer on ModEnc "
+"<https://www.modenc.renegadeprojects.com/Flamer>`_. Defaults to "
+":value:`no`."
+msgstr ""
+

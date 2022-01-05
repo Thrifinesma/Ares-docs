@@ -1,1 +1,7 @@
 /_build/
+
+locales/.doctrees/
+*.pot
+*.mo
+
+.vscode/

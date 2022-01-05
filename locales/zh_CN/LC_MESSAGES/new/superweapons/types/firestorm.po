@@ -1,0 +1,64 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/superweapons/types/firestorm.rst:8
+msgid ":captiontag:`Type=Firestorm`"
+msgstr ""
+
+#: ../new/superweapons/types/firestorm.rst:10
+msgid ""
+"This super weapon is a recreation of the :game:`Tiberian Sun` Firestorm "
+"Defense System. For more details, see :doc:`Firestorm Wall "
+"</restored/firestormwall>`."
+msgstr ""
+
+#: ../new/superweapons/types/firestorm.rst:13
+msgid ""
+"This super weapon uses the Charge/Drain logic: once activated, the effect"
+" will persist for a duration determined by :tag:`SW.ChargeToDrainRatio`, "
+"after which it will automatically shut down and the superweapon will "
+"restart its charging process."
+msgstr ""
+
+#: ../new/superweapons/types/firestorm.rst:18
+msgid ""
+"Whilst the effect is active, players can click the super weapon button "
+"again to manually deactivate it, thus allowing the recharge process to "
+"begin earlier and finish faster. See :ref:`Charge/Drain <charge-drain-"
+"sw>`, or refer to `ModEnc "
+"<https://www.modenc.renegadeprojects.com/ChargeToDrainRatio>`_ for more "
+"information about Charge/Drain logic."
+msgstr ""
+
+#: ../new/superweapons/types/firestorm.rst:24
+msgid ""
+"In :game:`Tiberian Sun`, the Charge/Drain feature was disableable through"
+" an INI flag (:tag:`[SuperWeapon]UseChargeDrain=no`) however: "
+":game:`Ares` forces this logic to be used regardless of the value of that"
+" flag. :game:`Ares` also forces this super weapon to ignore its assigned "
+":tag:`Action`, if any, as this is required to make it activate from a "
+"single click of the sidebar icon."
+msgstr ""
+
+#: ../new/superweapons/types/firestorm.rst:30
+msgid ""
+"The AI will not use this super weapon. In missions, it is possible to "
+"control the Firestorm using the map actions 92 and 93."
+msgstr ""
+

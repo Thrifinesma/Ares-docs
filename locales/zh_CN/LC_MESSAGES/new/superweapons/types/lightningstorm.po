@@ -1,0 +1,302 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/superweapons/types/lightningstorm.rst:4
+msgid ":captiontag:`Type=LightningStorm`"
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:6
+msgid "Default values for general tags:"
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:10
+msgid ":tagdef:`[SuperWeapon]SW.Range=float,integer`"
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:9
+msgid ""
+"Area around the target location the Lightning Storm strikes. Note that a "
+"single value denotes the diameter of a circle -- this is not the radius. "
+"Defaults to :tag:`[General]LightningCellSpread`."
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:13
+msgid ":tagdef:`[SuperWeapon]SW.Damage=integer`"
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:13
+msgid ""
+"The damage each lightning bolt delivers. Defaults to "
+":tag:`[General]LightningDamage`."
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:16
+msgid ":tagdef:`[SuperWeapon]SW.Warhead=Warhead`"
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:16
+msgid ""
+"The warhead used to deal the damage of each lightning bolt. Defaults to "
+":tag:`[General]LightningWarhead`."
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:18
+msgid ":tagdef:`[SuperWeapon]SW.Deferment=integer frames`"
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:19
+msgid "Defaults to :tag:`[General]LightningDeferment`."
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:21
+msgid ":tagdef:`[SuperWeapon]SW.ActivationSound=Sound`"
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:21
+msgid ""
+"The sound played globally when the Lightning Storm starts. Defaults to "
+":tag:`[AudioVisual]StormSound`."
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:23
+msgid ":tagdef:`[SuperWeapon]SW.AITargeting=enumeration`"
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:24
+#: ../new/superweapons/types/lightningstorm.rst:28
+msgid "Defaults to :value:`LightningStorm`."
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:25
+msgid ":tagdef:`[SuperWeapon]Light.*=integer`"
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:26
+msgid "Default to the scenario's :tag:`[Lighting]Ion*`."
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:29
+msgid ":tagdef:`[SuperWeapon]Cursor=mouse cursor`"
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:31
+msgid "Lightning Storm specific tags:"
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:34
+msgid ":tagdef:`[SuperWeapon]Lightning.Duration=integer - frames`"
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:34
+msgid ""
+"The length the Lightning Storm endures. A value of :value:`-1` means "
+"indefinite duration. Defaults to :tag:`[General]LightningStormDuration`."
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:37
+msgid ":tagdef:`[SuperWeapon]Lightning.RadarOutage=integer - frames`"
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:37
+msgid ""
+"The number of frames radars are jammed for players defined by "
+":tag:`SW.AffectsHouse`. Defaults to "
+":tag:`[General]LightningStormDuration`."
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:39
+msgid ":tagdef:`[SuperWeapon]Lightning.RadarOutageAffects=enumeration`"
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:40
+msgid ""
+"Specifies the houses affected by radar outage. Defaults to "
+":value:`enemies`."
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:44
+msgid ":tagdef:`[SuperWeapon]Lightning.HitDelay=integer - frames`"
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:42
+msgid ""
+"The number of frames between two clouds being created over the target "
+"cell. Values of 0 or lower will disable direct hits. Clouds created by "
+"this mechanism are never subject to separation rules (see below). "
+"Defaults to :tag:`[General]LightningHitDelay`."
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:49
+msgid ":tagdef:`[SuperWeapon]Lightning.ScatterDelay=integer - frames`"
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:47
+msgid ""
+"The number of frames between clouds getting created over a random cell in"
+" the super weapon's range. Values of 0 or lower will disable random hits."
+" Only clouds created by this mechanism are subject to separation rules "
+"(see below). Defaults to :tag:`[General]LightningScatterDelay`."
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:52
+msgid ":tagdef:`[SuperWeapon]Lightning.ScatterCount=integer`"
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:52
+msgid ""
+"The number of new clouds created every :tag:`Lightning.ScatterDelay` "
+"frames. Values of 0 or lower will disable random hits. Defaults to "
+":value:`1`."
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:57
+msgid ":tagdef:`[SuperWeapon]Lightning.Separation=integer - distance`"
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:55
+msgid ""
+"The least number of cells between two random clouds to better distribute "
+"damage. This is not the direct distance, but rather the sum of the "
+"differences of the x and y components. Values of 0 or lower will disable "
+"separation rules. Defaults to :tag:`[General]LightningSeparation`."
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:60
+msgid ":tagdef:`[SuperWeapon]Lightning.PrintText=boolean`"
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:60
+msgid ""
+"Enables the warning text appearing shortly before the Lightning Storm "
+"strikes. Defaults to :tag:`[General]LightningPrintText`."
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:63
+msgid ":tagdef:`[SuperWeapon]Lightning.IgnoreLightningRod=boolean`"
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:63
+msgid ""
+"Disables the special handling for buildings with :tag:`LightningRod=yes` "
+"set. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:66
+msgid ":tagdef:`[SuperWeapon]Lightning.DebrisMin=integer`"
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:66
+msgid ""
+"The least number of debris created when lightning strikes empty cells or "
+"destroys a building or a unit. Defaults to :value:`2`."
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:69
+msgid ":tagdef:`[SuperWeapon]Lightning.DebrisMax=integer`"
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:69
+msgid ""
+"The largest number of debris created when lightning strikes empty cells "
+"or destroys a building or a unit. Defaults to :value:`4`."
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:73
+msgid ":tagdef:`[SuperWeapon]Lightning.CloudHeight=integer - leptons`"
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:72
+msgid ""
+"The height above the ground the clouds get created in. Values less than 0"
+" will center the cloud image on top of the first bolt anim from the list "
+"(for the original game this is about 1200). Defaults to :value:`-1`."
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:76
+msgid ":tagdef:`[SuperWeapon]Lightning.BoltExplosion=Animation`"
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:76
+msgid ""
+"Every lightning bolt will display this damage animation upon impact. "
+"Defaults to :tag:`[General]WeatherConBoltExplosion`."
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:79
+msgid ":tagdef:`[SuperWeapon]Lightning.Sounds=list of Sounds`"
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:79
+msgid ""
+"A comma separated list of sounds played when lightning strikes. Defaults "
+"to :tag:`[AudioVisual]LightningSounds`."
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:85
+msgid ":tagdef:`[SuperWeapon]Lightning.Clouds=list of Animation`"
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:82
+msgid ""
+"A comma separated list of cloud animations. Defaults to "
+":tag:`[General]WeatherConClouds`."
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:85
+msgid "If this list is empty, the Lightning Storm super weapon will not function."
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:93
+msgid ":tagdef:`[SuperWeapon]Lightning.Bolts=list of Animation`"
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:88
+msgid ""
+"A comma separated list of bolt animations. If this list is empty, the "
+"damage is caused even though no bolts are shown. Defaults to "
+":tag:`[General]WeatherConBolts`."
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:92
+msgid ""
+"Do not use :tag:`Bouncer=yes` animations with \\ :tag:`Lightning.Bolts`. "
+"This leads to crashes if a building is hit."
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:98
+msgid ":tagdef:`[SuperWeapon]Lightning.Debris=list of Animation`"
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:96
+msgid ""
+"A comma separated list of animations used as debris when lightning "
+"strikes. Defaults to :tag:`[General]MetallicDebris`."
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:100
+msgid "Other changes:"
+msgstr ""
+
+#: ../new/superweapons/types/lightningstorm.rst:102
+msgid ""
+"Lightning rods attract random lightning that is about to strike in close "
+"range. For more information see the :doc:`Lightning Rods "
+"</new/buildings/lightningrods>` section."
+msgstr ""
+

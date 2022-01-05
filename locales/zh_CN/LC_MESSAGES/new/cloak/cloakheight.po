@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/cloak/cloakheight.rst:6
+msgid "Cloaking and Units Above Ground"
+msgstr ""
+
+#: ../new/cloak/cloakheight.rst:8
+msgid ""
+"Units can now cloak and be cloaked by Cloak Generators regardless of "
+"their height above ground, where they were only cloaked in :game:`Yuri's "
+"Revenge` if they sat directly on the ground, which prevented hover "
+"vehicles from recloaking correctly. This is now supported."
+msgstr ""
+
+#: ../new/cloak/cloakheight.rst:13
+msgid ""
+"Units with :tag:`Cloakable=yes` or the :value:`CLOAK` ability can cloak "
+"regardless of height. Other units will be cloaked by Cloak Generators "
+"only if their height is below this value:"
+msgstr ""
+
+#: ../new/cloak/cloakheight.rst:22
+msgid ":tagdef:`[General]CloakHeight=integer`"
+msgstr ""
+
+#: ../new/cloak/cloakheight.rst:18
+msgid ""
+"The height below which units are cloaked by Cloak Generator buildings. "
+"Units above this height will not be affected (though they can still self-"
+"cloak). Defaults to :tag:`[General]HoverHeight`."
+msgstr ""
+
+#: ../new/cloak/cloakheight.rst:22
+msgid "\\ :game:`Yuri's Revenge` defaulted to :value:`0`."
+msgstr ""
+

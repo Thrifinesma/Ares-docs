@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/chronoshift.rst:8
+msgid "Chronoshift"
+msgstr ""
+
+#: ../new/chronoshift.rst:10
+msgid "These options specify what the Chronosphere should do with an object."
+msgstr ""
+
+#: ../new/chronoshift.rst:14
+msgid ":tagdef:`[TechnoType]Chronoshift.Allow=boolean`"
+msgstr ""
+
+#: ../new/chronoshift.rst:13
+msgid ""
+"Specifies whether this unit is allowed to be affected by the Chronosphere"
+" super weapon. Otherwise it will be ignored. Defaults to :value:`yes`."
+msgstr ""
+
+#: ../new/chronoshift.rst:21
+msgid ":tagdef:`[BuildingType]Chronoshift.IsVehicle=boolean`"
+msgstr ""
+
+#: ../new/chronoshift.rst:17
+msgid ""
+"Specifies whether this building is actually a deployed vehicle and should"
+" be chronoshifted by the Chronosphere super weapon if it affects units "
+"and :tag:`Chronosphere.ReconsiderBuildings=yes` is set. On the other hand"
+" this building will not be considered a building anymore and thus will be"
+" ignored by a Chronosphere that doesn't affect units. Defaults to "
+":value:`no`."
+msgstr ""
+
+#: ../new/chronoshift.rst:23
+msgid "Units can be made immune to chronoshift-crushing:"
+msgstr ""
+
+#: ../new/chronoshift.rst:28
+msgid ":tagdef:`[TechnoType]Chronoshift.Crushable=boolean`"
+msgstr ""
+
+#: ../new/chronoshift.rst:26
+msgid ""
+"If set to :value:`no`, this unit can no longer be crushed by "
+"chronoshifting units onto it. Instead, the chronoshifting unit will be "
+"destroyed. Does not apply to :type:`BuildingType`\\ s. Defaults to "
+":value:`yes`."
+msgstr ""
+
+#: ../new/chronoshift.rst:30
+msgid "Globally disallow chronoshifting infantry to crush non-infantry:"
+msgstr ""
+
+#: ../new/chronoshift.rst:34
+msgid ":tagdef:`[General]ChronoInfantryCrush=boolean`"
+msgstr ""
+
+#: ../new/chronoshift.rst:33
+msgid ""
+"If set to :value:`no`, infantry will die when being chronoshifted onto "
+"tanks instead of destroying the tanks. Defaults to :value:`yes`."
+msgstr ""
+

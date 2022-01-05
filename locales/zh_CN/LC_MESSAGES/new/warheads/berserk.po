@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/warheads/berserk.rst:4
+msgid "Berserk"
+msgstr ""
+
+#: ../new/warheads/berserk.rst:11
+msgid "Reloading Time Modifier"
+msgstr ""
+
+#: ../new/warheads/berserk.rst:13
+msgid ""
+"Units under the effect of Chaos Gas or other :tag:`Psychedelic=yes` "
+"warheads go berserk, which reduces their willingness to obey orders as "
+"well as their reloading time. This reloading time factor can be "
+"customized globally and for each :type:`TechnoType`."
+msgstr ""
+
+#: ../new/warheads/berserk.rst:20
+msgid ":tagdef:`[CombatDamage]BerserkROFMultiplier=float - multiplier`"
+msgstr ""
+
+#: ../new/warheads/berserk.rst:19
+msgid ""
+"The multiplier applied to the reloading time when a unit is berserking. "
+"Smaller means shorter reloading and faster firing. Defaults to "
+":value:`0.5`."
+msgstr ""
+
+#: ../new/warheads/berserk.rst:24
+msgid ":tagdef:`[TechnoType]Berserk.ROFMultiplier=float - multiplier`"
+msgstr ""
+
+#: ../new/warheads/berserk.rst:23
+msgid ""
+"The multiplier applied when this unit is berserking. Smaller means faster"
+" firing. Defaults to :tag:`[CombatDamage]BerserkROFMultiplier`."
+msgstr ""
+
+#: ../new/warheads/berserk.rst:34
+msgid "Immunity to Berserk"
+msgstr ""
+
+#: ../new/warheads/berserk.rst:36
+msgid ""
+"The tag :tag:`ImmuneToPsionics` is determines whether a unit or structure"
+" is susceptible to mind control and :tag:`Psychedelic=yes` weapons. If "
+"the object is immune to one, it is immune to the other. :game:`Ares` "
+"allows to differentiate."
+msgstr ""
+
+#: ../new/warheads/berserk.rst:52
+msgid ":tagdef:`[TechnoType]ImmuneToBerserk=boolean`"
+msgstr ""
+
+#: ../new/warheads/berserk.rst:41
+msgid ""
+"Whether this object is immune to berserking, the Chaos Gas effect. Can be"
+" used to override :tag:`ImmuneToPsionics` and the PSIONICSIMMUNE ability."
+" If set to :value:`yes`, the object is not affected by Chaos Gas even if "
+"not :tag:`ImmuneToPsionics=yes`; if set to :value:`no`, the object can be"
+" affected by Chaos Gas despite maybe being immune to psionics."
+msgstr ""
+
+#: ../new/warheads/berserk.rst:47
+msgid ""
+"If not set, acts as if set to :value:`yes` if :tag:`ImmuneToPsionics=yes`"
+" or the object gained the :value:`PSIONICSIMMUNE` ability through "
+"veterancy, otherwise as if set to :value:`no`."
+msgstr ""
+
+#: ../new/warheads/berserk.rst:51
+msgid ""
+"Currently, the default of not being set cannot be restored once this tag "
+"has been set."
+msgstr ""
+

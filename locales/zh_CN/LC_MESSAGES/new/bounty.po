@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/bounty.rst:8
+msgid "Bounty"
+msgstr ""
+
+#: ../new/bounty.rst:10
+msgid ""
+"Units and structures can be awarded bounty for killing enemies, either by"
+" firing at them or crushing them. This bounty is a defined amount of "
+"credits that can be customized for each :type:`TechnoType`."
+msgstr ""
+
+#: ../new/bounty.rst:14
+msgid ""
+"The following tags are global settings to enable bounty only if players "
+"own certain buildings and to define the default to display the bounty "
+"amount."
+msgstr ""
+
+#: ../new/bounty.rst:20
+msgid ":tagdef:`[General]BountyEnablers=list of BuildingTypes`"
+msgstr ""
+
+#: ../new/bounty.rst:18
+msgid ""
+"Bounty will be enabled only after a building of a type in this list is "
+"owned by the player. If the list is empty, bounty will always be "
+"enabled.. Defaults to :value:`none`."
+msgstr ""
+
+#: ../new/bounty.rst:25
+msgid ":tagdef:`[AudioVisual]BountyDisplay=boolean`"
+msgstr ""
+
+#: ../new/bounty.rst:23
+msgid ""
+"Whether enemy units and structures will display the amount of bounty "
+"awarded when destroyed by an object of this type. Defaults to "
+":value:`no`."
+msgstr ""
+
+#: ../new/bounty.rst:27
+msgid "The following tags are for units or structures bounty is awarded to."
+msgstr ""
+
+#: ../new/bounty.rst:32
+msgid ":tagdef:`[TechnoType]Bounty=boolean`"
+msgstr ""
+
+#: ../new/bounty.rst:30
+msgid ""
+"Whether this object will be awarded bounty when destroying enemy units or"
+" structures either by firing at them or by crushing them. Defaults to "
+":value:`no`."
+msgstr ""
+
+#: ../new/bounty.rst:38
+msgid ":tagdef:`[TechnoType]Bounty.Display=boolean`"
+msgstr ""
+
+#: ../new/bounty.rst:35
+msgid ""
+"Whether enemy units and structures will display the amount of bounty "
+"awarded when destroyed by an object of this type. Defaults to "
+":tag:`[AudioVisual]BountyDisplay`."
+msgstr ""
+
+#: ../new/bounty.rst:40
+msgid ""
+"The following tags define properties on victims, the units and structures"
+" destroyed by bounty hunters."
+msgstr ""
+
+#: ../new/bounty.rst:46
+msgid ":tagdef:`[TechnoType]Bounty.Value=integer - credits`"
+msgstr ""
+
+#: ../new/bounty.rst:44
+msgid ""
+"The amount rewarded as bounty if this becomes the victim of a bounty "
+"hunter. Can be negative to penalize the player. If set, resets the "
+"veterancy level specific values. Defaults to :value:`0`."
+msgstr ""
+
+#: ../new/bounty.rst:48
+msgid ":tagdef:`[TechnoType]Bounty.RookieValue=integer - credits`"
+msgstr ""
+
+#: ../new/bounty.rst:50
+msgid ":tagdef:`[TechnoType]Bounty.VeteranValue=integer - credits`"
+msgstr ""
+
+#: ../new/bounty.rst:54
+msgid ":tagdef:`[TechnoType]Bounty.EliteValue=integer - credits`"
+msgstr ""
+
+#: ../new/bounty.rst:53
+msgid ""
+"The amount rewarded as bounty if an object with this veterancy is "
+"destroyed. Can be negative to penalize the player. Defaults to "
+":tag:`Bounty.Value`."
+msgstr ""
+
+#: ../new/bounty.rst:56
+msgid ""
+"The following tag can be used to disable bounty for killing objects owned"
+" by a house."
+msgstr ""
+
+#: ../new/bounty.rst:62
+msgid ":tagdef:`[Country]GivesBounty=boolean`"
+msgstr ""
+
+#: ../new/bounty.rst:60
+msgid ""
+"Whether this country is eligible for giving bounty. If :value:`no`, "
+"killing units and structures of this country will not give any bounty. "
+"Defaults to :value:`yes`."
+msgstr ""
+

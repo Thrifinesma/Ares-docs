@@ -1,0 +1,34 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../restored/actionsellunit.rst:7
+msgid ":captiontag:`Action=SellUnit`"
+msgstr ""
+
+#: ../restored/actionsellunit.rst:9
+msgid ""
+"In :game:`Tiberian Sun` you could sell units that were docked with a "
+"structure by using the normal Sell button on the sidebar. In "
+":game:`Yuri's Revenge`, a super weapon with :tag:`Action=SellUnit` "
+"achieves the same function. However, if such a super weapon were fired on"
+" a unit inside a Tank Bunker then an Internal Error would occur "
+"(sometimes this would be delayed until the destruction of the Tank "
+"Bunker). :game:`Ares` prevents the error occurring."
+msgstr ""
+

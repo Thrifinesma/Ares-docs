@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/reload.rst:8
+msgid ":captiontag:`ReloadAmount` and :captiontag:`EmptyReloadAmount`"
+msgstr ""
+
+#: ../new/reload.rst:10
+msgid ""
+"The game has options for :tag:`Reload` and :tag:`EmptyReload` to define "
+"how long it takes to reload one round of ammunition, depending on whether"
+" the unit still has ammo left. :game:`Ares` adds two new tags to define "
+"how many rounds of ammunition are restored."
+msgstr ""
+
+#: ../new/reload.rst:15
+msgid "This logic is not supported on :type:`AircraftTypes`."
+msgstr ""
+
+#: ../new/reload.rst:19
+msgid ":tagdef:`[TechnoType]ReloadAmount=integer`"
+msgstr ""
+
+#: ../new/reload.rst:18
+msgid ""
+"The number of rounds restored after each reload interval. Negative values"
+" are supported. Defaults to :value:`1`."
+msgstr ""
+
+#: ../new/reload.rst:24
+msgid ":tagdef:`[TechnoType]EmptyReloadAmount=integer`"
+msgstr ""
+
+#: ../new/reload.rst:22
+msgid ""
+"The number of rounds restored after reload interval when there is no ammo"
+" left. If :value:`0` or negative, the unit will not reload. This does not"
+" require :tag:`EmptyReload` to be set. Defaults to :tag:`ReloadAmount`."
+msgstr ""
+

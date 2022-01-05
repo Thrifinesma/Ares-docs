@@ -1,0 +1,151 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/buildings/togglepower.rst:4
+msgid "Toggle Power"
+msgstr ""
+
+#: ../new/buildings/togglepower.rst:6
+msgid ""
+"The power toggling feature has been removed from :game:`Red Alert 2`, and"
+" thus neither the sidebar button nor the power off building overlay were "
+"available. A workaround using a fake super weapon was possible, but it "
+"did not work well. :game:`Ares` adds this feature back (though not the "
+"sidebar button)."
+msgstr ""
+
+#: ../new/buildings/togglepower.rst:17
+msgid "Keyboard Command"
+msgstr ""
+
+#: ../new/buildings/togglepower.rst:19
+msgid ""
+"Toggle Power is now available as a proper keyboard command, which "
+"functions like clicking the corresponding button in the :game:`Tiberian "
+"Sun` sidebar. You can find it in the category :value:`Interface`."
+msgstr ""
+
+#: ../new/buildings/togglepower.rst:23
+msgid ""
+"By default, this keyboard command is disabled: Even though it is shown "
+"and can be configured, it will not do anything. This is to maintain "
+"compatibility with the original :game:`Yuri's Revenge`, which didn't have"
+" this command available."
+msgstr ""
+
+#: ../new/buildings/togglepower.rst:29
+msgid ":tagdef:`[General]TogglePowerAllowed=boolean`"
+msgstr ""
+
+#: ../new/buildings/togglepower.rst:28
+msgid "Whether Toggle Power can be used. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/buildings/togglepower.rst:36
+msgid "Cursors"
+msgstr ""
+
+#: ../new/buildings/togglepower.rst:38
+msgid ""
+"The two mouse cursors this feature uses can be customized with the "
+"following :doc:`Mouse Cursor </new/mousecursors>` definitions:"
+msgstr ""
+
+#: ../new/buildings/togglepower.rst:41
+msgid ""
+":value:`TogglePower`: Shown if the building's power status can be "
+"toggled. Only buildings owned by the player can toggle the power, if "
+":tag:`TogglePower=yes` and either :tag:`Power` is less than :value:`0` or"
+" :tag:`Powered=yes`."
+msgstr ""
+
+#: ../new/buildings/togglepower.rst:45
+msgid ":value:`NoTogglePower`: Shown if the building's power cannot be toggled."
+msgstr ""
+
+#: ../new/buildings/togglepower.rst:53
+msgid "Power Off Overlay Animation"
+msgstr ""
+
+#: ../new/buildings/togglepower.rst:55
+msgid ""
+"If a building is powered down, :file:`poweroff.shp` is shown as overlay "
+"like the repair wrench. Only the player owning this building as well as "
+"observers can see this overlay, and other players will just see a "
+"building without power."
+msgstr ""
+
+#: ../new/buildings/togglepower.rst:59
+msgid ""
+"If a powered down building is repaired at the same time, both overlay "
+"animations are moved to be shown simultaneously."
+msgstr ""
+
+#: ../new/buildings/togglepower.rst:62
+msgid ":file:`poweroff.shp` is drawn using the :file:`mousepal.pal` palette."
+msgstr ""
+
+#: ../new/buildings/togglepower.rst:70
+msgid "AI Support"
+msgstr ""
+
+#: ../new/buildings/togglepower.rst:72
+msgid ""
+"If Toggle Power is enabled, the AI can also make use of it. The AI will "
+"try to cope with power outages because of insufficient power output. AI "
+"players being drained or suffering from a power blackout triggered by a "
+"spy or Force Shield are exempt and will not try to turn off the base."
+msgstr ""
+
+#: ../new/buildings/togglepower.rst:77
+msgid ""
+"Base defenses are tried to be held online if possible. Super weapons are "
+"turned off earlier than power consuming buildings that are not base "
+"defenses."
+msgstr ""
+
+#: ../new/buildings/togglepower.rst:80
+msgid ""
+"Assume the order is unpredictable. Do not rely on the order in which the "
+"AI turns buildings off or back on. The implementation can change any "
+"time."
+msgstr ""
+
+#: ../new/buildings/togglepower.rst:86
+msgid ":tagdef:`[IQ]TogglePower=integer`"
+msgstr ""
+
+#: ../new/buildings/togglepower.rst:84
+msgid ""
+"Defines the IQ rating with which an AI player will toggle power of "
+"buildings in low power situations. Values less than :value:`0` deactivate"
+" this logic. Defaults to :value:`-1`."
+msgstr ""
+
+#: ../new/buildings/togglepower.rst:90
+msgid ":tagdef:`[General]TogglePowerDelay=integer - frames`"
+msgstr ""
+
+#: ../new/buildings/togglepower.rst:89
+msgid ""
+"Defines the delay between power checks. This makes AI players not respond"
+" immediately to power level changes. Values less than :value:`0` "
+"deactivate this logic. Defaults to :value:`45`."
+msgstr ""
+

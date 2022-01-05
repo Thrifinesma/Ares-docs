@@ -1,0 +1,38 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../bugfixes/type1/multiplaypassiveanger.rst:7
+msgid ":captiontag:`MultiplayPassive=yes` Houses Anger Players"
+msgstr ""
+
+#: ../bugfixes/type1/multiplaypassiveanger.rst:9
+msgid ""
+"AI players pick their favorite enemy by detecting which enemy player "
+"caused the most damage and destruction. If the neutral houses caused some"
+" damage near the start of the match (which could also happen if Oil "
+"Derricks blew up), AI players might pick a neutral house as their enemy "
+"to go after and thus start a war against civilians."
+msgstr ""
+
+#: ../bugfixes/type1/multiplaypassiveanger.rst:15
+msgid ""
+"With :game:`Ares`, :tag:`MultiplayPassive=yes` countries are no longer "
+"eligible to be picked as favorite enemy."
+msgstr ""
+

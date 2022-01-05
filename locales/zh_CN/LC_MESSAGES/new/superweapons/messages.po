@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/superweapons/messages.rst:6
+msgid "Messages"
+msgstr ""
+
+#: ../new/superweapons/messages.rst:9
+msgid ":tagdef:`[SuperWeapon]Message.Detected=CSF label`"
+msgstr ""
+
+#: ../new/superweapons/messages.rst:9
+msgid ""
+"Message displayed to every player the moment the super weapon building is"
+" detected."
+msgstr ""
+
+#: ../new/superweapons/messages.rst:12
+msgid ":tagdef:`[SuperWeapon]Message.Ready=CSF label`"
+msgstr ""
+
+#: ../new/superweapons/messages.rst:12
+msgid ""
+"Message displayed to the firing player when the super weapon becomes "
+"ready to launch."
+msgstr ""
+
+#: ../new/superweapons/messages.rst:14
+msgid ":tagdef:`[SuperWeapon]Message.Launch=CSF label`"
+msgstr ""
+
+#: ../new/superweapons/messages.rst:15
+msgid "Message displayed to every player the moment the super weapon is launched."
+msgstr ""
+
+#: ../new/superweapons/messages.rst:17
+msgid ":tagdef:`[SuperWeapon]Message.Activate=CSF label`"
+msgstr ""
+
+#: ../new/superweapons/messages.rst:17
+msgid ""
+"Message displayed to every player the moment a deferrable super weapon is"
+" activated."
+msgstr ""
+
+#: ../new/superweapons/messages.rst:20
+msgid ":tagdef:`[SuperWeapon]Message.Abort=CSF label`"
+msgstr ""
+
+#: ../new/superweapons/messages.rst:20
+msgid ""
+"Message displayed to the firing player if the super weapon cannot be "
+"fired right now because another super weapon is active."
+msgstr ""
+
+#: ../new/superweapons/messages.rst:23
+msgid ":tagdef:`[SuperWeapon]Message.InsufficientFunds=CSF label`"
+msgstr ""
+
+#: ../new/superweapons/messages.rst:23
+msgid ""
+"Message displayed if the firing player doesn't have enough money to "
+"launch this super weapon."
+msgstr ""
+
+#: ../new/superweapons/messages.rst:26
+msgid ":tagdef:`[SuperWeapon]Message.CannotFire=CSF label`"
+msgstr ""
+
+#: ../new/superweapons/messages.rst:26
+msgid ""
+"Message displayed to the owning player if firing a super weapon using "
+"AITargeting fails. Defaults to :value:`MSG:CannotFire`."
+msgstr ""
+
+#: ../new/superweapons/messages.rst:29
+msgid ":tagdef:`[SuperWeapon]Message.FirerColor=boolean`"
+msgstr ""
+
+#: ../new/superweapons/messages.rst:29
+msgid ""
+"Messages are displayed in the firing house's color scheme. Defaults to "
+":value:`no`."
+msgstr ""
+
+#: ../new/superweapons/messages.rst:34
+msgid ":tagdef:`[SuperWeapon]Message.Color=Color scheme`"
+msgstr ""
+
+#: ../new/superweapons/messages.rst:32
+msgid ""
+"If set, messages are always displayed in this color scheme instead of the"
+" player's color scheme. This is not respected if "
+":value:`Message.FirerColor=yes` is set."
+msgstr ""
+

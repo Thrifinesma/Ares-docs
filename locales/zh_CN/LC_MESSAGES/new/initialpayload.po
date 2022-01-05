@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/initialpayload.rst:10
+msgid "Initial Payload (Troop Crawlers)"
+msgstr ""
+
+#: ../new/initialpayload.rst:12
+msgid ""
+"In :game:`Generals` the Chinese have the Troop Crawler, a vehicle that "
+"comes pre-filled with Red Guard infantry right from the factory. "
+":game:`Ares` adds this feature to :game:`Yuri's Revenge`."
+msgstr ""
+
+#: ../new/initialpayload.rst:16
+msgid ""
+"Buildings must either have :tag:`CanBeOccupied=yes` or "
+":tag:`InfantryAbsorb=yes` set. Other buildings are not supported to have "
+"initial payload. Buildings are only allowed to have :type:`InfantryType` "
+"payload."
+msgstr ""
+
+#: ../new/initialpayload.rst:20
+msgid ""
+"Occupiable buildings will be filled with up to :tag:`MaxNumberOccupants` "
+"infantry, other buildings and units will be filled with up to "
+":tag:`Passengers` units. It's the responsibility of the modder to check "
+":tag:`Size` and :tag:`SizeLimit`."
+msgstr ""
+
+#: ../new/initialpayload.rst:25
+msgid ":type:`InfantryType`\\ s cannot have initial payload."
+msgstr ""
+
+#: ../new/initialpayload.rst:34
+msgid ":tagdef:`[TechnoType]InitialPayload.Types=list of TechnoTypes`"
+msgstr ""
+
+#: ../new/initialpayload.rst:28
+msgid ""
+"The types of the initial payload this object is created with. Types can "
+"be mentioned more than once, or the corresponding "
+":tag:`InitialPayload.Nums` can be used to repeat a type."
+msgstr ""
+
+#: ../new/initialpayload.rst:32
+msgid ""
+":type:`BuildingType`\\ s and :type:`AircraftType`\\ s are not valid. "
+"Buildings are only allowed to have :type:`InfantryType` payload. Types "
+"themselves having initial payload are not supported, because this could "
+"create infinite loops."
+msgstr ""
+
+#: ../new/initialpayload.rst:42
+msgid ":tagdef:`[TechnoType]InitialPayload.Nums=list of integers`"
+msgstr ""
+
+#: ../new/initialpayload.rst:37
+msgid ""
+"The optional numbers of times each type from :tag:`InitialPayload.Types` "
+"will be added."
+msgstr ""
+
+#: ../new/initialpayload.rst:40
+msgid ""
+"If this list contains fewer items than the :tag:`InitialPayload.Types` "
+"list, the last number is used as count for all following types. If this "
+"tag is not set, all counts are assumed to be :value:`1`."
+msgstr ""
+

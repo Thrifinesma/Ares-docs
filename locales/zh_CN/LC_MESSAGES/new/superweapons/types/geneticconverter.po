@@ -1,0 +1,169 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/superweapons/types/geneticconverter.rst:4
+msgid ":captiontag:`Type=GeneticConverter`"
+msgstr ""
+
+#: ../new/superweapons/types/geneticconverter.rst:6
+msgid "Default values for general tags:"
+msgstr ""
+
+#: ../new/superweapons/types/geneticconverter.rst:9
+msgid ":tagdef:`[SuperWeapon]SW.Range=float,integer`"
+msgstr ""
+
+#: ../new/superweapons/types/geneticconverter.rst:9
+msgid ""
+"The area the Genetic Mutator affects. Ignored if "
+":tag:`Mutate.Explosion=yes`. Defaults to :value:`3,3`."
+msgstr ""
+
+#: ../new/superweapons/types/geneticconverter.rst:12
+msgid ":tagdef:`[SuperWeapon]SW.Damage=integer`"
+msgstr ""
+
+#: ../new/superweapons/types/geneticconverter.rst:12
+msgid ""
+"The damage the Genetic Mutator delivers if :tag:`Mutate.Explosion=yes`. "
+"Defaults to :value:`10000`."
+msgstr ""
+
+#: ../new/superweapons/types/geneticconverter.rst:16
+msgid ":tagdef:`[SuperWeapon]SW.Warhead=Warhead`"
+msgstr ""
+
+#: ../new/superweapons/types/geneticconverter.rst:15
+msgid ""
+"The warhead used to deal the damage. Defaults to "
+":tag:`[SpecialWeapons]MutateExplosionWarhead` if "
+":tag:`Mutate.Explosion=yes`, to :tag:`[SpecialWeapons]MutateWarhead` "
+"otherwise."
+msgstr ""
+
+#: ../new/superweapons/types/geneticconverter.rst:18
+msgid ":tagdef:`[SuperWeapon]SW.Animation=Animation`"
+msgstr ""
+
+#: ../new/superweapons/types/geneticconverter.rst:19
+msgid "Defaults to :tag:`[General]IonBlast`."
+msgstr ""
+
+#: ../new/superweapons/types/geneticconverter.rst:20
+msgid ":tagdef:`[SuperWeapon]SW.AnimationHeight=integer`"
+msgstr ""
+
+#: ../new/superweapons/types/geneticconverter.rst:21
+msgid "Defaults to :value:`5`."
+msgstr ""
+
+#: ../new/superweapons/types/geneticconverter.rst:22
+msgid ":tagdef:`[SuperWeapon]SW.Sound=Sound`"
+msgstr ""
+
+#: ../new/superweapons/types/geneticconverter.rst:23
+msgid "Defaults to :tag:`[AudioVisual]GeneticMutatorActivateSound`."
+msgstr ""
+
+#: ../new/superweapons/types/geneticconverter.rst:24
+msgid ":tagdef:`[SuperWeapon]SW.AITargeting=enumeration`"
+msgstr ""
+
+#: ../new/superweapons/types/geneticconverter.rst:25
+#: ../new/superweapons/types/geneticconverter.rst:34
+msgid "Defaults to :value:`GeneticMutator`."
+msgstr ""
+
+#: ../new/superweapons/types/geneticconverter.rst:27
+msgid ":tagdef:`[SuperWeapon]SW.AffectsHouse=enumeration`"
+msgstr ""
+
+#: ../new/superweapons/types/geneticconverter.rst:27
+msgid ""
+"Specifies the houses affected by the mutation, if "
+":tag:`Mutate.Explosion=no`. Defaults to :value:`all`."
+msgstr ""
+
+#: ../new/superweapons/types/geneticconverter.rst:31
+msgid ":tagdef:`[SuperWeapon]SW.AffectsTarget=enumeration`"
+msgstr ""
+
+#: ../new/superweapons/types/geneticconverter.rst:30
+msgid ""
+"Specifies whether the mutation effect should be limited to :value:`land` "
+"or :value:`water` targets. You cannot define any unit type here and they "
+"will be ignored. Ignored if :tag:`Mutate.Explosion=yes`. Defaults to "
+":value:`all`."
+msgstr ""
+
+#: ../new/superweapons/types/geneticconverter.rst:35
+msgid ":tagdef:`[SuperWeapon]Cursor=mouse cursor`"
+msgstr ""
+
+#: ../new/superweapons/types/geneticconverter.rst:37
+msgid "Genetic Mutator specific tags:"
+msgstr ""
+
+#: ../new/superweapons/types/geneticconverter.rst:43
+msgid ":tagdef:`[SuperWeapon]Mutate.Explosion=boolean`"
+msgstr ""
+
+#: ../new/superweapons/types/geneticconverter.rst:40
+msgid ""
+"Switches between two modes. If :value:`yes`, the Genetic Mutator will "
+"cause an explosion using :tag:`SW.Warhad` and :tag:`SW.Damage` without "
+"respecting any other Genetic Mutator specific tags. Otherwise all "
+"infantry units in range are damaged using :tag:`SW.Warhead` and "
+":tag:`SW.Damage`, verses and immunities are respected. Defaults to "
+":tag:`[General]MutateExplosion`."
+msgstr ""
+
+#: ../new/superweapons/types/geneticconverter.rst:46
+msgid ":tagdef:`[SuperWeapon]Mutate.IgnoreCyborg=boolean`"
+msgstr ""
+
+#: ../new/superweapons/types/geneticconverter.rst:46
+msgid ""
+"Whether the Genetic Mutator will not affect infantry with "
+":tag:`Cyborg=yes` set. Ignored if :tag:`Mutate.Explosion=yes`. Defaults "
+"to :value:`no`."
+msgstr ""
+
+#: ../new/superweapons/types/geneticconverter.rst:49
+msgid ":tagdef:`[SuperWeapon]Mutate.IgnoreNotHuman=boolean`"
+msgstr ""
+
+#: ../new/superweapons/types/geneticconverter.rst:49
+msgid ""
+"Whether the Genetic Mutator will not affect infantry with "
+":tag:`NotHuman=yes` set. Ignored if :tag:`Mutate.Explosion=yes`. Defaults"
+" to :value:`no`."
+msgstr ""
+
+#: ../new/superweapons/types/geneticconverter.rst:55
+msgid ":tagdef:`[SuperWeapon]Mutate.KillNatural=boolean`"
+msgstr ""
+
+#: ../new/superweapons/types/geneticconverter.rst:52
+msgid ""
+"Whether the Genetic Mutator will just kill infantry with "
+":tag:`Natural=yes` set opposed to affecting it using :tag:`SW.Warhead`. "
+"Ignored if :tag:`Mutate.Explosion=yes`. Defaults to :value:`yes`."
+msgstr ""
+

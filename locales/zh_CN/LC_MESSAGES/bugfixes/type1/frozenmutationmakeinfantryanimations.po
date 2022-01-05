@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../bugfixes/type1/frozenmutationmakeinfantryanimations.rst:9
+msgid "Frozen Mutation (:captiontag:`MakeInfantry`) Animations"
+msgstr ""
+
+#: ../bugfixes/type1/frozenmutationmakeinfantryanimations.rst:10
+msgid ""
+"Infantry killed by a mutation warhead appear to transform into another "
+":type:`InfantryType`. Internally this is achieved by playing an "
+"animation, upon completion of which a new infantry unit is spawned. If "
+"the cell where the new infantry is to be spawned is already occupied then"
+" the animation will pause on the final frame until the obstacle is "
+"cleared."
+msgstr ""
+
+#: ../bugfixes/type1/frozenmutationmakeinfantryanimations.rst:16
+msgid ""
+"The original game would allocate memory for the new infantry on every "
+"frame but would fail to de-allocate that memory when the infantry could "
+"not be placed. The more time that passes with the animation in this "
+"state, the worse the memory leak gets -- resulting in the game eventually"
+" grinding to a halt. :game:`Ares` fixes this by simply deleting the "
+"animation if the new infantry unit cannot be spawned."
+msgstr ""
+

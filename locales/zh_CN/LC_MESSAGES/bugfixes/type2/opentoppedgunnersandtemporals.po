@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../bugfixes/type2/opentoppedgunnersandtemporals.rst:11
+msgid ""
+":captiontag:`OpenTopped` :captiontag:`Gunner`\\ s and "
+":captiontag:`Temporal` weapons"
+msgstr ""
+
+#: ../bugfixes/type2/opentoppedgunnersandtemporals.rst:13
+msgid ""
+":tag:`Gunner=yes` vehicles use the passenger's temporal device to fire if"
+" it is equipped with a :tag:`Temporal=yes` weapon. This can be done "
+"safely, and the device is replaced once the infantry exits the vehicle. "
+"If the :tag:`Gunner=yes` vehicle is also :tag:`OpenTopped=yes`, the "
+"infantry with the :tag:`Temporal=yes` weapon inside is still supposed to "
+"fire on its own, but because it doesn't have the temporal device any "
+"more, the game crashes."
+msgstr ""
+
+#: ../bugfixes/type2/opentoppedgunnersandtemporals.rst:20
+msgid ""
+":game:`Ares` prevents infantry that has its temporal device taken away by"
+" the :tag:`Gunner` logic from firing out of an :tag:`OpenTopped` vehicle."
+msgstr ""
+

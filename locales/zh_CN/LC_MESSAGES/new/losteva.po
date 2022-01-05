@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/losteva.rst:11
+msgid "Unit or Structure Lost EVA Report"
+msgstr ""
+
+#: ../new/losteva.rst:13
+msgid ""
+"If a unit or a structure is destroyed, EVA announces to the owning player"
+" that they have lost it. This EVA report can now be customized or turned "
+"off."
+msgstr ""
+
+#: ../new/losteva.rst:16
+msgid ""
+"The EVA message is not played for units or structures if \\ "
+":tag:`DontScore=yes`, :tag:`Insignificant=yes` or :tag:`Spawned=yes`."
+msgstr ""
+
+#: ../new/losteva.rst:22
+msgid ":tagdef:`[TechnoType]EVA.Lost=evamd entry`"
+msgstr ""
+
+#: ../new/losteva.rst:20
+msgid ""
+"The message played when a unit or strucure of this type is destroyed. Use"
+" :value:`none` to disable the report. Defaults to :value:`none` for "
+"structures, to :value:`EVA_UnitLost` otherwise."
+msgstr ""
+

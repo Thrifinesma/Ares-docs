@@ -1,0 +1,37 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../bugfixes/type1/temporalwarheadsgaindoubleexperience.rst:9
+msgid ":captiontag:`Temporal` Warheads Gain Double Experience"
+msgstr ""
+
+#: ../bugfixes/type1/temporalwarheadsgaindoubleexperience.rst:11
+msgid ""
+"Killing a unit using a weapon with a :tag:`Temporal=yes` warhead gained "
+"the attacker twice the experience it deserved. This was because the "
+"temporal weapon updated the killer's experience and then went on calling "
+"a game function that did the same."
+msgstr ""
+
+#: ../bugfixes/type1/temporalwarheadsgaindoubleexperience.rst:16
+msgid ""
+":game:`Ares` removes the temporal weapon's veterancy update, so this no "
+"longer happens."
+msgstr ""
+

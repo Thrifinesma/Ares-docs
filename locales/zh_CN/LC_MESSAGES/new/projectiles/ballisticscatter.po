@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/projectiles/ballisticscatter.rst:6
+msgid ":captiontag:`BallisticScatter`"
+msgstr ""
+
+#: ../new/projectiles/ballisticscatter.rst:8
+msgid ""
+"The global :tag:`[CombatDamage]BallisticScatter` is used for defining a "
+"range depending on the projectile's properties, and then randomly picking"
+" a value from this range as the final scatter distance for each "
+"projectile fired. :game:`Ares` makes this global customizable as two "
+"separate tags that can be used to specify the minimum and maximum "
+"distances for each :type:`Projectile` directly."
+msgstr ""
+
+#: ../new/projectiles/ballisticscatter.rst:14
+msgid "Both tags require :tag:`Inaccurate=yes` and :tag:`Arcing=yes`."
+msgstr ""
+
+#: ../new/projectiles/ballisticscatter.rst:19
+msgid ":tagdef:`[Projectile]BallisticScatter.Min=float - cell range`"
+msgstr ""
+
+#: ../new/projectiles/ballisticscatter.rst:17
+msgid ""
+"The minimum range in cells a projectile can scatter. Defaults to "
+":tag:`[CombatDamage]BallisticScatter` :value:`/ 2` if "
+":tag:`FlakScatter=no` or :tag:`Inviso=yes`, to :value:`0` otherwise."
+msgstr ""
+
+#: ../new/projectiles/ballisticscatter.rst:23
+msgid ":tagdef:`[Projectile]BallisticScatter.Max=float - cell range`"
+msgstr ""
+
+#: ../new/projectiles/ballisticscatter.rst:22
+msgid ""
+"The maximum range in cells a projectile can scatter. Defaults to "
+":tag:`[CombatDamage]BallisticScatter`."
+msgstr ""
+
+#: ../new/projectiles/ballisticscatter.rst:25
+msgid ""
+"\\ :tag:`Inaccurate=yes` prevents projectiles to \"snap\" to their target"
+" on impact, and thus they will not deal damage to them because this does "
+"not count as a direct hit even if ballistic scatter is set to a low "
+"value. Using \\ :tag:`CellSpread` fixes this."
+msgstr ""
+
+#: ../new/projectiles/ballisticscatter.rst:30
+msgid ""
+"There is one more place :tag:`[CombatDamage]BallisticScatter` is used and"
+" that is not customizable yet. It scatters an extra amount from "
+":value:`0` to :value:`2 *` :tag:`[CombatDamage]BallisticScatter` for "
+"projectiles with both :tag:`FlakScatter=yes` and :tag:`Inviso=yes` set."
+msgstr ""
+

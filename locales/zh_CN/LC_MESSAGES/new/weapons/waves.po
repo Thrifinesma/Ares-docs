@@ -1,0 +1,292 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/weapons/waves.rst:4
+msgid "Waves"
+msgstr ""
+
+#: ../new/weapons/waves.rst:11
+msgid "Wave Effects"
+msgstr ""
+
+#: ../new/weapons/waves.rst:13
+msgid ""
+"An unused weapon effect (present in the game code but disabled) has been "
+"enabled. It is similar in appearance to the old laser beam or the old "
+"Disruptor wave from previous games. For now it is referred to as *Laser*."
+msgstr ""
+
+#: ../new/weapons/waves.rst:17
+msgid ":tagdef:`[Weapon]Wave.IsLaser=boolean`"
+msgstr ""
+
+#: ../new/weapons/waves.rst:18
+msgid "Should the *Laser* effect be applied to this weapon?"
+msgstr ""
+
+#: ../new/weapons/waves.rst:20
+msgid ":tagdef:`[Weapon]Wave.IsBigLaser=boolean`"
+msgstr ""
+
+#: ../new/weapons/waves.rst:20
+msgid "Should the *BigLaser* effect be applied to this weapon?"
+msgstr ""
+
+#: ../new/weapons/waves.rst:22
+msgid ""
+":tag:`Wave.IsLaser` and :tag:`Wave.IsBigLaser` produce two different "
+"effects, however their naming was established before the effects were "
+"fully tested: :tag:`Wave.IsLaser` appears to actually render a wider "
+"beam! See the image below, left unit is using :tag:`Wave.IsLaser`, the "
+"right one is using :tag:`Wave.IsBigLaser`:"
+msgstr ""
+
+#: ../new/weapons/waves.rst:34
+msgid ""
+"The following flags are applicable to all Wave effects; the "
+"aforementioned :tag:`Wave.Is(Big)Laser=yes` as well as :tag:`IsSonic=yes`"
+" and :tag:`IsMagBeam=yes`."
+msgstr ""
+
+#: ../new/weapons/waves.rst:44
+msgid "Wave Coloring"
+msgstr ""
+
+#: ../new/weapons/waves.rst:46
+msgid ""
+"Color is a constant addition not depending on the original pixel color. "
+"Intensity on the other hand is multiplied with the original values before"
+" being added to the original pixel component, thus, the darker a color "
+"is, the smaller the effect. If a value is larger though, the effect is "
+"larger, more quickly approaching 255."
+msgstr ""
+
+#: ../new/weapons/waves.rst:54
+msgid ":tagdef:`[Weapon]Wave.Color=list of 3 integers`"
+msgstr ""
+
+#: ../new/weapons/waves.rst:53
+msgid ""
+"The value added to the color component of the wave independent of the "
+"original pixel color. Supports negative values to darken the wave. "
+"Default value is different depending on the type of the wave."
+msgstr ""
+
+#: ../new/weapons/waves.rst:60
+msgid ":tagdef:`[Weapon]Wave.Intensity=list of 3 integers`"
+msgstr ""
+
+#: ../new/weapons/waves.rst:57
+msgid ""
+"The value added to the color component of the wave with respect to the "
+"original pixel color. Supports negative values to darken the wave. "
+":value:`0,0,0` means no change by intensity. Default value is different "
+"depending on the type of the wave. If :tag:`Wave.Color` is set, the "
+"default is :value:`0,0,0`."
+msgstr ""
+
+#: ../new/weapons/waves.rst:64
+msgid ":tagdef:`[Weapon]Wave.IsHouseColor=boolean`"
+msgstr ""
+
+#: ../new/weapons/waves.rst:63
+msgid ""
+"If this is set to :value:`yes` then the wave will be drawn in the firing "
+"unit's house color instead of the color specified by :tag:`Wave.Color`."
+msgstr ""
+
+#: ../new/weapons/waves.rst:66
+msgid ""
+"Wave colors in :game:`Ares` default to the same values as the original "
+"game. The intensity default value is cleared to mimic the behavior of "
+":game:`Ares` 1.0 and earlier, though. If this is not desired, set "
+":tag:`Wave.Intensity` to the appropriate default value from the Defaults "
+"list."
+msgstr ""
+
+#: ../new/weapons/waves.rst:71
+msgid "Wave Color and Intensity Defaults"
+msgstr ""
+
+#: ../new/weapons/waves.rst:74
+msgid "Wave Type"
+msgstr ""
+
+#: ../new/weapons/waves.rst:74
+msgid ":tag:`Wave.Color`"
+msgstr ""
+
+#: ../new/weapons/waves.rst:74
+msgid ":tag:`Wave.Intensity`"
+msgstr ""
+
+#: ../new/weapons/waves.rst:74
+msgid "Remarks"
+msgstr ""
+
+#: ../new/weapons/waves.rst:76
+msgid "Laser"
+msgstr ""
+
+#: ../new/weapons/waves.rst:76
+msgid ":value:`64,0,96`"
+msgstr ""
+
+#: ../new/weapons/waves.rst:76 ../new/weapons/waves.rst:77
+#: ../new/weapons/waves.rst:78
+msgid ":value:`0,0,0`"
+msgstr ""
+
+#: ../new/weapons/waves.rst:76
+msgid "Red/blue tint"
+msgstr ""
+
+#: ../new/weapons/waves.rst:77
+msgid "Sonic"
+msgstr ""
+
+#: ../new/weapons/waves.rst:77
+msgid ":value:`0,256,256`"
+msgstr ""
+
+#: ../new/weapons/waves.rst:77
+msgid "Green/blue light"
+msgstr ""
+
+#: ../new/weapons/waves.rst:78
+msgid "Magnetron"
+msgstr ""
+
+#: ../new/weapons/waves.rst:78
+msgid ":value:`128,0,1024`"
+msgstr ""
+
+#: ../new/weapons/waves.rst:78
+msgid "Cold blue-ish light"
+msgstr ""
+
+#: ../new/weapons/waves.rst:81
+msgid ""
+"It is possible to use hexadecimal notation for color and intensity like "
+":value:`40h,0h,60h`. It is also possible to use negative values like "
+":value:`-64,0,-96`."
+msgstr ""
+
+#: ../new/weapons/waves.rst:85
+msgid ""
+"Each of the three component values can be considered as 1/256th, thus "
+":value:`64` representing 0.25. Then, the resulting value for a color "
+"component is calculated using the original pixel color component "
+":value:`0 <= c <= 255` and a value determined by the game :value:`0.0 <= "
+"x < 1.0` by the formula: :value:`c + color * x + c * intensity * x`."
+msgstr ""
+
+#: ../new/weapons/waves.rst:100
+msgid "Wave Direction"
+msgstr ""
+
+#: ../new/weapons/waves.rst:102
+msgid ""
+"Waves are drawn in different directions (from firer to target or vice "
+"versa) depending on the type of wave and the circumstances. This "
+"direction can now be customized in several ways. The following flags all "
+"default to :value:`no` unless otherwise specified."
+msgstr ""
+
+#: ../new/weapons/waves.rst:109
+msgid ":tagdef:`[Weapon]Wave.ReverseAgainstVehicles=boolean`"
+msgstr ""
+
+#: ../new/weapons/waves.rst:108
+msgid ""
+"Whether or not the wave will be drawn from the target to the firer when "
+"the target is a :type:`VehicleType`. Defaults to :value:`yes` if "
+":tag:`IsMagBeam=yes` is set on the weapon."
+msgstr ""
+
+#: ../new/weapons/waves.rst:112
+msgid ":tagdef:`[Weapon]Wave.ReverseAgainstBuildings=boolean`"
+msgstr ""
+
+#: ../new/weapons/waves.rst:112
+msgid ""
+"Whether or not the wave will be drawn from the target to the firer when "
+"the target is a :type:`BuildingType`."
+msgstr ""
+
+#: ../new/weapons/waves.rst:115
+msgid ":tagdef:`[Weapon]Wave.ReverseAgainstInfantry=boolean`"
+msgstr ""
+
+#: ../new/weapons/waves.rst:115
+msgid ""
+"Whether or not the wave will be drawn from the target to the firer when "
+"the target is an :type:`InfantryType`."
+msgstr ""
+
+#: ../new/weapons/waves.rst:118
+msgid ":tagdef:`[Weapon]Wave.ReverseAgainstAircraft=boolean`"
+msgstr ""
+
+#: ../new/weapons/waves.rst:118
+msgid ""
+"Whether or not the wave will be drawn from the target to the firer when "
+"the target is an :type:`AircraftType`."
+msgstr ""
+
+#: ../new/weapons/waves.rst:123
+msgid ":tagdef:`[Weapon]Wave.ReverseAgainstOthers=boolean`"
+msgstr ""
+
+#: ../new/weapons/waves.rst:121
+msgid ""
+"Whether or not the wave will be drawn from target to firer when the "
+"target is anything not covered by the other :tag:`ReverseAgainst` flags "
+"(i.e. trees, overlays, empty cells, etc.)."
+msgstr ""
+
+#: ../new/weapons/waves.rst:133
+msgid "Wave Ambient Damage"
+msgstr ""
+
+#: ../new/weapons/waves.rst:134
+msgid ""
+"All waves can now deal disruptor-style damage to objects that they pass "
+"through, a feature that was previously limited to Sonic Waves only. As a "
+"reminder, the flags that control this are:"
+msgstr ""
+
+#: ../new/weapons/waves.rst:138
+msgid ":tagdef:`[Weapon]AmbientDamage=integer`"
+msgstr ""
+
+#: ../new/weapons/waves.rst:139
+msgid ""
+"How much damage the wave deals to objects it passes through. Defaults to "
+"zero."
+msgstr ""
+
+#: ../new/weapons/waves.rst:141
+msgid ":tagdef:`[Weapon]Warhead=WarheadType`"
+msgstr ""
+
+#: ../new/weapons/waves.rst:141
+msgid "The warhead used to deal ambient damage as well as normal damage."
+msgstr ""
+

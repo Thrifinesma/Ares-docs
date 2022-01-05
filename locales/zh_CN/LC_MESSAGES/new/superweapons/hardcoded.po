@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/superweapons/hardcoded.rst:10
+msgid "Hardcoded Values"
+msgstr ""
+
+#: ../new/superweapons/hardcoded.rst:12
+msgid ""
+"It made no sense to have the values :tag:`PreClick`, :tag:`PostClick`, "
+"and :tag:`PreDependent` customizable. :game:`Ares` hardcodes these values"
+" and they have no effect any more. Instead, :tag:`SW.PostDependent` takes"
+" their place."
+msgstr ""
+
+#: ../new/superweapons/hardcoded.rst:22
+msgid ":tagdef:`[SuperWeapon]SW.PostDependent=SuperWeapon`"
+msgstr ""
+
+#: ../new/superweapons/hardcoded.rst:17
+msgid ""
+"The super weapon invoked right after firing this super weapon. As in "
+":game:`Red Alert 2` the only super weapon using this is the ChronoSphere "
+"invoking the ChronoWarp. To distinguish between multiple of such super "
+"weapons you can provide the specific super weapon ID here. For example, "
+":tag:`[ChronoSphereSpecial]SW.PostDependent=ChronoWarpSpecial` switches "
+"to the ChronoWarp type super weapon after you chose the source location."
+msgstr ""
+

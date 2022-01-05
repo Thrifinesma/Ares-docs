@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../index.rst:10
+msgid "Ares Documentation"
+msgstr "Ares 说明书"
+
+#: ../../index.rst:13
+msgid "Introduction"
+msgstr "介绍"
+
+#: ../../index.rst:14
+msgid ""
+":game:`Ares` is the new tool to extend the capabilities of :game:`Yuri's "
+"Revenge` and to fix bugs in the game engine. It was conceived by pd near "
+"the end of 2007, developed over the years by :doc:`The Ares Contributors "
+"</credits>` and first released to the public in 2010."
+msgstr ":game:`Ares` 是一个 :game:`Yuri's Revenge` 的拓展其功能和修复其游戏引擎Bug的工具。"
+"pd在2007年末构想了这一项目，并由 :doc:`The Ares Contributors </credits>` 开发数年。其首个版本发布于2010年。"
+
+#: ../../index.rst:19
+msgid ""
+"This documentation is aimed primarily at mod authors wishing to make use "
+"of the new functionality that :game:`Ares` offers."
+msgstr "本说明书主要针对希望使用 :game:`Ares` 提供的新功能的modder。"
+
+#: ../../index.rst:22
+msgid ""
+":game:`Ares` is incorporated into :game:`Yuri's Revenge` via the use of "
+":game:`Syringe`, a program initially developed by pd to 'inject' DLL code"
+" into a running executable without modifying the executable file itself."
+msgstr ":game:`Ares` 通过 :game:`Syringe` 与尤里的复仇共同使用。:game:`Syringe` 最初是由 pd 开发的，用于将 DLL 代码“注入”正在运行的应用程序中，而无需修改应用程序本身。"
+
+#: ../../index.rst:26
+msgid ""
+"In this case, the :game:`Ares` DLL is injected into the :game:`Yuri's "
+"Revenge` 1.001 main executable, :file:`gamemd.exe`. The properly patched "
+"original CD version as well as the compilations :game:`The First Decade` "
+"and :game:`The Ultimate Collection` are supported."
+msgstr "即，:game:`Ares` DLL 被注入到 :game:`Yuri's Revenge` 1.001 的主程序 :file:`gamemd.exe` 中。 支持正常升级的原始 CD 版本以及 :game:`The First Decade` 和 :game:`The Ultimate Collection` 的合集。"
+
+#: ../../index.rst:31
+msgid ""
+":game:`Syringe` can be run directly via a command line prompt or "
+"automatically run from external launcher applications provided by a mod. "
+"See the respective documentations of those programs for further details."
+msgstr ":game:`Syringe` 可以直接通过命令提示符运行，或通过 mod 提供的外部启动器运行。 更多详细信息，请参阅它们相应的文档。"
+
+#: ../../index.rst:37
+msgid "Table of Contents"
+msgstr "内容"
+
+#: ../../index.rst:62
+msgid ":ref:`Overview of Ares's Bugfixes and Features <genindex>`"
+msgstr ":ref:`Ares的Bug修复与逻辑一览 <genindex>`"
+
+#: ../../index.rst:63
+msgid ":ref:`search`"
+msgstr ""
+

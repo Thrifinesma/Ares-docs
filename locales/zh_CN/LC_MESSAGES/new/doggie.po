@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/doggie.rst:9
+msgid "Tiberian Fiends"
+msgstr ""
+
+#: ../new/doggie.rst:11
+msgid ""
+":game:`Tiberian Sun` had wildlife, which was yet more aggressive than "
+":game:`Red Alert 2`'s cows. Among them was the Tiberian Fiend, which hid "
+"in patches of Tiberium and could attack and heavily damage units and "
+"structures on the battlefield. :game:`Ares` recreates this remarkably "
+"nasty piece of fauna."
+msgstr ""
+
+#: ../new/doggie.rst:16
+msgid ""
+"Refer to `Doggie on ModEnc "
+"<https://www.modenc.renegadeprojects.com/Doggie>`_ to get a full "
+"description of this feature. See :doc:`/new/civilianenemies` to prevent "
+"players to be overrun by Tiberian Fiends without retaliating "
+"automatically."
+msgstr ""
+
+#: ../new/doggie.rst:26
+msgid ":tagdef:`[InfantryType]Doggie=boolean`"
+msgstr ""
+
+#: ../new/doggie.rst:22
+msgid ""
+"Whether this unit exhibits Tiberian Fiend behavior: Sitting down on "
+"Tiberium when in guard mode, aborting attack missions and running for "
+"Tiberium when badly hurt, and being easily aggravated. Requires "
+":tag:`Crawls=yes`, otherwise the unit will not sit down on Tiberium, as "
+"well as :tag:`NotHuman=yes` to not show human death animations when "
+"killed. Defaults to :value:`no`."
+msgstr ""
+

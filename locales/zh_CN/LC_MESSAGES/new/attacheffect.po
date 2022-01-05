@@ -1,0 +1,240 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/attacheffect.rst:6
+msgid "AttachEffect"
+msgstr ""
+
+#: ../new/attacheffect.rst:8
+msgid ""
+"The AttachEffect system was designed as a spiritual successor to "
+":game:`NPatch`'s Upgrade logic, but it was aimed to not be limited only "
+"to superweapons. AttachEffect tags can be applied to both the Big Four "
+"(all :type:`TechnoTypes`) and :type:`Warheads`, unless stated otherwise."
+msgstr ""
+
+#: ../new/attacheffect.rst:13
+msgid ""
+"The state of AttachEffects on units does not update while in a transport,"
+" while under a temporal effect and so on. In this matter, they behave "
+"like IvanBombs."
+msgstr ""
+
+#: ../new/attacheffect.rst
+msgid "Quickstart"
+msgstr ""
+
+#: ../new/attacheffect.rst:17
+msgid ""
+"To create a healing/repairing or residual damage effect, attach an "
+"animation with appropriate :tag:`Warhead` and :tag:`Damage` settings. "
+"This will affect the target unit for the entire duration of the "
+"AttachEffect, applying damage using the animation damage mechanism."
+msgstr ""
+
+#: ../new/attacheffect.rst:31
+msgid ":tagdef:`[Section]AttachEffect.Animation=AnimationType`"
+msgstr ""
+
+#: ../new/attacheffect.rst:23
+msgid ""
+"The optional animation to play on the affected unit. The animation is "
+"attached to the unit and moves along with it. Defaults to :value:`none`."
+msgstr ""
+
+#: ../new/attacheffect.rst:26
+msgid ""
+"The animation is removed when the unit is cloaked. The animation is "
+"recreated once the unit is uncloaked again. While cloaked, the "
+"AttachEffect is still applied, but the effects caused by the animation "
+"are not."
+msgstr ""
+
+#: ../new/attacheffect.rst:30
+msgid ""
+"The animation always loops until the effect subsides. \\ :tag:`LoopCount`"
+" is ignored."
+msgstr ""
+
+#: ../new/attacheffect.rst:35
+msgid ":tagdef:`[Section]AttachEffect.Duration=integer - frames`"
+msgstr ""
+
+#: ../new/attacheffect.rst:34
+msgid ""
+"The duration of the effect in frames. Use :value:`-1` for infinite "
+"duration. Defaults to :value:`0`."
+msgstr ""
+
+#: ../new/attacheffect.rst:41
+msgid ":tagdef:`[Section]AttachEffect.TemporalHidesAnim=boolean`"
+msgstr ""
+
+#: ../new/attacheffect.rst:38
+msgid ""
+"Whether a :type:`TechnoType` with this type of AttachEffect applied on it"
+" should remove the animation while being warped out by a "
+":tag:`Temporal=yes` weapon. Otherwise the animation stays active and "
+"unaffected by the temporal weapon. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/attacheffect.rst:44
+msgid ":tagdef:`[Section]AttachEffect.SpeedMultiplier=float - multiplier`"
+msgstr ""
+
+#: ../new/attacheffect.rst:44
+msgid "Speed bonus while the AttachEffect lasts. Defaults to :value:`1.0`."
+msgstr ""
+
+#: ../new/attacheffect.rst:47
+msgid ":tagdef:`[Section]AttachEffect.ArmorMultiplier=float - multiplier`"
+msgstr ""
+
+#: ../new/attacheffect.rst:47
+msgid "Armor bonus while the AttachEffect lasts. Defaults to :value:`1.0`."
+msgstr ""
+
+#: ../new/attacheffect.rst:61
+msgid ":tagdef:`[Section]AttachEffect.FirepowerMultiplier=float - multiplier`"
+msgstr ""
+
+#: ../new/attacheffect.rst:50
+msgid "Firepower bonus while the AttachEffect lasts. Defaults to :value:`1.0`."
+msgstr ""
+
+#: ../new/attacheffect.rst:52
+msgid ""
+"Mind that this works fundamentally differently from the other effects, "
+"which are applied the instant they are needed (like a firepower for a "
+"bullet impacting) as long as the effect is active: the reload time is "
+"computed once when the reloading starts, but the modified reloading time "
+"may take longer than the attached effect lasts."
+msgstr ""
+
+#: ../new/attacheffect.rst:58
+msgid ""
+"For instance, a unit that was struck with an effect slowing down the ROF "
+"extremely might thus render the unit unable to fire way longer than the "
+"AttachEffect is active, because the reload timer will not speed up again "
+"when the effect expires."
+msgstr ""
+
+#: ../new/attacheffect.rst:65
+msgid ":tagdef:`[Section]AttachEffect.ROFMultiplier=float - multiplier`"
+msgstr ""
+
+#: ../new/attacheffect.rst:64
+msgid "Rate of fire bonus while the AttachEffect lasts. Defaults to :value:`1.0`."
+msgstr ""
+
+#: ../new/attacheffect.rst:69
+msgid ":tagdef:`[Section]AttachEffect.Cloakable=boolean`"
+msgstr ""
+
+#: ../new/attacheffect.rst:68
+msgid ""
+"Whether the unit gains cloaking ability while the AttachEffect lasts. "
+"Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/attacheffect.rst:74
+msgid ":tagdef:`[Section]AttachEffect.ForceDecloak=boolean`"
+msgstr ""
+
+#: ../new/attacheffect.rst:72
+msgid ""
+"Whether affected units will be forced to decloak when the AttachEffect "
+"gets applied (useful for non-damaging anim-based AttachEffects). Defaults"
+" to :value:`no`."
+msgstr ""
+
+#: ../new/attacheffect.rst:78
+msgid ":tagdef:`[Section]AttachEffect.DiscardOnEntry=boolean`"
+msgstr ""
+
+#: ../new/attacheffect.rst:77
+msgid ""
+"Whether the AttachEffect will be removed when the affected unit is "
+"removed from the map (entering a building or another unit). Defaults to "
+":value:`no`."
+msgstr ""
+
+#: ../new/attacheffect.rst:82
+msgid ":tagdef:`[Section]AttachEffect.PenetratesIronCurtain=boolean`"
+msgstr ""
+
+#: ../new/attacheffect.rst:81
+msgid ""
+"Whether the AttachEffect can attach to a unit or structure under the "
+"influence of an Iron Curtain or Force Shield. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/attacheffect.rst:84
+msgid "The following tags are valid on TechnoTypes only:"
+msgstr ""
+
+#: ../new/attacheffect.rst:89
+msgid ":tagdef:`[TechnoType]AttachEffect.Delay=integer - frames`"
+msgstr ""
+
+#: ../new/attacheffect.rst:87
+msgid ""
+"Defines how many frames after the previous effect subsides the "
+"AttachEffect is recreated on the unit itself. Negative values do not "
+"renew the effect. Defaults to :value:`0` (immediately)."
+msgstr ""
+
+#: ../new/attacheffect.rst:94
+msgid ":tagdef:`[TechnoType]AttachEffect.InitialDelay=integer - frames`"
+msgstr ""
+
+#: ../new/attacheffect.rst:92
+msgid ""
+"Defines the delay before creating the AttachEffect for the very first "
+"time. Subsequent delays are defined by :tag:`AttachEffect.Delay`. Use "
+":value:`0` to create effect immediately. Defaults to :value:`0`."
+msgstr ""
+
+#: ../new/attacheffect.rst:96
+msgid "The following tags are valid on Warheads only:"
+msgstr ""
+
+#: ../new/attacheffect.rst:103
+msgid ":tagdef:`[Warhead]AttachEffect.Cumulative=boolean`"
+msgstr ""
+
+#: ../new/attacheffect.rst:99
+msgid ""
+"If set to :value:`yes`, an unlimited amount of this type of AttachEffect "
+"from this warhead can be applied to the target (it is stackable). If "
+":value:`no`, only one instance of this type of the AttachEffect can be on"
+" a single unit and that one instance gets updated if it is to be applied "
+"again. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/attacheffect.rst:107
+msgid ":tagdef:`[Warhead]AttachEffect.AnimResetOnReapply=boolean`"
+msgstr ""
+
+#: ../new/attacheffect.rst:106
+msgid ""
+"If this type of AttachEffect is not stackable, enabling this flag resets "
+"the animation on every time of reapplying. Defaults to :value:`no`."
+msgstr ""
+

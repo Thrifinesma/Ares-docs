@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/damageparticlesystems.rst:4
+msgid "Damage Particle Systems"
+msgstr ""
+
+#: ../new/damageparticlesystems.rst:6
+msgid ""
+"Damage particle systems are used to visually indicate a unit has been "
+"damaged severely, by either emitting smoke when the unit enters yellow or"
+" red health or by sparking repeatedly. See `DamageParticleSystems on "
+"ModEnc <https://www.modenc.renegadeprojects.com/DamageParticleSystems>`_ "
+"for a thorough description of this feature."
+msgstr ""
+
+#: ../new/damageparticlesystems.rst:18
+msgid "Damage Sparks"
+msgstr ""
+
+#: ../new/damageparticlesystems.rst:20
+msgid ""
+"There was a hardcoded setting in the games since :game:`Tiberian Sun` "
+"that enabled :type:`InfantryTypes` with :tag:`Cyborg=yes` to repeatedly "
+"spawn damage spark particle systems when damaged into yellow or red "
+"health. The setting was cleared whenever the infantry's section was not "
+"present in the map or scenario file. :game:`Ares` unties this feature "
+"from :tag:`Cyborg` and :type:`InfantryTypes` by making this a proper tag."
+msgstr ""
+
+#: ../new/damageparticlesystems.rst:30
+msgid ":tagdef:`[TechnoType]DamageSparks=boolean`"
+msgstr ""
+
+#: ../new/damageparticlesystems.rst:28
+msgid ""
+"Defines whether an object of this type should spawn spark particle "
+"systems defined by :tag:`DamageParticleSystems`. Defaults to "
+":tag:`Cyborg` for :type:`InfantryTypes`, to :value:`no` otherwise."
+msgstr ""
+
+#: ../new/damageparticlesystems.rst:40
+msgid "Smoke and Spark :captiontag:`DamageParticleSystems`"
+msgstr ""
+
+#: ../new/damageparticlesystems.rst:42
+msgid ""
+":game:`Ares` adds two new tags that allow arbitrary damage particle "
+"systems where previously only one with either :tag:`BehavesLike=Smoke` or"
+" :tag:`BehavesLike=Spark` were possible."
+msgstr ""
+
+#: ../new/damageparticlesystems.rst:46
+msgid ""
+"The new tag does not enforce the restrictions the original tag had. "
+"Without opting in by using the new ones, damage particle systems are "
+"spawned as always."
+msgstr ""
+
+#: ../new/damageparticlesystems.rst:49
+msgid ""
+"Only :value:`Smoke` and :value:`Spark` particle systems are fully "
+"supported as of Ares 0.7, because the others need special handling that "
+"is not yet in place."
+msgstr ""
+
+#: ../new/damageparticlesystems.rst:58
+msgid ":tagdef:`[TechnoType]DamageSmokeParticleSystems=list of ParticleSystems`"
+msgstr ""
+
+#: ../new/damageparticlesystems.rst:54
+msgid ""
+"Defines a list of :type:`ParticleSystems` to randomly spawn from when an "
+"object is damaged into yellow or red health. You have to use this if you "
+"want to use :type:`ParticleSystems` with :tag:`BehavesLike` set to other "
+"values than :value:`Smoke`. Defaults to all :tag:`DamageParticleSystems` "
+"with :tag:`BehavesLike=Smoke` set."
+msgstr ""
+
+#: ../new/damageparticlesystems.rst:65
+msgid ":tagdef:`[TechnoType]DamageSparksParticleSystems=list of ParticleSystems`"
+msgstr ""
+
+#: ../new/damageparticlesystems.rst:61
+msgid ""
+"Defines a list of :type:`ParticleSystems` to randomly spawn from when an "
+"object is in yellow or red health. You have to use this if you want to "
+"use :type:`ParticleSystems` with :tag:`BehavesLike` set to other values "
+"than :value:`Spark`. Defaults to all :tag:`DamageParticleSystems` with "
+":tag:`BehavesLike=Spark` set."
+msgstr ""
+

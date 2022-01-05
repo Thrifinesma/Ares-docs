@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/passengers.rst:8
+msgid "Specific Passengers"
+msgstr ""
+
+#: ../new/passengers.rst:10
+msgid ""
+"Additionally to the checks for :tag:`Size` and :tag:`SizeLimit`, it is "
+"possible to allow passengers to enter depending on their type."
+msgstr ""
+
+#: ../new/passengers.rst:17
+msgid ":tagdef:`[TechnoType]Passengers.Allowed=list of TechnoTypes`"
+msgstr ""
+
+#: ../new/passengers.rst:14
+msgid ""
+"The list of allowed passenger types. If this contains at least one type, "
+"all other types are not allowed to enter this object. If you want to "
+"prevent all units from entering, set this to either a dummy unit or a "
+":type:`BuildingType`."
+msgstr ""
+
+#: ../new/passengers.rst:20
+msgid ":tagdef:`[TechnoType]Passengers.Disallowed=list of TechnoTypes`"
+msgstr ""
+
+#: ../new/passengers.rst:20
+msgid "The list of types that are not allowed to enter this object."
+msgstr ""
+
+#: ../new/passengers.rst:27
+msgid "Ignoring Passenger Size"
+msgstr ""
+
+#: ../new/passengers.rst:29
+msgid ""
+"Transports can ignore the actual size of its passengers and use up one "
+"slot for each only."
+msgstr ""
+
+#: ../new/passengers.rst:39
+msgid ":tagdef:`[UnitType]Passengers.BySize=boolean`"
+msgstr ""
+
+#: ../new/passengers.rst:33
+msgid ""
+"Whether passengers will take up as much space in the cargo hold as their "
+":tag:`Size` instead of taking up only one seat no matter the size of the "
+"object. If :value:`no`, the transport can always contain up to "
+":tag:`Passengers` units. Defaults to :value:`yes`."
+msgstr ""
+
+#: ../new/passengers.rst:38
+msgid ""
+":tag:`SizeLimit` is always respected. A too large unit will still not be "
+"able to enter."
+msgstr ""
+

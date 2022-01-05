@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/buildings/basebuilding.rst:6
+msgid "Extending Base Space of the AI"
+msgstr ""
+
+#: ../new/buildings/basebuilding.rst:8
+msgid ""
+"The AI's base space is extended by any building that is not considered a "
+"vehicle, and unrestricted by :tag:`BaseNormal`, which only applies to "
+"human players. :game:`Ares` adds an option to disable extending base "
+"space."
+msgstr ""
+
+#: ../new/buildings/basebuilding.rst:16
+msgid ":tagdef:`[BuildingType]AIBaseNormal=boolean`"
+msgstr ""
+
+#: ../new/buildings/basebuilding.rst:13
+msgid ""
+"Whether this building will extend the base space of the AI player. "
+"Defaults to :value:`no` if both :tag:`UndeploysInto=` is set and "
+":tag:`ResourceGatherer=yes`, otherwise defaults to whether the building "
+"is considered a vehicle."
+msgstr ""
+
+#: ../new/buildings/basebuilding.rst:24
+msgid "Prefer to build in the AI's Inner Base"
+msgstr ""
+
+#: ../new/buildings/basebuilding.rst:26
+msgid ""
+"Preferrably placing Stealth Generators in the center of the base rather "
+"than on the perimeter was a side effect of :tag:`CloakGenerator=yes` in "
+":game:`Tiberian Sun`. This feature has been recreated and made optional."
+msgstr ""
+
+#: ../new/buildings/basebuilding.rst:39
+msgid ":tagdef:`[BuildingType]AIInnerBase=boolean`"
+msgstr ""
+
+#: ../new/buildings/basebuilding.rst:31
+msgid ""
+"Whether the AI prefers to place this building closer to the center of its"
+" base. Use this for buildings that are to be protected or that provide a "
+"ranged effect that works best if it covers large portions of the base. "
+"Defaults to :value:`yes` if :tag:`CloakGenerator=yes`, to :value:`no` "
+"otherwise."
+msgstr ""
+
+#: ../new/buildings/basebuilding.rst:36
+msgid ""
+"The larger the building foundation, the more unlikely it will be for the "
+"AI to find a place to build it near the base center in late game, in "
+"which case the game will fall back to the original logic and find a place"
+" in the perimeter."
+msgstr ""
+

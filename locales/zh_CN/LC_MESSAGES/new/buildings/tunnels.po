@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/buildings/tunnels.rst:9
+msgid "Tunnel Networks"
+msgstr ""
+
+#: ../new/buildings/tunnels.rst:11
+msgid ""
+"This is the tunnel systems known from :game:`Generals`. Tunnels are "
+"buildings that allow to quickly move units from one place to another. "
+"There can be many entrance buildings, but they all share the same queue "
+"of occupants. Units do not actually move between tunnels; after they "
+"entered an entrance they can be ejected from another entrance "
+"immediately."
+msgstr ""
+
+#: ../new/buildings/tunnels.rst:17
+msgid ""
+"The occupants will be kept alive until the last entrance of the same type"
+" owned by the same player is destroyed. The killer of the last entrance "
+"will be awarded the kills of the occupants also. If the last entrance is "
+"sold, units will try to evacuate."
+msgstr ""
+
+#: ../new/buildings/tunnels.rst:22
+msgid ""
+"Different tunnel types are declared as list under the "
+":tag:`[TunnelTypes]` section, and they have the following options:"
+msgstr ""
+
+#: ../new/buildings/tunnels.rst:27
+msgid ":tagdef:`[TunnelType]Passengers=integer`"
+msgstr ""
+
+#: ../new/buildings/tunnels.rst:26
+msgid ""
+"The maximum number of occupants this tunnel system can have. This does "
+"not consider size. Each unit takes up one slot of space. Defaults to "
+":value:`0`."
+msgstr ""
+
+#: ../new/buildings/tunnels.rst:31
+msgid ":tagdef:`[TunnelType]MaxSize=double`"
+msgstr ""
+
+#: ../new/buildings/tunnels.rst:30
+msgid ""
+"The maximum :tag:`Size=` units can have to be allowed into this tunnel. "
+"Defaults to :value:`0.0`."
+msgstr ""
+
+#: ../new/buildings/tunnels.rst:33
+msgid ""
+"Then, a :type:`BuildingType` can be turned into a tunnel entrance by "
+"setting the following tag. Multiple :type:`BuildingType`\\ s can share "
+"the same tunnel type. Only units that have a :tag:`Size` less than or "
+"equal to of the :tag:`SizeLimit` of the tunnel entrance are allowed to "
+"enter through that entrance."
+msgstr ""
+
+#: ../new/buildings/tunnels.rst:38
+msgid ""
+"For ejection the :tag:`Size` is currently not checked against \\ "
+":tag:`MaxSize`. This might change in future versions."
+msgstr ""
+
+#: ../new/buildings/tunnels.rst
+msgid "Quickstart"
+msgstr ""
+
+#: ../new/buildings/tunnels.rst:41
+msgid ""
+"If you don't get the enter cursor on the tunnel entrances, check that you"
+" correctly set :tag:`Passengers=` and :tag:`MaxSize` on the "
+":type:`TunnelType`."
+msgstr ""
+
+#: ../new/buildings/tunnels.rst:45
+msgid ""
+"Tunnel entrances play :tag:`EnterTransportSound` and "
+":tag:`LeaveTransportSound` whenever a unit enters or leaves the building."
+" The entrance building will show pips representing the contents of the "
+"tunnel system."
+msgstr ""
+
+#: ../new/buildings/tunnels.rst:56
+msgid ":tagdef:`[BuildingType]Tunnel=TunnelType`"
+msgstr ""
+
+#: ../new/buildings/tunnels.rst:50
+msgid "The type of tunnel system this building is an entrance to."
+msgstr ""
+
+#: ../new/buildings/tunnels.rst:52
+msgid ""
+"Tunnel buildings are not allowed to have weapons nor turrets and cannot "
+"be capturable or mind-controllable."
+msgstr ""
+
+#: ../new/buildings/tunnels.rst:55
+msgid ""
+"Hover units have the same problems with tunnel entrance buildings as they"
+" have entering :tag:`UnitAbsorb=yes` buildings."
+msgstr ""
+
+#: ../new/buildings/tunnels.rst:74
+msgid "Example:"
+msgstr ""
+

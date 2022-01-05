@@ -1,0 +1,156 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/hijackers.rst:12
+msgid "Hijackers"
+msgstr ""
+
+#: ../new/hijackers.rst:14
+msgid ""
+"Vehicle thieves can steal enemy units, effectively hijacking them on the "
+"battle field. If you enable hijacking by setting :tag:`VehicleThief=yes` "
+"on an :type:`InfantryType`, you can customize it in various ways:"
+msgstr ""
+
+#: ../new/hijackers.rst:20
+msgid ":tagdef:`[InfantryType]VehicleThief.EnterSound=Sound name`"
+msgstr ""
+
+#: ../new/hijackers.rst:19
+msgid ""
+"Specifies the sound played when a hijacker captures an enemy vehicle. "
+"This also works for infantry with :tag:`CanDrive=yes` when reclaiming "
+"neutralized units. Defaults to :value:`none`."
+msgstr ""
+
+#: ../new/hijackers.rst:23
+msgid ":tagdef:`[InfantryType]VehicleThief.LeaveSound=Sound name`"
+msgstr ""
+
+#: ../new/hijackers.rst:23
+msgid ""
+"Specifies the sound played when a hijacker leaves a vehicle when it is "
+"destroyed. Defaults to :value:`none`."
+msgstr ""
+
+#: ../new/hijackers.rst:27
+msgid ":tagdef:`[InfantryType]VehicleThief.BreakMindControl=boolean`"
+msgstr ""
+
+#: ../new/hijackers.rst:26
+msgid ""
+"Whether the vehicle thief can hijack units that are mind-controlled. The "
+"link between the controller and the unit will be broken when the hijacker"
+" enters. Otherwise the hijacker cannot steal the unit. Defaults to "
+":value:`yes`."
+msgstr ""
+
+#: ../new/hijackers.rst:32
+msgid ":tagdef:`[InfantryType]VehicleThief.OneTime=boolean`"
+msgstr ""
+
+#: ../new/hijackers.rst:30
+msgid ""
+"Whether the vehicle thief will be consumed in the process of capturing a "
+"unit. Otherwise the hijacker will emerge when the captured unit is "
+"destroyed. In every case the hijacker will be reimbursed when the unit is"
+" grinded. Defaults to :tag:`no`."
+msgstr ""
+
+#: ../new/hijackers.rst:38
+msgid ":tagdef:`[InfantryType]VehicleThief.KillPilots=integer`"
+msgstr ""
+
+#: ../new/hijackers.rst:35
+msgid ""
+"The number of pilots the vehicle thief kills when entering a unit. These "
+"pilots will have no chance to escape the unit when it is destroyed. Use "
+":value:`-1` to kill all pilots. In :game:`Tiberian Sun` the hijacker will"
+" prevent any crew from escaping a destroyed vehicle. Defaults to "
+":value:`0`."
+msgstr ""
+
+#: ../new/hijackers.rst:40
+msgid ""
+"In :game:`Tiberian Sun` the vehicle thief was not allowed to hijack units"
+" that had :tag:`NonVehicle=yes` set. :game:`Ares` does not use "
+":tag:`NonVehicle`, because it affects many other features as well, which "
+"might be undesirable. Instead, you will have to use the new dedicated "
+"flag :tag:`VehicleThief.Allowed` to change whether a unit can be "
+"hijacked."
+msgstr ""
+
+#: ../new/hijackers.rst:48
+msgid ":tagdef:`[TechnoType]VehicleThief.Allowed=boolean`"
+msgstr ""
+
+#: ../new/hijackers.rst:47
+msgid ""
+"Whether this :type:`VehicleType` or :type:`AircraftType` can be hijacked "
+"by vehicle thieves. Defaults to :value:`yes`."
+msgstr ""
+
+#: ../new/hijackers.rst:50
+msgid ""
+"Vehicle Thieves cannot drive neutralized vehicles by default, but \\ "
+":tag:`VehicleThief=yes` can be combined with :tag:`CanDrive=yes` without "
+"problems."
+msgstr ""
+
+#: ../new/hijackers.rst:54
+msgid ""
+"After hijacking, units owned by a human player will go on Guard mission, "
+"while computer controlled units will go on a Hunt mission."
+msgstr ""
+
+#: ../new/hijackers.rst:57
+msgid ""
+"Hijackers remember their health and their previous veterancy level. When "
+"the vehicles they stole are destroyed, they respawn with a random health "
+"up to half their previous health, and their old rank."
+msgstr ""
+
+#: ../new/hijackers.rst:61
+msgid ""
+"Hijacking works well together with Mind Control now. If a mind-controlled"
+" unit is captured, the connection to the controller is broken and there "
+"will be no bogus links left behind. Likewise, mind-controlled hijackers "
+"will capture vehicles for their original owning houses, not for their "
+"capturers'. The mind-control link will be transferred to the captured "
+"vehicle, if it isn't immune to mind control. Otherwise, the mind-"
+"controller loses control over both hijacker and its victim. Same is true "
+"for the opposite case: When a hijacked and mind-controlled unit is "
+"destroyed, the link is transferred to the hijacker, if it isn't immune to"
+" psionics."
+msgstr ""
+
+#: ../new/hijackers.rst:71
+msgid ""
+"Vehicle Thieves cannot hijack friendly units or vehicles neutralized by "
+"the Kill Driver warheads. See :doc:`KillDriver and CanDrive "
+"</new/killingdrivers>`."
+msgstr ""
+
+#: ../new/hijackers.rst:74
+msgid ""
+"See :doc:`Mouse Cursors </new/mousecursors>` on how to customize the "
+"cursor to indicate a vehicle can be hijacked by defining "
+":value:`TakeVehicle`."
+msgstr ""
+

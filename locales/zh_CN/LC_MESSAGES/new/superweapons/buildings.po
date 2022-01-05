@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/superweapons/buildings.rst:4
+msgid "Building Options"
+msgstr ""
+
+#: ../new/superweapons/buildings.rst:11
+msgid "Multiple Super Weapons on a Building"
+msgstr ""
+
+#: ../new/superweapons/buildings.rst:25
+msgid ":tagdef:`[BuildingType]SuperWeapons= list of SuperWeaponTypes`"
+msgstr ""
+
+#: ../new/superweapons/buildings.rst:14
+msgid ""
+"Comma separated list of :type:`SuperWeaponTypes` which are granted by "
+"this building in addition to the ones defined as :tag:`SuperWeapon` and "
+":tag:`SuperWeapon2`. Defaults to :value:`none`."
+msgstr ""
+
+#: ../new/superweapons/buildings.rst:18
+msgid ""
+"Each individual super weapon can be :doc:`granted conditionally "
+"</new/superweapons/availability>`. The first available super weapon "
+"determines the EVA event played when a building of this type is placed, "
+"and its charge state is indicated by the building animations."
+msgstr ""
+
+#: ../new/superweapons/buildings.rst:23
+msgid ""
+"This feature primarily supports providing access to additional super "
+"weapons. Note that :tag:`SuperWeapon` and :tag:`SuperWeapon2` are still "
+"considered special, and not all aspects of the logic have been expanded."
+msgstr ""
+
+#: ../new/superweapons/buildings.rst:33
+msgid "Building Animations"
+msgstr ""
+
+#: ../new/superweapons/buildings.rst:35
+msgid ""
+"Buildings can display specific animations for when the attached super "
+"weapon is charging, is nearly charged (1 minute remaining in the vanilla "
+"game), is ready to be fired, and when it fires. However, in :game:`Yuri's"
+" Revenge`, these animations only work properly for the original super "
+"weapons. In :game:`Ares`, these will work for any super weapon."
+msgstr ""
+

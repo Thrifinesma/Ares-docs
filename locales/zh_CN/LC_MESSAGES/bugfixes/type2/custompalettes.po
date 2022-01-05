@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../bugfixes/type2/custompalettes.rst:9
+msgid "Custom Palettes"
+msgstr ""
+
+#: ../bugfixes/type2/custompalettes.rst:11
+msgid ""
+"The original game supports custom palettes on :type:`TechnoTypes` using "
+":tag:`Palette` (filename, excluding .pal extension) on the "
+":type:`TechnoType`'s entry in :file:`artmd.ini`. However, the game would "
+"crash (with the message \"You have violated the limit of having only one "
+"extra building Palette\" in the [non-existent] log file) if you used the "
+":tag:`Palette` flag more than once. And, of course, the one extra palette"
+" was already in use on the Statue of Liberty. :game:`Ares` removes this "
+"limit and lets you use custom palettes on all :type:`TechnoTypes` to your"
+" heart's content."
+msgstr ""
+
+#: ../bugfixes/type2/custompalettes.rst:20
+msgid "See :doc:`/new/customanimationandprojectilepalettes`."
+msgstr ""
+
+#: ../bugfixes/type2/custompalettes.rst:22
+msgid ""
+"It is not known why this apparently arbitrary limit on custom palettes "
+"was in place -- it may have been there to mask a bug that we don't yet "
+"know about."
+msgstr ""
+
+#: ../bugfixes/type2/custompalettes.rst:26
+msgid ""
+"When using custom palettes, the modder must make a new palette for each "
+"theater. Normally, each building or unit has an associated palette for "
+"each theater it can be deployed into (e.g. :file:`unitsno.pal`, \\ "
+":file:`unittem.pal`, etc). If the modder creates a new palette, say "
+"\"picasso.pal\", in order for that palette to be used in other theatres, "
+"the modder must create \"picassosno.pal\", \"picassotem.pal\", etc as "
+"well."
+msgstr ""
+

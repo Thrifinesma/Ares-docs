@@ -1,0 +1,158 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/buildings/solidbuildings.rst:8
+msgid "Solid Buildings"
+msgstr ""
+
+#: ../new/buildings/solidbuildings.rst:10
+msgid ""
+"Buildings can now be made 'solid' to projectiles, meaning that "
+"projectiles will detonate when hitting a building rather than passing "
+"through it. Units are aware of Solid Buildings, and they will try to find"
+" a better firing position when attacking a target and an obstacle is in "
+"the way."
+msgstr ""
+
+#: ../new/buildings/solidbuildings.rst:15
+msgid ""
+"The solid level makes it possible to distinguish between Solid Buildings "
+"a unit should consider indestructible and thus move to a better place to "
+"attack, and Solid Buildings that should be considered collateral damage. "
+"In the latter case the building is destroyed first before the target "
+"behind it can be damaged, like walls around a walled in structure."
+msgstr ""
+
+#: ../new/buildings/solidbuildings.rst:21
+msgid ""
+"Only enemy buildings' solidity will be considered. Units will not try to "
+"fire through allied buildings to destroy them. Open gates are never "
+"considered solid."
+msgstr ""
+
+#: ../new/buildings/solidbuildings.rst
+msgid "Quickstart"
+msgstr ""
+
+#: ../new/buildings/solidbuildings.rst:24
+msgid ""
+"Setting the Apocalypse Tank weapon's projectile to \\ :tag:`SolidLevel=1`"
+" will make the tank ignore all Solid Buildings with a lower level in its "
+"path and just fire at its targets. The projectiles will hit the buildings"
+" and destroy them, then the actual target."
+msgstr ""
+
+#: ../new/buildings/solidbuildings.rst:29
+msgid ""
+"Setting a gate to :tag:`SolidHeight=-1` and :tag:`SolidLevel=0` will make"
+" it a Solid Building still, but units will try to tear it down while "
+"trying to shoot at a target behind it, just like walls. If the gate is "
+"closed, it will take damage when units try to hit a target behind it, but"
+" when it is open, the projectiles will pass."
+msgstr ""
+
+#: ../new/buildings/solidbuildings.rst:40
+msgid "The Attackers - Enabling Projectiles"
+msgstr ""
+
+#: ../new/buildings/solidbuildings.rst:44
+msgid ":tagdef:`[Projectile]SubjectToBuildings=boolean`"
+msgstr ""
+
+#: ../new/buildings/solidbuildings.rst:43
+msgid ""
+"Whether or not this projectile can be blocked by solid buildings. "
+"Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/buildings/solidbuildings.rst:56
+msgid ":tagdef:`[Projectile]SolidLevel=integer`"
+msgstr ""
+
+#: ../new/buildings/solidbuildings.rst:47
+msgid ""
+"The highest level of solidity this projectile will consider as easily "
+"destructible when targeting. If a Solid Building with a solidity level of"
+" this or lower is in the way to the actual target, the unit will fire "
+"anyhow, first destroying all obstacles. If it is lower than the "
+"building's level, then the unit cannot fire and has to reposition itself."
+" Defaults to :value:`0`."
+msgstr ""
+
+#: ../new/buildings/solidbuildings.rst:53
+msgid ""
+"Certain drawing effects like lasers will be drawn as if they have hit the"
+" actual target when in fact the Solid Building was hit and took the "
+"damage. This graphical glitch might be resolved in the future."
+msgstr ""
+
+#: ../new/buildings/solidbuildings.rst:59
+msgid "The Defenders - Solidity of Buildings"
+msgstr ""
+
+#: ../new/buildings/solidbuildings.rst:70
+msgid ":tagdef:`[BuildingType]SolidHeight=integer - cells`"
+msgstr ""
+
+#: ../new/buildings/solidbuildings.rst:62
+msgid ""
+"How tall the solid part of the building is considered to be, measured in "
+"cells (each cell has a height of 256 leptons), so buildings with a large "
+"amount of clear space near their top can allow projectiles to fly through"
+" that space. Negative values (e.g. :value:`-1`) tell the game to consider"
+" the building's full :tag:`Height` as solid. Default is :value:`0`, "
+"meaning the building is not at all solid (as per the normal game)."
+msgstr ""
+
+#: ../new/buildings/solidbuildings.rst:69
+msgid ""
+"The solid building logic does not lend itself well to non-rectangular "
+"buildings, such as the Paris Tower or Space Needle."
+msgstr ""
+
+#: ../new/buildings/solidbuildings.rst:74
+msgid ":tagdef:`[BuildingType]SolidLevel=integer`"
+msgstr ""
+
+#: ../new/buildings/solidbuildings.rst:73
+msgid "The solidity of this building. Defaults to :value:`1`."
+msgstr ""
+
+#: ../new/buildings/solidbuildings.rst:77
+msgid "Global Settings"
+msgstr ""
+
+#: ../new/buildings/solidbuildings.rst:79
+msgid ""
+"There is a global setting that defines whether allied bullets generally "
+"can pass Solid Buildings. This mirrors :tag:`AlliedWallTransparency`."
+msgstr ""
+
+#: ../new/buildings/solidbuildings.rst:85
+msgid ":tagdef:`[CombatDamage]AlliedSolidTransparency=boolean`"
+msgstr ""
+
+#: ../new/buildings/solidbuildings.rst:83
+msgid ""
+"Whether buildings of allied players are considered transparent for firing"
+" through them even if solid. If :value:`yes`, owning players and their "
+"allies can fire through a building without the bullet hitting it. "
+"Defaults to :value:`no`."
+msgstr ""
+

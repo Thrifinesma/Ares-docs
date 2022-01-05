@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/aircraftreload.rst:6
+msgid "Aircraft-Specific :captiontag:`ReloadRate`"
+msgstr ""
+
+#: ../new/aircraftreload.rst:8
+msgid ""
+"Aircraft only have a global tag for defining how long it takes to reload "
+"their ammunition, which is difficult to balance for different types of "
+"aircraft firing few powerful missiles and aircraft firing lots of weak "
+"machine gun rounds. In :game:`Ares`, each type can have its own "
+":tag:`ReloadRate`."
+msgstr ""
+
+#: ../new/aircraftreload.rst:15
+msgid ":tagdef:`[AircraftType]ReloadRate=double - minutes`"
+msgstr ""
+
+#: ../new/aircraftreload.rst:14
+msgid ""
+"The interval between restoring one round of ammunition when docked to a "
+":tag:`UnitReload=yes` building. Defaults to :tag:`[General]ReloadRate`."
+msgstr ""
+
+#: ../new/aircraftreload.rst:17
+msgid ""
+"For this feature to work the reloading has also been changed to reload "
+"each aircraft individually. This fixes the issue that reload times seemed"
+" to vary for aircraft and the aircraft that landed first was reloaded "
+"substantially faster as it required one less interval of "
+":tag:`ReloadRate`."
+msgstr ""
+

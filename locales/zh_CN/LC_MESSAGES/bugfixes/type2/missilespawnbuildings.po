@@ -1,0 +1,33 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../bugfixes/type2/missilespawnbuildings.rst:7
+msgid ":captiontag:`MissileSpawn` on Buildings"
+msgstr ""
+
+#: ../bugfixes/type2/missilespawnbuildings.rst:9
+msgid ""
+"Buildings were able to use :tag:`Spawns` logic only as long as the "
+"spawned :type:`AircraftType` had :tag:`MissileSpawn=no` set, thus could "
+"only spawn aircraft like the Destroyer and the Aircraft Carrier. If a "
+"building were to spawn a missile, the game would crash. :game:`Ares` "
+"fixed the missile handling and thus :tag:`MissileSpawn=yes` no longer "
+"crashes the game."
+msgstr ""
+

@@ -1,0 +1,188 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/customizableveterancy.rst:4
+msgid "Customizable Veterancy"
+msgstr ""
+
+#: ../new/customizableveterancy.rst:6
+msgid "Configure the way units get experience from killing enemies."
+msgstr ""
+
+#: ../new/customizableveterancy.rst:8
+msgid ""
+":tag:`Trainable=no` is always honored, no untrainable unit will get any "
+"experience. Mind that an open-topped vehicle in the unmodified game also "
+"could promote its passengers (but without the mind-control check) if it "
+"had :tag:`Trainable=no` set."
+msgstr ""
+
+#: ../new/customizableveterancy.rst:19
+msgid "From Passengers"
+msgstr ""
+
+#: ../new/customizableveterancy.rst:25
+msgid ":tagdef:`[TechnoType]Experience.FromPassengers=boolean`"
+msgstr ""
+
+#: ../new/customizableveterancy.rst:22
+msgid ""
+"Allow :tag:`OpenTopped=yes` and :tag:`Gunner=yes` units to gain "
+"experience when a passenger kills an enemy. If this is :value:`no` the "
+"unit only gets promoted when killing enemies itself. For gunners like the"
+" IFV this means the vehicle may not have any passengers to gain "
+"experience. Defaults to :value:`yes`."
+msgstr ""
+
+#: ../new/customizableveterancy.rst:30
+msgid ":tagdef:`[TechnoType]Experience.PromotePassengers=boolean`"
+msgstr ""
+
+#: ../new/customizableveterancy.rst:28
+msgid ""
+"If an :tag:`OpenTopped=yes` or :tag:`Gunner=yes` unit is trainable and "
+"already elite,  the passenger shooting will get the experience instead. "
+"If this is :value:`no` the additional experience will be lost as the "
+"vehicle is elite already. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/customizableveterancy.rst:35
+msgid ":tagdef:`[TechnoType]Experience.PassengerModifier=float - multiplier`"
+msgstr ""
+
+#: ../new/customizableveterancy.rst:33
+msgid ""
+"If a kill gets credited to a passenger, the experience gain is multiplied"
+" by this value. Defaults to :value:`100%`."
+msgstr ""
+
+#: ../new/customizableveterancy.rst:42
+msgid "From Airstrikes"
+msgstr ""
+
+#: ../new/customizableveterancy.rst:46
+msgid ":tagdef:`[TechnoType]Experience.FromAirstrike=boolean`"
+msgstr ""
+
+#: ../new/customizableveterancy.rst:45
+msgid ""
+"If a kill gets credited to an aircraft that was called in by an air "
+"strike, the designator will get the experience instead of the actual "
+"aircraft. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/customizableveterancy.rst:52
+msgid ":tagdef:`[TechnoType]Experience.AirstrikeModifier=float - multiplier`"
+msgstr ""
+
+#: ../new/customizableveterancy.rst:49
+msgid ""
+"If :tag:`Experience.FromAircraft=yes` is set on the designator of an "
+"airstrike (like Boris), the experience gain is multiplied by this value. "
+"Defaults to :value:`100%`."
+msgstr ""
+
+#: ../new/customizableveterancy.rst:59
+msgid "From Mind-Controlled"
+msgstr ""
+
+#: ../new/customizableveterancy.rst:65
+msgid ""
+":tagdef:`[TechnoType]Experience.MindControlSelfModifier=float - "
+"multiplier`"
+msgstr ""
+
+#: ../new/customizableveterancy.rst:62
+msgid ""
+"If a mind-controlled unit kills an enemy, its controller gets this "
+"percentage of the experience the original killer can get (the amount "
+"before :tag:`Experience.MindControlVictimModifier` is applied). This "
+"additional experience is not subtracted from the experience gained by the"
+" original killer. Defaults to :value:`0%`."
+msgstr ""
+
+#: ../new/customizableveterancy.rst:72
+msgid ""
+":tagdef:`[TechnoType]Experience.MindControlVictimModifier=float - "
+"multiplier`"
+msgstr ""
+
+#: ../new/customizableveterancy.rst:68
+msgid ""
+"If a mind-controlled unit kills an enemy, its gained experience is "
+"multiplied by this value. Use this for example to subtract the amount the"
+" unit's controller gets by having this value and "
+":tag:`Experience.MindControlSelfModifier` sum up to 100%. Defaults to "
+":value:`100%`."
+msgstr ""
+
+#: ../new/customizableveterancy.rst:74
+msgid ""
+"Mind-controlled open-topped vehicles will not gain any experience from "
+"their passengers if the mind-controller's and the open-topped's players "
+"aren't allied. Mind-controllers will not gain experience from killing "
+"enemies with a captured allied unit."
+msgstr ""
+
+#: ../new/customizableveterancy.rst:85
+msgid "From Spawns"
+msgstr ""
+
+#: ../new/customizableveterancy.rst:87
+msgid ""
+"Spawners like the Aircraft Carrier or the Destroyer can get experience "
+"from their spawned aircrafts' kills. For this to work, both the spawn and"
+" the spawner must be :tag:`Trainable=yes`. The following two tags go on "
+"the unit that spawns, not the spawns themselves."
+msgstr ""
+
+#: ../new/customizableveterancy.rst:94
+msgid ":tagdef:`[TechnoType]Experience.SpawnOwnerModifier=float - multiplier`"
+msgstr ""
+
+#: ../new/customizableveterancy.rst:93
+msgid ""
+"The percentage of experience the unit owning a spawn gains when the spawn"
+" kills an enemy. This tag has to be set on the spawner unit, not the "
+"spawn. Defaults to :value:`0%`."
+msgstr ""
+
+#: ../new/customizableveterancy.rst:99
+msgid ":tagdef:`[TechnoType]Experience.SpawnModifier=float - multiplier`"
+msgstr ""
+
+#: ../new/customizableveterancy.rst:97
+msgid ""
+"The percentage of experience a spawn of this unit gains when the spawn "
+"kills an enemy. This tag has to be set on the spawner unit, not the "
+"spawn. Defaults to :value:`100%`."
+msgstr ""
+
+#: ../new/customizableveterancy.rst:101
+msgid ""
+"To split the experience between spawner and spawns, make these values sum"
+" up to 100%. This is not required, though."
+msgstr ""
+
+#: ../new/customizableveterancy.rst:104
+msgid ""
+"If a spawner is mind-controlled, both the spawner's and the spawn's "
+"experience is multiplied by :tag:`Experience.MindControlVictimModifier`."
+msgstr ""
+

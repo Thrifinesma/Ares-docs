@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../restored/spotlights.rst:9
+msgid "Spotlights"
+msgstr ""
+
+#: ../restored/spotlights.rst:11
+msgid ""
+"Spotlights are now available to all of the Big Four types, not just "
+":type:`BuildingTypes`. When attached to a :type:`BuildingType`, the "
+"spotlight still behaves like it used to, just circling around, but when "
+"it is attached to a different unit type, such as a :type:`VehicleType`, "
+"it is fixed to shine straight ahead."
+msgstr ""
+
+#: ../restored/spotlights.rst:17
+msgid ""
+"Spotlights would cause an Internal Error whenever they were created. The "
+"error no longer occurs so spotlights can now be used."
+msgstr ""
+
+#: ../restored/spotlights.rst:20
+msgid ""
+"If an object with a spotlight cloaked, the spotlight was removed and "
+"would not reappear once the object uncloaked. This doesn't happen "
+"anymore. The spotlight will be invisible while the object is cloaked, "
+"deactivated, being warped out, or burrowed, though."
+msgstr ""
+
+#: ../restored/spotlights.rst:26
+msgid ":tagdef:`[TechnoType]HasSpotlight=boolean`"
+msgstr ""
+
+#: ../restored/spotlights.rst:26
+msgid ""
+"If set to :value:`yes`, creates a spotlight from the unit or structure. "
+"Defaults to :value:`no`."
+msgstr ""
+
+#: ../restored/spotlights.rst:29
+msgid ":tagdef:`[TechnoType]Spotlight.StartHeight=integer - leptons`"
+msgstr ""
+
+#: ../restored/spotlights.rst:29
+msgid ""
+"Specifies the number of leptons above the ground at which the spotlight "
+"will be generated. Has to be :value:`0` or greater. Defaults to "
+":value:`430`."
+msgstr ""
+
+#: ../restored/spotlights.rst:32
+msgid ":tagdef:`[TechnoType]Spotlight.Distance=integer - leptons`"
+msgstr ""
+
+#: ../restored/spotlights.rst:32
+msgid ""
+"The number of leptons ahead of the unit where the spotlight will reach "
+"the ground. Defaults to :value:`1024`."
+msgstr ""
+
+#: ../restored/spotlights.rst:38
+msgid ""
+":tagdef:`[TechnoType]Spotlight.AttachedTo=enumeration - one of "
+"body|turret`"
+msgstr ""
+
+#: ../restored/spotlights.rst:35
+msgid ""
+"The part of the unit that the spotlight will align to in regards to "
+"facing. If set to :value:`body` then the spotlight will be pointed in the"
+" direction the unit's body is facing, if set to :value:`turret` then the "
+"spotlight will be pointed in the direction the unit's turret is facing. "
+"Does not work on :type:`BuildingTypes`. Defaults to :value:`body`."
+msgstr ""
+
+#: ../restored/spotlights.rst:41
+msgid ":tagdef:`[TechnoType]Spotlight.DisableRed=boolean`"
+msgstr ""
+
+#: ../restored/spotlights.rst:41
+msgid ""
+"If set to :value:`yes` then the spotlight will not emit any red light. "
+"Defaults to :value:`no`."
+msgstr ""
+
+#: ../restored/spotlights.rst:44
+msgid ":tagdef:`[TechnoType]Spotlight.DisableGreen=boolean`"
+msgstr ""
+
+#: ../restored/spotlights.rst:44
+msgid ""
+"If set to :value:`yes` then the spotlight will not emit any green light. "
+"Defaults to :value:`no`."
+msgstr ""
+
+#: ../restored/spotlights.rst:47
+msgid ":tagdef:`[TechnoType]Spotlight.DisableBlue=boolean`"
+msgstr ""
+
+#: ../restored/spotlights.rst:47
+msgid ""
+"If set to :value:`yes` then the spotlight will not emit any blue light. "
+"Defaults to :value:`no`."
+msgstr ""
+
+#: ../restored/spotlights.rst:52
+msgid ":tagdef:`[TechnoType]Spotlight.DisableColor=boolean`"
+msgstr ""
+
+#: ../restored/spotlights.rst:50
+msgid ""
+"If set to :value:`yes` then the spotlight will paint the ground darker, "
+"instead of brighter, and the disable red/green/blue flags mentioned above"
+" will be ignored. Defaults to :value:`no`."
+msgstr ""
+

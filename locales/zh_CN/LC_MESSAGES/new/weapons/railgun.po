@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/weapons/railgun.rst:6
+msgid "Detached Railgun Beams"
+msgstr ""
+
+#: ../new/weapons/railgun.rst:8
+msgid ""
+"A unit cannot fire another railgun beam as long as the previously fired "
+"beam dissolved completely. This new setting allows to get around that "
+"limitation."
+msgstr ""
+
+#: ../new/weapons/railgun.rst:11
+msgid ""
+"Mind that this could mean creating a large amount of particles, so "
+"overusing this feature might cause lag."
+msgstr ""
+
+#: ../new/weapons/railgun.rst:21
+msgid ":tagdef:`[Weapon]IsDetachedRailgun=boolean`"
+msgstr ""
+
+#: ../new/weapons/railgun.rst:15
+msgid ""
+"Whether this weapon is a railgun. Has the same particle effect as "
+":tag:`IsRailgun` but does not have the limitation that the weapon cannot "
+"be fired again as long as the particle system created by firing the "
+"weapon previously subsided. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/weapons/railgun.rst:20
+msgid ""
+"Combining :tag:`IsDetachedRailgun=yes` with :tag:`IsRailgun=yes` is not "
+"supported."
+msgstr ""
+

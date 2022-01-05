@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../bugfixes/type2/factoryloadsharing.rst:7
+msgid "Factory Load Sharing"
+msgstr ""
+
+#: ../bugfixes/type2/factoryloadsharing.rst:9
+msgid ""
+"If you had queued up a lot of vehicles such that the primary factory "
+"could not cope with the rapid exit cycle then the game would search for "
+"alternative exits -- other instances of the same :type:`BuildingType`. In"
+" :game:`Ares` this has been extended to search for all "
+":type:`BuildingTypes` with the same :tag:`Factory` and :tag:`Naval` "
+"settings."
+msgstr ""
+
+#: ../bugfixes/type2/factoryloadsharing.rst:15
+msgid ""
+"This fix prevents the `kennel hack as described on ModEnc "
+"<https://www.modenc.renegadeprojects.com/Correctly_Working_Naval_Yards>`_"
+" from working. See :doc:`/new/buildings/factoriesandcloning` for a "
+"solution."
+msgstr ""
+

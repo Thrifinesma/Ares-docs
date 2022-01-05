@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/editorsupport.rst:7
+msgid "Editor Support"
+msgstr ""
+
+#: ../new/editorsupport.rst:9
+msgid ""
+"Before using the new :doc:`Team Scripts </new/scripts>`, :doc:`Trigger "
+"Events </new/triggerevents>` and :doc:`Actions </new/triggeractions>` "
+":game:'Ares' added, their names and data formats have to be made known to"
+" your map editor."
+msgstr ""
+
+#: ../new/editorsupport.rst:14
+msgid ":captiontag:`FinalAlert2`"
+msgstr ""
+
+#: ../new/editorsupport.rst:16
+msgid ""
+"Merge the :download:`definitions for FinalAlert2 "
+"</extras/FADataCode.txt>` (courtesy of Starkku) into :file:`FAData.ini` "
+"to gain access to the new Trigger Actions and Trigger Events in the "
+"editor, so you can comfortably use them in the maps and missions you "
+"create."
+msgstr ""
+
+#: ../new/editorsupport.rst:21
+msgid ""
+"To also get access to the new Team Scripts from the user interface, you "
+"will need to use :file:`FA2Ext.dll`, a third party extension dll which is"
+" not bundled with :game:`Ares`."
+msgstr ""
+
+#: ../new/editorsupport.rst:25
+msgid ""
+"If you already added new :type:`ParamTypes` to :file:`FAData.ini`, you "
+"may have to update the definitions accordingly before you can use them."
+msgstr ""
+

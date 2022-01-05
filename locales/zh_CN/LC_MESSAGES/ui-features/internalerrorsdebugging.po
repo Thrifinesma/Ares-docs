@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../ui-features/internalerrorsdebugging.rst:8
+msgid "Internal Errors / Debugging"
+msgstr ""
+
+#: ../ui-features/internalerrorsdebugging.rst:10
+msgid ""
+"When an Internal Error occurs, the :file:`except.txt` file that is "
+"produced has been modified so as to output more information that is both "
+"relevant to mod authors, and also relevant to us, the developers, when "
+"debugging the changes and additions introduced by :game:`Ares`."
+msgstr ""
+
+#: ../ui-features/internalerrorsdebugging.rst:15
+msgid ""
+":file:`except.txt` may include a timestamp in the filename to prevent an "
+"existing :file:`except.txt` file being overwritten."
+msgstr ""
+
+#: ../ui-features/internalerrorsdebugging.rst:18
+msgid ""
+":game:`Ares` will give you the option to produce a crash dump file to "
+"assist in determining the cause of the error. This file will be stored in"
+" a Debug folder within the main game directory. Note that the crash dump "
+"file is very large and may only be readable by the :game:`Ares` "
+"developers. Like :file:`except.txt`, this file will include a timestamp "
+"in the filename."
+msgstr ""
+
+#: ../ui-features/internalerrorsdebugging.rst:24
+msgid ""
+"If you have turned on debug logging (see :doc:`Command Line Arguments "
+"</ui-features/commandlinearguments>` and :ref:`Debug Logging <debug-"
+"logging>`) then the game will produce a :file:`debug.log` file in the "
+"aforementioned Debug folder. Like :file:`except.txt`, this file will "
+"include a timestamp in the filename. The log file may contain useful "
+"information for helping diagnose problems with your mod or :game:`Ares` "
+"itself."
+msgstr ""
+
+#: ../ui-features/internalerrorsdebugging.rst:31
+msgid ""
+"In the event of an Internal Error, :game:`Ares` can sometimes tell you "
+"what caused the error. For example:"
+msgstr ""
+
+#: ../ui-features/internalerrorsdebugging.rst:39
+msgid "Here, :game:`Ares` can determine what caused the error."
+msgstr ""
+
+#: ../ui-features/internalerrorsdebugging.rst:46
+msgid ""
+"Here, the error cannot be figured out - :game:`Ares` offers to create a "
+"full crash report."
+msgstr ""
+
+#: ../ui-features/internalerrorsdebugging.rst:54
+msgid ""
+"The crash report has been generated. :game:`Ares` will close after "
+"showing this message."
+msgstr ""
+
+#: ../ui-features/internalerrorsdebugging.rst:57
+msgid ""
+"Some potential errors may now be triggered when loading rather than "
+"waiting for the error to crop up in game. Critical errors occur always, "
+"less critical errors occur only if you have used the :doc:`-STRICT "
+"command line argument </ui-features/commandlinearguments>`."
+msgstr ""
+

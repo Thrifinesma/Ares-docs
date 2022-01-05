@@ -1,0 +1,32 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../bugfixes/type2/whiteboybug.rst:11
+msgid "The Whiteboy Bug"
+msgstr ""
+
+#: ../bugfixes/type2/whiteboybug.rst:13
+msgid ""
+"There is no longer an upper limit of 74 on the number of buildings, units"
+" and superweapons that can be displayed per construction tab on the UI "
+"bar. The game will no longer freeze or even crash when this static limit "
+"is exceeded. This bug is known as `Whiteboy bug "
+"<https://bugs.launchpad.net/ares/+bug/896028>`_."
+msgstr ""
+

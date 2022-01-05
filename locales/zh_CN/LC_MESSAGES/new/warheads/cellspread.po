@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/warheads/cellspread.rst:4
+msgid ":captiontag:`CellSpread` Enhancements"
+msgstr ""
+
+#: ../new/warheads/cellspread.rst:11
+msgid ":captiontag:`CellSpread`"
+msgstr ""
+
+#: ../new/warheads/cellspread.rst:13
+msgid ""
+":game:`Yuri's Revenge` used a lookup table to iterate all the cells "
+"affected by area of effect weapons using :tag:`CellSpread`. This lookup "
+"table was limited because it only supported a maximum range of 11 (which "
+"contained errors)."
+msgstr ""
+
+#: ../new/warheads/cellspread.rst:17
+msgid ""
+":game:`Ares` replaces this lookup table and makes it possible to use "
+"larger values for :tag:`CellSpread`. All area of effect weapon features "
+":game:`Ares` added (like :doc:`AttachEffects on Warheads "
+"</new/attacheffect>`, :doc:`EMP </restored/emp>`, :ref:`IronCurtain on "
+"Weapons <wh-ironcurtain>`) have been updated to support this as well."
+msgstr ""
+
+#: ../new/warheads/cellspread.rst:23
+msgid ""
+"Consider: If you double the range, the number of affected cells is "
+"quadrupled. For performance reasons it is not advised to use "
+":tag:`CellSpread` for frequent or map wide effects."
+msgstr ""
+
+#: ../new/warheads/cellspread.rst:35
+msgid ":captiontag:`CellSpread` Hit Limit"
+msgstr ""
+
+#: ../new/warheads/cellspread.rst:37
+msgid ""
+"The :tag:`CellSpread` logic iterates all cells in range, and affects all "
+"objects on these cells. If an object occupies more than one cell like "
+"buildings with a foundation larger than 1x1, it could be encountered "
+"multiple times and thus would take multiple hits (potentially one for "
+"each cell of its foundation)."
+msgstr ""
+
+#: ../new/warheads/cellspread.rst:42
+msgid ""
+"The following tag limits the number of times the same object can be hit "
+"by the same cause. If an object is hit more often than allowed, the hits "
+"closest to the impact site are used, all others are discarded."
+msgstr ""
+
+#: ../new/warheads/cellspread.rst:49
+msgid ":tagdef:`[Warhead]CellSpread.MaxAffect=integer`"
+msgstr ""
+
+#: ../new/warheads/cellspread.rst:47
+msgid ""
+"The number of times an object can be affected at most when hit by a "
+"warhead using :tag:`CellSpread`. Set this to :value:`1` to make the same "
+"object not be hit not more than once. Defaults to :value:`-1` (infinite)."
+msgstr ""
+

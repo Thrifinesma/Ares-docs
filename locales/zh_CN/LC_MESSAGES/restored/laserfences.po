@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../restored/laserfences.rst:7
+msgid "Laser Fences"
+msgstr ""
+
+#: ../restored/laserfences.rst:9
+msgid ""
+"Laser Fences used to work in :game:`Red Alert 2` and :game:`Yuri's "
+"Revenge` 1.000 but stopped working with the arrival of the 1.001 patch, "
+"in that the 'lasers' never turned on (this appears to have been an "
+"incidental change and not something Westwood did intentionally)."
+msgstr ""
+
+#: ../restored/laserfences.rst:14
+msgid ""
+"Laser Fences now work just the same as they did in :game:`Tiberian Sun`. "
+"You need a :type:`BuildingType` with :tag:`LaserFencePost=yes` to act as "
+"a corner post, and another :type:`BuildingType` with "
+":tag:`LaserFence=yes` which will be placed in between the corner posts "
+"automatically (see the original building's SHP from :game:`Tiberian Sun` "
+"to see how the art is controlled). These fences are impassable to ground "
+"objects and invulnerable to normal damage, but when a corner post is "
+"destroyed, the fences connected to it are lost. When the corner post "
+"loses power, the fences connected to it go offline and become freely "
+"passable. When the post regains power, the fences reactivate and any "
+"object unfortunate enough to be traversing them will be destroyed."
+msgstr ""
+

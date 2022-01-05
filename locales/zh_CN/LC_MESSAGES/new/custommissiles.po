@@ -1,0 +1,318 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/custommissiles.rst:6
+msgid "Custom Missiles"
+msgstr ""
+
+#: ../new/custommissiles.rst:8
+msgid ""
+":game:`Ares` allows you to create new missile types and customize the "
+"existing types (:tag:`V3RocketType`, :tag:`DMislType`, :tag:`CMislType`)."
+" Missiles are :type:`AircraftTypes` which have special logic attached to "
+"behave like a projectile launched from another unit and carrying a "
+"warhead to its target."
+msgstr ""
+
+#: ../new/custommissiles.rst:18
+msgid "Making Aircraft a Missile"
+msgstr ""
+
+#: ../new/custommissiles.rst:20
+msgid ""
+"Instead of defining the missile settings in the :tag:`[General]` section,"
+" :game:`Ares` allows you to put them directly on the "
+":type:`AircraftType`. Apart from that, the missiles work the same way the"
+" original launcher/missile pairs work. This allows you to create an "
+"arbitrary number of new missiles."
+msgstr ""
+
+#: ../new/custommissiles.rst:35
+msgid ":tagdef:`[AircraftType]Missile.Custom=boolean`"
+msgstr ""
+
+#: ../new/custommissiles.rst:26
+msgid ""
+"Specifies whether this :type:`AircraftType` should exhibit missile "
+"behavior. If set to :value:`yes` it enables the missile tags listed "
+"below, which must be set to meaningful values. Not recommended on "
+":tag:`V3RocketType`, :tag:`DMislType` and :tag:`CMislType`. Defaults to "
+":value:`no`."
+msgstr ""
+
+#: ../new/custommissiles.rst:31
+msgid ""
+"If you intend to override the original missiles defined as \\ "
+":tag:`V3RocketType`, :tag:`DMislType` and :tag:`CMislType`, you also have"
+" to define the following tags. :game:`Ares` will not default to the "
+"original game tags for these types defined in the :tag:`[General]` "
+"section."
+msgstr ""
+
+#: ../new/custommissiles.rst:38
+msgid "Custom Missile Settings"
+msgstr ""
+
+#: ../new/custommissiles.rst:40
+msgid ""
+"The following tags are used only if "
+":tag:`[AircraftType]Missile.Custom=yes` is set."
+msgstr ""
+
+#: ../new/custommissiles.rst:45
+msgid ":tagdef:`[AircraftType]Missile.PauseFrames=integer`"
+msgstr ""
+
+#: ../new/custommissiles.rst:44
+msgid ""
+"Defines how many frames the missile pauses on the launching unit before "
+"tilting. Defaults to :value:`0`."
+msgstr ""
+
+#: ../new/custommissiles.rst:49
+msgid ":tagdef:`[AircraftType]Missile.TiltFrames=integer`"
+msgstr ""
+
+#: ../new/custommissiles.rst:48
+msgid ""
+"Defines how many frames it takes for the missile to tilt to firing "
+"position. Defaults to :value:`0`."
+msgstr ""
+
+#: ../new/custommissiles.rst:54
+msgid ":tagdef:`[AircraftType]Missile.PitchInitial=float`"
+msgstr ""
+
+#: ../new/custommissiles.rst:52
+msgid ""
+"Defines the starting pitch of the missile before tilting up. Valid range "
+"is :value:`0.0` (horizontal) to :value:`1.0` (vertical). Defaults to "
+":value:`0.0`."
+msgstr ""
+
+#: ../new/custommissiles.rst:59
+msgid ":tagdef:`[AircraftType]Missile.PitchFinal=float`"
+msgstr ""
+
+#: ../new/custommissiles.rst:57
+msgid ""
+"Defines the ending pitch of the missile after tilting up and when firing."
+" Valid range is :value:`0.0` (horizontal) to :value:`1.0` (vertical). "
+"Defaults to :value:`0.0`."
+msgstr ""
+
+#: ../new/custommissiles.rst:64
+msgid ":tagdef:`[AircraftType]Missile.TurnRate=float`"
+msgstr ""
+
+#: ../new/custommissiles.rst:62
+msgid ""
+"Defines the pitch maneuverability of the missile in air. See original "
+"missiles for examples. Valid range is :value:`0.0` to :value:`1.0`. "
+"Defaults to :value:`0.0`."
+msgstr ""
+
+#: ../new/custommissiles.rst:68
+msgid ":tagdef:`[AircraftType]Missile.RaiseRate=float`"
+msgstr ""
+
+#: ../new/custommissiles.rst:67
+msgid ""
+"Defines how much the missile will raise each turn on the launching unit. "
+"Defaults to :value:`0.0`."
+msgstr ""
+
+#: ../new/custommissiles.rst:72
+msgid ":tagdef:`[AircraftType]Missile.Acceleration=float`"
+msgstr ""
+
+#: ../new/custommissiles.rst:71
+msgid ""
+"Defines how much is added to the missile's velocity each frame during "
+"launch. Defaults to :value:`0.0`."
+msgstr ""
+
+#: ../new/custommissiles.rst:76
+msgid ":tagdef:`[AircraftType]Missile.Altitude=integer`"
+msgstr ""
+
+#: ../new/custommissiles.rst:75
+msgid ""
+"Defines the cruising altitude in leptons at which height missile begins "
+"leveling off. Defaults to :value:`0`."
+msgstr ""
+
+#: ../new/custommissiles.rst:80
+msgid ":tagdef:`[AircraftType]Missile.BodyLength=integer`"
+msgstr ""
+
+#: ../new/custommissiles.rst:79
+msgid ""
+"Defines how long the body of the missile is in leptons. This is used to "
+"draw the trailer. Defaults to :value:`0`."
+msgstr ""
+
+#: ../new/custommissiles.rst:86
+msgid ":tagdef:`[AircraftType]Missile.LazyCurve=boolean`"
+msgstr ""
+
+#: ../new/custommissiles.rst:83
+msgid ""
+"Whether the missile's path is a ballistic curve like the original V3 "
+"rocket. Otherwise the missile maintains the defined altitude. Defaults to"
+" :value:`no`."
+msgstr ""
+
+#: ../new/custommissiles.rst:89
+msgid "Warheads and Damage"
+msgstr ""
+
+#: ../new/custommissiles.rst:93
+msgid ":tagdef:`[AircraftType]Missile.Damage=integer`"
+msgstr ""
+
+#: ../new/custommissiles.rst:92
+msgid ""
+"Defines how much damage the missile does when launched from a rookie or "
+"veteran unit. Defaults to :value:`0`."
+msgstr ""
+
+#: ../new/custommissiles.rst:97
+msgid ":tagdef:`[AircraftType]Missile.EliteDamage=integer`"
+msgstr ""
+
+#: ../new/custommissiles.rst:96
+msgid ""
+"Defines how much damage the missile does when launched from an elite "
+"unit. Defaults to :value:`0`."
+msgstr ""
+
+#: ../new/custommissiles.rst:101
+msgid ":tagdef:`[AircraftType]Missile.Warhead=Warhead`"
+msgstr ""
+
+#: ../new/custommissiles.rst:100
+msgid ""
+"Defines the warhead the missile uses to deliver damage when launching "
+"from a rookie or veteran unit. Defaults to :value:`none`."
+msgstr ""
+
+#: ../new/custommissiles.rst:106
+msgid ":tagdef:`[AircraftType]Missile.EliteWarhead=Warhead`"
+msgstr ""
+
+#: ../new/custommissiles.rst:104
+msgid ""
+"Defines the warhead the missile uses to deliver damage when launching "
+"from an elite unit. Defaults to :value:`none`."
+msgstr ""
+
+#: ../new/custommissiles.rst:111
+msgid "Alternatively Using Weapons"
+msgstr ""
+
+#: ../new/custommissiles.rst:113
+msgid ""
+"Instead of using the pair of damage and warhead settings to deliver "
+"damage, it is also possible to define a weapon that will fire when the "
+"missile explodes. The weapon is used to control projectile, warhead, "
+"damage and bright settings of a bullet that detonates immediately."
+msgstr ""
+
+#: ../new/custommissiles.rst:118
+msgid ""
+"Note that missiles will not fall back to :tag:`Missile.Weapon` for elite "
+"units in case :tag:`Missile.EliteWeapon` is not set. "
+":tag:`Missile.EliteDamage` and :tag:`Missile.EliteWarhead` are used "
+"instead."
+msgstr ""
+
+#: ../new/custommissiles.rst:122
+msgid ""
+"The weapons used for the tags below must be added to the \\ "
+":type:`WeaponTypes` list or they might not be parsed correctly. See the "
+"\\ :file:`debug.log` if the missiles still use the damage and warhead for"
+" dealing damage."
+msgstr ""
+
+#: ../new/custommissiles.rst:130
+msgid ":tagdef:`[AircraftType]Missile.Weapon=Weapon`"
+msgstr ""
+
+#: ../new/custommissiles.rst:128
+msgid ""
+"The weapon used to deliver damage. If not set, :tag:`Missile.Damage` and "
+":tag:`Missile.Warhead` are used to create the explosion. Defaults to "
+":value:`none`."
+msgstr ""
+
+#: ../new/custommissiles.rst:136
+msgid ":tagdef:`[AircraftType]Missile.EliteWeapon=Weapon`"
+msgstr ""
+
+#: ../new/custommissiles.rst:133
+msgid ""
+"The weapon used to deliver damage. If not set, :tag:`Missile.EliteDamage`"
+" and :tag:`Missile.EliteWarhead` are used to create the explosion. "
+"Defaults to :value:`none`."
+msgstr ""
+
+#: ../new/custommissiles.rst:143
+msgid "Trailer and Take-Off Animations"
+msgstr ""
+
+#: ../new/custommissiles.rst:145
+msgid ""
+"Aside from the missile settings you can customize the takeoff and trailer"
+" animations. These settings can be used for any missile, whether they are"
+" custom or not. :game:`Ares` also optimizes away the lookup of the "
+"animation types, thus it does not happen each time a new animation is to "
+"be created for each missile."
+msgstr ""
+
+#: ../new/custommissiles.rst:153
+msgid ":tagdef:`[AircraftType]Missile.TakeOffAnim=Animation`"
+msgstr ""
+
+#: ../new/custommissiles.rst:152
+msgid ""
+"Defines the optional animation played when the missile takes off. "
+"Defaults to :value:`V3TAKOFF`."
+msgstr ""
+
+#: ../new/custommissiles.rst:157
+msgid ":tagdef:`[AircraftType]Missile.TrailerAnim=Animation`"
+msgstr ""
+
+#: ../new/custommissiles.rst:156
+msgid ""
+"Defines the optional animation that is used to draw the trailer of this "
+"missile. Defaults to :value:`V3TRAIL`."
+msgstr ""
+
+#: ../new/custommissiles.rst:161
+msgid ":tagdef:`[AircraftType]Missile.TrailerSeparation=integer`"
+msgstr ""
+
+#: ../new/custommissiles.rst:160
+msgid ""
+"Defines the number of frames to the creation of another trailer "
+"animation. Defaults to :value:`3`."
+msgstr ""
+

@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/customanimationandprojectilepalettes.rst:6
+msgid "Custom Animation and Projectile Palettes"
+msgstr ""
+
+#: ../new/customanimationandprojectilepalettes.rst:8
+msgid ""
+"In :game:`Yuri's Revenge`, you could use the animation or the unit "
+"palette to display animations. :game:`Ares` lets you to specify custom "
+"palettes for animations and projectiles."
+msgstr ""
+
+#: ../new/customanimationandprojectilepalettes.rst:14
+msgid ":tagdef:`[Animation]CustomPalette=filename with .pal extension`"
+msgstr ""
+
+#: ../new/customanimationandprojectilepalettes.rst:13
+msgid "Specifies the palette used to draw this animation/projectile."
+msgstr ""
+
+#: ../new/customanimationandprojectilepalettes.rst:16
+msgid ""
+"You can specify theater-specific palettes by putting three `~` marks to "
+"the theater specific part of the filename. `~~~` is replaced with the "
+"theater's three-letter extension."
+msgstr ""
+
+#: ../new/customanimationandprojectilepalettes.rst:20
+msgid ":tag:`CustomPalette=abcd.pal` always uses :file:`abcd.pal`."
+msgstr ""
+
+#: ../new/customanimationandprojectilepalettes.rst:21
+msgid ""
+":tag:`CustomPalette=lib~~~.pal` uses :file:`libtem.pal`, "
+":file:`libsno.pal`, etc."
+msgstr ""
+
+#: ../new/customanimationandprojectilepalettes.rst:24
+msgid ""
+"Note that if you're using this on projectiles, you have to add the "
+"projectile to the :tag:`[Animations]` list."
+msgstr ""
+

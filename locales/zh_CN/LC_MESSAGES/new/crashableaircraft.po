@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/crashableaircraft.rst:4
+msgid "Crashing"
+msgstr ""
+
+#: ../new/crashableaircraft.rst:9
+msgid ":captiontag:`Crashable` and Aircraft"
+msgstr ""
+
+#: ../new/crashableaircraft.rst:11
+msgid ""
+"Any :type:`AircraftType` being destroyed in air would explode and crash, "
+"causing damage on the ground. A tag, :tag:`Crashable`, exists, but it "
+"only works for the other :type:`TechnoTypes`, so aircraft cannot be made "
+"to not crash. :game:`Ares` adds support for :tag:`Crashable=no` and "
+"aircraft."
+msgstr ""
+
+#: ../new/crashableaircraft.rst:19
+msgid ":tagdef:`[AircraftType]Crashable=boolean`"
+msgstr ""
+
+#: ../new/crashableaircraft.rst:17
+msgid ""
+"Whether the aircraft will explode and fall down crashing into the ground "
+"when destroyed. Otherwise the aircraft will explode in mid-air and "
+"disappear. Defaults to :value:`yes`."
+msgstr ""
+
+#: ../new/crashableaircraft.rst:27
+msgid "Spinning"
+msgstr ""
+
+#: ../new/crashableaircraft.rst:29
+msgid ""
+"Aircraft that is going to crash starts to spin uncontrollably. For larger"
+" planes this can look silly and :game:`Ares` adds an option for this to "
+"turn it off."
+msgstr ""
+
+#: ../new/crashableaircraft.rst:37
+msgid ":tagdef:`[AircraftType]CrashSpin=boolean`"
+msgstr ""
+
+#: ../new/crashableaircraft.rst:33
+msgid ""
+"Whether the aircraft should spin when crashing, opposed to gliding down "
+"to the ground. Defaults to :value:`yes`."
+msgstr ""
+
+#: ../new/crashableaircraft.rst:36
+msgid ""
+"This setting only works for aircraft. :tag:`JumpJet=yes` \\ "
+":type:`VehicleType`\\ s do not support it."
+msgstr ""
+

@@ -1,0 +1,420 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/buildings/spyeffects.rst:6
+msgid "Spy Effects"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:8
+msgid ""
+":game:`Yuri's Revenge` only permits a Spy to achieve one effect on "
+"infiltrating, which is determined by a hard-coded order of precedence. "
+"Spy infiltration logic has been rewritten in :game:`Ares` to be more "
+"flexible, including some new effects that a Spy can achieve."
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:13
+msgid "All of the following flags default to :value:`no` or :value:`0`."
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:19
+msgid ":tagdef:`[BuildingType]SpyEffect.Custom=boolean`"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:18
+msgid ""
+"Whether or not to use the :game:`Ares` spy infiltration logic instead of "
+"the original :game:`Yuri's Revenge` logic."
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:21
+msgid "Must be set to :value:`yes` for any of the following effects to work..."
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:29
+msgid "Radar"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:33
+msgid ":tagdef:`[BuildingType]SpyEffect.ResetRadar=boolean`"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:32
+msgid ""
+"Whether or not spying this enemy building will cause the normal radar "
+"sabotage behavior (i.e. re-shrouding the enemy's map down to just the "
+"terrain that they can presently see)."
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:38
+msgid ":tagdef:`[BuildingType]SpyEffect.RevealRadar=boolean`"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:36
+msgid ""
+"**NEW EFFECT** Whether or not spying this enemy radar will reveal all "
+"further unit movements to the infiltrating player. Enemy units will then "
+"scout the map like own units until the infiltrated building is destroyed,"
+" sold, or captured. The building must also have :tag:`Radar=yes` set."
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:46
+msgid ":tagdef:`[BuildingType]SpyEffect.KeepRadar=boolean`"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:41
+msgid ""
+"**NEW EFFECT** If enabled, a player infiltrating this building will still"
+" have access to the owning player's radar even if the building is "
+"destroyed, sold, or captured. Otherwise the spy effect is removed. "
+"Requires :tag:`SpyEffect.RevealRadar=yes` and a :tag:`Radar=yes` "
+"building."
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:51
+msgid "Power"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:57
+msgid ":tagdef:`[BuildingType]SpyEffect.PowerOutageDuration=integer - frames`"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:54
+msgid ""
+"The number of frames for which the enemy's power will be sabotaged (i.e. "
+"temporarily reduced to zero)."
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:62
+msgid "Money"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:64
+msgid ""
+"The amount of money ultimately stolen from the enemy is always capped by "
+"the amount of money they presently have."
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:68
+msgid ":tagdef:`[BuildingType]SpyEffect.StolenMoneyPercentage=float - percentage`"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:68
+msgid ""
+"The percentage of the enemy's current credits that will be stolen from "
+"the enemy upon spying this enemy building. Defaults to :value:`0%`."
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:82
+msgid ":tagdef:`[BuildingType]SpyEffect.StolenMoneyAmount=integer - credits`"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:71
+msgid ""
+"**NEW EFFECT** The fixed amount of credits that will be stolen from the "
+"enemy upon spying this enemy building. Defaults to :value:`0`."
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:74
+msgid ""
+"If used together with :tag:`SpyEffect.StolenMoneyPercentage`, this "
+"defines the maximum amount of money to steal."
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst
+msgid "Quickstart"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:77
+msgid ""
+"If you want to express \"Take three quarters of the enemy's money, but no"
+" more than 10,000 credits\", use both tags: \\ "
+":tag:`SpyEffect.StolenMoneyPercentage=75%` and \\ "
+":tag:`SpyEffect.StolenMoneyAmount=10000`."
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:89
+msgid "Super Weapons"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:96
+msgid ":tagdef:`[BuildingType]SpyEffect.ResetSuperweapons=boolean`"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:92
+msgid ""
+"Whether or not spying this enemy building will cause all super weapons "
+"attached to it (:tag:`SuperWeapon`, :tag:`SuperWeapon2`, "
+":tag:`SuperWeapons` and all super weapons on attached upgrades) to have "
+"their countdown timers restarted."
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:98
+msgid ""
+"The following tags can be used to grant super weapons like the Sonar "
+"Pulse in :game:`Red Alert` when a spy infiltrates a Sub Pen."
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:105
+msgid ":tagdef:`[BuildingType]SpyEffect.SuperWeapon=SuperWeaponType`"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:102
+msgid ""
+"**NEW EFFECT** Grants this super weapon when infiltrating an enemy "
+"building of this type."
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:105
+msgid "Not all super weapon types might be supported."
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:111
+msgid ":tagdef:`[BuildingType]SpyEffect.SuperWeaponPermanent=boolean`"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:108
+msgid ""
+"Whether the granted super weapon will become available permanently. If "
+":value:`yes`, it will become available uncharged, and it won't be lost "
+"once fired. Otherwise, the super weapon will become available pre-charged"
+" but disappear again after being fired once. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:122
+msgid "Stolen Technology"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:131
+msgid ":tagdef:`[BuildingType]SpyEffect.StolenTechIndex= list of integers`"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:125
+msgid ""
+"The stealable technology types that is stolen upon spying this enemy "
+"building. Only values from 0 to 31 (inclusive) are supported. Use "
+":value:`-1` to disable the effect. Defaults to :value:`-1`."
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:129
+msgid ""
+"Note that despite its singular name this tag takes a list of integers and"
+" it is thus possible to steal several technology types when infiltrating "
+"a single building."
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:136
+msgid ":tagdef:`[TechnoType]Prerequisite.StolenTechs=list of integers`"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:134
+msgid ""
+"The list of stealable technology types that must be stolen before this "
+"object can be built. Only values from 0 to 31 (inclusive) are supported. "
+"Use :value:`-1` to disable this requirement. Defaults to :value:`-1`."
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:138
+msgid ""
+"In :game:`Yuri's Revenge`, there were only three types of stealable "
+"technology available and these were hard-coded to the first three "
+"buildings in the :tag:`[AI]BuildTech` list (game defaults given in "
+"parens):"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:142
+msgid ""
+"Spying the first (:tag:`GATECH`) satisfies "
+":tag:`RequiresStolenAlliedTech=yes`"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:143
+msgid ""
+"Spying the second (:tag:`NATECH`) satisfies "
+":tag:`RequiresStolenSovietTech=yes`"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:144
+msgid ""
+"Spying the third (:tag:`YATECH`) satisfies "
+":tag:`RequiresStolenThirdTech=yes`"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:146
+msgid ""
+"In :game:`Ares`, spying a building with "
+":tag:`SpyEffect.StolenTechIndex=2` (for example) satisfies the stolen "
+"tech requirements for units that require stolen tech 2."
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:150
+msgid ""
+"If you set :tag:`SpyEffect.Custom=yes` on buildings in the \\ "
+":tag:`BuildTech` list (like :tag:`GATECH`, :tag:`NATECH` or "
+":tag:`YATECH`), then those buildings will no longer satisfy the old "
+":tag:`RequiresStolen*Tech` flags."
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:163
+msgid "Veterancy"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:165
+msgid ""
+":game:`Ares` adds five independent fine grained controls to gain "
+"veterancy by spying, thus it is possible to grant one or more types "
+"veterancy at the same time where the original game only supported either "
+":type:`InfantryType`\\ s or :type:`VehicleType`\\ s depending on the "
+":tag:`Factory=` setting."
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:173
+msgid ":tagdef:`[BuildingType]SpyEffect.InfantryVeterancy=boolean`"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:171
+msgid ""
+"Whether spying this building will make all future infantry with "
+":tag:`Trainable=yes` you build from your own factories start veteran. "
+"Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:178
+msgid ":tagdef:`[BuildingType]SpyEffect.VehicleVeterancy=boolean`"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:176
+msgid ""
+"Whether spying this building will make all future :tag:`Naval=no` "
+"vehicles with :tag:`Trainable=yes` you build from your own factories "
+"start veteran. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:183
+msgid ":tagdef:`[BuildingType]SpyEffect.NavalVeterancy=boolean`"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:181
+msgid ""
+"**NEW EFFECT** Whether spying this building will make all future "
+":tag:`Naval=yes` vehicles with :tag:`Trainable=yes` you build from your "
+"own factories start veteran. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:188
+msgid ":tagdef:`[BuildingType]SpyEffect.AircraftVeterancy=boolean`"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:186
+msgid ""
+"**NEW EFFECT** Whether spying this building will make all future aircraft"
+" with :tag:`Trainable=yes` you build from your own factories start "
+"veteran. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:193
+msgid ":tagdef:`[BuildingType]SpyEffect.BuildingVeterancy=boolean`"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:191
+msgid ""
+"**NEW EFFECT** Whether spying this building will make all future "
+"buildings with :tag:`Trainable=yes` you build from your own Construction "
+"Yards start veteran. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:205
+msgid "Intelligence"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:223
+msgid ":tagdef:`[BuildingType]SpyEffect.RevealProduction=boolean`"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:208
+msgid ""
+"**NEW EFFECT** Whether or not spying this enemy building will allow you "
+"to see what the enemy is presently building from that factory, or the "
+"power output, or the owning player's money. Once the building has been "
+"spied, select the building and the information of the unit that is being "
+"produced will be displayed over the building."
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:214
+msgid ""
+":tag:`Fake=yes` buildings will show the text :value:`TXT_FAKE` and reveal"
+" their true name in tooltips (see :doc:`EnemyUIName </new/enemyuiname>`)"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:216
+msgid ""
+":tag:`Power` greater than :value:`0` buildings will reveal the power "
+"level (formatted using :value:`TXT_POWER_DRAIN2`)"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:218
+msgid ""
+":tag:`Storage` greater than :value:`0` buildings will see the player's "
+"credits (formatted using :value:`TXT_MONEY_FORMAT_1`)"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:220
+msgid ":tag:`Factory` buildings will reveal the cameo of the current production"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:222
+msgid "Observers have been enabled to always have access to this information."
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:238
+msgid "Reverse Engineering"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:240
+msgid ""
+"Reset a player's build options gained by :doc:`Reverse Engineering "
+"</new/reverseengineerlogic>`."
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:245
+msgid ":tagdef:`[BuildingType]SpyEffect.UndoReverseEngineer=boolean`"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:244
+msgid ""
+"**NEW EFFECT** Whether spying this building will remove all technology "
+"the infiltrated player has reverse-engineered so far. Defaults to "
+":value:`no`."
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:254
+msgid "Sabotage"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:259
+msgid ":tagdef:`[BuildingType]SpyEffect.SabotageDelay=integer - frames`"
+msgstr ""
+
+#: ../new/buildings/spyeffects.rst:257
+msgid ""
+"The number of frames after which the building will be demolished as if C4"
+" had been planted. If negative, :tag:`[CombatDamage]C4Delay` is used. Use"
+" :value:`0` to disable. Defaults to :value:`0`."
+msgstr ""
+

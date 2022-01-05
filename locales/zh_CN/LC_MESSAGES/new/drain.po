@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/drain.rst:9
+msgid "Drain Weapon Options"
+msgstr ""
+
+#: ../new/drain.rst:11
+msgid ""
+"Unlike defensive structures or refineries, draining power plants always "
+"affects the player's entire power, not just what is produced locally. "
+":game:`Ares` adds some tags to make this customizable."
+msgstr ""
+
+#: ../new/drain.rst:21
+msgid ":tagdef:`[TechnoType]Drain.Local=boolean`"
+msgstr ""
+
+#: ../new/drain.rst:16
+msgid ""
+"Whether this unit drains only the local power from its target building, "
+"or whether this building does not bring down the entire power grid of the"
+" owning player when drained. If any of the draining unit or the building "
+"drained have this set to :value:`yes`, only the local power is drained. "
+"If both have this set to :value:`no`, then the victim's entire power is "
+"drained. Defaults to :value:`no`."
+msgstr ""
+
+#: ../new/drain.rst:31
+msgid ":tagdef:`[TechnoType]Drain.Amount=integer`"
+msgstr ""
+
+#: ../new/drain.rst:24
+msgid ""
+"The amount of power drained from a power plant of the victim player. "
+"Requires :tag:`Drain.Local=yes` on either the draining unit or the "
+"drained building. If positive, this is the maximum amount of power "
+"drained. If negative, this is the minimum amount of power drained. "
+"Defaults to :value:`0`."
+msgstr ""
+
+#: ../new/drain.rst:29
+msgid ""
+"The start value is the victim building's :tag:`Power`, then the draining "
+"unit's :tag:`Drain.Amount` is applied, and finally the drained building's"
+" :tag:`Drain.Amount`."
+msgstr ""
+
+#: ../new/drain.rst:33
+msgid ""
+"For example: draining a Power Plant with :tag:`Power=500` and "
+":tag:`Drain.Amount=0` using a Floating Disk."
+msgstr ""
+
+#: ../new/drain.rst:36
+msgid ""
+"With :tag:`Drain.Amount=-1000` on the disk, it will drain 1000, with "
+":tag:`Drain.Amount=0` it will drain the 500 the building produces, and "
+"with :tag:`Drain.Amount=200` on the disk it will drain 200."
+msgstr ""
+
+#: ../new/drain.rst:40
+msgid ""
+"If the building would have :value:`Drain.Amount=-600`, it would never "
+"drain less than 600. If the building had :tag:`Drain.Amount=800`, it "
+"would never drain more than 800."
+msgstr ""
+

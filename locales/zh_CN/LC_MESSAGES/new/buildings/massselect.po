@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/buildings/massselect.rst:6
+msgid "Mass-Selection"
+msgstr ""
+
+#: ../new/buildings/massselect.rst:8
+msgid ""
+"In :game:`Tiberian Sun` units like the Tick Tank and the Artillery could "
+"deploy into 1x1 buildings. These buildings were considered vehicles when "
+"dragging a selection rectangle, so many of them could be undeployed "
+"quickly."
+msgstr ""
+
+#: ../new/buildings/massselect.rst:12
+msgid ""
+"This feature is still available in :game:`Yuri's Revenge` and cannot be "
+"turned off for buildings that might be undeployable but should not be "
+"considered vehicles."
+msgstr ""
+
+#: ../new/buildings/massselect.rst:16
+msgid ""
+"In :game:`Ares` this feature can be disabled for 1x1 structures or "
+"enabled for buildings with larger foundations that should be considered "
+"vehicles:"
+msgstr ""
+
+#: ../new/buildings/massselect.rst:23
+msgid ":tagdef:`[BuildingType]MassSelectable=boolean`"
+msgstr ""
+
+#: ../new/buildings/massselect.rst:20
+msgid ""
+"Whether buildings of this type are considered units when mass-selecting. "
+"If :value:`no`, buildings will not be included in the selection, even if "
+"they undeploy into a unit and are actually to be considered vehicles. "
+"Defaults to :value:`yes` for 1x1 buildings with :tag:`UndeploysInto=` "
+"set."
+msgstr ""
+

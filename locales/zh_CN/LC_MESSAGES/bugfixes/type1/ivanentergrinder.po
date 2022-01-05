@@ -1,0 +1,39 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../bugfixes/type1/ivanentergrinder.rst:9
+msgid "Crazy Ivans Cannot Enter Grinders"
+msgstr ""
+
+#: ../bugfixes/type1/ivanentergrinder.rst:11
+msgid ""
+"Crazy Ivan always got the Ivan Bomb cursor on an allied Grinder and thus "
+"could not be ordered to enter it normally. Once the Grinder was rigged "
+"with a bomb, Crazy Ivan was allowed to enter it. Force fire or force move"
+" keys could not alter this behavior."
+msgstr ""
+
+#: ../bugfixes/type1/ivanentergrinder.rst:16
+msgid ""
+":game:`Ares` changes this so Crazy Ivan gets the enter cursor on allied "
+"Grinders by default. Enemy Grinders get the Ivan Bomb cursor. You can "
+"still override this behavior if you want to plant a  bomb on a Grinder by"
+" pressing the force fire key."
+msgstr ""
+

@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/speakdelays.rst:9
+msgid "Speak Delays"
+msgstr ""
+
+#: ../new/speakdelays.rst:11
+msgid ""
+"EVA announces every time when a cloaked or subterranean unit has been "
+"detected. This is unlike the low power or insufficient funds notice, that"
+" will occur only once in a while, defined by the setting "
+":tag:`[AudioVisual]SpeakDelay`. :game:`Ares` adds distinct speak delays "
+"for the unit detectiion notices."
+msgstr ""
+
+#: ../new/speakdelays.rst:17
+msgid ":tagdef:`[AudioVisual]StealthSpeakDelay=double - minutes`"
+msgstr ""
+
+#: ../new/speakdelays.rst:17
+msgid ""
+"Minutes between EVA repeating the warning that a stealth unit has been "
+"detected. Defaults to :value:`0.0`."
+msgstr ""
+
+#: ../new/speakdelays.rst:21
+msgid ":tagdef:`[AudioVisual]SubterraneanSpeakDelay=double - minutes`"
+msgstr ""
+
+#: ../new/speakdelays.rst:20
+msgid ""
+"Minutes between EVA repeating the warning that a subterranean unit has "
+"been detected. Defaults to :value:`0.0`."
+msgstr ""
+

@@ -1,0 +1,238 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The Ares Contributors
+# This file is distributed under the same license as the Ares package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ares 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-05 15:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../new/superweapons/types/paradrop.rst:4
+msgid ":captiontag:`Type=ParaDrop` and :captiontag:`Type=AmerParaDrop`"
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst:6
+msgid "Default values for general tags:"
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst:8
+msgid ":tagdef:`[SuperWeapon]SW.AITargeting=enumeration`"
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst:9
+#: ../new/superweapons/types/paradrop.rst:11
+msgid "Defaults to :value:`ParaDrop`."
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst:12
+msgid ":tagdef:`[SuperWeapon]Cursor=mouse cursor`"
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst:14
+msgid ""
+"The original flags that control the units provided by the generic "
+"paradrop super weapons (:tag:`AllyParaDropInf`, :tag:`SovParaDropInf` and"
+" :tag:`YuriParaDropInf`) and the American paradrop "
+"(:tag:`AmerParaDropInf`) only accept :type:`InfantryTypes`. If you try to"
+" include a :type:`VehicleType` via these lists then the game will create "
+"a new :type:`InfantryType` instead - with the same parameters as the "
+"existing :type:`VehicleType` - ultimately resulting in an invisible "
+":type:`InfantryType` being delivered in the paradrop."
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst:22
+msgid ""
+"With :game:`Ares`, there are new country-specific flags that override the"
+" old flags and enhance the way paradrops are delivered. "
+":tag:`ParaDrop.Types` will accept :type:`VehicleTypes` as well as "
+":type:`InfantryTypes`. You can send multiple airplanes of user-defined "
+"type."
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst:27
+msgid "Each plane consists of the following properties:"
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst:36
+msgid ""
+":tagdef:`[SuperWeapon]ParaDrop.Types=list of InfantryTypes and/or "
+"VehicleTypes`"
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst:30
+msgid ""
+"The units that will be paradropped by this super weapon. For "
+":tag:`Type=AmerParaDrop` super weapons, this defaults to "
+":tag:`AmerParaDropInf=`."
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst:34
+msgid ""
+"The original flags used to control the paradrop units only accept \\ "
+":type:`InfantryTypes`. To include :type:`VehicleTypes` in a paradrop you "
+"must use the new :tag:`ParaDrop.Types` and :tag:`ParaDrop.Num` flags."
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst:40
+msgid ":tagdef:`[SuperWeapon]ParaDrop.Num=list of integers`"
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst:39
+msgid ""
+"The quantity of each corresponding unit (listed against "
+":tag:`ParaDrop.Types`) that will be paradropped. For "
+":tag:`Type=AmerParaDrop` super weapons, this defaults to "
+":tag:`AmerParaDropNum=`."
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst:43
+msgid ":tagdef:`[SuperWeapon]ParaDrop.Aircraft=AircraftType`"
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst:43
+msgid ""
+"The type of aircraft that will deliver the units. Defaults to the "
+"corresponding country's :tag:`ParaDrop.Aircraft=`."
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst:48
+msgid ":tagdef:`[SuperWeapon]ParaDrop.Count=integer - number of planes`"
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst:46
+msgid ""
+"This controls how many planes should be send to drop paratroopers. "
+"Defaults to :value:`1`."
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst:50
+msgid ""
+"You can define every plane for each country, side or the super weapon "
+"separately. The syntax is as follows:"
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst:58
+msgid ":tagdef:`[Superweapon]ParaDrop.ID.PlaneX.*=`"
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst:54
+msgid ""
+"*ID* is name of the country or side. *X* is a positive integer, with no "
+"leading zeros, starting with *2* up to `Count`. To customize the first "
+"plane (which will also act as the default plane), do not use the *PlaneX*"
+" segment. If you want to set the default properties for all sides, do not"
+" use the *ID* segment. The :tag:`Count` tags can't have a *PlaneX* "
+"segment."
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst:60
+msgid ""
+"The Airplane and its contents will be read separately, thus it is "
+"possible to only define :tag:`Aircraft`; :tag:`Types` and :tag:`Nums` "
+"will use the default value by going though the list until the tags are "
+"defined. This also works vice versa."
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst:65
+msgid ""
+":tag:`Types` and :tag:`Nums` have to be defined together; it is not "
+"possible to change the number of units without restating the types."
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst:68
+msgid "Values are read in this order, top down. The first value found is used."
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst:70
+msgid ""
+":tag:`[Superweapon]ParaDrop.Country.PlaneX.*=` (the SW's country-specific"
+" plane number X)"
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst:72
+msgid ""
+":tag:`[Superweapon]ParaDrop.Side.PlaneX.*=` (the SW's side-specific plane"
+" number X)"
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst:74
+msgid ":tag:`[Superweapon]ParaDrop.PlaneX.*=` (the SW's default plane number X)"
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst:75
+msgid ""
+":tag:`[Superweapon]ParaDrop.Country.*=` (the SW's country-specific "
+"default plane)"
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst:77
+msgid ""
+":tag:`[Superweapon]ParaDrop.Side.*=` (the SW's side-specific default "
+"plane)"
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst:78
+msgid ":tag:`[Superweapon]ParaDrop.*=` (the SW's default plane)"
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst:79
+msgid ":tag:`[Country]ParaDrop.*=` (the country-specific default plane)"
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst:80
+msgid ":tag:`[Side]ParaDrop.*=` (the side-specific default plane)"
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst:81
+msgid ":tag:`[General]*=` (the Rules' default plane)"
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst:83
+msgid "Examples:"
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst:85
+msgid ""
+":tag:`[Superweapon]ParaDrop.Russia.Plane3.Types=BORIS` (and proper "
+":tag:`Nums`) would replace the contents of the third plane for the "
+"country :tag:`Russia`."
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst:89
+msgid ""
+":tag:`[Superweapon]ParaDrop.Nod.Aircraft=SPLANE` would replace the "
+"aircraft for all Soviet side countries."
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst
+msgid "Quickstart"
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst:92
+msgid ""
+"\\ To give all countries the same items, use \\ "
+":tag:`[Superweapon]ParaDrop.Count=`, "
+":tag:`[Superweapon]ParaDrop.Aircraft=`, \\ "
+":tag:`[Superweapon]ParaDrop.Types=`, and "
+":tag:`[Superweapon]ParaDrop.Num=`. This creates a clone of the American "
+"Paradrop."
+msgstr ""
+
+#: ../new/superweapons/types/paradrop.rst:97
+msgid ""
+"You can create unlimited new paradrop superweapons with different "
+"properties. :tag:`Type=ParaDrop` and :tag:`Type=AmerParaDrop` are treated"
+" equally, but they differ by the default values. The AI will use both "
+"types as in the unmodified game."
+msgstr ""
+
