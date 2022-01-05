@@ -1,5 +1,5 @@
 ============================
-New & Enhanced In-Game Logic
+游戏内逻辑拓展
 ============================
 This chapter documents all the completely new features that have been added to
 the game.

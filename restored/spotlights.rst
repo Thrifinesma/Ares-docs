@@ -3,7 +3,7 @@
   Vehicles; Attach spotlights to body or turret
   Buildings; Spotlights
 
-Spotlights
+探照灯
 ~~~~~~~~~~
 
 Spotlights are now available to all of the Big Four types, not just

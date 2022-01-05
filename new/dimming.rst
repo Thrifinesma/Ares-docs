@@ -2,7 +2,7 @@
   Vehicles; Dimming voxel if deactivated
   EMP; Dimming affected vehicle voxel
 
-Dimming Deactivated Units
+失灵单位变暗
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The level deactivated voxel :type:`VehicleTypes` are dimmed can be configured

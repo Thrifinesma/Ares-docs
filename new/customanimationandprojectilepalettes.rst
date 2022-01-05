@@ -1,6 +1,6 @@
 .. index:: Art; Animation and projectile palettes
 
-Custom Animation and Projectile Palettes
+自定义动画与抛射体色盘
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In :game:`Yuri's Revenge`, you could use the animation or the unit palette to

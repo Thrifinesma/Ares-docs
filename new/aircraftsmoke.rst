@@ -1,6 +1,6 @@
 .. index:: Aircraft; Smoke animation when damaged
 
-Aircraft Smoke
+飞机尾烟
 ~~~~~~~~~~~~~~
 
 When aircraft creates a smoke trail because of heavy damage, the animation used

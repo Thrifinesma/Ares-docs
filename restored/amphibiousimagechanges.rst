@@ -3,7 +3,7 @@
   Art; Amphibious vehicles can change their image when moving between water/land
 
 ========================
-Amphibious Image Changes
+两栖图像改变
 ========================
 In :game:`Tiberian Sun`, the Amphibious APC would appear to sink into the water.
 This was achieved by changing the imagery from :file:`apc.vxl` to

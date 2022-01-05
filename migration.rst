@@ -1,5 +1,5 @@
 ---------------
-Migration Guide
+迁移指南
 ---------------
 
 If you are upgrading from previous versions of :game:`Ares`, you may have to

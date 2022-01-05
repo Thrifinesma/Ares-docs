@@ -3,7 +3,7 @@
   TechnoTypes; Parachute animations
   Art; Parachute animations
 
-Customizable Parachute Animations
+自定义降落伞动画
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Units can now have their own individual parachute animation.

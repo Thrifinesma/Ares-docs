@@ -1,7 +1,7 @@
 .. index:: TechnoTypes; DeployDir for each type
 
-:captiontag:`DeployDir`
-=======================
+部署方向
+===============
 
 Originally, this setting was used for :tag:`DeployToLand=yes` units. When
 ordered to deploy, they would turn towards this direction first.

@@ -1,5 +1,5 @@
 ===========================
-Restored Tiberian Sun Logic
+泰伯利亚之日逻辑恢复
 ===========================
 The :game:`Yuri's Revenge` engine is based on the :game:`Red Alert 2` engine,
 which, in turn, is based on the :game:`Tiberian Sun` engine. Various features

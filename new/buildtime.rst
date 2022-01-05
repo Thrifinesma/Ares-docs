@@ -1,7 +1,7 @@
 .. index::
   Factories; Build time fully customizable per type
 
-Build Time
+建造时间
 ~~~~~~~~~~
 
 In :game:`Ares` it is possible to customize all settings related to the build

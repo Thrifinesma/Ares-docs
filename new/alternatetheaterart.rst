@@ -2,8 +2,8 @@
   Art; AlternateTheaterArt for InfantryTypes supports all theaters
   Theaters; AlternateTheaterArt for InfantryTypes supports all theaters
 
-:captiontag:`AlternateTheaterArt`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+根据气候换装
+~~~~~~~~~~~~~~~
 
 The Navy Seal has :tag:`AlternateArcticArt=yes` set, which causes the game to
 use the image file :file:`seala.shp` on arctic maps, instead of

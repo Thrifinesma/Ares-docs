@@ -3,7 +3,7 @@
   Doggie; Tiberian Fiends
   Universe; Tiberian Fiends
 
-Tiberian Fiends
+泰伯利亚恶魔
 ~~~~~~~~~~~~~~~
 
 :game:`Tiberian Sun` had wildlife, which was yet more aggressive than :game:`Red

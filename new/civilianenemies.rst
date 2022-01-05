@@ -1,4 +1,4 @@
-Civilian Enemies
+中立敌对目标
 ~~~~~~~~~~~~~~~~
 
 In :game:`Red Alert 2` the environment is pretty much friendly and factions do
@@ -9,7 +9,7 @@ changes.
 
 .. index:: Civilians; Always treat as enemy
 
-Treat Civilians as Enemies
+有威胁的中立单位
 --------------------------
 
 :game:`Yuri's Revenge` makes a distinction between single player and multi
@@ -28,7 +28,7 @@ neutral if they are :tag:`Insignificant=no`.
 
 .. index:: Civilians; Recognize and repel civilian threats
 
-Repelling Civilian Attacks
+是否还击中立单位
 --------------------------
 
 If civilians are not recognized as dangerous, only units or structures attacked

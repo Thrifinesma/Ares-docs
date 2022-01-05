@@ -1,6 +1,6 @@
 .. index:: Crates; Random money amount
 
-Crate Settings
+箱子设定
 ~~~~~~~~~~~~~~
 
 Money crates do not only award the amounts set in the rules, but also vary the

@@ -2,7 +2,7 @@
   Cameos; Palettes
   Art; Palettes for cameos
 
-Custom Cameo Palettes
+自定义图标色盘
 ~~~~~~~~~~~~~~~~~~~~~
 
 Rather than always using the cameo palette, individual cameos can now use their

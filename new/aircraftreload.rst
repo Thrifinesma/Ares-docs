@@ -1,7 +1,7 @@
 .. index:: Aircraft; ReloadRate per AircraftType
 
-Aircraft-Specific :captiontag:`ReloadRate`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+飞机专属装弹时间
+~~~~~~~~~~~~~~~~~~~
 
 Aircraft only have a global tag for defining how long it takes to reload their
 ammunition, which is difficult to balance for different types of aircraft firing

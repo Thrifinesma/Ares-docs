@@ -1,7 +1,7 @@
 .. index:: Weapons; AttachEffect
 
-AttachEffect
-~~~~~~~~~~~~
+附加效果（:captiontag:`AttachEffect`）
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The AttachEffect system was designed as a spiritual successor to
 :game:`NPatch`'s Upgrade logic, but it was aimed to not be limited only to

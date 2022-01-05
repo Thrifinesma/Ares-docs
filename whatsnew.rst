@@ -1,5 +1,5 @@
 ==========
-What's New
+新事物
 ==========
 
 This section contains non-exhaustive lists of features and bugfixes that were

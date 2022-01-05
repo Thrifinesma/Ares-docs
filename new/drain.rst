@@ -3,7 +3,7 @@
   Drain; Amount of power drained
   Weapons; Drain weapons only drain local power or custom amount
 
-Drain Weapon Options
+吸取武器设定
 ~~~~~~~~~~~~~~~~~~~~
 
 Unlike defensive structures or refineries, draining power plants always affects

@@ -1,4 +1,4 @@
-Compatibility Notes
+兼容性提示
 ===================
 
 RockPatch/NPatch
@@ -56,7 +56,7 @@ should re-enable the service as quickly as possible. `Thanks to FS-21
 <https://bugs.launchpad.net/ares/+bug/1090588/comments/3>`_.
 
 
-Required Changes For Mods Using Ares
+使用 Ares 所需要的更改
 ====================================
 Unfortunately, :game:`Ares` will not simply "work" without changes to the
 original game files. The reason for this is that maintaining compatibility with

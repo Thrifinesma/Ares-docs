@@ -2,7 +2,7 @@
   Crush; Crush damage when running over infantry or vehicles
   Universe; Sardaukar dealing damage when crushed
 
-Crush Damage
+碾压伤害
 ~~~~~~~~~~~~
 
 This feature known from :game:`Dune 2000` has been added to :game:`Yuri's

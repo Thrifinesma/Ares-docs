@@ -2,7 +2,7 @@
   TechnoTypes; Mouse cursors
   Art; Cursors on units and structures
 
-Cursors on Units and Structures
+自定义单位与建筑鼠标
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Cursors can be customized for each unit or structure to give them a unique
@@ -16,7 +16,7 @@ weapon cursors </new/weapons/cursors>`.
 
 .. index:: Cursors; Movement
 
-Movement
+移动
 ========
 
 These cursors are used for a variety of functions: setting the rally point for
@@ -34,7 +34,7 @@ when a target can't be attacked or an object cannot be entered.
 
 .. index:: single: Cursors; Deploy, eject, area attack
 
-Deploy
+部署
 ======
 
 Deploy cursors are used for a variety of different functions like for deploying
@@ -56,7 +56,7 @@ Desolators, as well as for ordering area attacks like on the Yuri Clone.
 
 .. index:: Cursors; Enter or dock
 
-Enter
+进入
 =====
 
 Unlike the other cursors, the enter cursor of the object the mouse is hovering
@@ -88,7 +88,7 @@ specialized cursors.
 
 .. index:: Cursors; Infiltrate buildings
 
-Spy Infiltration
+间谍渗透
 ================
 
 The spy cursor can be customized for each building type, so :tag:`Agent=yes`

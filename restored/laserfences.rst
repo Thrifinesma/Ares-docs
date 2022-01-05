@@ -1,7 +1,7 @@
 .. index:: Buildings; Laser Fences
 
 ============
-Laser Fences
+激光栅栏
 ============
 
 Laser Fences used to work in :game:`Red Alert 2` and :game:`Yuri's Revenge`

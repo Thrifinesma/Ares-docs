@@ -1,4 +1,4 @@
-Damage Particle Systems
+损伤粒子系统
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 Damage particle systems are used to visually indicate a unit has been damaged
@@ -12,7 +12,7 @@ description of this feature.
   Particles; Damage sparks for all TechnoTypes
   TechnoTypes; Damage sparks for all types
 
-Damage Sparks
+损伤火花
 -------------
 
 There was a hardcoded setting in the games since :game:`Tiberian Sun` that
@@ -34,8 +34,8 @@ file. :game:`Ares` unties this feature from :tag:`Cyborg` and
   Particles; Smoke and Spark DamageParticleSystems 
   Units; DamageParticleSystems
 
-Smoke and Spark :captiontag:`DamageParticleSystems`
----------------------------------------------------
+烟雾与火花型损伤粒子系统
+---------------------------------------------------------------------------------
 
 :game:`Ares` adds two new tags that allow arbitrary damage particle systems
 where previously only one with either :tag:`BehavesLike=Smoke` or

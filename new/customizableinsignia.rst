@@ -2,10 +2,10 @@
   Veterancy; Insignia for veteran/elite units
   Art; Insignia for veteran/elite units
 
-Veterancy Insignia
+自定义军衔
 ~~~~~~~~~~~~~~~~~~
 
-Chevrons
+军衔标志
 ````````
 
 Units can now have custom insignia (chevrons) to represent their veterancy
@@ -39,7 +39,7 @@ display the 15th/16th frames of :file:`pips.shp` as usual.
   Veterancy; Hide insignia of enemy units
   TechnoTypes; Hide veterancy insignia of enemy units
 
-Hiding Enemy Insignia
+隐藏敌方军衔
 `````````````````````
 
 Because you usually cannot ask enemy troops what their rank is, and from a

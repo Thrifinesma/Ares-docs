@@ -1,6 +1,6 @@
 .. index:: Missiles; Add new and customize the original missile types
 
-Custom Missiles
+自定义导弹
 ~~~~~~~~~~~~~~~
 
 :game:`Ares` allows you to create new missile types and customize the existing
@@ -12,7 +12,7 @@ projectile launched from another unit and carrying a warhead to its target.
 .. versionchanged:: 0.A
 
 
-Making Aircraft a Missile
+指定飞机是否为导弹
 `````````````````````````
 
 Instead of defining the missile settings in the :tag:`[General]` section,
@@ -32,7 +32,7 @@ work. This allows you to create an arbitrary number of new missiles.
     game tags for these types defined in the :tag:`[General]` section.
 
 
-Custom Missile Settings
+自定义导弹设定
 ```````````````````````
 
 The following tags are used only if :tag:`[AircraftType]Missile.Custom=yes` is
@@ -83,7 +83,7 @@ set.
   :value:`no`.
 
 
-Warheads and Damage
+弹头及伤害
 ```````````````````
 
 :tagdef:`[AircraftType]Missile.Damage=integer`
@@ -105,7 +105,7 @@ Warheads and Damage
 
 .. index:: Missiles; Weapon instead of damage and warhead
 
-Alternatively Using Weapons
+武器
 ```````````````````````````
 
 Instead of using the pair of damage and warhead settings to deliver damage, it
@@ -137,7 +137,7 @@ in case :tag:`Missile.EliteWeapon` is not set. :tag:`Missile.EliteDamage` and
   Missiles; Trailer and take-off animations
   Art; Trailer and take-off animations for missiles
 
-Trailer and Take-Off Animations
+尾烟与发射动画
 ```````````````````````````````
 
 Aside from the missile settings you can customize the takeoff and trailer

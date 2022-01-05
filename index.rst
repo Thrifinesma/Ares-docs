@@ -4,34 +4,24 @@
    contain the root `toctree` directive.
 
 ==================
-Ares Documentation
+Ares 说明书
 ==================
 
-Introduction
+介绍
 ============
-:game:`Ares` is the new tool to extend the capabilities of :game:`Yuri's
-Revenge` and to fix bugs in the game engine. It was conceived by pd near the end
-of 2007, developed over the years by :doc:`The Ares Contributors </credits>` and
-first released to the public in 2010.
+:game:`Ares` 是一个 :game:`Yuri's Revenge` 的拓展其功能和修复其游戏引擎Bug的工具。
+pd在2007年末构想了这一项目，并由 :doc:`The Ares Contributors </credits>` 开发数年。其首个版本发布于2010年。
 
-This documentation is aimed primarily at mod authors wishing to make use of the
-new functionality that :game:`Ares` offers.
+本文档主要针对希望使用 :game:`Ares` 提供的新功能的模组作者。
 
-:game:`Ares` is incorporated into :game:`Yuri's Revenge` via the use of
-:game:`Syringe`, a program initially developed by pd to 'inject' DLL code into a
-running executable without modifying the executable file itself.
+:game:`Ares` 通过 :game:`Syringe` 与尤里的复仇共同使用。:game:`Syringe` 最初是由 pd 开发的，用于将 DLL 代码“注入”正在运行的应用程序中，而无需修改应用程序本身。
 
-In this case, the :game:`Ares` DLL is injected into the :game:`Yuri's Revenge`
-1.001 main executable, :file:`gamemd.exe`. The properly patched original CD
-version as well as the compilations :game:`The First Decade` and :game:`The
-Ultimate Collection` are supported.
+即，:game:`Ares` DLL 被注入到 :game:`Yuri's Revenge` 1.001 的主程序 :file:`gamemd.exe` 中。 支持正常升级的原始 CD 版本以及 :game:`The First Decade` 和 :game:`The Ultimate Collection` 的合集。
 
-:game:`Syringe` can be run directly via a command line prompt or automatically
-run from external launcher applications provided by a mod. See the respective
-documentations of those programs for further details.
+:game:`Syringe` 可以直接通过命令提示符运行，或通过 mod 提供的外部启动器运行。 更多详细信息，请参阅它们相应的文档。
 
 
-Table of Contents
+内容
 =================
 
 .. toctree::

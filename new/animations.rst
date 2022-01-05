@@ -1,7 +1,7 @@
-Animation Damage
+动画伤害
 ~~~~~~~~~~~~~~~~
 
-Using a Weapon
+动画武器
 ``````````````
 
 Instead of dealing damage directly using the :tag:`Warhead`, a weapon can be
@@ -26,7 +26,7 @@ weapon effects to be applied.
 .. versionadded:: 2.0
 
 
-Damage Delay
+伤害间隔
 ````````````
 
 :tagdef:`[Animation]Damage.Delay=integer - animation frames`

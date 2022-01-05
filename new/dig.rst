@@ -3,7 +3,7 @@
   Units; Subterranean dig animations and sounds
   Art; Dig animations and sounds per type
 
-Dig Animation and Sound
+钻地动画与音效
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 The global settings :tag:`Dig` and :tag:`DigSound` have been deglobalized and

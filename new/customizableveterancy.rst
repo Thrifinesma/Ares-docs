@@ -1,4 +1,4 @@
-Customizable Veterancy
+自定义经验获取
 ~~~~~~~~~~~~~~~~~~~~~~
 
 Configure the way units get experience from killing enemies.
@@ -13,7 +13,7 @@ promote its passengers (but without the mind-control check) if it had
 
 .. index:: Veterancy; Experience from passengers
 
-From Passengers
+来自乘客
 ```````````````
 
 :tagdef:`[TechnoType]Experience.FromPassengers=boolean`
@@ -36,7 +36,7 @@ From Passengers
   Veterancy; Experience from airstrikes
   Airstrikes; Give experience to designator
 
-From Airstrikes
+来自空袭
 ```````````````
 
 :tagdef:`[TechnoType]Experience.FromAirstrike=boolean`
@@ -53,7 +53,7 @@ From Airstrikes
   Veterancy; Experience from mind control
   Mind Control; Give experience to mind-controller
 
-From Mind-Controlled
+来自心控
 ````````````````````
 
 :tagdef:`[TechnoType]Experience.MindControlSelfModifier=float - multiplier`
@@ -79,7 +79,7 @@ allied unit.
   Veterancy; Experience from spawns
   Spawns; Give experience to spawners
 
-From Spawns
+来自子机
 ```````````
 
 Spawners like the Aircraft Carrier or the Destroyer can get experience from

@@ -6,7 +6,7 @@
   Vehicles; Turret depending on passengers
   Art; Turret depending on unit's passengers
 
-Chrono Prisons / Abductors
+超时空监狱 / 劫持者
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Originally intended for :game:`Yuri's Revenge`, with published concept art and

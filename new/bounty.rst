@@ -2,7 +2,7 @@
   Bounty; Rewards for killing enemies
   TechnoTypes; Bounty awarded for killings
 
-Bounty
+赏金
 ~~~~~~
 
 Units and structures can be awarded bounty for killing enemies, either by firing

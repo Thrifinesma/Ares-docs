@@ -1,5 +1,5 @@
 ======================
-Fixes to Original Bugs
+原版 Bug 修复
 ======================
 
 Fixes to genuine bugs in the original, unmodded :game:`Yuri's Revenge` 1.001,

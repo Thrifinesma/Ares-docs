@@ -1,7 +1,7 @@
 .. index:: Buildings; Firestorm Wall
 
 ==============
-Firestorm Wall
+火风暴墙
 ==============
 
 The Firestorm Wall and the corresponding super weapon can now be implemented in
@@ -26,7 +26,7 @@ more details.
 
 .. index:: Firestorm; Defining Walls
 
-Defining a Wall
+设定墙体
 ~~~~~~~~~~~~~~~
 
 :type:`BuildingTypes` with :tag:`Firestorm.Wall=yes` set will act as a section
@@ -41,7 +41,7 @@ controlled).
 
 .. index:: Firestorm; Global settings restored
 
-Global Settings
+全局设定
 ~~~~~~~~~~~~~~~
 
 :tagdef:`[CombatDamage]FirestormWarhead=Warhead`
@@ -84,7 +84,7 @@ Wall is active, or idle, or immolating something.
   Maps; Firestorm related actions 92 and 93 restored
   Actions; Firestorm related actions 92 and 93 restored
 
-Firestorm Map Actions
+地图触发
 ~~~~~~~~~~~~~~~~~~~~~
 
 :game:`Ares` restores the two map actions related to the Firestorm Defense from

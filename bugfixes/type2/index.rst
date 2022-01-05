@@ -1,5 +1,5 @@
 ===================
-Fixes to Mod Logics
+Mod 逻辑修复
 ===================
 
 Fixes to logic that goes unused in the unmodded game, or at least not used to

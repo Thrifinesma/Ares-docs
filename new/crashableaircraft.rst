@@ -1,10 +1,10 @@
-Crashing
-~~~~~~~~
+飞机坠毁控制
+~~~~~~~~~~~~
 
 .. index:: Aircraft; Non-Crashable aircraft
 
-:captiontag:`Crashable` and Aircraft
-------------------------------------
+坠毁
+---------------------------------------
 
 Any :type:`AircraftType` being destroyed in air would explode and crash, causing
 damage on the ground. A tag, :tag:`Crashable`, exists, but it only works for the
@@ -21,7 +21,7 @@ adds support for :tag:`Crashable=no` and aircraft.
 
 .. index:: Aircraft; Spinning while crashing
 
-Spinning
+旋转坠毁
 --------
 
 Aircraft that is going to crash starts to spin uncontrollably. For larger planes

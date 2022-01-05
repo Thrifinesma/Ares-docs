@@ -2,7 +2,7 @@
   Disk Lasers; Animations and Bright
   Weapons; Disk Lasers with animations and Bright
 
-Disk Laser Animations
+飞碟激光动画
 ~~~~~~~~~~~~~~~~~~~~~
 
 Even though pre-release screen shots showed this, :tag:`DiskLaser=yes` weapons

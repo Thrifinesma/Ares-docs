@@ -2,7 +2,7 @@
   Chronosphere; Per-unit Chronosphere options
   Chronosphere; Crushing other units
 
-Chronoshift
+超时空传送
 ~~~~~~~~~~~
 
 These options specify what the Chronosphere should do with an object.

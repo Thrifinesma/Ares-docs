@@ -1,5 +1,5 @@
 ========================
-Performance Improvements
+性能提升
 ========================
 
 Performance fixes are employed to optimize certain game functions that take much

@@ -2,7 +2,7 @@
   CanPassiveAquire; Units hold fire in guard mode
   Universe; Stealth Tanks hold fire in guard mode
 
-:captiontag:`CanPassiveAquire` Settings
+主动开火设定
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The following tags refine the way :tag:`CanPassiveAquire` works when a

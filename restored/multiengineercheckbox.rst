@@ -2,7 +2,7 @@
   Interface; Multi Engineer checkbox in Skirmish menu
   Skirmish; Multi Engineer checkbox
 
-Multi Engineer Checkbox
+多位工程师选择框
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 :game:`Tiberian Sun` lets the user enable and disable the Multi Engineer feature

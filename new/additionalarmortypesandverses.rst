@@ -2,8 +2,8 @@
   ArmorTypes; Add custom ArmorTypes to warheads
   Warheads; Add custom ArmorTypes
 
-Additional :type:`ArmorTypes` and :captiontag:`Verses`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+额外的护甲类型与弹头比例
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The new :tag:`[ArmorTypes]` section can be used to define new :type:`ArmorTypes`
 for objects (in addition to the 11 existing :type:`ArmorTypes`; :value:`none`,
@@ -46,7 +46,7 @@ than 11 values.
   ArmorTypes; ForceFire/Retaliate/PassiveAcquire decoupled from Verses
   Warheads; Verses special behaviors ForceFire/Retaliate/PassiveAcquire
 
-Warhead :captiontag:`Verses`' Special Values
+弹头比例特殊值
 ````````````````````````````````````````````
 
 The Verses flag has three special-case values that can be used to define
@@ -84,7 +84,7 @@ Note :game:`Ares`' correct spelling of "acquire".
   ArmorTypes; Immunities from certain warheads
   Warheads; Immunities using ArmorTypes
 
-Immunities
+免疫
 ``````````
 
 The original game has a way to make certain units immune to certain warheads,

@@ -2,7 +2,7 @@
   Vehicles; Always play HVA animation when unit in air
   Art; Always play HVA animation when unit in air
 
-:captiontag:`AirRate`
+空中HVA动画播放速率
 ~~~~~~~~~~~~~~~~~~~~~
 
 When a unit is moving, :tag:`WalkRate` is used to control the unit's animation,

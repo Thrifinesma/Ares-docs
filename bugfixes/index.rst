@@ -1,5 +1,5 @@
 =========
-Bug Fixes
+Bug 修复
 =========
 :game:`Ares` provides three types of bug fixes:
 

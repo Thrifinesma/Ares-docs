@@ -1,4 +1,4 @@
-Electromagnetic Pulse (EMP)
+电磁脉冲 (EMP)
 ===========================
 
 EMP disables susceptible units and buildings along with their special functions
@@ -35,7 +35,7 @@ various ways:
 .. versionadded:: 0.1
 
 
-Defining EMP Weapons
+设定 EMP 武器
 --------------------
 
 :game:`Tiberian Sun` used the weapon's :tag:`Damage` tag to determine how long
@@ -64,7 +64,7 @@ otherwise the target is endowed with the full effect.
     \ :tag:`EMP.Duration=150` on the warhead.
 
 
-Damaging EMP
+施加 EMP
 ~~~~~~~~~~~~
 
 With a positive :tag:`EMP.Duration` the targets are going to be deactivated.
@@ -107,7 +107,7 @@ With a positive :tag:`EMP.Duration` the targets are going to be deactivated.
     because it was already higher.
 
 
-Healing EMP
+治疗 EMP
 ~~~~~~~~~~~
 
 This can be used for re-activating deactivated allied units. With a negative
@@ -148,7 +148,7 @@ This can be used for re-activating deactivated allied units. With a negative
 
 .. _empulse-immunity:
 
-EMP Immunity
+EMP 免疫
 ------------
 
 There are several ways to create units that are not affected by EMP weapons.
@@ -184,7 +184,7 @@ EMP immunity also respects :tag:`TypeImmune` on the :type:`TechnoType`, as well
 as :tag:`AffectsAllies` and :tag:`AffectsEnemies` on the warhead.
 
 
-Modifying the Effect Duration
+自定义效果持续时间
 -----------------------------
 
 Instead of either affecting an object fully or not at all, :game:`Ares` allows
@@ -198,7 +198,7 @@ could reactivate sooner than the tank.
   Defaults to :value:`100%`.
 
 
-Destructive EMP
+毁灭性 EMP
 ---------------
 
 This setting allows objects to be destroyed by EMP rather than just being
@@ -239,7 +239,7 @@ and it accumulates an EMP duration of more than 100 frames.
 .. versionadded:: 0.2
 
 
-Sparkles Animation 
+火花动画
 ------------------
 
 When a unit or building is under the effect of EMP, it can display an optional
@@ -265,7 +265,7 @@ This animation can be overridden by the warhead that initiates the EMP effect.
 .. versionadded:: 0.A
 
 
-Global Settings
+全局设定
 ---------------
 
 :tagdef:`[CombatDamage]EMPAIRecoverMission=mission`

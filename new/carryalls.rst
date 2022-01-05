@@ -2,7 +2,7 @@
   Aircraft; Carryall settings to disallow certain cargo
   Carryalls; Disallow cargo by type or by size
 
-Carryalls
+吊运
 ~~~~~~~~~
 
 Carryalls were a feature of :game:`Tiberian Sun`. :type:`AircraftTypes` with

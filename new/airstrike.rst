@@ -1,6 +1,6 @@
 .. index:: Airstrikes; Attack and abort voices
 
-Airstrike Voices
+空袭语音
 ~~~~~~~~~~~~~~~~
 
 :game:`Ares` supports custom airstrike related voices. These flags can be
