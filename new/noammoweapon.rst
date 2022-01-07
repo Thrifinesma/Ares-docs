@@ -2,7 +2,7 @@
   Weapons; Switch to other weapon if ammo is empty
   TechnoTypes; Switch to other weapon if ammo is empty
 
-:captiontag:`NoAmmoWeapon`
+无弹药武器
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Units and structures usually always use the same weapon against the same target.

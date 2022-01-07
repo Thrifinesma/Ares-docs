@@ -3,7 +3,7 @@
   Warheads; Kill the driver of a vehicle
   Universe; Kill drivers like Jarmen Kell or neutron rounds
 
-Killing Drivers
+击杀驾驶员
 ~~~~~~~~~~~~~~~
 
 Requested as a "Jarmen Kell" functionality, this feature allows specific
@@ -15,7 +15,7 @@ others to take over the now-neutral vehicle.
 .. versionchanged:: 2.0
 
 
-Warhead Settings
+弹头设定
 ----------------
 
 This logic supports :tag:`CellSpread` and respects all immunities as any other
@@ -51,7 +51,7 @@ customized. See :ref:`wh-effects`.
   Kill Driver; Protect drivers of vehicles
   TechnoTypes; Driver can't be killed
 
-Protected Drivers
+保护驾驶员
 -----------------
 
 The following settings can make a unit immune to the Kill Driver logic:
@@ -79,7 +79,7 @@ damage or other special warhead effects.
   Kill Driver; Reclaim vehicles
   Infantry; Capture units that had their drivers killed
 
-Reclaim Vehicles
+占领载具
 ----------------
 
 Drivers are infantry units that can capture neutral vehicles, like ones that had

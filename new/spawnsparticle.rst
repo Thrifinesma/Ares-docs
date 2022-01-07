@@ -1,6 +1,6 @@
 .. index:: Animations; Spawn particles at a distance
 
-Particle Spawning
+粒子产生
 ~~~~~~~~~~~~~~~~~
 
 Animations can spawn particles using :tag:`SpawnsParticle`, but no matter how

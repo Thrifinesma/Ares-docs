@@ -1,6 +1,6 @@
 .. index:: Animations; Choose the owner for MakeInfantry animations
 
-:captiontag:`MakeInfantryOwner`
+基因突变所属方
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The original :tag:`MakeInfantry` logic would always grant ownership of

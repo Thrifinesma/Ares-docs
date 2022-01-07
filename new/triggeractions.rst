@@ -1,4 +1,4 @@
-Trigger Actions
+触发动作
 ~~~~~~~~~~~~~~~
 
 :game:`Ares` adds the following Trigger Actions to :game:`Yuri's Revenge`.
@@ -9,7 +9,7 @@ Actions from map editors.
 
 .. index:: Trigger Actions; Activate Firestorm
 
-:captiontag:`Activate Firestorm` (92)
+激活火风暴（92）
 `````````````````````````````````````
 
 Activates the Firestorm Wall sections for the house owning the trigger,
@@ -26,7 +26,7 @@ The format is :value:`92,0,0,0,0,0,0,A`.
 
 .. index:: Trigger Actions; Deactivate Firestorm
 
-:captiontag:`Deactivate Firestorm` (93)
+停止火风暴（93）
 ```````````````````````````````````````
 
 Dectivates the Firestorm Wall sections for the house owning the trigger. Use
@@ -43,7 +43,7 @@ The format is :value:`93,0,0,0,0,0,0,A`.
 
 .. index:: Trigger Actions; Auxiliary Power
 
-:captiontag:`Auxiliary Power` (146)
+给予额外电力（146）
 ```````````````````````````````````
 
 Permanently adds an amount to the specified house's auxiliary power. Can be
@@ -58,7 +58,7 @@ The format is :value:`146,11,<house id>,0,0,0,0,<power>`.
 
 .. index:: Trigger Actions; Kill Drivers
 
-:captiontag:`Kill Drivers Of` (147)
+击杀驾驶员（147）
 ```````````````````````````````````
 
 Kills all drivers of the units that have the trigger attached that contains this
@@ -76,7 +76,7 @@ The format is :value:`147,0,<house id>,0,0,0,0,A`.
 
 .. index:: Trigger Actions; Set EVA Voice
 
-:captiontag:`Set EVA Voice` (148)
+设定 EVA 语音（148）
 `````````````````````````````````
 
 Sets the player's EVA voice. The builtin EVAs are :value:`0`, :value:`1`, and
@@ -94,7 +94,7 @@ The format is :value:`148,0,<eva index>,0,0,0,0,A`.
 
 .. index:: Trigger Actions; Set Group
 
-:captiontag:`Set Group` (149)
+编队（149）
 `````````````````````````````
 
 Sets the group number for the object that triggered this action. This can be

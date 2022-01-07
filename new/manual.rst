@@ -1,11 +1,11 @@
-Manual Control
+手动控制
 ~~~~~~~~~~~~~~
 
 .. index::
   Behavior; Disallow manual target selection
   TechnoTypes; Disable attack cursor
 
-No Manual Target Selection
+禁止手动选择目标
 ``````````````````````````
 
 Like :tag:`EMPulseCannon`, this disallows players to manually select targets,
@@ -24,7 +24,7 @@ nor to retaliate.
   Behavior; Disallow manual passenger unload
   TechnoTypes; Disable unload cursor
 
-No Manual Passenger Unload
+禁止手动卸载乘员
 ``````````````````````````
 
 This setting disallows players to manually eject the passengers. This is useful
@@ -48,7 +48,7 @@ accordingly.
   Behavior; Disallow units to get an enter cursor over a transport
   TechnoTypes; Prevent players to send units into transports
 
-No Manual Enter Transport
+禁止手动进入载具
 `````````````````````````
 
 This cosmetic setting allows to hide the fact that a unit is a transport by
@@ -70,7 +70,7 @@ Also, the AI will not respect this setting. Use the :doc:`Specific Passengers
   Behavior; Disable Medics' Guard Area cursor on self
   Infantry; Medics that can deploy
 
-No Guard Area on Self
+禁止自身区域警戒
 `````````````````````
 
 Medics usually get a guard area cursor on themselves so players can set them to

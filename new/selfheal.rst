@@ -3,7 +3,7 @@
   single: TechnoTypes; Self Heal rate, heal amount, and max level
   Universe; Self Heal like Tiberian Dawn Mammoths
 
-Self Heal
+自愈
 ~~~~~~~~~
 
 A unit's ability to self heal was hardcoded in :game:`Yuri's Revenge` and aside

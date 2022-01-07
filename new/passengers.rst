@@ -2,7 +2,7 @@
   Passengers; Allow only specific passenger types in transports
   Transports; Allow only specific passenger types
 
-Specific Passengers
+特定乘客
 ~~~~~~~~~~~~~~~~~~~
 
 Additionally to the checks for :tag:`Size` and :tag:`SizeLimit`, it is possible
@@ -21,7 +21,7 @@ to allow passengers to enter depending on their type.
 .. versionchanged:: 2.0
 
 
-Ignoring Passenger Size
+忽略乘客大小
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 Transports can ignore the actual size of its passengers and use up one slot for

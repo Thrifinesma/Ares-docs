@@ -2,7 +2,7 @@
   Drop Pods; Locomotor
   Locomotors; Drop Pod
 
-Drop Pods
+空降仓
 ~~~~~~~~~
 
 These are the collected settings that apply to the Drop Pod locomotor in general
@@ -16,7 +16,7 @@ specifically.
   Drop Pods; Trailer animation
   Art; Drop Pod trailer animation
  
-Trailer
+尾烟
 -------
 
 The original Drop Pod trailer was not customizable and also not implemented in
@@ -33,7 +33,7 @@ Pod does not have a :tag:`[General]DropPodWeapon` set.
   Drop Pods; Super weapon defaults
   Super Weapons; Drop Pod global defaults
 
-Global Super Weapon Defaults
+全局超武默认值
 ----------------------------
 
 The following tags define the defaults for the Drop Pod super weapons. The tags
@@ -53,7 +53,7 @@ given here for reference.
   :game:`Firestorm` uses :value:`8`.
 
 
-Miscellaneous
+其他
 -------------
 
 If the weapon used as :tag:`[General]DropPodWeapon` does not have at least one

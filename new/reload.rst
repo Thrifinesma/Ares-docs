@@ -2,7 +2,7 @@
   Ammo; Reload and empty reload amounts
   TechnoTypes; Reload and empty reload amounts
 
-:captiontag:`ReloadAmount` and :captiontag:`EmptyReloadAmount`
+弹药恢复数量
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The game has options for :tag:`Reload` and :tag:`EmptyReload` to define how long

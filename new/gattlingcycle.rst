@@ -2,7 +2,7 @@
   Weapons; Cycle Gattling weapons without losing target
   Gattling; Cycle weapons without losing target
 
-Gattling Enhancements
+循环盖特逻辑
 ~~~~~~~~~~~~~~~~~~~~~
 
 The gattling weapon system in :game:`Yuri's Revenge` switches weapons the

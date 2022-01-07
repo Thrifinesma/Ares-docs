@@ -3,7 +3,7 @@
   TechnoTypes; Radar Jammers
   Universe; Radar Jammers
 
-Radar Jammers
+雷达干扰器
 ~~~~~~~~~~~~~
 
 :game:`Red Alert`-like Radar Jammers, where the mere presence of the jammer

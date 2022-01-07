@@ -2,7 +2,7 @@
   Crush; OmniCrusher=yes without aggressive auto-crushing
   TechnoTypes; OmniCrusher=yes without aggressive auto-crushing
 
-:captiontag:`OmniCrusher` Enhancements
+高级碾压增强
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 :tag:`OmniCrusher=yes` units are allowed to overrun enemies, and units are eager

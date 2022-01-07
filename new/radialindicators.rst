@@ -2,7 +2,7 @@
   Radial Indicators; Customizable for structures and units
   Units; Radial Indicator support
 
-Radial Indicators
+视觉指示器
 ~~~~~~~~~~~~~~~~~
 
 Radial Indicators were a feature for buildings that could visualize the range of

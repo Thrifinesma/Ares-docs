@@ -6,7 +6,7 @@
   Mind Control; Works with hijackers
   single: Infantry; Expanded VehicleThief hijacker logic
 
-Hijackers
+偷车贼
 ~~~~~~~~~
 
 Vehicle thieves can steal enemy units, effectively hijacking them on the battle

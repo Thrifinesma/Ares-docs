@@ -1,4 +1,4 @@
-Hard-coded Unit Properties
+硬编码单位属性
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The game is hard-coded to do certain things with certain unit IDs. Namely the
@@ -10,8 +10,8 @@ infantry.
 
 .. index:: Infantry; Move around randomly like a cow
 
-:captiontag:`IsCow`
-```````````````````
+无目的走动（:captiontag:`IsCow`）
+```````````````````````````````````
 
 The :tag:`[COW]` was hard-coded to play its idle animation more frequently than
 other infantry and was also hard-coded to move around randomly. You can now set
@@ -26,8 +26,8 @@ the :tag:`[COW]`.
 
 .. index:: Infantry;Desolator special handling
 
-:captiontag:`IsDesolator`
-`````````````````````````
+持续部署开火（:captiontag:`IsDesolator`）
+`````````````````````````````````````````````````
 
 The :tag:`[DESO]` was hard-coded to have different deploy-weapon firing timing
 than other units to coincide with the unit's art :tag:`Sequence`.

@@ -1,6 +1,6 @@
 .. index:: TechnoTypes; Prevent selection keyboard commands to reveal information
 
-:captiontag:`FakeOf`
+假单位
 ====================
 
 The Keyboard Commands that select units depending on their health or veterancy

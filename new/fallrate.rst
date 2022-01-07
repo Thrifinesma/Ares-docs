@@ -1,4 +1,4 @@
-Fall Rate
+降落速度
 ~~~~~~~~~
 
 When a unit is dropped onto the battlefield from a plane, with or without

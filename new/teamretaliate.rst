@@ -1,6 +1,6 @@
 .. index:: AI; Team retaliates if a member is attacked
 
-Team Retaliate
+小队复仇
 ~~~~~~~~~~~~~~
 
 If a unit attacked a member of an idling team in :game:`Tiberian Sun` and didn't

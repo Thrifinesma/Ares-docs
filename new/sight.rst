@@ -1,5 +1,5 @@
-Sight
-~~~~~
+视野
+~~~~~~
 
 :tag:`Sight` was using a lookup table almost like :tag:`CellSpread`, thus it was
 limited to a maximum value of 10. :game:`Ares` increases this and now larger

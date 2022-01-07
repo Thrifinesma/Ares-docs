@@ -1,10 +1,10 @@
-Script Actions
+脚本动作
 ~~~~~~~~~~~~~~
 
 See :doc:`Editor Support </new/editorsupport>` on how to use the new Script
 Actions from map editors.
 
-:captiontag:`Gather at Enemy` (53)
+敌方基地外集合（53）
 ``````````````````````````````````
 
 The previously unused parameter of the :value:`Gather at Enemy` script action is
@@ -18,7 +18,7 @@ the distance.
 
 .. index:: Scripts; Distance setting for Gather at Base
 
-:captiontag:`Gather at Base` (54)
+己方基地外集合（54）
 `````````````````````````````````
 
 :game:`Ares` splits the tag :tag:`[General]AISafeDistance` into two, which is
@@ -41,7 +41,7 @@ negative to shorten the distance.
 
 .. _script-ironcurtain:
 
-:captiontag:`Iron Curtain` (55)
+铁幕 / 请求超武（55）
 ```````````````````````````````
 
 Previously, the game would only look at the first (and usually only) super
@@ -65,7 +65,7 @@ rely on different super weapon groups.
 
 .. index:: Scripts; Auxiliary Power
 
-:captiontag:`Auxiliary Power` (65)
+给予额外电力（65）
 ``````````````````````````````````
 
 This new script action permanently changes the power output of the house owning
@@ -80,7 +80,7 @@ The format is :value:`65,<power>`.
 
 .. index:: Scripts; Kill Drivers
 
-:captiontag:`Kill Drivers` (66)
+杀死驾驶员（66）
 ```````````````````````````````
 
 Kills all drivers of the units in this team. This script respects Protected
@@ -97,7 +97,7 @@ The format is :value:`66,0`.
 
 .. index:: Scripts; Take Vehicles
 
-:captiontag:`Take Vehicles` (67)
+夺取最近可占领载具（67）
 ````````````````````````````````
 
 All infantry in this team that are either :tag:`CanDrive=yes` or
@@ -119,7 +119,7 @@ The format is :value:`67,0`.
 
 .. _script-converttype:
 
-:captiontag:`Convert Type` (68)
+变形（68）
 ```````````````````````````````
 
 Immediately changes all members of this team into their respective script
@@ -138,7 +138,7 @@ The format is :value:`68,0`.
 
 .. index:: Scripts; Sonar Reveal
 
-:captiontag:`Sonar Reveal` (69)
+声呐探测 / 解除隐形（69）
 ```````````````````````````````
 
 Disables the ability of all team members to cloak themselves for a number of
@@ -154,7 +154,7 @@ The format is :value:`69,<frames>`.
 
 .. index:: Scripts; Disable Weapons
 
-:captiontag:`Disable Weapons` (70)
+禁用武器（70）
 ``````````````````````````````````
 
 Disables the ability of all team members to fire for a number of frames defined

@@ -1,9 +1,9 @@
-Mouse Cursors
+鼠标
 ~~~~~~~~~~~~~
 
 .. index:: Mouse Cursors; Defining a cursor
 
-Defining Cursors
+鼠标动画
 ================
 
 New cursors can be added and default cursors can be changed using the new
@@ -55,7 +55,7 @@ comma-separated values as follows:
   Mouse Cursors; List of default cursors
   Mouse Cursors; New intrinsic named cursors
 
-Default Cursors
+默认鼠标
 ===============
 
 The original game's cursors are defined implicitly, that is, they exist and are
@@ -95,7 +95,7 @@ cursor without also changing the original cursors.
 .. versionadded:: 0.D
 
 
-Migrating from Previous Versions
+由先前版本迁移
 ================================
 
 Ares versions prior to 0.D supported seven tags to define a mouse cursor: one

@@ -1,6 +1,6 @@
 .. index:: Animations; Napalm tags Scorch= and Flamer= restored
 
-:captiontag:`Scorch` and :captiontag:`Flamer`
+火焰动画
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 :game:`Tiberian Sun` had special support for napalm animations: two tags that

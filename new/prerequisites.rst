@@ -1,4 +1,4 @@
-Prerequisites
+建造前提
 ~~~~~~~~~~~~~
 
 The prerequisite system has been enhanced in several ways. New flags are
@@ -8,7 +8,7 @@ prerequisites (see
 
 .. index:: Prerequisites; Require the map to be a specific theater (desert/snow/lunar/etc)
 
-Require Theater
+气候需求
 ```````````````
 
 :tagdef:`[TechnoType]Prerequisite.RequiredTheaters=list of theater names`
@@ -34,7 +34,7 @@ Require Theater
 
 .. index:: Prerequisites; Make an object unavailable if a listed building is owned
 
-Negative Prerequisites
+否定前提
 ``````````````````````
 
 :tagdef:`[TechnoType]Prerequisite.Negative=list of BuildingTypes`
@@ -50,7 +50,7 @@ Negative Prerequisites
 
 .. index:: Prerequisites; Multiple separate prerequisite lists
 
-Multiple Alternative Prerequisites Lists
+备选前提
 ````````````````````````````````````````
 
 :game:`Ares` supports more than one prerequisite list. Each prerequisite list
@@ -86,7 +86,7 @@ Battle Lab.
 
 .. index:: Prerequisites; Require stolen tech 
 
-Require Stolen Technology
+偷窃科技
 `````````````````````````
 
 :tagdef:`[TechnoType]Prerequisite.StolenTechs=list of integers`
@@ -99,7 +99,7 @@ Require Stolen Technology
 
 .. index:: Prerequisites; Require building initially built by certain country
 
-Require Factory Built By Country
+特定国家的工厂需求
 ````````````````````````````````
 
 Satisfying prerequisites can be tied to the initial owner of a factory building.
@@ -132,7 +132,7 @@ be the neutral country.
 .. versionchanged:: 2.0
 
 
-Overview
+流程图
 ````````
 
 Below is a flowchart of the current prerequisite system. Blue sections
@@ -146,7 +146,7 @@ modified or added by :game:`Ares`.
 
 .. index:: Prerequisites; Prerequisite groups
 
-Generic Prerequisite Groups
+通用建造前提组
 ```````````````````````````
 
 You can now create custom generic prerequisite groups like the existing
@@ -192,7 +192,7 @@ used *instead* of those specified on the original PrerequisiteGroup flags
   Prerequisites; Generalized alternate prerequisite groups
   Prerequisites; Units as prerequisite
 
-Alternate Prerequisites with Non-Buildings
+非建筑作为建造前提
 ``````````````````````````````````````````
 
 To support the Slave Miner as prerequisite, :game:`Yuri's Revenge` added the

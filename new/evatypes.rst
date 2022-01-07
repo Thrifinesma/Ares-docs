@@ -1,6 +1,6 @@
 .. index:: EVA; Create new EVA announcers
 
-EVA Types
+EVA 类型
 ~~~~~~~~~
 
 :game:`Ares` supports defining new EVA voice types in addition to the three

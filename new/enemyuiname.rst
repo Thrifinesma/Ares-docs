@@ -1,6 +1,6 @@
 .. index:: TechnoTypes; Hide the actual name from enemies
 
-:captiontag:`EnemyUIName`
+敌方名称
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In :game:`Yuri's Revenge`, allies and enemies alike can see the name of any unit

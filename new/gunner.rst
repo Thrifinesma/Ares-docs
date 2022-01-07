@@ -1,4 +1,4 @@
-:captiontag:`Gunner` IFVs
+IFV 逻辑
 `````````````````````````
 
 :tag:`Gunner=yes` units support changing their weapon depending on their first
@@ -11,8 +11,8 @@ rigidly hardcoded internally. :game:`Ares` changes this.
   Units; Multiple IFVs
   Gunner; Multiple IFVs
 
-Multiple IFVs
-~~~~~~~~~~~~~
+解除 IFV 硬编码
+~~~~~~~~~~~~~~~~~~~~
 
 The :tag:`[FV]` was the only unit to be checked for the special turret and
 weapon flags, such as :tag:`SniperTurretIndex`. With :game:`Ares`, all
@@ -27,7 +27,7 @@ means that you can now have multiple types of IFV.
   Weapons; More than 18 weapons and turrets
   Turrets; More than 18 weapons and turrets
 
-More Turrets and Weapons
+更多炮塔和武器
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 :game:`Ares` supports more than 18 different turret and barrel voxels, which
@@ -45,7 +45,7 @@ counterparts, thus more than 18 different :tag:`IFVMode`\ s are now possible.
   Units; More IFV Modes
   Gunner; More than 18 IFV Modes
 
-Defining IFV Modes
+设定 IFV 模式
 ~~~~~~~~~~~~~~~~~~
 
 :game:`Ares` replaces the original parsing of the tags mapping weapons to
@@ -89,7 +89,7 @@ passenger type's name and the transport's name.
   Units; VoiceIFVRepair per IFV unit
   Gunner; VoiceIFVRepair per unit
 
-:captiontag:`VoiceIFVRepair`
+维修语音
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In :game:`Ares` you can specify the :tag:`VoiceIFVRepair` tag on any IFV unit.

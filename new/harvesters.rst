@@ -2,7 +2,7 @@
 .. index:: Slave Miner; Scan and Distance Settings
 .. index:: Slaves; Scan and Distance Settings
 
-Harvesters, Slave Miners, and Slaves
+微观定义矿车逻辑
 ====================================
 
 The following new tags deglobalize settings that define harvesting behavior like

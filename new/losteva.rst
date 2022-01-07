@@ -5,7 +5,7 @@
   Aircraft; Unit Lost EVA message
   Buildings; Structure Lost EVA message
 
-Unit or Structure Lost EVA Report
+单位损失 EVA
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If a unit or a structure is destroyed, EVA announces to the owning player that

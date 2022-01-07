@@ -2,7 +2,7 @@
   Factory Plant; Modify the effect
   Buildings; Modifiable FactoryPlants effect
 
-Factory Plant Effect
+工业工厂微观影响
 ~~~~~~~~~~~~~~~~~~~~
 
 The cost reduction effect of :tag:`FactoryPlant` buildings like the Industrial

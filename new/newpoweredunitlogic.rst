@@ -2,7 +2,7 @@
   Powered Unit; Multiple powered units like the Robot Tank
   TechnoTypes; Alternative to PowersUnit
 
-New Powered Unit Logic
+遥控坦克逻辑
 ~~~~~~~~~~~~~~~~~~~~~~
 
 In original :game:`Yuri's Revenge`, the :tag:`PowersUnit=` tag logic dictated

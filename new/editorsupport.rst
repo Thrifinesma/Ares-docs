@@ -1,7 +1,7 @@
 .. index:: Map Editors; Support for new Team Scripts, Trigger Events and Actions
 .. index:: Final Alert 2; Support for new Team Scripts, Trigger Events and Actions
 
-Editor Support
+编辑器支持
 ~~~~~~~~~~~~~~
 
 Before using the new :doc:`Team Scripts </new/scripts>`, :doc:`Trigger Events

@@ -1,9 +1,9 @@
-Particles
+粒子
 ~~~~~~~~~
 
 .. index:: single: Particles; Optimizations for Spark, Railgun, and Smoke
 
-Optimizations
+优化
 -------------
 
 Particle handling has been greatly optimized in :game:`Ares`. Pixel particles --
@@ -35,7 +35,7 @@ optimization is not applied, particles will be handled more efficiently.
 
 .. index:: Particles; Damage range for Gas
 
-Damage Range for Gas Particles
+烟雾粒子伤害范围
 ------------------------------
 
 Gas particles could only damage objects residing on the same cell as itself, no
@@ -52,7 +52,7 @@ matter how big the particle's image was. :game:`Ares` allows customizing this.
 
 .. index:: single: Particles; Palettes for Gas, Smoke, and Fire
 
-Custom Palettes for Shape Particles
+自定义色盘
 -----------------------------------
 
 Particles drawing shape images -- that is types having :tag:`BehavesLike=` set

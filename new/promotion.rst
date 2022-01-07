@@ -1,9 +1,9 @@
-Promotion settings
+升级设定
 ~~~~~~~~~~~~~~~~~~
 
 .. index:: Art; Global VeteranFlashTimer
 
-Global :captiontag:`VeteranFlashTimer`
+老兵级闪光时间
 --------------------------------------
 
 :game:`Yuri's Revenge` allowed units to flash only when they were promoted to
@@ -19,7 +19,7 @@ elite veterancy. :game:`Ares` adds a new global tag that works like
   Veterancy; Promotion customizations
   TechnoTypes; Promotion customizations
 
-Sounds, EVA and Flashing
+音效，EVA 与闪光
 ------------------------
 
 The following tags can be used to customize the sounds played and the flashing
@@ -56,7 +56,7 @@ when the unit or structure is promoted.
   OpenTopped; Promote passengers as if they are part of the transport
   Veterancy; Promote passengers as if they are part of the transport
 
-Promote all Passengers
+升级全部乘客
 ----------------------
 
 The following setting can be used on :tag:`OpenTopped=yes` transports with

@@ -1,6 +1,6 @@
 .. index:: Spawners; Support cloaking spawners
 
-Spawners
+子机
 ~~~~~~~~
 
 Spawners have been enhanced to support cloak. A cloaking Destroyer or Aircraft
@@ -10,7 +10,7 @@ have rudimentary support for :tag:`BalloonHover=yes`.
 
 .. index:: Spawners; Flying Aircraft Carriers
 
-Flying Aircraft Carriers
+空中航母
 ------------------------
 
 Non-Missile spawns were always put on the ground for take-off, even if the

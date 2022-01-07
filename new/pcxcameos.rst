@@ -3,7 +3,7 @@
   TechnoTypes; PCX cameos
   Super Weapons; PCX cameos
 
-PCX Cameos
+PCX 图标
 ~~~~~~~~~~
 
 Additionally, cameos can be loaded from PCX files instead of SHP.

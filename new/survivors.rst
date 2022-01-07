@@ -1,4 +1,4 @@
-Survivors
+幸存者
 ~~~~~~~~~
 
 In the original :game:`Red Alert`, pilots would parachute from destroyed
@@ -17,7 +17,7 @@ the type of unit that that survivor will be.
   single: TechnoTypes; Crew, pilots, or survivors
   Crew; Survivors per side
 
-Units and Buildings
+单位与建筑
 ```````````````````
 
 :tagdef:`[TechnoType]Survivor.Side#=InfantryType) (where # is the zero-based index of the side -- e.g. 0 for Allied, 1 for Soviet, 2 for Yuri`
@@ -47,7 +47,7 @@ Units and Buildings
   Passengers; Chance to survive when transport destroyed
   Transports; Chance for pilots and/or passengers to survive when destroyed
 
-Unit-specific
+单位专属
 `````````````
 
 :tagdef:`[Unit]Survivor.Pilots=integer`
@@ -103,7 +103,7 @@ their health and their experience unchanged.
   Crew; Engineer spawn chance for buildings
   Engineer; Spawn chance for building crew
 
-Building-specific
+建筑专属
 `````````````````
 
 Buildings can spawn the owning side's :tag:`Engineers` in addition to

@@ -2,7 +2,7 @@
   Vehicles; More than 8 facings for SHP units
   Facings; More than 8 facings for SHP units
 
-:captiontag:`Facings` on Units
+SHP 单位面数
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 :game:`Ares` supports to have more than just 8 facings for :type:`VehicleTypes`.

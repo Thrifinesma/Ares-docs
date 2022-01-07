@@ -2,7 +2,7 @@
   Hunter Seeker; How to set up
   Universe; Hunter Seekers
 
-Hunter Seeker
+搜猎者
 ~~~~~~~~~~~~~
 
 The Hunter Seeker known from :game:`Tiberian Sun` is a voxel :type:`VehicleType`
@@ -22,7 +22,7 @@ more information about Hunter Seeker's movement and targeting logic.
   Super Weapons; Hunter Seeker global settings
   Vehicles; Hunter Seeker settings
 
-Global Settings
+全局设定
 ---------------
 
 The following tags define the defaults for the Hunter Seeker super weapons and
@@ -58,7 +58,7 @@ Defaults for :type:`VehicleTypes`:
   Speed value used when ascending from the launch site. Defaults to :value:`0`,
   :game:`Tiberian Sun` uses :value:`6`.
 
-Hunter Seeker Unit Settings
+单位设定
 ---------------------------
 
 These tags override the global tags for each unit type. Only the Fly locomotor
@@ -85,7 +85,7 @@ makes use of these values.
   Hunter Seeker; Make units untargetable
   TechnoTypes; Disallow targeting by Hunter Seeker
 
-Disallow Targeting
+限定目标
 ------------------
 
 A :type:`TechnoType` can be exempt from the target scan of all Hunter Seekers

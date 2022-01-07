@@ -1,7 +1,7 @@
 .. index:: Buildings; Sell Units
 
-Sell Units
-~~~~~~~~~~
+变卖单位
+~~~~~~~~~~~~
 
 With :game:`Ares`, selling units when they dock at buildings like Repair Depots
 can be disabled per structure, and specific units can be made unsellable on dock

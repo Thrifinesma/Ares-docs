@@ -2,7 +2,7 @@
   Terrain; Forest fires
   Universe; Forest fires
 
-Forest Fires
+森林火灾
 ~~~~~~~~~~~~
 
 Forest fires were a feature of :game:`Tiberian Sun`. Trees were set on fire if

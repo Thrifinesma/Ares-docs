@@ -3,7 +3,7 @@
   Infantry; Saboteurs blowing up buildings
   Universe; Saboteurs blowing up buildings
 
-Saboteurs
+破坏者
 ~~~~~~~~~
 
 :game:`Dune 2000` had the Saboteur, an infantry unit that could enter enemy

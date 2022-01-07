@@ -1,6 +1,6 @@
 .. index:: Movies; Add new movies to the game
 
-Movies List
+电影列表
 ~~~~~~~~~~~
 
 With :game:`Ares` the in-game movies list can be customized and new unlockable

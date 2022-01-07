@@ -3,8 +3,8 @@
   TechnoTypes; User-defined pips
   Infantry; User-defined pip and occupy pip
 
-Pips
-~~~~
+乘客与驻军格子
+~~~~~~~~~~~~~~~
 
 In :game:`Yuri's Revenge`, the values that were accepted for :tag:`Pip` and
 :tag:`OccupyPip` were hardcoded to a list of known names. While fixing the

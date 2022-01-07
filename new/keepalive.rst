@@ -1,7 +1,7 @@
 .. index:: Players; Keep alive in Short Games
 
-Keep Alive
-~~~~~~~~~~
+存活条件
+~~~~~~~~~~~
 
 Originally, all :tag:`Insignificant=no` and :tag:`DontScore=no` buildings keep
 players alive in Short Games, excluding fake vehicles like Slave Miners and

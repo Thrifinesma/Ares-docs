@@ -3,7 +3,7 @@
   Cloak; EVA Speak Delay
   Subterranean; EVA Speak Delay
 
-Speak Delays
+播报间隔
 ~~~~~~~~~~~~
 
 EVA announces every time when a cloaked or subterranean unit has been detected.

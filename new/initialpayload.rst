@@ -4,7 +4,7 @@
   Buildings; Pre-fill with occupants
   Universe; Pre-filled Troop Crawlers
 
-Initial Payload (Troop Crawlers)
+初始载荷
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In :game:`Generals` the Chinese have the Troop Crawler, a vehicle that comes

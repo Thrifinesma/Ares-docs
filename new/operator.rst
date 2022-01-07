@@ -3,7 +3,7 @@
   Buildings; Require an operator before it will function
   Vehicles; Require a driver before it will function
 
-Operator
+操作者
 ~~~~~~~~
 
 :type:`BuildingType`\ s and :type:`VehicleType`\ s can now require specific

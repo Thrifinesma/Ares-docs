@@ -1,6 +1,6 @@
 .. index:: Prerequisites; Reverse-Engineering logic
 
-Reverse Engineer logic
+逆向工程逻辑
 ~~~~~~~~~~~~~~~~~~~~~~
 
 In :game:`Red Alert 2`, the Cloning Vats reverse-engineered any infantry it was

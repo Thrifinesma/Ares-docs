@@ -2,7 +2,7 @@
   Warheads; InfantryElectrocuted animation
   Art; InfantryElectrocuted animation
 
-:captiontag:`InfantryElectrocuted`
+步兵电击死亡动画
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The animation displayed for a dying :type:`InfantryType` when the warhead that
